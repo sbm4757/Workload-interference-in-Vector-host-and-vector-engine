@@ -1,0 +1,2557 @@
+{
+  "fields": [
+    {
+      "name": "System_Date",
+      "type": "date",
+      "format": "default"
+    },
+    {
+      "name": "System.1_Time",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "System.2_EXEC",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "System.3_IPC",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "System.4_FREQ",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "System.5_AFREQ",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "System.6_L3MISS",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "System.7_L2MISS",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "System.8_L3HIT",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "System.9_L2HIT",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "System.10_L3MPI",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "System.11_L2MPI",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "System.12_READ",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "System.13_WRITE",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "System.14_LOCAL",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "System.15_PMM_RD",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "System.16_PMM_WR",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "System.17_INST",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "System.18_ACYC",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "System.19_TIME(ticks)",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "System.20_PhysIPC",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "System.21_PhysIPC%",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "System.22_INSTnom",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "System.23_INSTnom%",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "System.24_TotalUPIin",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "System.25_UPItoMC",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "System.26_TotalUPIout",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "System Core C-States_C0res%",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "System Core C-States.1_C1res%",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "System Core C-States.2_C6res%",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "System Pack C-States_C0res%",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "System Pack C-States.1_C2res%",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "System Pack C-States.2_C6res%",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "System Pack C-States.3_Proc Energy (Joules)",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "System Pack C-States.4_DRAM Energy (Joules)",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "System Pack C-States.5_LLCRDMISSLAT (ns)",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "System Pack C-States.6_UncFREQ (Ghz)",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Socket 0_EXEC",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Socket 0.1_IPC",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Socket 0.2_FREQ",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Socket 0.3_AFREQ",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Socket 0.4_L3MISS",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Socket 0.5_L2MISS",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Socket 0.6_L3HIT",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Socket 0.7_L2HIT",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Socket 0.8_L3MPI",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Socket 0.9_L2MPI",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Socket 0.10_L3OCC",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "Socket 0.11_LMB",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "Socket 0.12_RMB",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "Socket 0.13_READ",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Socket 0.14_WRITE",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Socket 0.15_LOCAL",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "Socket 0.16_PMM_RD",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Socket 0.17_PMM_WR",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Socket 0.18_TEMP",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "Socket 0.19_INST",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Socket 0.20_ACYC",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Socket 0.21_TIME(ticks)",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Socket 0.22_PhysIPC",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Socket 0.23_PhysIPC%",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Socket 0.24_INSTnom",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Socket 0.25_INSTnom%",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Socket 1_EXEC",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Socket 1.1_IPC",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Socket 1.2_FREQ",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Socket 1.3_AFREQ",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Socket 1.4_L3MISS",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Socket 1.5_L2MISS",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Socket 1.6_L3HIT",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Socket 1.7_L2HIT",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Socket 1.8_L3MPI",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Socket 1.9_L2MPI",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Socket 1.10_L3OCC",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "Socket 1.11_LMB",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "Socket 1.12_RMB",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "Socket 1.13_READ",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Socket 1.14_WRITE",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Socket 1.15_LOCAL",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "Socket 1.16_PMM_RD",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Socket 1.17_PMM_WR",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Socket 1.18_TEMP",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "Socket 1.19_INST",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Socket 1.20_ACYC",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Socket 1.21_TIME(ticks)",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Socket 1.22_PhysIPC",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Socket 1.23_PhysIPC%",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Socket 1.24_INSTnom",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Socket 1.25_INSTnom%",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "SKT0dataIn_UPI0",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "SKT0dataIn.1_UPI1",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "SKT0dataIn (percent)_UPI0",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "SKT0dataIn (percent).1_UPI1",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "SKT1dataIn_UPI0",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "SKT1dataIn.1_UPI1",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "SKT1dataIn (percent)_UPI0",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "SKT1dataIn (percent).1_UPI1",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "SKT0trafficOut_UPI0",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "SKT0trafficOut.1_UPI1",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "SKT0trafficOut (percent)_UPI0",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "SKT0trafficOut (percent).1_UPI1",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "SKT1trafficOut_UPI0",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "SKT1trafficOut.1_UPI1",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "SKT1trafficOut (percent)_UPI0",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "SKT1trafficOut (percent).1_UPI1",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "SKT0 Core C-State_C0res%",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "SKT0 Core C-State.1_C1res%",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "SKT0 Core C-State.2_C6res%",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "SKT0 Package C-State_C0res%",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "SKT0 Package C-State.1_C2res%",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "SKT0 Package C-State.2_C6res%",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "SKT1 Core C-State_C0res%",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "SKT1 Core C-State.1_C1res%",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "SKT1 Core C-State.2_C6res%",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "SKT1 Package C-State_C0res%",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "SKT1 Package C-State.1_C2res%",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "SKT1 Package C-State.2_C6res%",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Proc Energy (Joules)_SKT0",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Proc Energy (Joules).1_SKT1",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "DRAM Energy (Joules)_SKT0",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "DRAM Energy (Joules).1_SKT1",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "LLCRDMISSLAT (ns)_SKT0",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "LLCRDMISSLAT (ns).1_SKT1",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "UncFREQ (Ghz)_SKT0",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "UncFREQ (Ghz).1_SKT1",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core0 (Socket 0)_EXEC",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core0 (Socket 0).1_IPC",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core0 (Socket 0).2_FREQ",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core0 (Socket 0).3_AFREQ",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core0 (Socket 0).4_L3MISS",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core0 (Socket 0).5_L2MISS",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core0 (Socket 0).6_L3HIT",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core0 (Socket 0).7_L2HIT",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core0 (Socket 0).8_L3MPI",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core0 (Socket 0).9_L2MPI",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core0 (Socket 0).10_L3OCC",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "Core0 (Socket 0).11_LMB",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "Core0 (Socket 0).12_RMB",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "Core0 (Socket 0).13_C0res%",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core0 (Socket 0).14_C1res%",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core0 (Socket 0).15_C6res%",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core0 (Socket 0).16_TEMP",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "Core0 (Socket 0).17_INST",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core0 (Socket 0).18_ACYC",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core0 (Socket 0).19_TIME(ticks)",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core0 (Socket 0).20_PhysIPC",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core0 (Socket 0).21_PhysIPC%",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core0 (Socket 0).22_INSTnom",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core0 (Socket 0).23_INSTnom%",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core1 (Socket 0)_EXEC",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core1 (Socket 0).1_IPC",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core1 (Socket 0).2_FREQ",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core1 (Socket 0).3_AFREQ",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core1 (Socket 0).4_L3MISS",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core1 (Socket 0).5_L2MISS",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core1 (Socket 0).6_L3HIT",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core1 (Socket 0).7_L2HIT",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core1 (Socket 0).8_L3MPI",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core1 (Socket 0).9_L2MPI",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core1 (Socket 0).10_L3OCC",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "Core1 (Socket 0).11_LMB",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "Core1 (Socket 0).12_RMB",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "Core1 (Socket 0).13_C0res%",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core1 (Socket 0).14_C1res%",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core1 (Socket 0).15_C6res%",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core1 (Socket 0).16_TEMP",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "Core1 (Socket 0).17_INST",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core1 (Socket 0).18_ACYC",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core1 (Socket 0).19_TIME(ticks)",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core1 (Socket 0).20_PhysIPC",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core1 (Socket 0).21_PhysIPC%",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core1 (Socket 0).22_INSTnom",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core1 (Socket 0).23_INSTnom%",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core2 (Socket 0)_EXEC",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core2 (Socket 0).1_IPC",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core2 (Socket 0).2_FREQ",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core2 (Socket 0).3_AFREQ",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core2 (Socket 0).4_L3MISS",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core2 (Socket 0).5_L2MISS",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core2 (Socket 0).6_L3HIT",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core2 (Socket 0).7_L2HIT",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core2 (Socket 0).8_L3MPI",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core2 (Socket 0).9_L2MPI",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core2 (Socket 0).10_L3OCC",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "Core2 (Socket 0).11_LMB",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "Core2 (Socket 0).12_RMB",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "Core2 (Socket 0).13_C0res%",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core2 (Socket 0).14_C1res%",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core2 (Socket 0).15_C6res%",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core2 (Socket 0).16_TEMP",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "Core2 (Socket 0).17_INST",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core2 (Socket 0).18_ACYC",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core2 (Socket 0).19_TIME(ticks)",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core2 (Socket 0).20_PhysIPC",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core2 (Socket 0).21_PhysIPC%",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core2 (Socket 0).22_INSTnom",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core2 (Socket 0).23_INSTnom%",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core3 (Socket 0)_EXEC",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core3 (Socket 0).1_IPC",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core3 (Socket 0).2_FREQ",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core3 (Socket 0).3_AFREQ",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core3 (Socket 0).4_L3MISS",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core3 (Socket 0).5_L2MISS",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core3 (Socket 0).6_L3HIT",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core3 (Socket 0).7_L2HIT",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core3 (Socket 0).8_L3MPI",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core3 (Socket 0).9_L2MPI",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core3 (Socket 0).10_L3OCC",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "Core3 (Socket 0).11_LMB",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "Core3 (Socket 0).12_RMB",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "Core3 (Socket 0).13_C0res%",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core3 (Socket 0).14_C1res%",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core3 (Socket 0).15_C6res%",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core3 (Socket 0).16_TEMP",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "Core3 (Socket 0).17_INST",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core3 (Socket 0).18_ACYC",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core3 (Socket 0).19_TIME(ticks)",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core3 (Socket 0).20_PhysIPC",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core3 (Socket 0).21_PhysIPC%",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core3 (Socket 0).22_INSTnom",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core3 (Socket 0).23_INSTnom%",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core4 (Socket 0)_EXEC",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core4 (Socket 0).1_IPC",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core4 (Socket 0).2_FREQ",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core4 (Socket 0).3_AFREQ",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core4 (Socket 0).4_L3MISS",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core4 (Socket 0).5_L2MISS",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core4 (Socket 0).6_L3HIT",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core4 (Socket 0).7_L2HIT",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core4 (Socket 0).8_L3MPI",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core4 (Socket 0).9_L2MPI",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core4 (Socket 0).10_L3OCC",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "Core4 (Socket 0).11_LMB",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "Core4 (Socket 0).12_RMB",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "Core4 (Socket 0).13_C0res%",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core4 (Socket 0).14_C1res%",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core4 (Socket 0).15_C6res%",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core4 (Socket 0).16_TEMP",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "Core4 (Socket 0).17_INST",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core4 (Socket 0).18_ACYC",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core4 (Socket 0).19_TIME(ticks)",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core4 (Socket 0).20_PhysIPC",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core4 (Socket 0).21_PhysIPC%",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core4 (Socket 0).22_INSTnom",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core4 (Socket 0).23_INSTnom%",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core5 (Socket 0)_EXEC",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core5 (Socket 0).1_IPC",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core5 (Socket 0).2_FREQ",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core5 (Socket 0).3_AFREQ",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core5 (Socket 0).4_L3MISS",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core5 (Socket 0).5_L2MISS",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core5 (Socket 0).6_L3HIT",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core5 (Socket 0).7_L2HIT",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core5 (Socket 0).8_L3MPI",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core5 (Socket 0).9_L2MPI",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core5 (Socket 0).10_L3OCC",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "Core5 (Socket 0).11_LMB",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "Core5 (Socket 0).12_RMB",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "Core5 (Socket 0).13_C0res%",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core5 (Socket 0).14_C1res%",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core5 (Socket 0).15_C6res%",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core5 (Socket 0).16_TEMP",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "Core5 (Socket 0).17_INST",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core5 (Socket 0).18_ACYC",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core5 (Socket 0).19_TIME(ticks)",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core5 (Socket 0).20_PhysIPC",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core5 (Socket 0).21_PhysIPC%",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core5 (Socket 0).22_INSTnom",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core5 (Socket 0).23_INSTnom%",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core6 (Socket 0)_EXEC",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core6 (Socket 0).1_IPC",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core6 (Socket 0).2_FREQ",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core6 (Socket 0).3_AFREQ",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core6 (Socket 0).4_L3MISS",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core6 (Socket 0).5_L2MISS",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core6 (Socket 0).6_L3HIT",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core6 (Socket 0).7_L2HIT",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core6 (Socket 0).8_L3MPI",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core6 (Socket 0).9_L2MPI",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core6 (Socket 0).10_L3OCC",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "Core6 (Socket 0).11_LMB",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "Core6 (Socket 0).12_RMB",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "Core6 (Socket 0).13_C0res%",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core6 (Socket 0).14_C1res%",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core6 (Socket 0).15_C6res%",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core6 (Socket 0).16_TEMP",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "Core6 (Socket 0).17_INST",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core6 (Socket 0).18_ACYC",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core6 (Socket 0).19_TIME(ticks)",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core6 (Socket 0).20_PhysIPC",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core6 (Socket 0).21_PhysIPC%",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core6 (Socket 0).22_INSTnom",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core6 (Socket 0).23_INSTnom%",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core7 (Socket 0)_EXEC",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core7 (Socket 0).1_IPC",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core7 (Socket 0).2_FREQ",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core7 (Socket 0).3_AFREQ",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core7 (Socket 0).4_L3MISS",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core7 (Socket 0).5_L2MISS",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core7 (Socket 0).6_L3HIT",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core7 (Socket 0).7_L2HIT",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core7 (Socket 0).8_L3MPI",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core7 (Socket 0).9_L2MPI",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core7 (Socket 0).10_L3OCC",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "Core7 (Socket 0).11_LMB",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "Core7 (Socket 0).12_RMB",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "Core7 (Socket 0).13_C0res%",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core7 (Socket 0).14_C1res%",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core7 (Socket 0).15_C6res%",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core7 (Socket 0).16_TEMP",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "Core7 (Socket 0).17_INST",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core7 (Socket 0).18_ACYC",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core7 (Socket 0).19_TIME(ticks)",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core7 (Socket 0).20_PhysIPC",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core7 (Socket 0).21_PhysIPC%",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core7 (Socket 0).22_INSTnom",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core7 (Socket 0).23_INSTnom%",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core8 (Socket 1)_EXEC",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core8 (Socket 1).1_IPC",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core8 (Socket 1).2_FREQ",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core8 (Socket 1).3_AFREQ",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core8 (Socket 1).4_L3MISS",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core8 (Socket 1).5_L2MISS",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core8 (Socket 1).6_L3HIT",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core8 (Socket 1).7_L2HIT",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core8 (Socket 1).8_L3MPI",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core8 (Socket 1).9_L2MPI",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core8 (Socket 1).10_L3OCC",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "Core8 (Socket 1).11_LMB",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "Core8 (Socket 1).12_RMB",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "Core8 (Socket 1).13_C0res%",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core8 (Socket 1).14_C1res%",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core8 (Socket 1).15_C6res%",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core8 (Socket 1).16_TEMP",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "Core8 (Socket 1).17_INST",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core8 (Socket 1).18_ACYC",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core8 (Socket 1).19_TIME(ticks)",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core8 (Socket 1).20_PhysIPC",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core8 (Socket 1).21_PhysIPC%",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core8 (Socket 1).22_INSTnom",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core8 (Socket 1).23_INSTnom%",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core9 (Socket 1)_EXEC",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core9 (Socket 1).1_IPC",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core9 (Socket 1).2_FREQ",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core9 (Socket 1).3_AFREQ",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core9 (Socket 1).4_L3MISS",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core9 (Socket 1).5_L2MISS",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core9 (Socket 1).6_L3HIT",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core9 (Socket 1).7_L2HIT",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core9 (Socket 1).8_L3MPI",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core9 (Socket 1).9_L2MPI",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core9 (Socket 1).10_L3OCC",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "Core9 (Socket 1).11_LMB",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "Core9 (Socket 1).12_RMB",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "Core9 (Socket 1).13_C0res%",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core9 (Socket 1).14_C1res%",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core9 (Socket 1).15_C6res%",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core9 (Socket 1).16_TEMP",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "Core9 (Socket 1).17_INST",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core9 (Socket 1).18_ACYC",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core9 (Socket 1).19_TIME(ticks)",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core9 (Socket 1).20_PhysIPC",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core9 (Socket 1).21_PhysIPC%",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core9 (Socket 1).22_INSTnom",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core9 (Socket 1).23_INSTnom%",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core10 (Socket 1)_EXEC",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core10 (Socket 1).1_IPC",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core10 (Socket 1).2_FREQ",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core10 (Socket 1).3_AFREQ",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core10 (Socket 1).4_L3MISS",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core10 (Socket 1).5_L2MISS",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core10 (Socket 1).6_L3HIT",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core10 (Socket 1).7_L2HIT",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core10 (Socket 1).8_L3MPI",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core10 (Socket 1).9_L2MPI",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core10 (Socket 1).10_L3OCC",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "Core10 (Socket 1).11_LMB",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "Core10 (Socket 1).12_RMB",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "Core10 (Socket 1).13_C0res%",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core10 (Socket 1).14_C1res%",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core10 (Socket 1).15_C6res%",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core10 (Socket 1).16_TEMP",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "Core10 (Socket 1).17_INST",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core10 (Socket 1).18_ACYC",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core10 (Socket 1).19_TIME(ticks)",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core10 (Socket 1).20_PhysIPC",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core10 (Socket 1).21_PhysIPC%",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core10 (Socket 1).22_INSTnom",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core10 (Socket 1).23_INSTnom%",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core11 (Socket 1)_EXEC",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core11 (Socket 1).1_IPC",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core11 (Socket 1).2_FREQ",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core11 (Socket 1).3_AFREQ",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core11 (Socket 1).4_L3MISS",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core11 (Socket 1).5_L2MISS",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core11 (Socket 1).6_L3HIT",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core11 (Socket 1).7_L2HIT",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core11 (Socket 1).8_L3MPI",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core11 (Socket 1).9_L2MPI",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core11 (Socket 1).10_L3OCC",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "Core11 (Socket 1).11_LMB",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "Core11 (Socket 1).12_RMB",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "Core11 (Socket 1).13_C0res%",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core11 (Socket 1).14_C1res%",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core11 (Socket 1).15_C6res%",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core11 (Socket 1).16_TEMP",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "Core11 (Socket 1).17_INST",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core11 (Socket 1).18_ACYC",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core11 (Socket 1).19_TIME(ticks)",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core11 (Socket 1).20_PhysIPC",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core11 (Socket 1).21_PhysIPC%",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core11 (Socket 1).22_INSTnom",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core11 (Socket 1).23_INSTnom%",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core12 (Socket 1)_EXEC",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core12 (Socket 1).1_IPC",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core12 (Socket 1).2_FREQ",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core12 (Socket 1).3_AFREQ",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core12 (Socket 1).4_L3MISS",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core12 (Socket 1).5_L2MISS",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core12 (Socket 1).6_L3HIT",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core12 (Socket 1).7_L2HIT",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core12 (Socket 1).8_L3MPI",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core12 (Socket 1).9_L2MPI",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core12 (Socket 1).10_L3OCC",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "Core12 (Socket 1).11_LMB",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "Core12 (Socket 1).12_RMB",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "Core12 (Socket 1).13_C0res%",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core12 (Socket 1).14_C1res%",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core12 (Socket 1).15_C6res%",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core12 (Socket 1).16_TEMP",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "Core12 (Socket 1).17_INST",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core12 (Socket 1).18_ACYC",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core12 (Socket 1).19_TIME(ticks)",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core12 (Socket 1).20_PhysIPC",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core12 (Socket 1).21_PhysIPC%",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core12 (Socket 1).22_INSTnom",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core12 (Socket 1).23_INSTnom%",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core13 (Socket 1)_EXEC",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core13 (Socket 1).1_IPC",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core13 (Socket 1).2_FREQ",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core13 (Socket 1).3_AFREQ",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core13 (Socket 1).4_L3MISS",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core13 (Socket 1).5_L2MISS",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core13 (Socket 1).6_L3HIT",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core13 (Socket 1).7_L2HIT",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core13 (Socket 1).8_L3MPI",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core13 (Socket 1).9_L2MPI",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core13 (Socket 1).10_L3OCC",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "Core13 (Socket 1).11_LMB",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "Core13 (Socket 1).12_RMB",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "Core13 (Socket 1).13_C0res%",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core13 (Socket 1).14_C1res%",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core13 (Socket 1).15_C6res%",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core13 (Socket 1).16_TEMP",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "Core13 (Socket 1).17_INST",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core13 (Socket 1).18_ACYC",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core13 (Socket 1).19_TIME(ticks)",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core13 (Socket 1).20_PhysIPC",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core13 (Socket 1).21_PhysIPC%",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core13 (Socket 1).22_INSTnom",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core13 (Socket 1).23_INSTnom%",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core14 (Socket 1)_EXEC",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core14 (Socket 1).1_IPC",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core14 (Socket 1).2_FREQ",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core14 (Socket 1).3_AFREQ",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core14 (Socket 1).4_L3MISS",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core14 (Socket 1).5_L2MISS",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core14 (Socket 1).6_L3HIT",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core14 (Socket 1).7_L2HIT",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core14 (Socket 1).8_L3MPI",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core14 (Socket 1).9_L2MPI",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core14 (Socket 1).10_L3OCC",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "Core14 (Socket 1).11_LMB",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "Core14 (Socket 1).12_RMB",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "Core14 (Socket 1).13_C0res%",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core14 (Socket 1).14_C1res%",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core14 (Socket 1).15_C6res%",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core14 (Socket 1).16_TEMP",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "Core14 (Socket 1).17_INST",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core14 (Socket 1).18_ACYC",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core14 (Socket 1).19_TIME(ticks)",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core14 (Socket 1).20_PhysIPC",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core14 (Socket 1).21_PhysIPC%",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core14 (Socket 1).22_INSTnom",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core14 (Socket 1).23_INSTnom%",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core15 (Socket 1)_EXEC",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core15 (Socket 1).1_IPC",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core15 (Socket 1).2_FREQ",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core15 (Socket 1).3_AFREQ",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core15 (Socket 1).4_L3MISS",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core15 (Socket 1).5_L2MISS",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core15 (Socket 1).6_L3HIT",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core15 (Socket 1).7_L2HIT",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core15 (Socket 1).8_L3MPI",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core15 (Socket 1).9_L2MPI",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core15 (Socket 1).10_L3OCC",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "Core15 (Socket 1).11_LMB",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "Core15 (Socket 1).12_RMB",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "Core15 (Socket 1).13_C0res%",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core15 (Socket 1).14_C1res%",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core15 (Socket 1).15_C6res%",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core15 (Socket 1).16_TEMP",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "Core15 (Socket 1).17_INST",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core15 (Socket 1).18_ACYC",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core15 (Socket 1).19_TIME(ticks)",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core15 (Socket 1).20_PhysIPC",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core15 (Socket 1).21_PhysIPC%",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core15 (Socket 1).22_INSTnom",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Core15 (Socket 1).23_INSTnom%",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Unnamed: 509_nan",
+      "type": "string",
+      "format": "default"
+    }
+  ],
+  "missingValues": [
+    ""
+  ]
+}

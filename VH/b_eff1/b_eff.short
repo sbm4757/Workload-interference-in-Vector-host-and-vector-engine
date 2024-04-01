@@ -1,0 +1,627 @@
+
+SECTION-HEAD-BEGIN
+
+b_eff.c, Revision 3.6.0.1 from Feb 02, 2016
+
+MEMORY_PER_PROCESSOR = 256 MBytes  [1M = 1024*1024]
+2-dim-patterns: size = 4 * 2
+3-dim-patterns: size = 2 * 2 * 2
+Used message lengths:
+msglng= 1 2 4 8 16 32 64 128 256 512 1024 2048 4096 8933 19484 42495 92682 202141 440872 961548 2097152
+Used methods:  0=Sndrcv  1=Alltoal  2=non-blk
+Used patterns:  0=ring-4*2fix        1=ring-2*4fix        2=ring-1*8fix        3=ring-1*8fix      
+                4=ring-1*8fix        5=ring-1*8fix        6=random-cyc-1dim    7=random-cyc-1dim  
+                8=random-cyc-1dim    9=random-cyc-1dim   10=random-cyc-1dim   11=random-cyc-1dim  
+               12=random-cyc-1dim   13=random-cyc-1dim   14=random-cyc-1dim   15=random-cyc-1dim  
+               16=random-cyc-1dim   17=random-cyc-1dim   18=random-cyc-1dim   19=random-cyc-1dim  
+               20=random-cyc-1dim   21=random-cyc-1dim   22=random-cyc-1dim   23=random-cyc-1dim  
+               24=random-cyc-1dim   25=random-cyc-1dim   26=random-cyc-1dim   27=random-cyc-1dim  
+               28=random-cyc-1dim   29=random-cyc-1dim   30=random-cyc-1dim   31=random-cyc-1dim  
+               32=random-cyc-1dim   33=random-cyc-1dim   34=random-cyc-1dim   35=random-cyc-1dim  
+               36=worst-cyc-1dim    37=best  bi-section  38=worst bi-section  39=one PingPong Pair
+               40=acyclic-2dim-all  41=acyclic-3dim-all  42=cyclic-2dim-x     43=cyclic-2dim-y    
+               44=cyclic-2dim-all   45=cyclic-3dim-x     46=cyclic-3dim-y     47=cyclic-3dim-z    
+               48=cyclic-3dim-all  
+
+               0-5   used for ring pattern average of b_eff
+               6-35  used for random pattern average of b_eff
+               36-47 only reported, not used for b_eff average
+
+SECTION-HEAD-END
+
+
+SECTION-ELAPSED-BEGIN
+
+measurment loop: elapsed time               =  68.212 sec
+
+  sum of max elapsed time per entries above =  68.188 sec
+  difference to elapsed time                =   0.024 sec = 0.0%
+
+  sum based on fastest repetition           =  67.122 sec
+  difference to elapsed time                =   1.090 sec = 1.6%
+
+  The difference is less than 5 %
+
+SECTION-ELAPSED-END
+
+
+SECTION-PATTERN-BEGIN
+
+
+Pattern parameters: sendrecv  total number  messages/  messages/  unused  best method
+                       calls   of messages  used node  node&call   nodes  per repetition
+---- ----------------- -----  ------------  ---------  ---------  ------  --------------
+ p00 ring-4*2fix           1             8       1.00       1.00       0  ( -1 -1 -1 )
+ p01 ring-2*4fix           2            16       2.00       1.00       0  ( -1 -1 -1 )
+ p02 ring-1*8fix           2            16       2.00       1.00       0  ( -1 -1 -1 )
+ p03 ring-1*8fix           2            16       2.00       1.00       0  ( -1 -1 -1 )
+ p04 ring-1*8fix           2            16       2.00       1.00       0  ( -1 -1 -1 )
+ p05 ring-1*8fix           2            16       2.00       1.00       0  ( -1 -1 -1 )
+ p06 random-cyc-1dim       2            16       2.00       1.00       0  ( -1 -1 -1 )
+ p07 random-cyc-1dim       2            16       2.00       1.00       0  ( -1 -1 -1 )
+ p08 random-cyc-1dim       2            16       2.00       1.00       0  ( -1 -1 -1 )
+ p09 random-cyc-1dim       2            16       2.00       1.00       0  ( -1 -1 -1 )
+ p10 random-cyc-1dim       2            16       2.00       1.00       0  ( -1 -1 -1 )
+ p11 random-cyc-1dim       2            16       2.00       1.00       0  ( -1 -1 -1 )
+ p12 random-cyc-1dim       2            16       2.00       1.00       0  ( -1 -1 -1 )
+ p13 random-cyc-1dim       2            16       2.00       1.00       0  ( -1 -1 -1 )
+ p14 random-cyc-1dim       2            16       2.00       1.00       0  ( -1 -1 -1 )
+ p15 random-cyc-1dim       2            16       2.00       1.00       0  ( -1 -1 -1 )
+ p16 random-cyc-1dim       2            16       2.00       1.00       0  ( -1 -1 -1 )
+ p17 random-cyc-1dim       2            16       2.00       1.00       0  ( -1 -1 -1 )
+ p18 random-cyc-1dim       2            16       2.00       1.00       0  ( -1 -1 -1 )
+ p19 random-cyc-1dim       2            16       2.00       1.00       0  ( -1 -1 -1 )
+ p20 random-cyc-1dim       2            16       2.00       1.00       0  ( -1 -1 -1 )
+ p21 random-cyc-1dim       2            16       2.00       1.00       0  ( -1 -1 -1 )
+ p22 random-cyc-1dim       2            16       2.00       1.00       0  ( -1 -1 -1 )
+ p23 random-cyc-1dim       2            16       2.00       1.00       0  ( -1 -1 -1 )
+ p24 random-cyc-1dim       2            16       2.00       1.00       0  ( -1 -1 -1 )
+ p25 random-cyc-1dim       2            16       2.00       1.00       0  ( -1 -1 -1 )
+ p26 random-cyc-1dim       2            16       2.00       1.00       0  ( -1 -1 -1 )
+ p27 random-cyc-1dim       2            16       2.00       1.00       0  ( -1 -1 -1 )
+ p28 random-cyc-1dim       2            16       2.00       1.00       0  ( -1 -1 -1 )
+ p29 random-cyc-1dim       2            16       2.00       1.00       0  ( -1 -1 -1 )
+ p30 random-cyc-1dim       2            16       2.00       1.00       0  ( -1 -1 -1 )
+ p31 random-cyc-1dim       2            16       2.00       1.00       0  ( -1 -1 -1 )
+ p32 random-cyc-1dim       2            16       2.00       1.00       0  ( -1 -1 -1 )
+ p33 random-cyc-1dim       2            16       2.00       1.00       0  ( -1 -1 -1 )
+ p34 random-cyc-1dim       2            16       2.00       1.00       0  ( -1 -1 -1 )
+ p35 random-cyc-1dim       2            16       2.00       1.00       0  ( -1 -1 -1 )
+ p36 worst-cyc-1dim        2            16       2.00       1.00       0  ( -1 -1 -1 )
+ p37 best  bi-section      2             8       1.00       0.50       0  ( -1 -1 -1 )
+ p38 worst bi-section      2             8       1.00       0.50       0  ( -1 -1 -1 )
+ p39 one PingPong Pair     2             2       1.00       0.50       6  ( -1 -1 -1 )
+ p40 acyclic-2dim-all      4            20       2.50       0.62       0  ( -1 -1 -1 )
+ p41 acyclic-3dim-all      6            24       3.00       0.50       0  ( -1 -1 -1 )
+ p42 cyclic-2dim-x         2            16       2.00       1.00       0  ( -1 -1 -1 )
+ p43 cyclic-2dim-y         1             8       1.00       1.00       0  ( -1 -1 -1 )
+ p44 cyclic-2dim-all       3            24       3.00       1.00       0  ( -1 -1 -1 )
+ p45 cyclic-3dim-x         1             8       1.00       1.00       0  ( -1 -1 -1 )
+ p46 cyclic-3dim-y         1             8       1.00       1.00       0  ( -1 -1 -1 )
+ p47 cyclic-3dim-z         1             8       1.00       1.00       0  ( -1 -1 -1 )
+ p48 cyclic-3dim-all       3            24       3.00       1.00       0  ( -1 -1 -1 )
+
+SECTION-PATTERN-END
+
+
+Printing accumulated bandwidth / number of processes
+         = bandwidth per process   (in MBytes/sec = 1e6 Bytes/sec)
+Additionally the accumulated value processes is printed in the last column
+
+Only the cyclic and random patterns are used to compute b_eff
+(except p00), the other patterns are only as information.
+
+SECTION-BY-METHODS-BEGIN
+
+
+2nd analysis path, only as information, last row:
+for all mthd: logavg_pat ( avg_L ( max_rep ( b(L) ) ) )
+|| logavg_pat ( max_mthd ( avg_L ( max_rep ( b(L) ) ) ) )
+
+ pattern   /    methods:  Sndrcv Alltoal non-blk -> best method -> accumulated
+
+ p00 ring-4*2fix       : 692.017 574.763 693.015 -> 693.015 ->   5544.121 MByte/s
+ p01 ring-2*4fix       : 629.358 643.423 686.748 -> 686.748 ->   5493.983 MByte/s
+ p02 ring-1*8fix       : 643.017 652.574 718.376 -> 718.376 ->   5747.007 MByte/s
+ p03 ring-1*8fix       : 645.933 650.538 713.365 -> 713.365 ->   5706.922 MByte/s
+ p04 ring-1*8fix       : 645.958 653.381 720.345 -> 720.345 ->   5762.759 MByte/s
+ p05 ring-1*8fix       : 644.115 652.454 719.053 -> 719.053 ->   5752.422 MByte/s
+ p06 random-cyc-1dim   : 599.297 570.990 635.899 -> 635.899 ->   5087.196 MByte/s
+ p07 random-cyc-1dim   : 647.779 642.409 721.989 -> 721.989 ->   5775.911 MByte/s
+ p08 random-cyc-1dim   : 751.710 784.248 890.897 -> 890.897 ->   7127.178 MByte/s
+ p09 random-cyc-1dim   : 620.976 561.957 651.529 -> 651.529 ->   5212.234 MByte/s
+ p10 random-cyc-1dim   : 632.992 599.454 667.248 -> 667.248 ->   5337.980 MByte/s
+ p11 random-cyc-1dim   : 628.922 595.396 662.250 -> 662.250 ->   5298.003 MByte/s
+ p12 random-cyc-1dim   : 667.556 667.708 738.081 -> 738.081 ->   5904.649 MByte/s
+ p13 random-cyc-1dim   : 774.380 799.330 886.786 -> 886.786 ->   7094.287 MByte/s
+ p14 random-cyc-1dim   : 707.878 762.651 853.466 -> 853.466 ->   6827.726 MByte/s
+ p15 random-cyc-1dim   : 754.850 779.340 887.883 -> 887.883 ->   7103.061 MByte/s
+ p16 random-cyc-1dim   : 628.349 586.642 670.352 -> 670.352 ->   5362.815 MByte/s
+ p17 random-cyc-1dim   : 628.945 617.079 669.942 -> 669.942 ->   5359.536 MByte/s
+ p18 random-cyc-1dim   : 629.136 614.152 669.928 -> 669.928 ->   5359.428 MByte/s
+ p19 random-cyc-1dim   : 635.996 643.289 716.597 -> 716.597 ->   5732.777 MByte/s
+ p20 random-cyc-1dim   : 643.838 650.363 716.633 -> 716.633 ->   5733.063 MByte/s
+ p21 random-cyc-1dim   : 630.628 603.923 662.502 -> 662.502 ->   5300.019 MByte/s
+ p22 random-cyc-1dim   : 618.530 623.136 681.472 -> 681.472 ->   5451.776 MByte/s
+ p23 random-cyc-1dim   : 602.561 555.367 638.868 -> 638.868 ->   5110.942 MByte/s
+ p24 random-cyc-1dim   : 602.399 603.293 644.591 -> 644.591 ->   5156.728 MByte/s
+ p25 random-cyc-1dim   : 644.696 648.988 718.463 -> 718.463 ->   5747.705 MByte/s
+ p26 random-cyc-1dim   : 705.978 716.831 816.196 -> 816.196 ->   6529.565 MByte/s
+ p27 random-cyc-1dim   : 640.502 590.387 671.081 -> 671.081 ->   5368.645 MByte/s
+ p28 random-cyc-1dim   : 675.455 634.719 712.405 -> 712.405 ->   5699.242 MByte/s
+ p29 random-cyc-1dim   : 651.717 657.140 708.966 -> 708.966 ->   5671.727 MByte/s
+ p30 random-cyc-1dim   : 635.195 639.556 686.596 -> 686.596 ->   5492.767 MByte/s
+ p31 random-cyc-1dim   : 629.141 618.700 668.790 -> 668.790 ->   5350.321 MByte/s
+ p32 random-cyc-1dim   : 629.947 616.662 671.227 -> 671.227 ->   5369.814 MByte/s
+ p33 random-cyc-1dim   : 643.269 650.602 713.049 -> 713.049 ->   5704.396 MByte/s
+ p34 random-cyc-1dim   : 638.907 624.684 698.692 -> 698.692 ->   5589.538 MByte/s
+ p35 random-cyc-1dim   : 632.659 593.214 670.257 -> 670.257 ->   5362.055 MByte/s
+ -- additional patterns that are not used to compute b_eff:
+ p36 worst-cyc-1dim    : 606.061 540.347 641.486 -> 641.486 ->   5131.892 MByte/s
+ p37 best  bi-section  : 482.268 575.849 680.079 -> 680.079 ->   5440.632 MByte/s
+ p38 worst bi-section  : 441.704 553.670 647.288 -> 647.288 ->   5178.301 MByte/s
+ p39 one PingPong Pair : 223.073   0.000   0.000 -> 223.073 ->   1784.588 MByte/s
+ p40 acyclic-2dim-all  : 509.227 586.950 596.939 -> 596.939 ->   4775.510 MByte/s
+ p41 acyclic-3dim-all  : 557.108 730.163 761.462 -> 761.462 ->   6091.700 MByte/s
+ p42 cyclic-2dim-x     : 638.928 616.599 676.618 -> 676.618 ->   5412.941 MByte/s
+ p43 cyclic-2dim-y     : 688.202 573.104 694.581 -> 694.581 ->   5556.651 MByte/s
+ p44 cyclic-2dim-all   : 660.155 670.823 696.195 -> 696.195 ->   5569.561 MByte/s
+ p45 cyclic-3dim-x     : 656.862 557.578 656.925 -> 656.925 ->   5255.397 MByte/s
+ p46 cyclic-3dim-y     : 693.963 585.930 698.923 -> 698.923 ->   5591.385 MByte/s
+ p47 cyclic-3dim-z     : 690.671 579.985 694.211 -> 694.211 ->   5553.688 MByte/s
+ p48 cyclic-3dim-all   : 767.831 737.047 767.783 -> 767.831 ->   6142.647 MByte/s
+
+ log_avg of all rings  : 649.779 637.188 708.355 || 708.355 ->   5666.838 MByte/s
+ log_avg of all random : 649.758 638.772 709.881 || 709.881 ->   5679.044 MByte/s
+ log_avg(ring,random)  : 649.768 637.979 709.117 ||(709.117 ->   5672.938)MByte/s
+  * size ->
+ accumulated on all pr.: 5198.145 5103.833 5672.938 ||(5672.938)MByte/s
+
+SECTION-BY-METHODS-END
+
+
+SECTION-BY-REPETITIONS-BEGIN
+
+
+3rd analysis path, only as information, last row:
+for all rep.:logavg_pat ( avg_L ( max_mthd ( b(L) ) ) )
+|| logavg_pat ( max_rep ( avg_L ( max_mthd ( b(L) ) ) ) )
+
+ pattern  /  repetition:   rep.0   rep.1   rep.2 -> best repetition -> accumulated
+
+ p00 ring-4*2fix       : 687.982 692.467 694.108 -> 694.108 ->   5552.867 MByte/s
+ p01 ring-2*4fix       : 681.686 681.335 685.725 -> 685.725 ->   5485.797 MByte/s
+ p02 ring-1*8fix       : 714.633 720.529 719.038 -> 720.529 ->   5764.230 MByte/s
+ p03 ring-1*8fix       : 715.152 720.448 718.447 -> 720.448 ->   5763.585 MByte/s
+ p04 ring-1*8fix       : 718.422 717.760 722.159 -> 722.159 ->   5777.276 MByte/s
+ p05 ring-1*8fix       : 716.622 719.317 719.796 -> 719.796 ->   5758.367 MByte/s
+ p06 random-cyc-1dim   : 637.837 642.072 644.062 -> 644.062 ->   5152.496 MByte/s
+ p07 random-cyc-1dim   : 711.699 717.073 721.593 -> 721.593 ->   5772.745 MByte/s
+ p08 random-cyc-1dim   : 874.791 882.679 884.068 -> 884.068 ->   7072.542 MByte/s
+ p09 random-cyc-1dim   : 639.029 643.291 650.415 -> 650.415 ->   5203.324 MByte/s
+ p10 random-cyc-1dim   : 660.408 673.172 668.377 -> 673.172 ->   5385.376 MByte/s
+ p11 random-cyc-1dim   : 653.915 660.886 660.161 -> 660.886 ->   5287.085 MByte/s
+ p12 random-cyc-1dim   : 736.390 739.157 742.353 -> 742.353 ->   5938.827 MByte/s
+ p13 random-cyc-1dim   : 870.199 884.150 881.240 -> 884.150 ->   7073.203 MByte/s
+ p14 random-cyc-1dim   : 849.637 849.394 850.377 -> 850.377 ->   6803.018 MByte/s
+ p15 random-cyc-1dim   : 864.868 881.774 878.598 -> 881.774 ->   7054.193 MByte/s
+ p16 random-cyc-1dim   : 665.826 664.622 667.541 -> 667.541 ->   5340.329 MByte/s
+ p17 random-cyc-1dim   : 666.876 667.417 669.500 -> 669.500 ->   5355.997 MByte/s
+ p18 random-cyc-1dim   : 664.639 668.423 666.601 -> 668.423 ->   5347.383 MByte/s
+ p19 random-cyc-1dim   : 715.328 715.939 723.299 -> 723.299 ->   5786.393 MByte/s
+ p20 random-cyc-1dim   : 712.951 717.973 720.603 -> 720.603 ->   5764.828 MByte/s
+ p21 random-cyc-1dim   : 654.023 657.057 662.480 -> 662.480 ->   5299.841 MByte/s
+ p22 random-cyc-1dim   : 677.701 682.211 683.452 -> 683.452 ->   5467.619 MByte/s
+ p23 random-cyc-1dim   : 630.532 635.829 636.737 -> 636.737 ->   5093.894 MByte/s
+ p24 random-cyc-1dim   : 647.722 645.249 647.901 -> 647.901 ->   5183.205 MByte/s
+ p25 random-cyc-1dim   : 710.912 717.313 719.018 -> 719.018 ->   5752.142 MByte/s
+ p26 random-cyc-1dim   : 802.990 806.124 814.117 -> 814.117 ->   6512.939 MByte/s
+ p27 random-cyc-1dim   : 668.135 677.569 676.265 -> 677.569 ->   5420.549 MByte/s
+ p28 random-cyc-1dim   : 710.176 712.425 714.759 -> 714.759 ->   5718.068 MByte/s
+ p29 random-cyc-1dim   : 699.370 704.744 706.091 -> 706.091 ->   5648.725 MByte/s
+ p30 random-cyc-1dim   : 681.700 682.812 683.590 -> 683.590 ->   5468.721 MByte/s
+ p31 random-cyc-1dim   : 666.085 664.745 668.302 -> 668.302 ->   5346.420 MByte/s
+ p32 random-cyc-1dim   : 664.647 670.149 669.003 -> 670.149 ->   5361.189 MByte/s
+ p33 random-cyc-1dim   : 715.923 714.996 719.794 -> 719.794 ->   5758.354 MByte/s
+ p34 random-cyc-1dim   : 690.813 697.027 694.278 -> 697.027 ->   5576.217 MByte/s
+ p35 random-cyc-1dim   : 667.800 668.642 667.765 -> 668.642 ->   5349.135 MByte/s
+ -- additional patterns that are not used to compute b_eff:
+ p36 worst-cyc-1dim    : 633.549 636.750 638.305 -> 638.305 ->   5106.442 MByte/s
+ p37 best  bi-section  : 674.340 675.578 675.498 -> 675.578 ->   5404.621 MByte/s
+ p38 worst bi-section  : 639.815 646.179 644.377 -> 646.179 ->   5169.432 MByte/s
+ p39 one PingPong Pair : 214.256 220.424 218.413 -> 220.424 ->   1763.389 MByte/s
+ p40 acyclic-2dim-all  : 595.551 601.620 598.276 -> 601.620 ->   4812.960 MByte/s
+ p41 acyclic-3dim-all  : 757.570 758.770 761.835 -> 761.835 ->   6094.683 MByte/s
+ p42 cyclic-2dim-x     : 669.963 671.853 671.666 -> 671.853 ->   5374.821 MByte/s
+ p43 cyclic-2dim-y     : 686.137 692.783 692.665 -> 692.783 ->   5542.266 MByte/s
+ p44 cyclic-2dim-all   : 693.315 699.420 701.454 -> 701.454 ->   5611.633 MByte/s
+ p45 cyclic-3dim-x     : 656.644 655.027 658.160 -> 658.160 ->   5265.279 MByte/s
+ p46 cyclic-3dim-y     : 695.672 695.903 700.257 -> 700.257 ->   5602.059 MByte/s
+ p47 cyclic-3dim-z     : 689.081 691.740 693.209 -> 693.209 ->   5545.668 MByte/s
+ p48 cyclic-3dim-all   : 780.850 779.392 781.452 -> 781.452 ->   6251.617 MByte/s
+
+ log_avg of all rings  : 705.589 708.466 709.732 || 710.306 ->   5682.449 MByte/s
+ log_avg of all random : 703.829 708.089 709.701 || 710.335 ->   5682.677 MByte/s
+ log_avg(ring,random)  : 704.709 708.278 709.716 ||(710.320 ->   5682.563)MByte/s
+  * size ->
+ accumulated on all pr.: 5637.668 5666.221 5677.731 ||(5682.563)MByte/s
+
+SECTION-BY-REPETITIONS-END
+
+
+SECTION-BY-MTHD-MSGLNG-BEGIN
+
+
+4th analysis path, only as information, last 3 rows:
+for all methods and some msglng L: logavg_pat ( max_rep ( b(L) ) )
+for all methods: logavg_pat ( avg_L ( max_rep ( b(L) ) ) )
+
+ pattern & method / msg:                1      16     256    4096   92682 2097152 -> average -> accumulated
+                        (latency of one sendrecv (or equivalent method) in microsec)
+ p00 ring-4*2fix      
+ p00 method 0 =Sndrcv  :(  0.967)   1.034  17.163 219.077 964.653 1381.047 1540.562 -> 692.017 ->   5536.138 MByte/s
+ p00 method 1 =Alltoal :(  3.156)   0.317   4.128  65.095 614.075 1262.710 1536.704 -> 574.763 ->   4598.105 MByte/s
+ p00 method 2 =non-blk :(  0.967)   1.035  16.950 233.073 1015.075 1370.011 1539.797 -> 693.015 ->   5544.121 MByte/s
+ p01 ring-2*4fix      
+ p01 method 0 =Sndrcv  :(  1.021)   0.980  16.336 220.378 971.362 1127.914 1421.323 -> 629.358 ->   5034.867 MByte/s
+ p01 method 1 =Alltoal :(  1.497)   0.668   7.876 123.767 930.822 1366.970 1488.425 -> 643.423 ->   5147.380 MByte/s
+ p01 method 2 =non-blk :(  0.955)   1.047  16.907 219.514 1067.578 1421.340 1480.793 -> 686.748 ->   5493.983 MByte/s
+ p02 ring-1*8fix      
+ p02 method 0 =Sndrcv  :(  0.992)   1.008  17.201 245.901 1083.878 1113.050 1431.500 -> 643.017 ->   5144.138 MByte/s
+ p02 method 1 =Alltoal :(  1.547)   0.647   8.125 122.541 972.718 1420.092 1493.310 -> 652.574 ->   5220.589 MByte/s
+ p02 method 2 =non-blk :(  0.735)   1.361  22.681 292.756 1230.718 1443.187 1480.263 -> 718.376 ->   5747.007 MByte/s
+ p03 ring-1*8fix      
+ p03 method 0 =Sndrcv  :(  0.970)   1.031  17.103 239.136 1090.951 1155.282 1438.681 -> 645.933 ->   5167.464 MByte/s
+ p03 method 1 =Alltoal :(  1.518)   0.659   8.024 122.333 964.484 1417.221 1482.779 -> 650.538 ->   5204.302 MByte/s
+ p03 method 2 =non-blk :(  0.743)   1.346  22.172 294.152 1230.398 1448.588 1351.374 -> 713.365 ->   5706.922 MByte/s
+ p04 ring-1*8fix      
+ p04 method 0 =Sndrcv  :(  0.977)   1.024  16.678 237.317 1091.099 1127.713 1453.659 -> 645.958 ->   5167.662 MByte/s
+ p04 method 1 =Alltoal :(  1.768)   0.566   8.050 120.976 958.294 1401.435 1491.242 -> 653.381 ->   5227.051 MByte/s
+ p04 method 2 =non-blk :(  0.734)   1.363  22.841 299.893 1223.247 1457.356 1477.404 -> 720.345 ->   5762.759 MByte/s
+ p05 ring-1*8fix      
+ p05 method 0 =Sndrcv  :(  0.992)   1.008  17.458 235.513 1095.619 1132.167 1442.850 -> 644.115 ->   5152.924 MByte/s
+ p05 method 1 =Alltoal :(  1.954)   0.512   8.171 121.312 969.217 1403.186 1484.531 -> 652.454 ->   5219.631 MByte/s
+ p05 method 2 =non-blk :(  0.741)   1.350  22.464 294.705 1233.334 1443.187 1473.382 -> 719.053 ->   5752.422 MByte/s
+ p06 random-cyc-1dim  
+ p06 method 0 =Sndrcv  :(  1.041)   0.961  15.920 213.999 976.921 1097.086 1316.058 -> 599.297 ->   4794.375 MByte/s
+ p06 method 1 =Alltoal :(  1.970)   0.508   7.477 117.212 850.093 1319.184 1161.200 -> 570.990 ->   4567.917 MByte/s
+ p06 method 2 =non-blk :(  0.942)   1.061  17.400 235.284 1064.825 1194.096 1316.805 -> 635.899 ->   5087.196 MByte/s
+ p07 random-cyc-1dim  
+ p07 method 0 =Sndrcv  :(  0.991)   1.009  16.839 228.663 1092.836 1109.785 1465.690 -> 647.779 ->   5182.231 MByte/s
+ p07 method 1 =Alltoal :(  1.870)   0.535   8.062 124.186 961.597 1352.005 1481.572 -> 642.409 ->   5139.274 MByte/s
+ p07 method 2 =non-blk :(  0.754)   1.326  21.768 295.008 1219.312 1450.641 1487.994 -> 721.989 ->   5775.911 MByte/s
+ p08 random-cyc-1dim  
+ p08 method 0 =Sndrcv  :(  1.015)   0.986  17.721 237.669 1093.577 1465.566 1863.842 -> 751.710 ->   6013.683 MByte/s
+ p08 method 1 =Alltoal :(  1.925)   0.520   8.417 132.502 1050.392 1704.553 1956.281 -> 784.248 ->   6273.986 MByte/s
+ p08 method 2 =non-blk :(  0.692)   1.445  23.226 309.066 1368.437 1768.437 1964.291 -> 890.897 ->   7127.178 MByte/s
+ p09 random-cyc-1dim  
+ p09 method 0 =Sndrcv  :(  1.028)   0.973  16.157 215.922 975.198 1156.341 1353.592 -> 620.976 ->   4967.812 MByte/s
+ p09 method 1 =Alltoal :(  1.901)   0.526   7.438 119.258 838.415 1270.408 1107.541 -> 561.957 ->   4495.656 MByte/s
+ p09 method 2 =non-blk :(  0.953)   1.049  17.192 226.444 1010.638 1322.314 1321.131 -> 651.529 ->   5212.234 MByte/s
+ p10 random-cyc-1dim  
+ p10 method 0 =Sndrcv  :(  1.010)   0.991  16.432 216.550 957.644 1178.307 1480.325 -> 632.992 ->   5063.935 MByte/s
+ p10 method 1 =Alltoal :(  2.038)   0.491   7.858 119.416 839.652 1346.016 1276.029 -> 599.454 ->   4795.633 MByte/s
+ p10 method 2 =non-blk :(  0.925)   1.081  17.792 225.980 1028.784 1333.215 1361.677 -> 667.248 ->   5337.980 MByte/s
+ p11 random-cyc-1dim  
+ p11 method 0 =Sndrcv  :(  1.027)   0.974  16.411 220.194 951.903 1156.341 1425.854 -> 628.922 ->   5031.377 MByte/s
+ p11 method 1 =Alltoal :(  2.079)   0.481   7.595 117.760 861.082 1334.197 1266.141 -> 595.396 ->   4763.168 MByte/s
+ p11 method 2 =non-blk :(  0.966)   1.035  16.458 223.675 1038.466 1329.178 1362.231 -> 662.250 ->   5298.003 MByte/s
+ p12 random-cyc-1dim  
+ p12 method 0 =Sndrcv  :(  0.996)   1.004  16.929 249.737 1056.715 1248.884 1488.718 -> 667.556 ->   5340.446 MByte/s
+ p12 method 1 =Alltoal :(  1.966)   0.509   8.428 123.998 946.985 1447.428 1554.584 -> 667.708 ->   5341.662 MByte/s
+ p12 method 2 =non-blk :(  0.728)   1.373  22.868 297.044 1246.072 1477.071 1452.699 -> 738.081 ->   5904.649 MByte/s
+ p13 random-cyc-1dim  
+ p13 method 0 =Sndrcv  :(  0.958)   1.044  18.476 245.602 1098.651 1445.375 1872.173 -> 774.380 ->   6195.043 MByte/s
+ p13 method 1 =Alltoal :(  1.873)   0.534   8.276 130.950 1005.949 1756.390 1968.834 -> 799.330 ->   6394.644 MByte/s
+ p13 method 2 =non-blk :(  0.695)   1.440  23.149 313.509 1316.431 1768.631 1962.483 -> 886.786 ->   7094.287 MByte/s
+ p14 random-cyc-1dim  
+ p14 method 0 =Sndrcv  :(  0.969)   1.032  17.594 254.509 1081.625 1362.024 1705.000 -> 707.878 ->   5663.021 MByte/s
+ p14 method 1 =Alltoal :(  1.934)   0.517   8.359 130.370 1052.794 1660.949 1843.916 -> 762.651 ->   6101.206 MByte/s
+ p14 method 2 =non-blk :(  0.628)   1.593  26.686 335.321 1376.974 1683.998 1836.585 -> 853.466 ->   6827.726 MByte/s
+ p15 random-cyc-1dim  
+ p15 method 0 =Sndrcv  :(  1.018)   0.982  17.740 235.152 1091.247 1458.786 1873.835 -> 754.850 ->   6038.799 MByte/s
+ p15 method 1 =Alltoal :(  1.885)   0.530   8.588 133.732 1042.685 1677.674 1957.515 -> 779.340 ->   6234.718 MByte/s
+ p15 method 2 =non-blk :(  0.669)   1.494  23.791 316.561 1326.868 1768.388 1969.183 -> 887.883 ->   7103.061 MByte/s
+ p16 random-cyc-1dim  
+ p16 method 0 =Sndrcv  :(  1.031)   0.970  16.704 214.261 966.400 1158.111 1438.720 -> 628.349 ->   5026.791 MByte/s
+ p16 method 1 =Alltoal :(  2.107)   0.475   7.660 118.892 858.966 1326.804 1258.292 -> 586.642 ->   4693.133 MByte/s
+ p16 method 2 =non-blk :(  0.932)   1.074  17.301 225.630 1017.960 1334.124 1452.339 -> 670.352 ->   5362.815 MByte/s
+ p17 random-cyc-1dim  
+ p17 method 0 =Sndrcv  :(  1.041)   0.960  16.418 221.366 966.137 1184.282 1439.348 -> 628.945 ->   5031.560 MByte/s
+ p17 method 1 =Alltoal :(  2.178)   0.459   7.503 116.982 837.408 1331.674 1469.281 -> 617.079 ->   4936.632 MByte/s
+ p17 method 2 =non-blk :(  0.961)   1.041  17.181 230.522 1018.750 1321.773 1460.023 -> 669.942 ->   5359.536 MByte/s
+ p18 random-cyc-1dim  
+ p18 method 0 =Sndrcv  :(  1.023)   0.977  15.994 217.269 955.466 1168.531 1419.221 -> 629.136 ->   5033.087 MByte/s
+ p18 method 1 =Alltoal :(  2.139)   0.467   7.388 117.377 830.212 1341.093 1472.560 -> 614.152 ->   4913.213 MByte/s
+ p18 method 2 =non-blk :(  0.977)   1.023  16.416 225.129 1029.311 1327.128 1458.510 -> 669.928 ->   5359.428 MByte/s
+ p19 random-cyc-1dim  
+ p19 method 0 =Sndrcv  :(  0.989)   1.012  17.685 240.193 1060.542 1115.917 1376.074 -> 635.996 ->   5087.965 MByte/s
+ p19 method 1 =Alltoal :(  1.970)   0.508   7.820 125.046 977.235 1380.087 1452.499 -> 643.289 ->   5146.310 MByte/s
+ p19 method 2 =non-blk :(  0.695)   1.439  23.641 305.652 1253.969 1434.930 1384.939 -> 716.597 ->   5732.777 MByte/s
+ p20 random-cyc-1dim  
+ p20 method 0 =Sndrcv  :(  1.005)   0.995  16.730 236.860 1096.699 1116.005 1448.155 -> 643.838 ->   5150.704 MByte/s
+ p20 method 1 =Alltoal :(  1.992)   0.502   7.886 121.991 972.718 1411.487 1482.113 -> 650.363 ->   5202.903 MByte/s
+ p20 method 2 =non-blk :(  0.733)   1.365  22.306 294.308 1233.377 1445.829 1480.512 -> 716.633 ->   5733.063 MByte/s
+ p21 random-cyc-1dim  
+ p21 method 0 =Sndrcv  :(  1.019)   0.981  16.755 219.506 985.425 1168.843 1417.772 -> 630.628 ->   5045.021 MByte/s
+ p21 method 1 =Alltoal :(  2.211)   0.452   7.449 116.769 836.290 1370.545 1248.942 -> 603.923 ->   4831.380 MByte/s
+ p21 method 2 =non-blk :(  0.987)   1.013  16.513 223.830 1053.540 1345.810 1396.593 -> 662.502 ->   5300.019 MByte/s
+ p22 random-cyc-1dim  
+ p22 method 0 =Sndrcv  :(  0.982)   1.018  16.609 226.440 1052.035 1119.615 1341.447 -> 618.530 ->   4948.240 MByte/s
+ p22 method 1 =Alltoal :(  1.938)   0.516   8.160 123.238 973.072 1330.934 1406.700 -> 623.136 ->   4985.091 MByte/s
+ p22 method 2 =non-blk :(  0.777)   1.287  19.931 275.935 1186.248 1358.417 1409.743 -> 681.472 ->   5451.776 MByte/s
+ p23 random-cyc-1dim  
+ p23 method 0 =Sndrcv  :(  0.987)   1.013  16.644 227.772 977.158 1118.600 1285.540 -> 602.561 ->   4820.488 MByte/s
+ p23 method 1 =Alltoal :(  2.087)   0.479   7.755 115.575 899.142 1195.311 1145.996 -> 555.367 ->   4442.936 MByte/s
+ p23 method 2 =non-blk :(  0.941)   1.063  17.643 221.720 1065.627 1268.782 1310.503 -> 638.868 ->   5110.942 MByte/s
+ p24 random-cyc-1dim  
+ p24 method 0 =Sndrcv  :(  1.015)   0.985  16.182 218.647 983.643 1112.330 1313.470 -> 602.399 ->   4819.191 MByte/s
+ p24 method 1 =Alltoal :(  2.057)   0.486   7.674 116.397 912.742 1294.499 1389.771 -> 603.293 ->   4826.342 MByte/s
+ p24 method 2 =non-blk :(  0.931)   1.074  17.874 234.185 1066.666 1248.602 1298.244 -> 644.591 ->   5156.728 MByte/s
+ p25 random-cyc-1dim  
+ p25 method 0 =Sndrcv  :(  0.985)   1.015  17.312 239.675 1107.428 1123.316 1430.375 -> 644.696 ->   5157.564 MByte/s
+ p25 method 1 =Alltoal :(  1.964)   0.509   8.167 123.555 968.109 1402.197 1477.755 -> 648.988 ->   5191.901 MByte/s
+ p25 method 2 =non-blk :(  0.725)   1.380  22.665 299.161 1231.864 1440.697 1483.008 -> 718.463 ->   5747.705 MByte/s
+ p26 random-cyc-1dim  
+ p26 method 0 =Sndrcv  :(  0.978)   1.023  16.735 233.102 1084.393 1367.537 1653.246 -> 705.978 ->   5647.826 MByte/s
+ p26 method 1 =Alltoal :(  2.017)   0.496   8.019 118.164 954.817 1530.459 1804.820 -> 716.831 ->   5734.646 MByte/s
+ p26 method 2 =non-blk :(  0.702)   1.425  23.997 307.058 1265.345 1514.246 1785.963 -> 816.196 ->   6529.565 MByte/s
+ p27 random-cyc-1dim  
+ p27 method 0 =Sndrcv  :(  1.012)   0.988  16.270 233.615 1062.882 1276.093 1363.101 -> 640.502 ->   5124.019 MByte/s
+ p27 method 1 =Alltoal :(  2.031)   0.492   7.957 121.373 960.731 1312.134 1166.384 -> 590.387 ->   4723.093 MByte/s
+ p27 method 2 =non-blk :(  0.867)   1.153  19.019 274.545 1145.901 1405.330 1332.792 -> 671.081 ->   5368.645 MByte/s
+ p28 random-cyc-1dim  
+ p28 method 0 =Sndrcv  :(  1.019)   0.981  16.000 225.215 1009.348 1344.281 1578.766 -> 675.455 ->   5403.639 MByte/s
+ p28 method 1 =Alltoal :(  2.060)   0.486   7.889 124.733 932.882 1449.192 1305.284 -> 634.719 ->   5077.754 MByte/s
+ p28 method 2 =non-blk :(  0.904)   1.106  17.485 235.571 1033.338 1485.914 1508.343 -> 712.405 ->   5699.242 MByte/s
+ p29 random-cyc-1dim  
+ p29 method 0 =Sndrcv  :(  0.976)   1.025  17.151 232.749 972.592 1213.373 1503.349 -> 651.717 ->   5213.737 MByte/s
+ p29 method 1 =Alltoal :(  1.900)   0.526   8.415 132.611 903.343 1390.731 1561.945 -> 657.140 ->   5257.120 MByte/s
+ p29 method 2 =non-blk :(  0.929)   1.077  16.847 234.786 1078.850 1470.440 1533.122 -> 708.966 ->   5671.727 MByte/s
+ p30 random-cyc-1dim  
+ p30 method 0 =Sndrcv  :(  0.971)   1.030  17.457 233.456 959.718 1226.696 1418.915 -> 635.195 ->   5081.561 MByte/s
+ p30 method 1 =Alltoal :(  1.945)   0.514   8.149 132.868 941.496 1332.313 1488.718 -> 639.556 ->   5116.451 MByte/s
+ p30 method 2 =non-blk :(  0.848)   1.179  19.922 242.535 1068.334 1322.891 1485.231 -> 686.596 ->   5492.767 MByte/s
+ p31 random-cyc-1dim  
+ p31 method 0 =Sndrcv  :(  1.029)   0.972  16.410 217.783 947.570 1151.718 1421.323 -> 629.141 ->   5033.125 MByte/s
+ p31 method 1 =Alltoal :(  2.158)   0.463   7.594 118.466 858.771 1349.810 1467.401 -> 618.700 ->   4949.602 MByte/s
+ p31 method 2 =non-blk :(  0.962)   1.039  16.161 219.852 1016.925 1339.358 1460.023 -> 668.790 ->   5350.321 MByte/s
+ p32 random-cyc-1dim  
+ p32 method 0 =Sndrcv  :(  1.016)   0.984  16.491 220.444 962.983 1173.799 1424.392 -> 629.947 ->   5039.579 MByte/s
+ p32 method 1 =Alltoal :(  2.121)   0.471   7.485 117.926 849.768 1330.461 1464.673 -> 616.662 ->   4933.296 MByte/s
+ p32 method 2 =non-blk :(  0.932)   1.073  16.685 219.191 1022.470 1345.847 1452.070 -> 671.227 ->   5369.814 MByte/s
+ p33 random-cyc-1dim  
+ p33 method 0 =Sndrcv  :(  0.968)   1.033  17.114 235.259 1082.407 1117.389 1438.877 -> 643.269 ->   5146.153 MByte/s
+ p33 method 1 =Alltoal :(  1.974)   0.506   8.179 126.590 966.687 1417.503 1488.718 -> 650.602 ->   5204.814 MByte/s
+ p33 method 2 =non-blk :(  0.737)   1.356  22.479 292.121 1227.304 1446.899 1485.105 -> 713.049 ->   5704.396 MByte/s
+ p34 random-cyc-1dim  
+ p34 method 0 =Sndrcv  :(  1.001)   0.999  16.809 236.822 973.088 1209.366 1391.457 -> 638.907 ->   5111.256 MByte/s
+ p34 method 1 =Alltoal :(  1.968)   0.508   8.392 127.703 928.252 1382.126 1325.212 -> 624.684 ->   4997.476 MByte/s
+ p34 method 2 =non-blk :(  0.903)   1.107  18.210 232.671 1081.485 1471.144 1393.440 -> 698.692 ->   5589.538 MByte/s
+ p35 random-cyc-1dim  
+ p35 method 0 =Sndrcv  :(  0.979)   1.021  16.599 217.294 973.355 1194.099 1457.191 -> 632.659 ->   5061.276 MByte/s
+ p35 method 1 =Alltoal :(  2.096)   0.477   7.811 119.914 858.272 1353.778 1263.595 -> 593.214 ->   4745.710 MByte/s
+ p35 method 2 =non-blk :(  0.969)   1.032  16.424 216.652 1054.774 1308.479 1440.831 -> 670.257 ->   5362.055 MByte/s
+ -- additional patterns that are not used to compute b_eff:
+ p36 worst-cyc-1dim   
+ p36 method 0 =Sndrcv  :(  1.009)   0.991  16.622 218.487 981.916 1098.062 1319.348 -> 606.061 ->   4848.488 MByte/s
+ p36 method 1 =Alltoal :(  2.112)   0.474   7.717 114.885 844.939 1252.357 1082.685 -> 540.347 ->   4322.774 MByte/s
+ p36 method 2 =non-blk :(  0.917)   1.090  17.510 248.189 1048.702 1290.605 1301.366 -> 641.486 ->   5131.892 MByte/s
+ p37 best  bi-section 
+ p37 method 0 =Sndrcv  :(  0.893)   0.560   9.695 128.073 602.928 797.666 1451.261 -> 482.268 ->   3858.142 MByte/s
+ p37 method 1 =Alltoal :(  1.934)   0.259   4.161  64.745 616.808 1253.315 1517.789 -> 575.849 ->   4606.788 MByte/s
+ p37 method 2 =non-blk :(  0.480)   1.042  17.203 205.530 973.145 1379.087 1523.529 -> 680.079 ->   5440.632 MByte/s
+ p38 worst bi-section 
+ p38 method 0 =Sndrcv  :(  0.970)   0.515   8.956 125.115 602.268 718.461 1302.032 -> 441.704 ->   3533.631 MByte/s
+ p38 method 1 =Alltoal :(  1.869)   0.267   4.229  66.723 635.442 1260.086 1383.686 -> 553.670 ->   4429.361 MByte/s
+ p38 method 2 =non-blk :(  0.491)   1.018  16.294 217.139 967.430 1364.391 1388.875 -> 647.288 ->   5178.301 MByte/s
+ p39 one PingPong Pair
+ p39 method 0 =Sndrcv  :(  0.358)   0.349   5.551  73.921 288.564 368.255 636.537 -> 223.073 ->   1784.588 MByte/s
+ p39 method 1 =Alltoal :(-------)   0.000   0.000   0.000   0.000   0.000   0.000 ->   0.000 ->      0.000 MByte/s
+ p39 method 2 =non-blk :(-------)   0.000   0.000   0.000   0.000   0.000   0.000 ->   0.000 ->      0.000 MByte/s
+ p40 acyclic-2dim-all 
+ p40 method 0 =Sndrcv  :(  0.940)   0.665  11.216 151.015 744.160 907.914 1270.598 -> 509.227 ->   4073.816 MByte/s
+ p40 method 1 =Alltoal :(  1.010)   0.619  10.020 138.751 872.259 1244.784 1327.752 -> 586.950 ->   4695.604 MByte/s
+ p40 method 2 =non-blk :(  0.711)   0.879  15.299 187.574 860.552 1272.605 1310.229 -> 596.939 ->   4775.510 MByte/s
+ p41 acyclic-3dim-all 
+ p41 method 0 =Sndrcv  :(  0.655)   0.763  12.804 172.632 745.915 935.192 1591.285 -> 557.108 ->   4456.864 MByte/s
+ p41 method 1 =Alltoal :(  0.700)   0.714  11.452 158.484 1056.935 1640.328 1574.417 -> 730.163 ->   5841.308 MByte/s
+ p41 method 2 =non-blk :(  0.391)   1.280  20.450 245.096 1112.953 1588.398 1636.584 -> 761.462 ->   6091.700 MByte/s
+ p42 cyclic-2dim-x    
+ p42 method 0 =Sndrcv  :(  0.978)   1.022  16.335 221.899 966.098 1184.677 1468.422 -> 638.928 ->   5111.423 MByte/s
+ p42 method 1 =Alltoal :(  2.057)   0.486   7.610 117.397 862.193 1256.613 1484.907 -> 616.599 ->   4932.788 MByte/s
+ p42 method 2 =non-blk :(  0.915)   1.092  17.610 230.319 1055.111 1252.577 1482.227 -> 676.618 ->   5412.941 MByte/s
+ p43 cyclic-2dim-y    
+ p43 method 0 =Sndrcv  :(  0.957)   1.045  18.026 217.771 971.041 1369.583 1518.575 -> 688.202 ->   5505.615 MByte/s
+ p43 method 1 =Alltoal :(  3.945)   0.253   4.170  64.240 611.849 1263.570 1504.034 -> 573.104 ->   4584.828 MByte/s
+ p43 method 2 =non-blk :(  0.977)   1.024  16.626 227.702 1025.021 1374.446 1518.531 -> 694.581 ->   5556.651 MByte/s
+ p44 cyclic-2dim-all  
+ p44 method 0 =Sndrcv  :(  1.080)   0.926  15.465 211.176 931.116 1255.635 1509.109 -> 660.155 ->   5281.240 MByte/s
+ p44 method 1 =Alltoal :(  1.393)   0.718  11.730 163.140 1027.984 1445.629 1380.212 -> 670.823 ->   5366.587 MByte/s
+ p44 method 2 =non-blk :(  0.904)   1.106  17.682 223.406 1048.586 1418.247 1492.972 -> 696.195 ->   5569.561 MByte/s
+ p45 cyclic-3dim-x    
+ p45 method 0 =Sndrcv  :(  0.982)   1.019  18.028 229.900 1009.558 1361.370 1398.721 -> 656.862 ->   5254.899 MByte/s
+ p45 method 1 =Alltoal :(  3.947)   0.253   4.095  64.213 645.383 1287.699 1403.109 -> 557.578 ->   4460.621 MByte/s
+ p45 method 2 =non-blk :(  1.095)   0.913  14.920 215.091 1030.212 1367.051 1409.122 -> 656.925 ->   5255.397 MByte/s
+ p46 cyclic-3dim-y    
+ p46 method 0 =Sndrcv  :(  0.922)   1.085  17.747 215.021 970.750 1387.869 1554.263 -> 693.963 ->   5551.702 MByte/s
+ p46 method 1 =Alltoal :(  3.758)   0.266   4.244  67.986 645.411 1252.693 1533.400 -> 585.930 ->   4687.443 MByte/s
+ p46 method 2 =non-blk :(  0.984)   1.016  15.459 234.744 1025.515 1395.913 1544.055 -> 698.923 ->   5591.385 MByte/s
+ p47 cyclic-3dim-z    
+ p47 method 0 =Sndrcv  :(  0.964)   1.037  18.057 226.178 964.884 1366.549 1536.793 -> 690.671 ->   5525.368 MByte/s
+ p47 method 1 =Alltoal :(  3.948)   0.253   4.231  64.621 616.959 1267.619 1519.624 -> 579.985 ->   4639.877 MByte/s
+ p47 method 2 =non-blk :(  0.949)   1.054  16.522 226.716 1035.164 1375.912 1519.121 -> 694.211 ->   5553.688 MByte/s
+ p48 cyclic-3dim-all  
+ p48 method 0 =Sndrcv  :(  0.891)   1.123  18.157 240.240 1104.042 1556.908 1713.673 -> 767.831 ->   6142.647 MByte/s
+ p48 method 1 =Alltoal :(  1.353)   0.739  11.508 165.953 1089.182 1624.629 1561.036 -> 737.047 ->   5896.376 MByte/s
+ p48 method 2 =non-blk :(  0.736)   1.358  21.401 269.925 1162.688 1485.526 1635.519 -> 767.783 ->   6142.262 MByte/s
+
+ log_avg of all rings  
+ - ring,      method 0 = Sndrcv :   1.014  16.986 232.676 1047.957 1169.408 1454.237 || 649.779 ->   5198.230 MByte/s
+ - ring,      method 1 = Alltoal:   0.545   7.201 110.010 890.325 1377.476 1496.052 || 637.188 ->   5097.501 MByte/s
+ - ring,      method 2 = non-blk:   1.241  20.487 270.228 1163.098 1430.308 1466.047 || 708.355 ->   5666.838 MByte/s
+ log_avg of all random 
+ - random,    method 0 = Sndrcv :   0.998  16.799 228.603 1016.920 1206.679 1472.604 || 649.758 ->   5198.060 MByte/s
+ - random,    method 1 = Alltoal:   0.498   7.921 122.725 919.905 1397.735 1439.010 || 638.772 ->   5110.173 MByte/s
+ - random,    method 2 = non-blk:   1.194  19.410 256.923 1132.462 1417.237 1490.449 || 709.881 ->   5679.044 MByte/s
+ log_avg(ring,random)  
+ - average,   method 0 = Sndrcv :   1.006  16.892 230.631 1032.322 1187.898 1463.392 || 649.768 ->   5198.145 MByte/s
+ - average,   method 1 = Alltoal:   0.521   7.552 116.194 904.994 1387.569 1467.254 || 637.979 ->   5103.833 MByte/s
+ - average,   method 2 = non-blk:   1.217  19.941 263.492 1147.678 1423.757 1478.198 || 709.117 ->   5672.938 MByte/s
+  * size ->
+ accumulated on all processes:
+ - accumulated, mthd 0 = Sndrcv :   8.045 135.137 1845.044 8258.575 9503.180 11707.133 || 5198.145 MByte/s
+ - accumulated, mthd 1 = Alltoal:   4.165  60.417 929.548 7239.953 11100.551 11738.033 || 5103.833 MByte/s
+ - accumulated, mthd 2 = non-blk:   9.739 159.532 2107.935 9181.422 11390.059 11825.582 || 5672.938 MByte/s
+
+SECTION-BY-MTHD-MSGLNG-END
+
+
+SECTION-BY-MSGLNG-BEGIN
+
+
+5th analysis path only as information:
+logavg_pat ( max_mthd ( max_rep ( b(L) ) ) )
+and for all methods: logavg_pat ( max_rep ( b(L) ) )
+
+msg length|accumulated| effective bandwidth per process:
+          |  effective| average    rings   random method_0 method_1 method_2
+          |  bandwidth| crt,rnd     only     only   Sndrcv  Alltoal  non-blk
+         1       9.739    1.217    1.241    1.194    1.006    0.521    1.217
+         2      19.445    2.431    2.489    2.373    2.017    0.941    2.420
+         4      38.978    4.872    5.002    4.746    4.023    1.880    4.872
+         8      78.169    9.771    9.949    9.596    8.178    3.795    9.712
+        16     159.853   19.982   20.530   19.448   16.892    7.552   19.941
+        32     324.793   40.599   41.668   39.557   35.572   15.158   40.370
+        64     637.092   79.637   83.279   76.154   69.567   30.108   79.405
+       128    1198.462  149.808  154.631  145.135  132.997   60.059  147.514
+       256    2110.498  263.812  270.405  257.380  230.631  116.194  263.492
+       512    3177.345  397.168  397.870  396.467  350.435  209.888  397.168
+      1024    5293.584  661.698  670.361  653.147  581.175  355.645  661.698
+      2048    6337.718  792.215  811.658  773.238  734.675  590.701  792.145
+      4096    9181.422 1147.678 1163.098 1132.462 1032.322  904.994 1147.678
+      8933    9946.007 1243.251 1233.239 1253.344 1147.239 1185.519 1230.805
+     19484   11428.800 1428.600 1428.721 1428.479 1301.257 1382.027 1393.419
+     42495   10872.554 1359.069 1368.168 1350.031 1119.934 1286.613 1355.922
+     92682   11444.265 1430.533 1432.222 1428.846 1187.898 1387.569 1423.757
+    202141   11707.217 1463.402 1451.071 1475.838 1343.629 1443.266 1442.390
+    440872   11919.204 1489.900 1475.006 1504.946 1411.492 1451.866 1487.989
+    961548   12055.537 1506.942 1492.282 1521.746 1459.931 1470.015 1495.375
+   2097152   12049.123 1506.140 1496.678 1515.663 1463.392 1467.254 1478.198
+
+SECTION-BY-MSGLNG-END
+
+
+SECTION-BY-PATTERN-MSGLNG-BEGIN
+
+
+official (1st) analysis path -- see last column:
+(only columns of some message lengths are printed)
+logavg_pat ( avg_L ( max_mthd ( max_rep ( b(L) ) ) ) )
+
+ pattern  /  msg-length:                1      16     256    4096   92682 2097152 -> average -> accumulated
+                        (latency of one sendrecv (or equivalent method) in microsec)
+ p00 ring-4*2fix       :(  0.967)   1.035  17.163 233.073 1015.075 1381.047 1540.562 -> 697.434 ->   5579.473 MByte/s
+ p01 ring-2*4fix       :(  0.955)   1.047  16.907 220.378 1067.578 1421.340 1488.425 -> 689.720 ->   5517.763 MByte/s
+ p02 ring-1*8fix       :(  0.735)   1.361  22.681 292.756 1230.718 1443.187 1493.310 -> 725.925 ->   5807.402 MByte/s
+ p03 ring-1*8fix       :(  0.743)   1.346  22.172 294.152 1230.398 1448.588 1482.779 -> 724.663 ->   5797.301 MByte/s
+ p04 ring-1*8fix       :(  0.734)   1.363  22.841 299.893 1223.247 1457.356 1491.242 -> 728.472 ->   5827.773 MByte/s
+ p05 ring-1*8fix       :(  0.741)   1.350  22.464 294.705 1233.334 1443.187 1484.531 -> 726.931 ->   5815.451 MByte/s
+ p06 random-cyc-1dim   :(  0.942)   1.061  17.400 235.284 1064.825 1319.184 1316.805 -> 645.324 ->   5162.590 MByte/s
+ p07 random-cyc-1dim   :(  0.754)   1.326  21.768 295.008 1219.312 1450.641 1487.994 -> 725.292 ->   5802.334 MByte/s
+ p08 random-cyc-1dim   :(  0.692)   1.445  23.226 309.066 1368.437 1768.437 1964.291 -> 890.897 ->   7127.178 MByte/s
+ p09 random-cyc-1dim   :(  0.953)   1.049  17.192 226.444 1010.638 1322.314 1353.592 -> 654.242 ->   5233.937 MByte/s
+ p10 random-cyc-1dim   :(  0.925)   1.081  17.792 225.980 1028.784 1346.016 1480.325 -> 676.706 ->   5413.645 MByte/s
+ p11 random-cyc-1dim   :(  0.966)   1.035  16.458 223.675 1038.466 1334.197 1425.854 -> 666.289 ->   5330.312 MByte/s
+ p12 random-cyc-1dim   :(  0.728)   1.373  22.868 297.044 1246.072 1477.071 1554.584 -> 747.917 ->   5983.333 MByte/s
+ p13 random-cyc-1dim   :(  0.695)   1.440  23.149 313.509 1316.431 1768.631 1968.834 -> 889.522 ->   7116.173 MByte/s
+ p14 random-cyc-1dim   :(  0.628)   1.593  26.686 335.321 1376.974 1683.998 1843.916 -> 858.580 ->   6868.640 MByte/s
+ p15 random-cyc-1dim   :(  0.669)   1.494  23.791 316.561 1326.868 1768.388 1969.183 -> 887.883 ->   7103.061 MByte/s
+ p16 random-cyc-1dim   :(  0.932)   1.074  17.301 225.630 1017.960 1334.124 1452.339 -> 670.603 ->   5364.826 MByte/s
+ p17 random-cyc-1dim   :(  0.961)   1.041  17.181 230.522 1018.750 1331.674 1469.281 -> 672.774 ->   5382.191 MByte/s
+ p18 random-cyc-1dim   :(  0.977)   1.023  16.416 225.129 1029.311 1341.093 1472.560 -> 672.335 ->   5378.680 MByte/s
+ p19 random-cyc-1dim   :(  0.695)   1.439  23.641 305.652 1253.969 1434.930 1452.499 -> 726.063 ->   5808.502 MByte/s
+ p20 random-cyc-1dim   :(  0.733)   1.365  22.306 294.308 1233.377 1445.829 1482.113 -> 723.333 ->   5786.662 MByte/s
+ p21 random-cyc-1dim   :(  0.987)   1.013  16.755 223.830 1053.540 1370.545 1417.772 -> 665.876 ->   5327.010 MByte/s
+ p22 random-cyc-1dim   :(  0.777)   1.287  19.931 275.935 1186.248 1358.417 1409.743 -> 687.157 ->   5497.257 MByte/s
+ p23 random-cyc-1dim   :(  0.941)   1.063  17.643 227.772 1065.627 1268.782 1310.503 -> 639.742 ->   5117.934 MByte/s
+ p24 random-cyc-1dim   :(  0.931)   1.074  17.874 234.185 1066.666 1294.499 1389.771 -> 652.216 ->   5217.724 MByte/s
+ p25 random-cyc-1dim   :(  0.725)   1.380  22.665 299.161 1231.864 1440.697 1483.008 -> 723.020 ->   5784.162 MByte/s
+ p26 random-cyc-1dim   :(  0.702)   1.425  23.997 307.058 1265.345 1530.459 1804.820 -> 817.866 ->   6542.925 MByte/s
+ p27 random-cyc-1dim   :(  0.867)   1.153  19.019 274.545 1145.901 1405.330 1363.101 -> 681.946 ->   5455.566 MByte/s
+ p28 random-cyc-1dim   :(  0.904)   1.106  17.485 235.571 1033.338 1485.914 1578.766 -> 719.143 ->   5753.144 MByte/s
+ p29 random-cyc-1dim   :(  0.929)   1.077  17.151 234.786 1078.850 1470.440 1561.945 -> 711.316 ->   5690.527 MByte/s
+ p30 random-cyc-1dim   :(  0.848)   1.179  19.922 242.535 1068.334 1332.313 1488.718 -> 688.246 ->   5505.965 MByte/s
+ p31 random-cyc-1dim   :(  0.962)   1.039  16.410 219.852 1016.925 1349.810 1467.401 -> 670.682 ->   5365.455 MByte/s
+ p32 random-cyc-1dim   :(  0.932)   1.073  16.685 220.444 1022.470 1345.847 1464.673 -> 673.069 ->   5384.554 MByte/s
+ p33 random-cyc-1dim   :(  0.737)   1.356  22.479 292.121 1227.304 1446.899 1488.718 -> 723.336 ->   5786.688 MByte/s
+ p34 random-cyc-1dim   :(  0.903)   1.107  18.210 236.822 1081.485 1471.144 1393.440 -> 699.420 ->   5595.360 MByte/s
+ p35 random-cyc-1dim   :(  0.969)   1.032  16.599 217.294 1054.774 1353.778 1457.191 -> 673.769 ->   5390.153 MByte/s
+ -- additional patterns that are not used to compute b_eff:
+ p36 worst-cyc-1dim    :(  0.917)   1.090  17.510 248.189 1048.702 1290.605 1319.348 -> 642.343 ->   5138.742 MByte/s
+ p37 best  bi-section  :(  0.480)   1.042  17.203 205.530 973.145 1379.087 1523.529 -> 680.079 ->   5440.632 MByte/s
+ p38 worst bi-section  :(  0.491)   1.018  16.294 217.139 967.430 1364.391 1388.875 -> 649.081 ->   5192.645 MByte/s
+ p39 one PingPong Pair :(  0.358)   0.349   5.551  73.921 288.564 368.255 636.537 -> 223.073 ->   1784.588 MByte/s
+ p40 acyclic-2dim-all  :(  0.711)   0.879  15.299 187.574 872.259 1272.605 1327.752 -> 604.957 ->   4839.658 MByte/s
+ p41 acyclic-3dim-all  :(  0.391)   1.280  20.450 245.096 1112.953 1640.328 1636.584 -> 766.917 ->   6135.334 MByte/s
+ p42 cyclic-2dim-x     :(  0.915)   1.092  17.610 230.319 1055.111 1256.613 1484.907 -> 677.002 ->   5416.012 MByte/s
+ p43 cyclic-2dim-y     :(  0.957)   1.045  18.026 227.702 1025.021 1374.446 1518.575 -> 697.249 ->   5577.995 MByte/s
+ p44 cyclic-2dim-all   :(  0.904)   1.106  17.682 223.406 1048.586 1445.629 1509.109 -> 704.768 ->   5638.148 MByte/s
+ p45 cyclic-3dim-x     :(  0.982)   1.019  18.028 229.900 1030.212 1367.051 1409.122 -> 660.864 ->   5286.912 MByte/s
+ p46 cyclic-3dim-y     :(  0.922)   1.085  17.747 234.744 1025.515 1395.913 1554.263 -> 702.625 ->   5621.003 MByte/s
+ p47 cyclic-3dim-z     :(  0.949)   1.054  18.057 226.716 1035.164 1375.912 1536.793 -> 698.009 ->   5584.070 MByte/s
+ p48 cyclic-3dim-all   :(  0.736)   1.358  21.401 269.925 1162.688 1624.629 1713.673 -> 785.845 ->   6286.761 MByte/s
+
+ log_avg of all rings  :            1.241  20.530 270.405 1163.098 1432.222 1496.678 || 715.350 ->   5722.797 MByte/s
+ log_avg of all random :            1.194  19.448 257.380 1132.462 1428.846 1515.663 || 714.360 ->   5714.879 MByte/s
+ log_avg(ring,random)  :            1.217  19.982 263.812 1147.678 1430.533 1506.140 || 714.855 ->   5718.837 MByte/s
+  * size ->
+ accumulated on all pr.:            9.739 159.853 2110.498 9181.422 11444.265 12049.123 || 5718.837 MByte/s
+
+SECTION-BY-PATTERN-MSGLNG-END
+
+
+SECTION-BEFF-BEGIN
+
+
+The effective bandwidth is b_eff =   5718.837 MByte/s on 8 processes
+                               ( =    714.855 MByte/s  * 8 processes)
+Latency:    0.821 microsec
+
+Lmax:     2 MB
+b_eff at Lmax:  12049.123 MByte/s on 8 processes
+           ( :   1506.140 MByte/s * 8 processes)
+
+b_eff at Lmax (ring pattern):   11973.422 MByte/s on 8 processes
+                          ( :    1496.678 MByte/s * 8 processes)
+Latency ring pattern:              0.101 microsec
+Ping-pong latency:               0.358 microsec
+Ping-pong bandwidth at Lmax:   5092.296 MByte/s at Lmax=    2.0 MB
+
+ (MByte/s=1e6 Byte/s)  (MB=2**20 Byte)
+system parameters  : 8 nodes, 256 MB/node
+       system name : Linux
+       hostname    : muffin
+       OS release  : 4.18.0-477.15.1.el8_8.x86_64
+       OS version  : #1 SMP Wed Jun 28 15:04:18 UTC 2023
+       machine     : x86_64
+
+Date of measurement: Thu Dec 21 15:36:51 2023
+
+Total execution wall clock time =    68 seconds
+
+            | number  |   b_eff   |  Lmax  |   b_eff   |   b_eff   | Latency | Latency | Latency | ping-pong  
+            | of pro  |           |        |  at Lmax  |  at Lmax  | rings & |  rings  |  ping-  | bandwith   
+            | cessors |           |        |  rings &  |   rings   | random  |  only   |  pong   |            
+            |         |           |        |  random   |   only    | micro-  | micro-  | micro-  |            
+            |         |  MByte/s  |        |  MByte/s  |  MByte/s  |  sec    |  sec    |  sec    |  MByte/s   
+--------------------------------------------------------------------------------------------------------------
+            |                                                                                                 
+accumulated |      8         5719     2 MB      12049        11973     0.821     0.806     0.358         5092                    
+            |                                                                                                 
+per process |                 715                1506         1497                                                      
+
+
+SECTION-BEFF-END
+
+b_eff =   5718.837 MB/s = 714.855 *   8 PEs with 256 MB/PE on Linux muffin 4.18.0-477.15.1.el8_8.x86_64 #1 SMP Wed Jun 28 15:04:18 UTC 2023 x86_64

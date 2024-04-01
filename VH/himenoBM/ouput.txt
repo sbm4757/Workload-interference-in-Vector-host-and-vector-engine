@@ -1,0 +1,79 @@
+(base) [shubham@muffin himenoBM]$ mpirun -n 16 ./him
+
+/usr/bin/time -v strace -c mpirun -n 16 ./himenoBMT
+
+
+Sequential version array size
+ mimax = 513 mjmax = 513 mkmax = 1025
+Parallel version array size
+ mimax = 131 mjmax = 131 mkmax = 1025
+imax = 129 jmax = 129 kmax =1024
+I-decomp = 4 J-decomp = 4 K-decomp =1
+ Start rehearsal measurement process.
+ Measure the performance in 3 times.
+
+ MFLOPS: 1231.815340 time(s): 22.011306 4.389706e-04
+
+ Now, start the actual measurement process.
+ The loop will be excuted in 8 times
+ This will take about one minute.
+ Wait for a while
+
+cpu : 55.010889 sec.
+Loop executed for 8 times
+Gosa : 4.351114e-04 
+MFLOPS measured : 1314.351388
+Score based on Pentium III 600MHz : 15.866144
+% time     seconds  usecs/call     calls    errors syscall
+------ ----------- ----------- --------- --------- ----------------
+ 99.97    0.728854      728854         1           wait4
+  0.01    0.000065          65         1           clone
+  0.00    0.000031          31         1           accept
+  0.00    0.000026           6         4           write
+  0.00    0.000023           4         5           close
+  0.00    0.000019           2         7           read
+  0.00    0.000013           6         2           setsockopt
+  0.00    0.000012           6         2           shutdown
+  0.00    0.000003           1         2           getpid
+  0.00    0.000002           0         6           rt_sigaction
+  0.00    0.000000           0         2           stat
+  0.00    0.000000           0         3           fstat
+  0.00    0.000000           0         1           lseek
+  0.00    0.000000           0         6           mmap
+  0.00    0.000000           0         4           mprotect
+  0.00    0.000000           0         1           munmap
+  0.00    0.000000           0         4           brk
+  0.00    0.000000           0         1         1 access
+  0.00    0.000000           0         1           socket
+  0.00    0.000000           0         1           bind
+  0.00    0.000000           0         1           listen
+  0.00    0.000000           0         1           getsockname
+  0.00    0.000000           0         1           execve
+  0.00    0.000000           0         2         1 arch_prctl
+  0.00    0.000000           0         3           openat
+  0.00    0.000000           0         1           getrandom
+------ ----------- ----------- --------- --------- ----------------
+100.00    0.729048       11391        64         2 total
+        Command being timed: "strace -c mpirun -n 16 ./him"
+        User time (seconds): 0.46
+        System time (seconds): 0.73
+        Percent of CPU this job got: 0%
+        Elapsed (wall clock) time (h:mm:ss or m:ss): 2:14.80
+        Average shared text size (kbytes): 0
+        Average unshared data size (kbytes): 0
+        Average stack size (kbytes): 0
+        Average total size (kbytes): 0
+        Maximum resident set size (kbytes): 46684
+        Average resident set size (kbytes): 0
+        Major (requiring I/O) page faults: 18
+        Minor (reclaiming a frame) page faults: 81792
+        Voluntary context switches: 63952
+        Involuntary context switches: 52
+        Swaps: 0
+        File system inputs: 0
+        File system outputs: 256
+        Socket messages sent: 0
+        Socket messages received: 0
+        Signals delivered: 0
+        Page size (bytes): 4096
+        Exit status: 0

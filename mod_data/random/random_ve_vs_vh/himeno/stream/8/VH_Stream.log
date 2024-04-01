@@ -1,0 +1,444 @@
+----------------------- Start VH Stream 2024-03-26_11-21-59 -----------------------
+----------------------- Start VH Stream 2024-03-26_11-21-59 -----------------------
+
+ Intel(r) Performance Counter Monitor (2022-11-24 10:18:12 +0100 ID=1b16bb4e)
+
+
+PCM Info: setrlimit for file limit 1000000 failed with error Operation not permitted
+
+=====  Processor information  =====
+
+ Intel(r) Performance Counter Monitor (2022-11-24 10:18:12 +0100 ID=1b16bb4e)
+
+
+PCM Info: setrlimit for file limit 1000000 failed with error Operation not permitted
+
+=====  Processor information  =====
+Linux arch_perfmon flag  : yes
+Hybrid processor         : no
+IBRS and IBPB supported  : yes
+STIBP supported          : yes
+Spec arch caps supported : yes
+Max CPUID level          : 22
+CPU model number         : 85
+Linux arch_perfmon flag  : yes
+Hybrid processor         : no
+IBRS and IBPB supported  : yes
+STIBP supported          : yes
+Spec arch caps supported : yes
+Max CPUID level          : 22
+CPU model number         : 85
+Number of physical cores: 16
+Number of logical cores: 16
+Number of online logical cores: 16
+Threads (logical cores) per physical core: 1
+Num sockets: 2
+Physical cores per socket: 8
+Last level cache slices per socket: 0
+Core PMU (perfmon) version: 4
+Number of core PMU generic (programmable) counters: 8
+Width of generic (programmable) counters: 48 bits
+Number of core PMU fixed counters: 3
+Width of fixed counters: 48 bits
+Nominal core frequency: Number of physical cores: 210000000016 Hz
+
+Number of logical cores: IBRS enabled in the kernel   : 16no
+
+Number of online logical cores: STIBP enabled in the kernel  : 16no
+
+Threads (logical cores) per physical core: The processor is not susceptible to Rogue Data Cache Load: 1no
+
+Num sockets: The processor supports enhanced IBRS                     : 2no
+
+Physical cores per socket: 8
+
+=====  Processor topology  =====
+Last level cache slices per socket: OS_Processor    Thread_Id       Core_Id         Tile_Id         Package_Id      Core_Type   Native_CPU_Model
+00               
+0               Core PMU (perfmon) version: 0               40               
+0               Number of core PMU generic (programmable) counters: invalid8 
+ Width of generic (programmable) counters:  48  bits
+ Number of core PMU fixed counters:  3 
+ Width of fixed counters:  48-1               bits
+
+Nominal core frequency: 2100000000 Hz
+1               IBRS enabled in the kernel   : 0               no1               
+1               STIBP enabled in the kernel  : 0               noinvalid
+ The processor is not susceptible to Rogue Data Cache Load:  no 
+ The processor supports enhanced IBRS                     :  no 
+   
+=====  Processor topology  =====
+-1              OS_Processor    Thread_Id       Core_Id         Tile_Id         Package_Id      Core_Type   Native_CPU_Model
+
+0               2               0               0               0               2               0               2               0               0               invalidinvalid                  -1              -1              
+
+3               1               0               0               3               1               3               1               0               0               invalidinvalid                  -1              -1              
+
+4               2               0               0               4               2               4               2               0               0               invalidinvalid                  -1              -1              
+
+5               3               0               0               5               3               5               3               0               0               invalidinvalid                -1               
+ 4               -1              0               
+4               4               6               0               0               invalid6                6                0                invalid            -1               
+  5               -1              0               
+5               7               5               0               0               7               invalid7                0                invalid              -1               
+ 6               -1              0               
+6               8               6               0               0               0               invalid8                1                invalid              -1               
+ 7               -1              0               
+7               9               7               0               0               1               invalid9                1                invalid              -1               
+ 8               -1              0               
+0               10              8               0               1               2               invalid10               1                invalid              -1               
+ -1              9               
+0               11              1               0               9               3               1               11              invalid1                invalid                -1               
+-1              
+10              12              0               0               2               4               10              12              1               1               invalidinvalid                  -1              -1              
+
+11              13              0               0               3               5               11              13              1               1               invalidinvalid                -1               
+ 12              -1              0               
+4               14              12              0               1               6               invalid14               1                invalid              -1               
+ 13              -1              0               
+5               15              13              0               1               7               invalid15               1                invalid              -1               
+ 14              -1              0               
+6               =====  Placement on packages  =====
+14              Package Id.    Core Id.     Processors
+1               0              invalid0 , 1 , 2 , 3 , 4 ,-1              5
+,15              60               ,7               715              
+1               1              invalid0 , 1 , 2 , 3 , 4 ,-1              5
+,=====  Placement on packages  =====
+6Package Id.    Core Id.     Processors
+,0              70
+,
+=====  Core/Tile sharing  =====
+1Level      Processors
+Core       ,(20,)3(,14),(52,)6(,37)
+(1              40),(15,)2(,63),(47,)5(,86),(79
+)
+=====  Core/Tile sharing  =====
+(Level      Processors
+Core       10()0()11()1()12()2()13()3()14()4()15()5
+Tile / L2$ )((06))((17))((28))((39))((410))((511))((612))((713))((814))((915))(
+Tile / L2$ 10()0)((1)(112))((312))((413))((514))((615))(
+7
+)(8Package thermal spec power: )0( Watt; 9Package minimum power: )0( Watt; 10Package maximum power: )0( Watt;
+11)(12)(13)(14)(15)
+
+Package thermal spec power: 0 Watt; Package minimum power: 0 Watt; Package maximum power: 0 Watt;
+
+
+Can't open MCFG table. Check permission of Can't open MCFG table. Check permission of /sys/firmware/acpi/tables/MCFG/sys/firmware/acpi/tables/MCFG
+
+Can't open MCFG table. Check permission of Can't open MCFG table. Check permission of /sys/firmware/acpi/tables/MCFG1/sys/firmware/acpi/tables/MCFG1
+
+Can't open MCFG table. Check permission of Can't open MCFG table. Check permission of /pcm/sys/firmware/acpi/tables/MCFG/pcm/sys/firmware/acpi/tables/MCFG
+
+Can't open MCFG table. Check permission of Can't open MCFG table. Check permission of /pcm/sys/firmware/acpi/tables/MCFG1/pcm/sys/firmware/acpi/tables/MCFG1
+
+WARNING: enumeration of devices in UncorePMUDiscovery failed
+WARNING: enumeration of devices in UncorePMUDiscovery failed
+INFO: Linux perf interface to program uncore PMUs is present
+INFO: using Linux perf interface to program uncore PMUs because env variable PCM_USE_UNCORE_PERF=1
+INFO: Secure Boot detected. Using Linux perf for uncore PMU programming.
+INFO: Linux perf interface to program uncore PMUs is present
+INFO: using Linux perf interface to program uncore PMUs because env variable PCM_USE_UNCORE_PERF=1
+INFO: Secure Boot detected. Using Linux perf for uncore PMU programming.
+Socket 0: 2 memory controllers detected with total number of 6 channels. 2 UPI ports detected. 2 M2M (mesh to memory) blocks detected. 0 Home Agents detected. 2 M3UPI blocks detected.
+Socket 0: 2 memory controllers detected with total number of 6 channels. 2 UPI ports detected. 2 M2M (mesh to memory) blocks detected. 0 Home Agents detected. 2 M3UPI blocks detected.
+Socket 1: 2 memory controllers detected with total number of 6 channels. 2 UPI ports detected. 2 M2M (mesh to memory) blocks detected. 0 Home Agents detected. 2 M3UPI blocks detected.
+Socket 1: 2 memory controllers detected with total number of 6 channels. 2 UPI ports detected. 2 M2M (mesh to memory) blocks detected. 0 Home Agents detected. 2 M3UPI blocks detected.
+INFO: using Linux resctrl driver for RDT metrics (L3OCC, LMB, RMB) because environment variable PCM_USE_RESCTRL=1
+ERROR: /sys/fs/resctrl is not mounted
+ERROR: RDT metrics (L3OCC,LMB,RMB) will not be available
+Mount it to make it work: mount -t resctrl resctrl /sys/fs/resctrl
+INFO: using Linux resctrl driver for RDT metrics (L3OCC, LMB, RMB) because environment variable PCM_USE_RESCTRL=1
+ERROR: /sys/fs/resctrl is not mounted
+ERROR: RDT metrics (L3OCC,LMB,RMB) will not be available
+Mount it to make it work: mount -t resctrl resctrl /sys/fs/resctrl
+
+
+ Closed perf event handles
+Trying to use Linux perf events...
+Successfully programmed on-core PMU using Linux perf
+ Closed perf event handles
+Trying to use Linux perf events...
+Successfully programmed on-core PMU using Linux perf
+Socket 0
+Max UPI link 0 speed: 6.6 GBytes/second (2.9 GT/second)
+Max UPI link 1 speed: 6.6 GBytes/second (2.9 GT/second)
+Socket 1
+Max UPI link 0 speed: Socket 0
+Max 6.4UPI GBytes/second ( link 2.90 GT/second)
+ speed: Max UPI link 1 speed: 6.4 GBytes/second (2.9 GT/second)
+5.1 GBytes/second (2.3 GT/second)
+Max 
+Detected UPI link 1 speed: Intel(R) Xeon(R) Silver 4208 CPU @ 2.10GHz5.1 "Intel(r) microarchitecture codename  GBytes/second (Cascade Lake-SP2.3" stepping  GT/second)
+7Socket 
+1
+Max UPI link 0 speed: 5.5 GBytes/second (2.5 GT/second)
+Max UPI link 1 speed: 5.5 GBytes/second (2.5 GT/second)
+
+Detected Intel(R) Xeon(R) Silver 4208 CPU @ 2.10GHz "Intel(r) microarchitecture codename Cascade Lake-SP" stepping 7
+
+Executing "./VH/stream/stream_c.exe" command:
+
+Executing "./VH/stream/stream_c.exe" command:
+-------------------------------------------------------------
+STREAM version $Revision: 5.10 $
+-------------------------------------------------------------
+This system uses 8 bytes per array element.
+-------------------------------------------------------------
+Array size = 71474836 (elements), Offset = 0 (elements)
+Memory per array = 545.3 MiB (= 0.5 GiB).
+Total memory required = 1635.9 MiB (= 1.6 GiB).
+Each kernel will be executed 80 times.
+ The *best* time for each kernel (excluding the first iteration)
+ will be used to compute the reported bandwidth.
+-------------------------------------------------------------
+Your clock granularity/precision appears to be 1 microseconds.
+Each test below will take on the order of 263538 microseconds.
+   (= 263538 clock ticks)
+Increase the size of the arrays if this shows that
+you are not getting at least 20 clock ticks per test.
+-------------------------------------------------------------
+WARNING -- The above is only a rough guideline.
+For best results, please be sure you know the
+precision of your system timer.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:            4281.7     0.268741     0.267092     0.274889
+Scale:           4984.9     0.231357     0.229411     0.244039
+Add:             6525.6     0.266531     0.262871     0.295447
+Triad:           6169.8     0.280034     0.278030     0.290074
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-13 on all three arrays
+-------------------------------------------------------------
+DEBUG: caught signal to interrupt (Child exited).
+Cleaning up
+ Closed perf event handles
+ Zeroed uncore PMU registers
+	Command being timed: "/usr/sbin/pcm 0.1 -csv=./output/8/vh_Stream_0_8.csv -- ./VH/stream/stream_c.exe"
+	User time (seconds): 0.72
+	System time (seconds): 0.27
+	Percent of CPU this job got: 1%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:25.66
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 139532
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 488
+	Voluntary context switches: 18258
+	Involuntary context switches: 1093
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 6752
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+----------------------- Start VH Stream 2024-03-26_11-23-24 -----------------------
+
+ Intel(r) Performance Counter Monitor (2022-11-24 10:18:12 +0100 ID=1b16bb4e)
+
+
+PCM Info: setrlimit for file limit 1000000 failed with error Operation not permitted
+
+=====  Processor information  =====
+-------------------------------------------------------------
+STREAM version $Revision: 5.10 $
+-------------------------------------------------------------
+This system uses 8 bytes per array element.
+-------------------------------------------------------------
+Array size = 71474836 (elements), Offset = 0 (elements)
+Memory per array = 545.3 MiB (= 0.5 GiB).
+Total memory required = 1635.9 MiB (= 1.6 GiB).
+Each kernel will be executed 80 times.
+ The *best* time for each kernel (excluding the first iteration)
+ will be used to compute the reported bandwidth.
+-------------------------------------------------------------
+Your clock granularity/precision appears to be 1 microseconds.
+Each test below will take on the order of 264204 microseconds.
+   (= 264204 clock ticks)
+Increase the size of the arrays if this shows that
+you are not getting at least 20 clock ticks per test.
+-------------------------------------------------------------
+WARNING -- The above is only a rough guideline.
+For best results, please be sure you know the
+precision of your system timer.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:            4280.6     0.269292     0.267161     0.283248
+Scale:           4985.0     0.231580     0.229407     0.254598
+Add:             6513.5     0.265816     0.263362     0.280923
+Triad:           6168.6     0.280880     0.278087     0.295284
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-13 on all three arrays
+-------------------------------------------------------------
+DEBUG: caught signal to interrupt (Child exited).
+Cleaning up
+ Closed perf event handles
+Linux arch_perfmon flag  : yes
+Hybrid processor         : no
+IBRS and IBPB supported  : yes
+STIBP supported          : yes
+Spec arch caps supported : yes
+Max CPUID level          : 22
+CPU model number         : 85
+ Zeroed uncore PMU registers
+Number of physical cores: 16
+Number of logical cores: 16
+Number of online logical cores: 16
+Threads (logical cores) per physical core: 1
+Num sockets: 2
+Physical cores per socket: 8
+Last level cache slices per socket: 0
+Core PMU (perfmon) version: 4
+Number of core PMU generic (programmable) counters: 8
+Width of generic (programmable) counters: 48 bits
+Number of core PMU fixed counters: 3
+Width of fixed counters: 48 bits
+Nominal core frequency: 2100000000 Hz
+IBRS enabled in the kernel   : no
+STIBP enabled in the kernel  : no
+The processor is not susceptible to Rogue Data Cache Load: no
+The processor supports enhanced IBRS                     : no
+
+=====  Processor topology  =====
+OS_Processor    Thread_Id       Core_Id         Tile_Id         Package_Id      Core_Type   Native_CPU_Model
+0               0               0               0               0               invalid         -1              
+1               0               1               1               0               invalid         -1              
+2               0               2               2               0               invalid         -1              
+3               0               3               3               0               invalid         -1              
+4               0               4               4               0               invalid         -1              
+5               0               5               5               0               invalid         -1              
+6               0               6               6               0               invalid         -1              
+7               0               7               7               0               invalid         -1              
+8               0               0               8               1               invalid         -1              
+9               0               1               9               1               invalid         -1              
+10              0               2               10              1               invalid         -1              
+11              0               3               11              1               invalid         -1              
+12              0               4               12              1               invalid         -1              
+13              0               	5               C13              o1               minvalidm a n d   b e i n g-1               
+tim14              e0               d6               :14               1               "invalid   /usr/sbin/pcm   0.1   -csv=./output/8/vh_Stream_VH_8.csv   ---1               
+./VH/stream/stream_c.exe"
+15              	0               Us7               e15              r1                invalidt i m e    ( s e c-1              o
+n=====  Placement on packages  =====
+dPackage Id.    Core Id.     Processors
+s0              )0:, 1,2,3,4,5,60.77,
+7	
+S1              y0s,t1e,m2 ,t3i,m4e, 5(,s6e,c7o
+n
+=====  Core/Tile sharing  =====
+dLevel      Processors
+Core       s()0:) (0.211
+)	(P2e)r(c3e)n(t4 )o(f5 )C(P6U) (t7h)i(s8 )j(o9b) (10)g(11o)t(:12 )(131%)(
+14	)E(l15a)p
+Tile / L2$ (s0e)(d1 )(2)(3)(4)(5()w(a6l)l( 7c)l(o8c)k()9 )t(i10m)e( 11()h(:12m)m(:13s)s( 14o)r( 15m):
+s
+s)Package thermal spec power: :0  Watt; 1:25.72Package minimum power: 
+0	 Watt; APackage maximum power: v0e Watt;
+rage shar
+ed text size (kbytCan't open MCFG table. Check permission of e/sys/firmware/acpi/tables/MCFGs
+)Can't open MCFG table. Check permission of :/sys/firmware/acpi/tables/MCFG1 
+0Can't open MCFG table. Check permission of 
+/pcm/sys/firmware/acpi/tables/MCFG	
+ACan't open MCFG table. Check permission of v/pcm/sys/firmware/acpi/tables/MCFG1e
+rage unshared data size (kWARNING: enumeration of devices in UncorePMUDiscovery failed
+bytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 139424
+	Average resident set size (kINFO: Linux perf interface to program uncore PMUs is bpresent
+yINFO: using Linux perf interface to program uncore PMUs because env variable PCM_USE_UNCORE_PERF=1
+tINFO: Secure Boot detected. Using Linux perf for uncore PMU programming.
+es): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 487
+	Voluntary context switches: 17499
+	Involuntary context switches: 1082
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 6808
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Socket 0: 2 memory controllers detected with total number of 6 channels. 2 UPI ports detected. 2 M2M (mesh to memory) blocks detected. 0 Home Agents detected. 2 M3UPI blocks detected.
+Socket 1: 2 memory controllers detected with total number of 6 channels. 2 UPI ports detected. 2 M2M (mesh to memory) blocks detected. 0 Home Agents detected. 2 M3UPI blocks detected.
+INFO: using Linux resctrl driver for RDT metrics (L3OCC, LMB, RMB) because environment variable PCM_USE_RESCTRL=1
+ERROR: /sys/fs/resctrl is not mounted
+ERROR: RDT metrics (L3OCC,LMB,RMB) will not be available
+Mount it to make it work: mount -t resctrl resctrl /sys/fs/resctrl
+
+ Closed perf event handles
+Trying to use Linux perf events...
+Successfully programmed on-core PMU using Linux perf
+Socket 0
+Max UPI link 0 speed: 1.3 GBytes/second (0.6 GT/second)
+Max UPI link 1 speed: 1.3 GBytes/second (0.6 GT/second)
+Socket 1
+Max UPI link 0 speed: 1.2 GBytes/second (0.6 GT/second)
+Max UPI link 1 speed: 1.2 GBytes/second (0.6 GT/second)
+
+Detected Intel(R) Xeon(R) Silver 4208 CPU @ 2.10GHz "Intel(r) microarchitecture codename Cascade Lake-SP" stepping 7
+
+Executing "./VH/stream/stream_c.exe" command:
+-------------------------------------------------------------
+STREAM version $Revision: 5.10 $
+-------------------------------------------------------------
+This system uses 8 bytes per array element.
+-------------------------------------------------------------
+Array size = 71474836 (elements), Offset = 0 (elements)
+Memory per array = 545.3 MiB (= 0.5 GiB).
+Total memory required = 1635.9 MiB (= 1.6 GiB).
+Each kernel will be executed 80 times.
+ The *best* time for each kernel (excluding the first iteration)
+ will be used to compute the reported bandwidth.
+-------------------------------------------------------------
+Your clock granularity/precision appears to be 1 microseconds.
+Each test below will take on the order of 262845 microseconds.
+   (= 262845 clock ticks)
+Increase the size of the arrays if this shows that
+you are not getting at least 20 clock ticks per test.
+-------------------------------------------------------------
+WARNING -- The above is only a rough guideline.
+For best results, please be sure you know the
+precision of your system timer.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:            4346.7     0.266051     0.263098     0.326381
+Scale:           5067.9     0.227633     0.225653     0.256161
+Add:             6653.0     0.261563     0.257838     0.351198
+Triad:           6267.2     0.276500     0.273712     0.330492
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-13 on all three arrays
+-------------------------------------------------------------
+DEBUG: caught signal to interrupt (Child exited).
+Cleaning up
+ Closed perf event handles
+ Zeroed uncore PMU registers
+	Command being timed: "/usr/sbin/pcm 0.1 -csv=./output/8/vh_Stream_1_8.csv -- ./VH/stream/stream_c.exe"
+	User time (seconds): 1.06
+	System time (seconds): 0.20
+	Percent of CPU this job got: 1%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:24.36
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 141432
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 489
+	Voluntary context switches: 17174
+	Involuntary context switches: 988
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 6744
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

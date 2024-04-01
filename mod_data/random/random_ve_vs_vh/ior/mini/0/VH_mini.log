@@ -1,0 +1,3614 @@
+----------------------- Start VH miniAMR 2024-03-21_19-28-19 -----------------------
+
+ Intel(r) Performance Counter Monitor (2022-11-24 10:18:12 +0100 ID=1b16bb4e)
+
+
+PCM Info: setrlimit for file limit 1000000 failed with error Operation not permitted
+
+=====  Processor information  =====
+
+ Intel(r) Performance Counter Monitor (2022-11-24 10:18:12 +0100 ID=1b16bb4e)
+
+
+Linux arch_perfmon flag  : yes
+Hybrid processor         : PCM Info: setrlimit for file limit no1000000
+ failed with error IBRS and IBPB supported  : Operation not permittedyes
+
+STIBP supported          : yes
+Spec arch caps supported : yes
+Max CPUID level          : 22
+CPU model number         : 85
+
+=====  Processor information  =====
+Linux arch_perfmon flag  : yes
+Hybrid processor         : no
+IBRS and IBPB supported  : yes
+STIBP supported          : yes
+Spec arch caps supported : yes
+Max CPUID level          : 22
+CPU model number         : 85
+
+ Intel(r) Performance Counter Monitor (2022-11-24 10:18:12 +0100 ID=1b16bb4e)
+
+
+PCM Info: setrlimit for file limit 1000000 failed with error Operation not permitted
+
+=====  Processor information  =====
+Linux arch_perfmon flag  : yes
+Hybrid processor         : no
+IBRS and IBPB supported  : yes
+STIBP supported          : yes
+Spec arch caps supported : yes
+Max CPUID level          : 22
+CPU model number         : 85
+
+ Intel(r) Performance Counter Monitor (2022-11-24 10:18:12 +0100 ID=1b16bb4e)
+
+
+PCM Info: setrlimit for file limit 1000000 failed with error Operation not permitted
+
+=====  Processor information  =====
+Linux arch_perfmon flag  : yes
+Hybrid processor         : no
+IBRS and IBPB supported  : yes
+STIBP supported          : yes
+Spec arch caps supported : yes
+Max CPUID level          : 22
+CPU model number         : 85
+
+ Intel(r) Performance Counter Monitor (2022-11-24 10:18:12 +0100 ID=1b16bb4e)
+
+
+PCM Info: setrlimit for file limit 1000000 failed with error Operation not permitted
+
+=====  Processor information  =====
+Linux arch_perfmon flag  : yes
+Hybrid processor         : no
+IBRS and IBPB supported  : yes
+STIBP supported          : yes
+Spec arch caps supported : yes
+Max CPUID level          : 22
+CPU model number         : 85
+
+ Intel(r) Performance Counter Monitor (2022-11-24 10:18:12 +0100 ID=1b16bb4e)
+
+
+PCM Info: setrlimit for file limit 1000000 failed with error Operation not permitted
+
+=====  Processor information  =====
+Linux arch_perfmon flag  : yes
+
+Hybrid processor         :  Intel(r) Performance Counter Monitor no(2022-11-24 10:18:12 +0100 ID=1b16bb4e)
+
+IBRS and IBPB supported  : 
+yes
+
+STIBP supported          : yes
+Spec arch caps supported : yes
+Max CPUID level          : 22
+CPU model number         : 85PCM Info: setrlimit for file limit 
+1000000 failed with error Operation not permitted
+
+=====  Processor information  =====
+Linux arch_perfmon flag  : yes
+Hybrid processor         : no
+IBRS and IBPB supported  : yes
+
+ Intel(r) Performance Counter Monitor STIBP supported          : (2022-11-24 10:18:12 +0100 ID=1b16bb4e)yes
+
+
+Spec arch caps supported : 
+yes
+Max CPUID level          : 22
+CPU model number         : 85
+PCM Info: setrlimit for file limit 1000000 failed with error Operation not permitted
+
+=====  Processor information  =====
+Linux arch_perfmon flag  : yes
+Hybrid processor         : no
+IBRS and IBPB supported  : yes
+STIBP supported          : yes
+Spec arch caps supported : yes
+Max CPUID level          : 22
+CPU model number         : 85
+Number of physical cores: 16
+Number of logical cores: 16
+Number of online logical cores: 16
+Threads (logical cores) per physical core: 1
+Num sockets: 2
+Physical cores per socket: 8
+Last level cache slices per socket: 0
+Core PMU (perfmon) version: 4
+Number of core PMU generic (programmable) counters: 8
+Width of generic (programmable) counters: 48 bits
+Number of core PMU fixed counters: 3
+Width of fixed counters: 48 bits
+Nominal core frequency: 2100000000 Hz
+IBRS enabled in the kernel   : no
+STIBP enabled in the kernel  : no
+The processor is not susceptible to Rogue Data Cache Load: no
+The processor supports enhanced IBRS                     : no
+
+=====  Processor topology  =====
+OS_Processor    Thread_Id       Core_Id         Tile_Id         Package_Id      Core_Type   Native_CPU_Model
+0               0               0               0               0               invalid         -1              
+1               0               1               1               0               invalid         -1              
+2               0               2               2               0               invalid         -1              
+3               0               3               3               0               invalid         -1              
+4               0               4               4               0               invalid         -1              
+5               0               5               5               0               invalid         -1              
+6               0               6               6               0               invalid         -1              
+7               0               7               7               0               invalid         -1              
+8               0               0               8               1               invalid         -1              
+9               0               1               9               1               invalid         -1              
+10              0               2               10              1               invalid         -1              
+11              0               3               11              1               invalid         -1              
+12              0               4               12              1               invalid         -1              
+13              0               5               13              1               invalid         -1              
+14              0               6               14              1               invalid         -1              
+15              0               7               15              1               invalid         -1              
+=====  Placement on packages  =====
+Package Id.    Core Id.     Processors
+0              0,1,2,3,4,5,6,7
+1              0,1,2,3,4,5,6,7
+
+=====  Core/Tile sharing  =====
+Level      Processors
+Core       (0)(1)(2)(3)(4)(5)(6)(7)(8)(9)(10)(11)(12)(13)(14)(15)
+Tile / L2$ (0)(1)(2)(3)(4)(5)(6)(7)(8)(9)(10)(11)(12)(13)(14)(15)
+
+Package thermal spec power: 0 Watt; Package minimum power: 0 Watt; Package maximum power: 0 Watt;
+
+Can't open MCFG table. Check permission of /sys/firmware/acpi/tables/MCFG
+Can't open MCFG table. Check permission of /sys/firmware/acpi/tables/MCFG1
+Can't open MCFG table. Check permission of /pcm/sys/firmware/acpi/tables/MCFG
+Can't open MCFG table. Check permission of /pcm/sys/firmware/acpi/tables/MCFG1
+WARNING: enumeration of devices in UncorePMUDiscovery failed
+INFO: Linux perf interface to program uncore PMUs is present
+INFO: using Linux perf interface to program uncore PMUs because env variable PCM_USE_UNCORE_PERF=1
+INFO: Secure Boot detected. Using Linux perf for uncore PMU programming.
+Socket 0: 2 memory controllers detected with total number of 6 channels. 2 UPI ports detected. 2 M2M (mesh to memory) blocks detected. 0 Home Agents detected. 2 M3UPI blocks detected.
+Socket 1: 2 memory controllers detected with total number of 6 channels. 2 UPI ports detected. 2 M2M (mesh to memory) blocks detected. 0 Home Agents detected. 2 M3UPI blocks detected.
+Number of physical cores: 16
+Number of logical cores: 16
+Number of online logical cores: 16
+Threads (logical cores) per physical core: 1
+Num sockets: 2
+Physical cores per socket: 8
+Last level cache slices per socket: 0
+Core PMU (perfmon) version: 4
+Number of core PMU generic (programmable) counters: 8
+Width of generic (programmable) counters: 48 bits
+Number of core PMU fixed counters: 3
+Width of fixed counters: 48 bits
+Nominal core frequency: 2100000000 Hz
+IBRS enabled in the kernel   : no
+STIBP enabled in the kernel  : no
+The processor is not susceptible to Rogue Data Cache Load: no
+The processor supports enhanced IBRS                     : no
+
+=====  Processor topology  =====
+OS_Processor    Thread_Id       Core_Id         Tile_Id         Package_Id      Core_Type   Native_CPU_Model
+0               0               0               0               0               invalid         -1              
+1               0               1               1               0               invalid         -1              
+2               0               2               2               0               invalid         -1              
+3               0               3               3               0               invalid         -1              
+4               0               4               4               0               invalid         -1              
+5               0               5               5               0               invalid         -1              
+6               0               6               6               0               invalid         -1              
+7               0               7               7               0               invalid         -1              
+8               0               0               8               1               invalid         -1              
+9               0               1               9               1               invalid         -1              
+10              0               2               10              1               invalid         -1              
+11              0               3               11              1               invalid         -1              
+12              0               4               12              1               invalid         -1              
+13              0               5               13              1               invalid         -1              
+14              0               6               14              1               invalid         -1              
+15              0               7               15              1               invalid         -1              
+=====  Placement on packages  =====
+Package Id.    Core Id.     Processors
+0              0,1,2,3,4,5,6,7
+1              0,1,2,3,4,5,6,7
+
+=====  Core/Tile sharing  =====
+Level      Processors
+Core       (0)(1)(2)(3)(4)(5)(6)(7)(8)(9)(10)(11)(12)(13)(14)(15)
+Tile / L2$ (0)(1)(2)(3)(4)(5)(6)(7)(8)(9)(10)(11)(12)(13)(14)(15)
+
+Package thermal spec power: 0 Watt; Package minimum power: 0 Watt; Package maximum power: 0 Watt;
+
+Can't open MCFG table. Check permission of /sys/firmware/acpi/tables/MCFG
+Can't open MCFG table. Check permission of /sys/firmware/acpi/tables/MCFG1
+Can't open MCFG table. Check permission of /pcm/sys/firmware/acpi/tables/MCFG
+Can't open MCFG table. Check permission of /pcm/sys/firmware/acpi/tables/MCFG1
+WARNING: enumeration of devices in UncorePMUDiscovery failed
+INFO: Linux perf interface to program uncore PMUs is present
+INFO: using Linux perf interface to program uncore PMUs because env variable PCM_USE_UNCORE_PERF=1
+INFO: Secure Boot detected. Using Linux perf for uncore PMU programming.
+Number of physical cores: Number of physical cores: 16Number of physical cores: 
+16Number of logical cores: 
+Number of physical cores: 1616Number of logical cores: 
+
+16Number of online logical cores: 16Number of logical cores: 
+16
+Number of logical cores: 16
+16Number of online logical cores: 
+Number of online logical cores: 
+16Number of physical cores: Threads (logical cores) per physical core: 16Number of online logical cores: Number of physical cores: 
+1
+1616Threads (logical cores) per physical core: 
+Threads (logical cores) per physical core: 16
+
+1Num sockets: 1
+Threads (logical cores) per physical core: Number of logical cores: 
+2
+Number of logical cores: 116Num sockets: 
+Num sockets: 16
+
+2Physical cores per socket: 2
+Num sockets: Number of online logical cores: 
+8
+Number of online logical cores: 216Physical cores per socket: 
+Physical cores per socket: 16
+
+8Last level cache slices per socket: 8
+Physical cores per socket: Threads (logical cores) per physical core: 
+0
+Threads (logical cores) per physical core: 81Last level cache slices per socket: 
+Last level cache slices per socket: 1
+
+0Core PMU (perfmon) version: 0
+Last level cache slices per socket: Num sockets: 
+4
+Num sockets: 02Core PMU (perfmon) version: 
+Core PMU (perfmon) version: 2
+
+4Number of core PMU generic (programmable) counters: 4
+Core PMU (perfmon) version: Physical cores per socket: 
+8
+Physical cores per socket: 48Number of core PMU generic (programmable) counters: 
+Number of core PMU generic (programmable) counters: 8
+
+8Width of generic (programmable) counters: 8
+Number of core PMU generic (programmable) counters: Last level cache slices per socket: 
+48
+Last level cache slices per socket: 80Width of generic (programmable) counters:  bits
+Width of generic (programmable) counters: 0
+
+48Number of core PMU fixed counters: 48
+Width of generic (programmable) counters: Core PMU (perfmon) version:  bits
+3 bits
+Core PMU (perfmon) version: 484Number of core PMU fixed counters: 
+Number of core PMU fixed counters: 4 bits
+
+3Width of fixed counters: 3
+Number of core PMU fixed counters: Number of core PMU generic (programmable) counters: 
+48
+Number of core PMU generic (programmable) counters: 38Width of fixed counters:  bits
+Width of fixed counters: Nominal core frequency: 8
+
+48482100000000
+Width of fixed counters: Width of generic (programmable) counters:  bits
+ bits
+ Hz
+Width of generic (programmable) counters: 484848Nominal core frequency: Nominal core frequency: IBRS enabled in the kernel   :  bits
+ bits
+ bits
+21000000002100000000noNumber of core PMU fixed counters: Nominal core frequency: Number of core PMU fixed counters:  Hz
+ Hz
+
+321000000003IBRS enabled in the kernel   : IBRS enabled in the kernel   : STIBP enabled in the kernel  : 
+ Hz
+
+nononoWidth of fixed counters: IBRS enabled in the kernel   : Width of fixed counters: 
+
+
+48no48STIBP enabled in the kernel  : STIBP enabled in the kernel  : The processor is not susceptible to Rogue Data Cache Load:  bits
+
+ bits
+nononoNominal core frequency: STIBP enabled in the kernel  : Nominal core frequency: 
+
+
+2100000000no2100000000The processor is not susceptible to Rogue Data Cache Load: The processor is not susceptible to Rogue Data Cache Load: The processor supports enhanced IBRS                     :  Hz
+
+ Hz
+nononoIBRS enabled in the kernel   : The processor is not susceptible to Rogue Data Cache Load: IBRS enabled in the kernel   : 
+
+
+nononoThe processor supports enhanced IBRS                     : The processor supports enhanced IBRS                     : 
+
+
+=====  Processor topology  =====
+
+nonoSTIBP enabled in the kernel  : The processor supports enhanced IBRS                     : OS_Processor    Thread_Id       Core_Id         Tile_Id         Package_Id      Core_Type   Native_CPU_Model
+STIBP enabled in the kernel  : 0               
+
+no
+=====  Processor topology  =====
+nono0               
+=====  Processor topology  =====
+
+OS_Processor    Thread_Id       Core_Id         Tile_Id         Package_Id      Core_Type   Native_CPU_Model
+
+
+0               OS_Processor    Thread_Id       Core_Id         Tile_Id         Package_Id      Core_Type   Native_CPU_Model
+The processor is not susceptible to Rogue Data Cache Load: 0               The processor is not susceptible to Rogue Data Cache Load: 
+=====  Processor topology  =====
+0               0               no0               noOS_Processor    Thread_Id       Core_Id         Tile_Id         Package_Id      Core_Type   Native_CPU_Model
+0               0               
+0               
+0               invalid0               The processor supports enhanced IBRS                     : 0               The processor supports enhanced IBRS                     : 0                0               no0               no0                0               
+invalid
+=====  Processor topology  =====
+
+0                invalid OS_Processor    Thread_Id       Core_Id         Tile_Id         Package_Id      Core_Type   Native_CPU_Model
+
+=====  Processor topology  =====
+0                  0               OS_Processor    Thread_Id       Core_Id         Tile_Id         Package_Id      Core_Type   Native_CPU_Model
+invalid   0               0                   0               0                   0               0                   0               0                   invalid0                -1                 invalid 
+      1               -1                 -1              0               
+   
+1                1                -1              1                1               0                
+0                0               1                invalid1                1               1                 0                1               0                 1               -1              0               invalid  1               
+invalid -1               0                1                
+  0               invalid  1                1                  0                1                  1                0                  1                invalid  -1              0                   
+invalid    2                   -1              0                -1                
+2                
+  2               2                2                -1              0               0                0                
+2               invalid 2                2               2                 2                0               0                 0               -1              2               invalid  invalid
+2                 -1               2               0                 
+ 0               invalid  2                2                  0                2                  2                0                  2                invalid  -1              0                   
+invalid    3                   -1              0                -1                
+3                
+  3               3                3                -1              0               0                0                
+3               invalid 3                3               3                 3                0               0                 0               -1              3               invalid  invalid
+3                 -1               3               0                 
+ 0               invalid  3                3                  0                3                  3                0                  3                invalid  -1              0                   
+invalid    4                   -1              0                -1                
+4                
+  4               4                4                -1              0               0                0                
+4               invalid 4                4               4                 4                0               0                 0               -1              4               invalid  invalid
+4                 -1               4               0                 
+ 0               invalid  4                4                  0                4                  4                0                  4                invalid  -1              0                   
+invalid    5                   -1              0                -1                
+5                
+  5               5                5                -1              0               0                0                
+5               invalid 5                5               5                 5                0               0                 0               -1              5               invalid  invalid
+5                 -1               5               0                 
+ 0               invalid  5                5                  0                5                  5                0                  5                invalid  -1              0                   
+invalid    6                   -1              0                -1                
+6                
+  6               6                6                -1              0               0                0                
+6               invalid 6                6               6                 6                0               0                 0               -1              6               invalid  invalid
+6                 -1               6               0                 
+ 0               invalid  6                6                  0                6                  6                0                  6                invalid  -1              0                   
+invalid    7                   -1              0                -1                
+7                
+  7               7                7                -1              0               0                0                
+7               invalid 7                7               7                 7                0               0                 0               -1              7               invalid  invalid
+7                 -1               7               0                 
+ 0               invalid  7                7                  0                7                  7                0                  7                invalid  -1              0                   
+invalid    8                   -1              0                -1                
+0                
+  8               8                8                -1              0               1                0                
+0               invalid 0                8               8                 8                0               1                 1               -1              0               invalid  invalid
+8                 -1               8               1                 
+ 0               invalid  8                0                  0                8                  0                1                  8                invalid  -1              1                   
+invalid    9                   -1              0                -1                
+1                
+  9               9                9                -1              0               1                0                
+1               invalid 1                9               9                 9                0               1                 1               -1              1               invalid  invalid
+9                 -1               9               1                 
+ 0               invalid  9                1                  0                9                  1                1                  9                invalid  -1              1                   
+invalid    10                  -1              0                -1                
+2                
+  10              10               10               -1              
+0               1                0                10              2               invalid 2                0               10                10               2               1                 1               -1              10              invalid  invalid
+1                 -1               10              invalid  
+ 0                  10               2                  0                10                 2                1                  10               invalid  -1              1                   
+invalid    11                  -1              0                -1                
+3                
+ -1              11              11               11               
+0               1                0                11              3               invalid 3                0               11                11               3               1                 1               -1              11              invalid  invalid
+1                 -1               11              invalid  
+ 0                   11               3                   0                11                  3                1                 -1              11               invalid  
+1                   12              invalid    0                  -1              -1              4                -1               
+
+12               
+ 12              12              1                12                  0               0               invalid 0               -1              4               4                 4               
+12              12                12              12              1               1                 1               0               invalidinvalid  invalid4                  -1               12                 
+ 1                  12               invalid   0                    4                   -1              12                  
+1                   13              invalid    0                  -1              -1              5                -1               
+
+13               
+ 13              13              1                13               0               0               invalid 0               -1              5               5                 5               
+13              13                13              13              1               1                 1               0               invalidinvalid  invalid5                  -1               13                 
+ 1                  13               invalid   0                    5                   -1              13                  
+1                    14              Socket invalid   -1              0               0   -1              
+6               :  -1               
+14              14              2 
+ 14              0               1                memory controllers detected with total number of  14               0               6               invalid6 0               -1              6               14                channels.  6               
+14              1                2 14              14              1               invalid   1               0               invalid  UPI invalid6                    ports detected.-1               14                   
+ 1                   214               invalid     M2M (mesh to memory) blocks detected. 0                  -1               06                  
+-1               Home Agents detected. 14                 15              
+21                  0               15               M3UPI blocks detected.
+invalid   7               0                  -1              15              7                -1               
+1               15               
+ 15              invalid1                15               0                invalid 0               -1              7                  7               
+15                 15              15              1                  1               0               invalid   invalid7                  -1               15                 
+ 1                  15               invalid   0                  -1               7                  
+-1              15                 =====  Placement on packages  =====
+
+1                  Package Id.    Core Id.     Processors
+=====  Placement on packages  =====
+invalid   0              Package Id.    Core Id.     Processors
+   -1              00               -1               
+,0 
+ =====  Placement on packages  =====
+1, =====  Placement on packages  =====
+ Package Id.    Core Id.     Processors
+,1 Package Id.    Core Id.     Processors
+-1              0              2, 0              
+0,2 0=====  Placement on packages  =====
+,3, ,Package Id.    Core Id.     Processors
+1,3 10              ,4,-1              ,02,4
+2,,5,=====  Placement on packages  =====
+,13,5Package Id.    Core Id.     Processors
+3,,6,0              ,24,604,,7,,,35
+715,,1              
+,,4601              26,,,0,,571,2,,37,
+31,
+61              ,,41              ,042,07,,,5,
+153,11              ,,,6,0264,2,,,,7,1375
+3,,
+,1              ,24
+=====  Core/Tile sharing  =====
+604,,Level      Processors
+Core       ,,,35(715,,0
+,,46)
+=====  Core/Tile sharing  =====
+26,,(Level      Processors
+Core       ,,571(37,
+)0,
+6
+=====  Core/Tile sharing  =====
+()4
+=====  Core/Tile sharing  =====
+,Level      Processors
+Core       2(,Level      Processors
+Core       7()15(
+0(),0
+=====  Core/Tile sharing  =====
+)3(6)Level      Processors
+Core       ()2,((1()710))4(
+)(()3
+=====  Core/Tile sharing  =====
+(12()Level      Processors
+Core       2))5(()(()40(23())3))6(()(()51(34())4))7(()(()62(45())5))8(()(()73(56())6))9(()(()84(67())7))10(()(7)(8()95()8())8()11(()9()106()9())9()12(()10()117()10())10()13(()11()128()11())11()14(()12()139()12())12()15(()13()1410()13
+Tile / L2$ ))13()((()14(01511()14)))14()(
+Tile / L2$ ()15(1(12()15)0)15
+Tile / L2$ )()()(
+Tile / L2$ 2(13
+Tile / L2$ 0()1)()0()(0()3(14)1()2)()1()(1()4(15)2()3)()2()
+Tile / L2$ 2()5(()3)()40((3())34)6(())()51((4())45)7(())()62((5())56)8(())()73((6())67)9(())()84((7())78)10(())()95((8())89)11(())()106((9())910)12(())()711((10())1011)13(())()812((11())1112)14(())()913((12())1213)15(())()1014((13
+))1314)
+(())(11Package thermal spec power: 15((14)0)1415)( Watt; 
+))(12Package minimum power: 
+(
+Package thermal spec power: 15)015
+0)( Watt; ) Watt; Package thermal spec power: 
+13Package maximum power: 
+Package minimum power: 0
+)0
+0 Watt; (Package thermal spec power:  Watt;
+ Watt; Package thermal spec power: Package minimum power: 140Package maximum power: 00) Watt; 0 Watt;  Watt; (Package minimum power:  Watt;
+Package minimum power: Package maximum power: 15000) Watt;  Watt;  Watt;
+
+Package maximum power: Package maximum power: 
+00 Watt;
+Package thermal spec power:  Watt;
+0 Watt; Package minimum power: 0 Watt; Package maximum power: 0 Watt;
+
+
+
+
+
+Can't open MCFG table. Check permission of /sys/firmware/acpi/tables/MCFG
+Can't open MCFG table. Check permission of /sys/firmware/acpi/tables/MCFG1Can't open MCFG table. Check permission of 
+/sys/firmware/acpi/tables/MCFGCan't open MCFG table. Check permission of Can't open MCFG table. Check permission of 
+/sys/firmware/acpi/tables/MCFG/pcm/sys/firmware/acpi/tables/MCFGCan't open MCFG table. Check permission of Can't open MCFG table. Check permission of Can't open MCFG table. Check permission of 
+
+/sys/firmware/acpi/tables/MCFG1/sys/firmware/acpi/tables/MCFG/sys/firmware/acpi/tables/MCFGCan't open MCFG table. Check permission of Can't open MCFG table. Check permission of 
+
+
+
+/sys/firmware/acpi/tables/MCFG1/pcm/sys/firmware/acpi/tables/MCFG1Can't open MCFG table. Check permission of Can't open MCFG table. Check permission of Can't open MCFG table. Check permission of 
+
+/pcm/sys/firmware/acpi/tables/MCFG/sys/firmware/acpi/tables/MCFG1/sys/firmware/acpi/tables/MCFG1Can't open MCFG table. Check permission of 
+
+
+/pcm/sys/firmware/acpi/tables/MCFGCan't open MCFG table. Check permission of Can't open MCFG table. Check permission of Can't open MCFG table. Check permission of Can't open MCFG table. Check permission of 
+/pcm/sys/firmware/acpi/tables/MCFG1/sys/firmware/acpi/tables/MCFG/pcm/sys/firmware/acpi/tables/MCFG/pcm/sys/firmware/acpi/tables/MCFGCan't open MCFG table. Check permission of 
+WARNING: enumeration of devices in UncorePMUDiscovery failed
+
+
+
+/pcm/sys/firmware/acpi/tables/MCFG1Can't open MCFG table. Check permission of Can't open MCFG table. Check permission of Can't open MCFG table. Check permission of 
+/sys/firmware/acpi/tables/MCFG1/pcm/sys/firmware/acpi/tables/MCFG1/pcm/sys/firmware/acpi/tables/MCFG1
+WARNING: enumeration of devices in UncorePMUDiscovery failed
+
+
+Can't open MCFG table. Check permission of /pcm/sys/firmware/acpi/tables/MCFG
+WARNING: enumeration of devices in UncorePMUDiscovery failed
+Can't open MCFG table. Check permission of /pcm/sys/firmware/acpi/tables/MCFG1
+WARNING: enumeration of devices in UncorePMUDiscovery failed
+WARNING: enumeration of devices in UncorePMUDiscovery failed
+WARNING: enumeration of devices in UncorePMUDiscovery failed
+INFO: Linux perf interface to program uncore PMUs is present
+INFO: Linux perf interface to program uncore PMUs is INFO: using Linux perf interface to program uncore PMUs because env variable PCM_USE_UNCORE_PERF=1
+INFO: Secure Boot detected. Using Linux perf for uncore PMU programming.
+INFO: Linux perf interface to program uncore PMUs is present
+present
+INFO: Linux perf interface to program uncore PMUs is INFO: using Linux perf interface to program uncore PMUs because env variable PCM_USE_UNCORE_PERF=1
+INFO: using Linux perf interface to program uncore PMUs because env variable PCM_USE_UNCORE_PERF=1
+present
+INFO: Linux perf interface to program uncore PMUs is INFO: Secure Boot detected. Using Linux perf for uncore PMU programming.
+INFO: Secure Boot detected. Using Linux perf for uncore PMU programming.
+INFO: using Linux perf interface to program uncore PMUs because env variable PCM_USE_UNCORE_PERF=1
+INFO: Linux perf interface to program uncore PMUs is present
+INFO: Secure Boot detected. Using Linux perf for uncore PMU programming.
+present
+INFO: using Linux perf interface to program uncore PMUs because env variable PCM_USE_UNCORE_PERF=1
+INFO: using Linux perf interface to program uncore PMUs because env variable PCM_USE_UNCORE_PERF=1
+INFO: Secure Boot detected. Using Linux perf for uncore PMU programming.
+INFO: Secure Boot detected. Using Linux perf for uncore PMU programming.
+INFO: using Linux resctrl driver for RDT metrics (L3OCC, LMB, RMB) because environment variable PCM_USE_RESCTRL=1
+ERROR: /sys/fs/resctrl is not mounted
+ERROR: RDT metrics (L3OCC,LMB,RMB) will not be available
+Mount it to make it work: mount -t resctrl resctrl /sys/fs/resctrl
+Socket 1: 2 memory controllers detected with total number of 6 channels. 2 UPI ports detected. 2 M2M (mesh to memory) blocks detected. 0 Home Agents detected. 2 M3UPI blocks detected.
+
+Socket 0Socket : 2Socket 0 memory controllers detected with total number of Socket : 0Socket 62Socket 0: 0 channels.  memory controllers detected with total number of : 02: 262:  memory controllers detected with total number of 2  channels.  memory controllers detected with total number of 26 memory controllers detected with total number of UPI26 memory controllers detected with total number of  channels. 6 ports detected.  channels. 62 channels.  UPI2  channels.  22 ports detected.UPI2UPI  M2M (mesh to memory) blocks detected.   ports detected.  ports detected.UPI02 UPI  ports detected. Home Agents detected.  M2M (mesh to memory) blocks detected. 2 ports detected.2 20 M2M (mesh to memory) blocks detected.   M2M (mesh to memory) blocks detected. 2 M3UPI blocks detected.
+ Home Agents detected. 020 M2M (mesh to memory) blocks detected. 2 Home Agents detected.  M2M (mesh to memory) blocks detected.  Home Agents detected. 0 M3UPI blocks detected.
+202 Home Agents detected.  M3UPI blocks detected.
+ Home Agents detected.  M3UPI blocks detected.
+22 M3UPI blocks detected.
+ M3UPI blocks detected.
+ Closed perf event handles
+Trying to use Linux perf events...
+Socket 1: 2 memory controllers detected with total number of 6 channels. 2 UPI ports detected. 2 M2M (mesh to memory) blocks detected. 0 Home Agents detected. 2 M3UPI blocks detected.
+Socket 1: 2 memory controllers detected with total number of 6 channels. 2 UPI ports detected. Socket 21 M2M (mesh to memory) blocks detected. : 02 Home Agents detected.  memory controllers detected with total number of 26 M3UPI blocks detected.
+ channels. 2 UPI ports detected. Socket 21:  M2M (mesh to memory) blocks detected. 20Socket  memory controllers detected with total number of  Home Agents detected. Socket 1621:  channels.  M3UPI blocks detected.
+: 222 memory controllers detected with total number of   memory controllers detected with total number of 6UPI6 channels.  ports detected. channels. 2 2 2 UPI M2M (mesh to memory) blocks detected. UPI ports detected.0 ports detected.  Home Agents detected.  222 M2M (mesh to memory) blocks detected.  M3UPI blocks detected.
+ M2M (mesh to memory) blocks detected. 00 Home Agents detected.  Home Agents detected. 22 M3UPI blocks detected.
+ M3UPI blocks detected.
+Successfully programmed on-core PMU using Linux perf
+INFO: using Linux resctrl driver for RDT metrics (L3OCC, LMB, RMB) because environment variable PCM_USE_RESCTRL=1
+ERROR: /sys/fs/resctrl is not mounted
+ERROR: RDT metrics (L3OCC,LMB,RMB) will not be available
+Mount it to make it work: mount -t resctrl resctrl /sys/fs/resctrl
+INFO: using Linux resctrl driver for RDT metrics (L3OCC, LMB, RMB) because environment variable PCM_USE_RESCTRL=1
+ERROR: /sys/fs/resctrl is not mounted
+ERROR: RDT metrics (L3OCC,LMB,RMB) will not be available
+Mount it to make it work: mount -t resctrl resctrl /sys/fs/resctrl
+INFO: using Linux resctrl driver for RDT metrics (L3OCC, LMB, RMB) because environment variable PCM_USE_RESCTRL=1
+
+INFO: using Linux resctrl driver for RDT metrics (L3OCC, LMB, RMB) because environment variable PCM_USE_RESCTRL=1
+ERROR: /sys/fs/resctrl is not mounted
+ERROR: RDT metrics (L3OCC,LMB,RMB) will not be available
+Mount it to make it work: mount -t resctrl resctrl /sys/fs/resctrl
+ERROR: /sys/fs/resctrl is not mounted
+ERROR: RDT metrics (L3OCC,LMB,RMB) will not be available
+Mount it to make it work: mount -t resctrl resctrl /sys/fs/resctrl
+INFO: using Linux resctrl driver for RDT metrics (L3OCC, LMB, RMB) because environment variable PCM_USE_RESCTRL=1
+ERROR: /sys/fs/resctrl is not mounted
+ERROR: RDT metrics (L3OCC,LMB,RMB) will not be available
+Mount it to make it work: mount -t resctrl resctrl /sys/fs/resctrl
+ Closed perf event handles
+Trying to use Linux perf events...
+INFO: using Linux resctrl driver for RDT metrics (L3OCC, LMB, RMB) because environment variable PCM_USE_RESCTRL=1
+ERROR: /sys/fs/resctrl is not mounted
+ERROR: RDT metrics (L3OCC,LMB,RMB) will not be available
+Mount it to make it work: mount -t resctrl resctrl /sys/fs/resctrl
+INFO: using Linux resctrl driver for RDT metrics (L3OCC, LMB, RMB) because environment variable PCM_USE_RESCTRL=1
+ERROR: /sys/fs/resctrl is not mounted
+ERROR: RDT metrics (L3OCC,LMB,RMB) will not be available
+Mount it to make it work: mount -t resctrl resctrl /sys/fs/resctrl
+Successfully programmed on-core PMU using Linux perf
+
+
+
+
+
+ Closed perf event handles
+ Closed perf event handles
+Trying to use Linux perf events...
+ Closed perf event handles
+Trying to use Linux perf events...
+Trying to use Linux perf events...
+
+ Closed perf event handles
+Trying to use Linux perf events...
+ Closed perf event handles
+Trying to use Linux perf events...
+ Closed perf event handles
+Trying to use Linux perf events...
+Successfully programmed on-core PMU using Linux perf
+Successfully programmed on-core PMU using Linux perf
+Successfully programmed on-core PMU using Linux perf
+Successfully programmed on-core PMU using Linux perf
+Successfully programmed on-core PMU using Linux perf
+Successfully programmed on-core PMU using Linux perf
+Socket 0
+Max UPI link 0 speed: 3.6 GBytes/second (1.6 GT/second)
+Max UPI link 1 speed: 3.6 GBytes/second (1.6 GT/second)
+Socket 1
+Max UPI link 0 speed: 2.3 GBytes/second (1.0 GT/second)
+Max UPI link 1 speed: 2.3 GBytes/second (1.0 GT/second)
+
+Detected Intel(R) Xeon(R) Silver 4208 CPU @ 2.10GHz "Intel(r) microarchitecture codename Cascade Lake-SP" stepping 7
+Socket 0
+Max UPI link 0 speed: 2.1 GBytes/second (0.9 GT/second)
+Max UPI link 1 speed: 2.1 GBytes/second (0.9 GT/second)
+Socket 1
+Max UPI link 0 speed: 1.5 GBytes/second (0.7 GT/second)
+Max UPI link 1 speed: 1.5 GBytes/second (0.7 GT/second)
+
+Detected Intel(R) Xeon(R) Silver 4208 CPU @ 2.10GHz "Intel(r) microarchitecture codename Cascade Lake-SP" stepping 7
+
+Executing "
+Executing "./VH/miniAMR/ref/miniAMR.x./VH/miniAMR/ref/miniAMR.x" command:
+" command:
+Socket 0
+Max UPI link 0 speed: 1.4 GBytes/second (0.6 GT/second)
+Max UPI link 1 speed: 1.4 GBytes/second (0.6 GT/second)
+Socket 1
+Max UPI link 0 speed: 1.2 GBytes/second (0.5 GT/second)
+Max UPI link 1 speed: 1.2 GBytes/second (0.5 GT/second)
+
+Detected Intel(R) Xeon(R) Silver 4208 CPU @ 2.10GHz "Intel(r) microarchitecture codename Cascade Lake-SP" stepping 7
+
+Executing "./VH/miniAMR/ref/miniAMR.x" command:
+Socket 0
+Max UPI link 0 speed: 1.5 GBytes/second (0.7 GT/second)
+Max UPI link 1 speed: 1.5 GBytes/second (0.7 GT/second)
+Socket 1
+Max UPI link 0 speed: 1.4 GBytes/second (0.6 GT/second)
+Max UPI link 1 speed: 1.4 GBytes/second (0.6 GT/second)
+
+Detected Intel(R) Xeon(R) Silver 4208 CPU @ 2.10GHz "Intel(r) microarchitecture codename Cascade Lake-SP" stepping 7
+
+Executing "./VH/miniAMR/ref/miniAMR.x" command:
+Socket 0
+Max UPI link 0 speed: 1.7 GBytes/second (0.8 GT/second)
+Max UPI link 1 speed: 1.7 GBytes/second (0.8 GT/second)
+Socket 1
+Max UPI link 0 speed: 1.3 GBytes/second (0.6 GT/second)
+Max UPI link 1 speed: 1.3 GBytes/second (0.6 GT/second)
+
+Detected Intel(R) Xeon(R) Silver 4208 CPU @ 2.10GHz "Intel(r) microarchitecture codename Cascade Lake-SP" stepping 7
+
+Executing "./VH/miniAMR/ref/miniAMR.x" command:
+Socket 0
+Max UPI link 0 speed: 1.2 GBytes/second (0.5 GT/second)
+Max UPI link 1 speed: 1.2 GBytes/second (0.5 GT/second)
+Socket 1
+Max UPI link 0 speed: 1.3 GBytes/second (0.6 GT/second)
+Max UPI link 1 speed: 1.3 GBytes/second (0.6 GT/second)
+
+Detected Intel(R) Xeon(R) Silver 4208 CPU @ 2.10GHz "Intel(r) microarchitecture codename Cascade Lake-SP" stepping 7
+
+Executing "./VH/miniAMR/ref/miniAMR.x" command:
+Socket 0
+Max UPI link 0 speed: 1.2 GBytes/second (0.5 GT/second)
+Max UPI link 1 speed: 1.2 GBytes/second (0.5 GT/second)
+Socket 1
+Max UPISocket  link 0 speed: 0
+Max UPI1.3 link  GBytes/second (00.6 speed:  GT/second)
+Max UPI1.5 link  GBytes/second (10.7 speed:  GT/second)
+1.3Max  GBytes/second (UPI0.6 link  GT/second)
+1 speed: 1.5 GBytes/second (
+Detected 0.7 GT/second)
+Socket Intel(R) Xeon(R) Silver 4208 CPU @ 2.10GHz1 "Intel(r) microarchitecture codename 
+Cascade Lake-SPMax " stepping UPI7 link 
+0 speed: 1.2 GBytes/second (0.5 GT/second)
+Max UPI link 1 speed: 1.2 GBytes/second (0.5 GT/second)
+
+Detected Intel(R) Xeon(R) Silver 4208 CPU @ 2.10GHz "Intel(r) microarchitecture codename Cascade Lake-SP" stepping 7
+
+Executing "
+Executing "./VH/miniAMR/ref/miniAMR.x./VH/miniAMR/ref/miniAMR.x" command:
+" command:
+Number of blocks at level 0 at timestep 0 is 8
+Number of blocks at level 1 at timestep 0 is 0
+Number of blocks at level 2 at timestep 0 is 0
+Number of blocks at level 3 at timestep 0 is 0
+Number of blocks at level 4 at timestep 0 is 0
+Total number of blocks at timestep 0 is 8
+comm partners x ave   1.00 min 1 max 1
+comm partners y ave   1.00 min 1 max 1
+comm partners z ave   1.00 min 1 max 1
+comm partners total ave   3.00 min 3 max 3
+comm partners unique ave   3.00 min 3 max 3
+
+Timestep 1 time 0.000000 delta 1.000000
+Timestep 2 time 1.000000 delta 1.000000
+Timestep 3 time 2.000000 delta 1.000000
+Timestep 4 time 3.000000 delta 1.000000
+Timestep 5 time 4.000000 delta 1.000000
+Number of blocks at level 0 at timestep 5 is 8
+Number of blocks at level 1 at timestep 5 is 0
+Number of blocks at level 2 at timestep 5 is 0
+Number of blocks at level 3 at timestep 5 is 0
+Number of blocks at level 4 at timestep 5 is 0
+Total number of blocks at timestep 5 is 8
+comm partners x ave   1.00 min 1 max 1
+comm partners y ave   1.00 min 1 max 1
+comm partners z ave   1.00 min 1 max 1
+comm partners total ave   3.00 min 3 max 3
+comm partners unique ave   3.00 min 3 max 3
+
+Timestep 6 time 5.000000 delta 1.000000
+Timestep 7 time 6.000000 delta 1.000000
+Timestep 8 time 7.000000 delta 1.000000
+Timestep 9 time 8.000000 delta 1.000000
+Timestep 10 time 9.000000 delta 1.000000
+Number of blocks at level 0 at timestep 10 is 8
+Number of blocks at level 1 at timestep 10 is 0
+Number of blocks at level 2 at timestep 10 is 0
+Number of blocks at level 3 at timestep 10 is 0
+Number of blocks at level 4 at timestep 10 is 0
+Total number of blocks at timestep 10 is 8
+comm partners x ave   1.00 min 1 max 1
+comm partners y ave   1.00 min 1 max 1
+comm partners z ave   1.00 min 1 max 1
+comm partners total ave   3.00 min 3 max 3
+comm partners unique ave   3.00 min 3 max 3
+
+Timestep 11 time 10.000000 delta 1.000000
+Timestep 12 time 11.000000 delta 1.000000
+Timestep 13 time 12.000000 delta 1.000000
+Timestep 14 time 13.000000 delta 1.000000
+Timestep 15 time 14.000000 delta 1.000000
+Number of blocks at level 0 at timestep 15 is 8
+Number of blocks at level 1 at timestep 15 is 0
+Number of blocks at level 2 at timestep 15 is 0
+Number of blocks at level 3 at timestep 15 is 0
+Number of blocks at level 4 at timestep 15 is 0
+Total number of blocks at timestep 15 is 8
+comm partners x ave   1.00 min 1 max 1
+comm partners y ave   1.00 min 1 max 1
+comm partners z ave   1.00 min 1 max 1
+comm partners total ave   3.00 min 3 max 3
+comm partners unique ave   3.00 min 3 max 3
+
+Timestep 16 time 15.000000 delta 1.000000
+Timestep 17 time 16.000000 delta 1.000000
+Timestep 18 time 17.000000 delta 1.000000
+Timestep 19 time 18.000000 delta 1.000000
+Timestep 20 time 19.000000 delta 1.000000
+Number of blocks at level 0 at timestep 20 is 7
+Number of blocks at level 1 at timestep 20 is 7
+Number of blocks at level 2 at timestep 20 is 7
+Number of blocks at level 3 at timestep 20 is 7
+Number of blocks at level 4 at timestep 20 is 8
+Total number of blocks at timestep 20 is 36
+before ave 4 min 1 max 29
+after ave 4 min 4 max 5
+max sets on a rank 2, num sets over ranks 1 on 1 ranks
+comm partners x ave   2.50 min 1 max 5
+comm partners y ave   2.50 min 1 max 5
+comm partners z ave   2.50 min 1 max 4
+comm partners total ave   7.50 min 6 max 9
+comm partners unique ave   4.25 min 2 max 6
+
+Timestep 21 time 20.000000 delta 1.000000
+Timestep 22 time 21.000000 delta 1.000000
+Timestep 23 time 22.000000 delta 1.000000
+Timestep 24 time 23.000000 delta 1.000000
+Timestep 25 time 24.000000 delta 1.000000
+Number of blocks at level 0 at timestep 25 is 7
+Number of blocks at level 1 at timestep 25 is 7
+Number of blocks at level 2 at timestep 25 is 7
+Number of blocks at level 3 at timestep 25 is 7
+Number of blocks at level 4 at timestep 25 is 8
+Total number of blocks at timestep 25 is 36
+max sets on a rank 2, num sets over ranks 1 on 1 ranks
+comm partners x ave   2.50 min 1 max 5
+comm partners y ave   2.50 min 1 max 5
+comm partners z ave   2.50 min 1 max 4
+comm partners total ave   7.50 min 6 max 9
+comm partners unique ave   4.25 min 2 max 6
+
+Timestep 26 time 25.000000 delta 1.000000
+Timestep 27 time 26.000000 delta 1.000000
+Timestep 28 time 27.000000 delta 1.000000
+Timestep 29 time 28.000000 delta 1.000000
+Timestep 30 time 29.000000 delta 1.000000
+Number of blocks at level 0 at timestep 30 is 7
+Number of blocks at level 1 at timestep 30 is 7
+Number of blocks at level 2 at timestep 30 is 7
+Number of blocks at level 3 at timestep 30 is 7
+Number of blocks at level 4 at timestep 30 is 8
+Total number of blocks at timestep 30 is 36
+max sets on a rank 2, num sets over ranks 1 on 1 ranks
+comm partners x ave   2.50 min 1 max 5
+comm partners y ave   2.50 min 1 max 5
+comm partners z ave   2.50 min 1 max 4
+comm partners total ave   7.50 min 6 max 9
+comm partners unique ave   4.25 min 2 max 6
+
+Timestep 31 time 30.000000 delta 1.000000
+Timestep 32 time 31.000000 delta 1.000000
+Timestep 33 time 32.000000 delta 1.000000
+Timestep 34 time 33.000000 delta 1.000000
+Timestep 35 time 34.000000 delta 1.000000
+Number of blocks at level 0 at timestep 35 is 7
+Number of blocks at level 1 at timestep 35 is 7
+Number of blocks at level 2 at timestep 35 is 7
+Number of blocks at level 3 at timestep 35 is 7
+Number of blocks at level 4 at timestep 35 is 8
+Total number of blocks at timestep 35 is 36
+max sets on a rank 2, num sets over ranks 1 on 1 ranks
+comm partners x ave   2.50 min 1 max 5
+comm partners y ave   2.50 min 1 max 5
+comm partners z ave   2.50 min 1 max 4
+comm partners total ave   7.50 min 6 max 9
+comm partners unique ave   4.25 min 2 max 6
+
+Timestep 36 time 35.000000 delta 1.000000
+Timestep 37 time 36.000000 delta 1.000000
+Timestep 38 time 37.000000 delta 1.000000
+Timestep 39 time 38.000000 delta 1.000000
+Timestep 40 time 39.000000 delta 1.000000
+Number of blocks at level 0 at timestep 40 is 7
+Number of blocks at level 1 at timestep 40 is 7
+Number of blocks at level 2 at timestep 40 is 7
+Number of blocks at level 3 at timestep 40 is 7
+Number of blocks at level 4 at timestep 40 is 8
+Total number of blocks at timestep 40 is 36
+max sets on a rank 2, num sets over ranks 1 on 1 ranks
+comm partners x ave   2.50 min 1 max 5
+comm partners y ave   2.50 min 1 max 5
+comm partners z ave   2.50 min 1 max 4
+comm partners total ave   7.50 min 6 max 9
+comm partners unique ave   4.25 min 2 max 6
+
+Timestep 41 time 40.000000 delta 1.000000
+Timestep 42 time 41.000000 delta 1.000000
+Timestep 43 time 42.000000 delta 1.000000
+Timestep 44 time 43.000000 delta 1.000000
+Timestep 45 time 44.000000 delta 1.000000
+Number of blocks at level 0 at timestep 45 is 7
+Number of blocks at level 1 at timestep 45 is 7
+Number of blocks at level 2 at timestep 45 is 7
+Number of blocks at level 3 at timestep 45 is 7
+Number of blocks at level 4 at timestep 45 is 8
+Total number of blocks at timestep 45 is 36
+max sets on a rank 2, num sets over ranks 1 on 1 ranks
+comm partners x ave   2.50 min 1 max 5
+comm partners y ave   2.50 min 1 max 5
+comm partners z ave   2.50 min 1 max 4
+comm partners total ave   7.50 min 6 max 9
+comm partners unique ave   4.25 min 2 max 6
+
+Timestep 46 time 45.000000 delta 1.000000
+Timestep 47 time 46.000000 delta 1.000000
+Timestep 48 time 47.000000 delta 1.000000
+Timestep 49 time 48.000000 delta 1.000000
+Timestep 50 time 49.000000 delta 1.000000
+Number of blocks at level 0 at timestep 50 is 7
+Number of blocks at level 1 at timestep 50 is 7
+Number of blocks at level 2 at timestep 50 is 7
+Number of blocks at level 3 at timestep 50 is 7
+Number of blocks at level 4 at timestep 50 is 8
+Total number of blocks at timestep 50 is 36
+max sets on a rank 2, num sets over ranks 1 on 1 ranks
+comm partners x ave   2.50 min 1 max 5
+comm partners y ave   2.50 min 1 max 5
+comm partners z ave   2.50 min 1 max 4
+comm partners total ave   7.50 min 6 max 9
+comm partners unique ave   4.25 min 2 max 6
+
+Timestep 51 time 50.000000 delta 1.000000
+Timestep 52 time 51.000000 delta 1.000000
+Timestep 53 time 52.000000 delta 1.000000
+Timestep 54 time 53.000000 delta 1.000000
+Timestep 55 time 54.000000 delta 1.000000
+Number of blocks at level 0 at timestep 55 is 7
+Number of blocks at level 1 at timestep 55 is 7
+Number of blocks at level 2 at timestep 55 is 7
+Number of blocks at level 3 at timestep 55 is 7
+Number of blocks at level 4 at timestep 55 is 8
+Total number of blocks at timestep 55 is 36
+max sets on a rank 2, num sets over ranks 1 on 1 ranks
+comm partners x ave   2.50 min 1 max 5
+comm partners y ave   2.50 min 1 max 5
+comm partners z ave   2.50 min 1 max 4
+comm partners total ave   7.50 min 6 max 9
+comm partners unique ave   4.25 min 2 max 6
+
+Timestep 56 time 55.000000 delta 1.000000
+Timestep 57 time 56.000000 delta 1.000000
+Timestep 58 time 57.000000 delta 1.000000
+Timestep 59 time 58.000000 delta 1.000000
+Timestep 60 time 59.000000 delta 1.000000
+Number of blocks at level 0 at timestep 60 is 7
+Number of blocks at level 1 at timestep 60 is 7
+Number of blocks at level 2 at timestep 60 is 7
+Number of blocks at level 3 at timestep 60 is 7
+Number of blocks at level 4 at timestep 60 is 8
+Total number of blocks at timestep 60 is 36
+max sets on a rank 2, num sets over ranks 1 on 1 ranks
+comm partners x ave   2.50 min 1 max 5
+comm partners y ave   2.50 min 1 max 5
+comm partners z ave   2.50 min 1 max 4
+comm partners total ave   7.50 min 6 max 9
+comm partners unique ave   4.25 min 2 max 6
+
+Timestep 61 time 60.000000 delta 1.000000
+Timestep 62 time 61.000000 delta 1.000000
+Timestep 63 time 62.000000 delta 1.000000
+Timestep 64 time 63.000000 delta 1.000000
+Timestep 65 time 64.000000 delta 1.000000
+Number of blocks at level 0 at timestep 65 is 7
+Number of blocks at level 1 at timestep 65 is 7
+Number of blocks at level 2 at timestep 65 is 7
+Number of blocks at level 3 at timestep 65 is 7
+Number of blocks at level 4 at timestep 65 is 8
+Total number of blocks at timestep 65 is 36
+max sets on a rank 2, num sets over ranks 1 on 1 ranks
+comm partners x ave   2.50 min 1 max 5
+comm partners y ave   2.50 min 1 max 5
+comm partners z ave   2.50 min 1 max 4
+comm partners total ave   7.50 min 6 max 9
+comm partners unique ave   4.25 min 2 max 6
+
+Timestep 66 time 65.000000 delta 1.000000
+Timestep 67 time 66.000000 delta 1.000000
+Timestep 68 time 67.000000 delta 1.000000
+Timestep 69 time 68.000000 delta 1.000000
+Timestep 70 time 69.000000 delta 1.000000
+Number of blocks at level 0 at timestep 70 is 7
+Number of blocks at level 1 at timestep 70 is 7
+Number of blocks at level 2 at timestep 70 is 7
+Number of blocks at level 3 at timestep 70 is 7
+Number of blocks at level 4 at timestep 70 is 8
+Total number of blocks at timestep 70 is 36
+max sets on a rank 2, num sets over ranks 1 on 1 ranks
+comm partners x ave   2.50 min 1 max 5
+comm partners y ave   2.50 min 1 max 5
+comm partners z ave   2.50 min 1 max 4
+comm partners total ave   7.50 min 6 max 9
+comm partners unique ave   4.25 min 2 max 6
+
+Timestep 71 time 70.000000 delta 1.000000
+Timestep 72 time 71.000000 delta 1.000000
+Timestep 73 time 72.000000 delta 1.000000
+Timestep 74 time 73.000000 delta 1.000000
+Timestep 75 time 74.000000 delta 1.000000
+Number of blocks at level 0 at timestep 75 is 7
+Number of blocks at level 1 at timestep 75 is 7
+Number of blocks at level 2 at timestep 75 is 7
+Number of blocks at level 3 at timestep 75 is 7
+Number of blocks at level 4 at timestep 75 is 8
+Total number of blocks at timestep 75 is 36
+max sets on a rank 2, num sets over ranks 1 on 1 ranks
+comm partners x ave   2.50 min 1 max 5
+comm partners y ave   2.50 min 1 max 5
+comm partners z ave   2.50 min 1 max 4
+comm partners total ave   7.50 min 6 max 9
+comm partners unique ave   4.25 min 2 max 6
+
+Timestep 76 time 75.000000 delta 1.000000
+Timestep 77 time 76.000000 delta 1.000000
+Timestep 78 time 77.000000 delta 1.000000
+Timestep 79 time 78.000000 delta 1.000000
+Timestep 80 time 79.000000 delta 1.000000
+Number of blocks at level 0 at timestep 80 is 7
+Number of blocks at level 1 at timestep 80 is 7
+Number of blocks at level 2 at timestep 80 is 7
+Number of blocks at level 3 at timestep 80 is 7
+Number of blocks at level 4 at timestep 80 is 8
+Total number of blocks at timestep 80 is 36
+max sets on a rank 2, num sets over ranks 1 on 1 ranks
+comm partners x ave   2.50 min 1 max 5
+comm partners y ave   2.50 min 1 max 5
+comm partners z ave   2.50 min 1 max 4
+comm partners total ave   7.50 min 6 max 9
+comm partners unique ave   4.25 min 2 max 6
+
+Timestep 81 time 80.000000 delta 1.000000
+Timestep 82 time 81.000000 delta 1.000000
+Timestep 83 time 82.000000 delta 1.000000
+Timestep 84 time 83.000000 delta 1.000000
+Timestep 85 time 84.000000 delta 1.000000
+Number of blocks at level 0 at timestep 85 is 4
+Number of blocks at level 1 at timestep 85 is 28
+Number of blocks at level 2 at timestep 85 is 28
+Number of blocks at level 3 at timestep 85 is 28
+Number of blocks at level 4 at timestep 85 is 32
+Total number of blocks at timestep 85 is 120
+before ave 15 min 4 max 25
+after ave 15 min 15 max 15
+max sets on a rank 2, num sets over ranks 1 on 1 ranks
+comm partners x ave   3.50 min 1 max 6
+comm partners y ave   2.75 min 1 max 5
+comm partners z ave   3.25 min 1 max 5
+comm partners total ave   9.50 min 5 max 14
+comm partners unique ave   4.50 min 3 max 6
+
+Timestep 86 time 85.000000 delta 1.000000
+Timestep 87 time 86.000000 delta 1.000000
+Timestep 88 time 87.000000 delta 1.000000
+Timestep 89 time 88.000000 delta 1.000000
+Timestep 90 time 89.000000 delta 1.000000
+Number of blocks at level 0 at timestep 90 is 4
+Number of blocks at level 1 at timestep 90 is 28
+Number of blocks at level 2 at timestep 90 is 28
+Number of blocks at level 3 at timestep 90 is 28
+Number of blocks at level 4 at timestep 90 is 32
+Total number of blocks at timestep 90 is 120
+max sets on a rank 2, num sets over ranks 1 on 1 ranks
+comm partners x ave   3.50 min 1 max 6
+comm partners y ave   2.75 min 1 max 5
+comm partners z ave   3.25 min 1 max 5
+comm partners total ave   9.50 min 5 max 14
+comm partners unique ave   4.50 min 3 max 6
+
+Timestep 91 time 90.000000 delta 1.000000
+Timestep 92 time 91.000000 delta 1.000000
+Timestep 93 time 92.000000 delta 1.000000
+Timestep 94 time 93.000000 delta 1.000000
+Timestep 95 time 94.000000 delta 1.000000
+Number of blocks at level 0 at timestep 95 is 4
+Number of blocks at level 1 at timestep 95 is 28
+Number of blocks at level 2 at timestep 95 is 28
+Number of blocks at level 3 at timestep 95 is 28
+Number of blocks at level 4 at timestep 95 is 32
+Total number of blocks at timestep 95 is 120
+max sets on a rank 2, num sets over ranks 1 on 1 ranks
+comm partners x ave   3.50 min 1 max 6
+comm partners y ave   2.75 min 1 max 5
+comm partners z ave   3.25 min 1 max 5
+comm partners total ave   9.50 min 5 max 14
+comm partners unique ave   4.50 min 3 max 6
+
+Timestep 96 time 95.000000 delta 1.000000
+Timestep 97 time 96.000000 delta 1.000000
+Timestep 98 time 97.000000 delta 1.000000
+Timestep 99 time 98.000000 delta 1.000000
+Timestep 100 time 99.000000 delta 1.000000
+Number of blocks at level 0 at timestep 100 is 4
+Number of blocks at level 1 at timestep 100 is 28
+Number of blocks at level 2 at timestep 100 is 28
+Number of blocks at level 3 at timestep 100 is 28
+Number of blocks at level 4 at timestep 100 is 32
+Total number of blocks at timestep 100 is 120
+max sets on a rank 2, num sets over ranks 1 on 1 ranks
+comm partners x ave   3.50 min 1 max 6
+comm partners y ave   2.75 min 1 max 5
+comm partners z ave   3.25 min 1 max 5
+comm partners total ave   9.50 min 5 max 14
+comm partners unique ave   4.50 min 3 max 6
+
+Timestep 101 time 100.000000 delta 1.000000
+Timestep 102 time 101.000000 delta 1.000000
+Timestep 103 time 102.000000 delta 1.000000
+Timestep 104 time 103.000000 delta 1.000000
+Timestep 105 time 104.000000 delta 1.000000
+Number of blocks at level 0 at timestep 105 is 4
+Number of blocks at level 1 at timestep 105 is 28
+Number of blocks at level 2 at timestep 105 is 28
+Number of blocks at level 3 at timestep 105 is 28
+Number of blocks at level 4 at timestep 105 is 32
+Total number of blocks at timestep 105 is 120
+max sets on a rank 2, num sets over ranks 1 on 1 ranks
+comm partners x ave   3.50 min 1 max 6
+comm partners y ave   2.75 min 1 max 5
+comm partners z ave   3.25 min 1 max 5
+comm partners total ave   9.50 min 5 max 14
+comm partners unique ave   4.50 min 3 max 6
+
+Timestep 106 time 105.000000 delta 1.000000
+Timestep 107 time 106.000000 delta 1.000000
+Timestep 108 time 107.000000 delta 1.000000
+Timestep 109 time 108.000000 delta 1.000000
+Timestep 110 time 109.000000 delta 1.000000
+Number of blocks at level 0 at timestep 110 is 4
+Number of blocks at level 1 at timestep 110 is 28
+Number of blocks at level 2 at timestep 110 is 28
+Number of blocks at level 3 at timestep 110 is 28
+Number of blocks at level 4 at timestep 110 is 32
+Total number of blocks at timestep 110 is 120
+max sets on a rank 2, num sets over ranks 1 on 1 ranks
+comm partners x ave   3.50 min 1 max 6
+comm partners y ave   2.75 min 1 max 5
+comm partners z ave   3.25 min 1 max 5
+comm partners total ave   9.50 min 5 max 14
+comm partners unique ave   4.50 min 3 max 6
+
+Timestep 111 time 110.000000 delta 1.000000
+Timestep 112 time 111.000000 delta 1.000000
+Timestep 113 time 112.000000 delta 1.000000
+Timestep 114 time 113.000000 delta 1.000000
+Timestep 115 time 114.000000 delta 1.000000
+Number of blocks at level 0 at timestep 115 is 4
+Number of blocks at level 1 at timestep 115 is 28
+Number of blocks at level 2 at timestep 115 is 28
+Number of blocks at level 3 at timestep 115 is 25
+Number of blocks at level 4 at timestep 115 is 56
+Total number of blocks at timestep 115 is 141
+before ave 17 min 15 max 22
+after ave 17 min 17 max 18
+max sets on a rank 2, num sets over ranks 1 on 1 ranks
+comm partners x ave   3.75 min 2 max 5
+comm partners y ave   4.00 min 2 max 6
+comm partners z ave   3.25 min 2 max 5
+comm partners total ave  11.00 min 7 max 16
+comm partners unique ave   4.75 min 3 max 6
+
+Timestep 116 time 115.000000 delta 1.000000
+Timestep 117 time 116.000000 delta 1.000000
+Timestep 118 time 117.000000 delta 1.000000
+Timestep 119 time 118.000000 delta 1.000000
+Timestep 120 time 119.000000 delta 1.000000
+Number of blocks at level 0 at timestep 120 is 4
+Number of blocks at level 1 at timestep 120 is 28
+Number of blocks at level 2 at timestep 120 is 28
+Number of blocks at level 3 at timestep 120 is 25
+Number of blocks at level 4 at timestep 120 is 56
+Total number of blocks at timestep 120 is 141
+max sets on a rank 2, num sets over ranks 1 on 1 ranks
+comm partners x ave   3.75 min 2 max 5
+comm partners y ave   4.00 min 2 max 6
+comm partners z ave   3.25 min 2 max 5
+comm partners total ave  11.00 min 7 max 16
+comm partners unique ave   4.75 min 3 max 6
+
+Timestep 121 time 120.000000 delta 1.000000
+Timestep 122 time 121.000000 delta 1.000000
+Timestep 123 time 122.000000 delta 1.000000
+Timestep 124 time 123.000000 delta 1.000000
+Timestep 125 time 124.000000 delta 1.000000
+Number of blocks at level 0 at timestep 125 is 4
+Number of blocks at level 1 at timestep 125 is 28
+Number of blocks at level 2 at timestep 125 is 28
+Number of blocks at level 3 at timestep 125 is 25
+Number of blocks at level 4 at timestep 125 is 56
+Total number of blocks at timestep 125 is 141
+max sets on a rank 2, num sets over ranks 1 on 1 ranks
+comm partners x ave   3.75 min 2 max 5
+comm partners y ave   4.00 min 2 max 6
+comm partners z ave   3.25 min 2 max 5
+comm partners total ave  11.00 min 7 max 16
+comm partners unique ave   4.75 min 3 max 6
+
+Timestep 126 time 125.000000 delta 1.000000
+Timestep 127 time 126.000000 delta 1.000000
+Timestep 128 time 127.000000 delta 1.000000
+Timestep 129 time 128.000000 delta 1.000000
+Timestep 130 time 129.000000 delta 1.000000
+Number of blocks at level 0 at timestep 130 is 4
+Number of blocks at level 1 at timestep 130 is 28
+Number of blocks at level 2 at timestep 130 is 28
+Number of blocks at level 3 at timestep 130 is 25
+Number of blocks at level 4 at timestep 130 is 56
+Total number of blocks at timestep 130 is 141
+max sets on a rank 2, num sets over ranks 1 on 1 ranks
+comm partners x ave   3.75 min 2 max 5
+comm partners y ave   4.00 min 2 max 6
+comm partners z ave   3.25 min 2 max 5
+comm partners total ave  11.00 min 7 max 16
+comm partners unique ave   4.75 min 3 max 6
+
+Timestep 131 time 130.000000 delta 1.000000
+Timestep 132 time 131.000000 delta 1.000000
+Timestep 133 time 132.000000 delta 1.000000
+Timestep 134 time 133.000000 delta 1.000000
+Timestep 135 time 134.000000 delta 1.000000
+Number of blocks at level 0 at timestep 135 is 4
+Number of blocks at level 1 at timestep 135 is 28
+Number of blocks at level 2 at timestep 135 is 28
+Number of blocks at level 3 at timestep 135 is 25
+Number of blocks at level 4 at timestep 135 is 56
+Total number of blocks at timestep 135 is 141
+max sets on a rank 2, num sets over ranks 1 on 1 ranks
+comm partners x ave   3.75 min 2 max 5
+comm partners y ave   4.00 min 2 max 6
+comm partners z ave   3.25 min 2 max 5
+comm partners total ave  11.00 min 7 max 16
+comm partners unique ave   4.75 min 3 max 6
+
+Timestep 136 time 135.000000 delta 1.000000
+Timestep 137 time 136.000000 delta 1.000000
+Timestep 138 time 137.000000 delta 1.000000
+Timestep 139 time 138.000000 delta 1.000000
+Timestep 140 time 139.000000 delta 1.000000
+Number of blocks at level 0 at timestep 140 is 4
+Number of blocks at level 1 at timestep 140 is 28
+Number of blocks at level 2 at timestep 140 is 28
+Number of blocks at level 3 at timestep 140 is 25
+Number of blocks at level 4 at timestep 140 is 56
+Total number of blocks at timestep 140 is 141
+before ave 17 min 11 max 24
+after ave 17 min 17 max 18
+max sets on a rank 2, num sets over ranks 1 on 1 ranks
+comm partners x ave   3.75 min 2 max 5
+comm partners y ave   4.50 min 3 max 6
+comm partners z ave   3.25 min 2 max 5
+comm partners total ave  11.50 min 9 max 15
+comm partners unique ave   5.00 min 3 max 7
+
+Timestep 141 time 140.000000 delta 1.000000
+Timestep 142 time 141.000000 delta 1.000000
+Timestep 143 time 142.000000 delta 1.000000
+Timestep 144 time 143.000000 delta 1.000000
+Timestep 145 time 144.000000 delta 1.000000
+Number of blocks at level 0 at timestep 145 is 4
+Number of blocks at level 1 at timestep 145 is 28
+Number of blocks at level 2 at timestep 145 is 28
+Number of blocks at level 3 at timestep 145 is 25
+Number of blocks at level 4 at timestep 145 is 56
+Total number of blocks at timestep 145 is 141
+max sets on a rank 2, num sets over ranks 1 on 1 ranks
+comm partners x ave   3.75 min 2 max 5
+comm partners y ave   4.50 min 3 max 6
+comm partners z ave   3.25 min 2 max 5
+comm partners total ave  11.50 min 9 max 15
+comm partners unique ave   5.00 min 3 max 7
+
+Timestep 146 time 145.000000 delta 1.000000
+Timestep 147 time 146.000000 delta 1.000000
+Timestep 148 time 147.000000 delta 1.000000
+Timestep 149 time 148.000000 delta 1.000000
+Timestep 150 time 149.000000 delta 1.000000
+Number of blocks at level 0 at timestep 150 is 4
+Number of blocks at level 1 at timestep 150 is 28
+Number of blocks at level 2 at timestep 150 is 28
+Number of blocks at level 3 at timestep 150 is 25
+Number of blocks at level 4 at timestep 150 is 56
+Total number of blocks at timestep 150 is 141
+max sets on a rank 2, num sets over ranks 1 on 1 ranks
+comm partners x ave   3.75 min 2 max 5
+comm partners y ave   4.50 min 3 max 6
+comm partners z ave   3.25 min 2 max 5
+comm partners total ave  11.50 min 9 max 15
+comm partners unique ave   5.00 min 3 max 7
+
+Timestep 151 time 150.000000 delta 1.000000
+Timestep 152 time 151.000000 delta 1.000000
+Timestep 153 time 152.000000 delta 1.000000
+Timestep 154 time 153.000000 delta 1.000000
+Timestep 155 time 154.000000 delta 1.000000
+Number of blocks at level 0 at timestep 155 is 4
+Number of blocks at level 1 at timestep 155 is 28
+Number of blocks at level 2 at timestep 155 is 28
+Number of blocks at level 3 at timestep 155 is 22
+Number of blocks at level 4 at timestep 155 is 80
+Total number of blocks at timestep 155 is 162
+before ave 20 min 17 max 25
+after ave 20 min 20 max 21
+comm partners x ave   3.50 min 2 max 6
+comm partners y ave   3.50 min 1 max 5
+comm partners z ave   3.50 min 1 max 6
+comm partners total ave  10.50 min 7 max 16
+comm partners unique ave   4.75 min 4 max 6
+
+Timestep 156 time 155.000000 delta 1.000000
+Timestep 157 time 156.000000 delta 1.000000
+Timestep 158 time 157.000000 delta 1.000000
+Timestep 159 time 158.000000 delta 1.000000
+Timestep 160 time 159.000000 delta 1.000000
+Number of blocks at level 0 at timestep 160 is 4
+Number of blocks at level 1 at timestep 160 is 28
+Number of blocks at level 2 at timestep 160 is 28
+Number of blocks at level 3 at timestep 160 is 22
+Number of blocks at level 4 at timestep 160 is 80
+Total number of blocks at timestep 160 is 162
+comm partners x ave   3.50 min 2 max 6
+comm partners y ave   3.50 min 1 max 5
+comm partners z ave   3.50 min 1 max 6
+comm partners total ave  10.50 min 7 max 16
+comm partners unique ave   4.75 min 4 max 6
+
+Timestep 161 time 160.000000 delta 1.000000
+Timestep 162 time 161.000000 delta 1.000000
+Timestep 163 time 162.000000 delta 1.000000
+Timestep 164 time 163.000000 delta 1.000000
+Timestep 165 time 164.000000 delta 1.000000
+Number of blocks at level 0 at timestep 165 is 4
+Number of blocks at level 1 at timestep 165 is 28
+Number of blocks at level 2 at timestep 165 is 28
+Number of blocks at level 3 at timestep 165 is 22
+Number of blocks at level 4 at timestep 165 is 80
+Total number of blocks at timestep 165 is 162
+comm partners x ave   3.50 min 2 max 6
+comm partners y ave   3.50 min 1 max 5
+comm partners z ave   3.50 min 1 max 6
+comm partners total ave  10.50 min 7 max 16
+comm partners unique ave   4.75 min 4 max 6
+
+Timestep 166 time 165.000000 delta 1.000000
+Timestep 167 time 166.000000 delta 1.000000
+Timestep 168 time 167.000000 delta 1.000000
+Timestep 169 time 168.000000 delta 1.000000
+Timestep 170 time 169.000000 delta 1.000000
+Number of blocks at level 0 at timestep 170 is 4
+Number of blocks at level 1 at timestep 170 is 28
+Number of blocks at level 2 at timestep 170 is 28
+Number of blocks at level 3 at timestep 170 is 22
+Number of blocks at level 4 at timestep 170 is 80
+Total number of blocks at timestep 170 is 162
+comm partners x ave   3.50 min 2 max 6
+comm partners y ave   3.50 min 1 max 5
+comm partners z ave   3.50 min 1 max 6
+comm partners total ave  10.50 min 7 max 16
+comm partners unique ave   4.75 min 4 max 6
+
+Timestep 171 time 170.000000 delta 1.000000
+Timestep 172 time 171.000000 delta 1.000000
+Timestep 173 time 172.000000 delta 1.000000
+Timestep 174 time 173.000000 delta 1.000000
+Timestep 175 time 174.000000 delta 1.000000
+Number of blocks at level 0 at timestep 175 is 4
+Number of blocks at level 1 at timestep 175 is 28
+Number of blocks at level 2 at timestep 175 is 25
+Number of blocks at level 3 at timestep 175 is 40
+Number of blocks at level 4 at timestep 175 is 128
+Total number of blocks at timestep 175 is 225
+before ave 28 min 20 max 41
+after ave 28 min 28 max 29
+max sets on a rank 2, num sets over ranks 1 on 1 ranks
+comm partners x ave   4.00 min 3 max 6
+comm partners y ave   3.75 min 2 max 6
+comm partners z ave   3.00 min 1 max 5
+comm partners total ave  10.75 min 7 max 15
+comm partners unique ave   5.00 min 4 max 6
+
+Timestep 176 time 175.000000 delta 1.000000
+Timestep 177 time 176.000000 delta 1.000000
+Timestep 178 time 177.000000 delta 1.000000
+Timestep 179 time 178.000000 delta 1.000000
+Timestep 180 time 179.000000 delta 1.000000
+Number of blocks at level 0 at timestep 180 is 4
+Number of blocks at level 1 at timestep 180 is 28
+Number of blocks at level 2 at timestep 180 is 25
+Number of blocks at level 3 at timestep 180 is 40
+Number of blocks at level 4 at timestep 180 is 128
+Total number of blocks at timestep 180 is 225
+max sets on a rank 2, num sets over ranks 1 on 1 ranks
+comm partners x ave   4.00 min 3 max 6
+comm partners y ave   3.75 min 2 max 6
+comm partners z ave   3.00 min 1 max 5
+comm partners total ave  10.75 min 7 max 15
+comm partners unique ave   5.00 min 4 max 6
+
+Timestep 181 time 180.000000 delta 1.000000
+Timestep 182 time 181.000000 delta 1.000000
+Timestep 183 time 182.000000 delta 1.000000
+Timestep 184 time 183.000000 delta 1.000000
+Timestep 185 time 184.000000 delta 1.000000
+Number of blocks at level 0 at timestep 185 is 4
+Number of blocks at level 1 at timestep 185 is 28
+Number of blocks at level 2 at timestep 185 is 25
+Number of blocks at level 3 at timestep 185 is 40
+Number of blocks at level 4 at timestep 185 is 128
+Total number of blocks at timestep 185 is 225
+max sets on a rank 2, num sets over ranks 1 on 1 ranks
+comm partners x ave   4.00 min 3 max 6
+comm partners y ave   3.75 min 2 max 6
+comm partners z ave   3.00 min 1 max 5
+comm partners total ave  10.75 min 7 max 15
+comm partners unique ave   5.00 min 4 max 6
+
+Timestep 186 time 185.000000 delta 1.000000
+Timestep 187 time 186.000000 delta 1.000000
+Timestep 188 time 187.000000 delta 1.000000
+Timestep 189 time 188.000000 delta 1.000000
+Timestep 190 time 189.000000 delta 1.000000
+Number of blocks at level 0 at timestep 190 is 4
+Number of blocks at level 1 at timestep 190 is 28
+Number of blocks at level 2 at timestep 190 is 25
+Number of blocks at level 3 at timestep 190 is 40
+Number of blocks at level 4 at timestep 190 is 128
+Total number of blocks at timestep 190 is 225
+before ave 28 min 12 max 36
+after ave 28 min 28 max 29
+max sets on a rank 2, num sets over ranks 1 on 1 ranks
+comm partners x ave   3.75 min 2 max 6
+comm partners y ave   4.00 min 1 max 6
+comm partners z ave   3.00 min 1 max 4
+comm partners total ave  10.75 min 5 max 15
+comm partners unique ave   5.25 min 4 max 7
+
+Timestep 191 time 190.000000 delta 1.000000
+Timestep 192 time 191.000000 delta 1.000000
+Timestep 193 time 192.000000 delta 1.000000
+Timestep 194 time 193.000000 delta 1.000000
+Timestep 195 time 194.000000 delta 1.000000
+Number of blocks at level 0 at timestep 195 is 4
+Number of blocks at level 1 at timestep 195 is 28
+Number of blocks at level 2 at timestep 195 is 25
+Number of blocks at level 3 at timestep 195 is 40
+Number of blocks at level 4 at timestep 195 is 128
+Total number of blocks at timestep 195 is 225
+max sets on a rank 2, num sets over ranks 1 on 1 ranks
+comm partners x ave   3.75 min 2 max 6
+comm partners y ave   4.00 min 1 max 6
+comm partners z ave   3.00 min 1 max 4
+comm partners total ave  10.75 min 5 max 15
+comm partners unique ave   5.25 min 4 max 7
+
+Timestep 196 time 195.000000 delta 1.000000
+Timestep 197 time 196.000000 delta 1.000000
+Timestep 198 time 197.000000 delta 1.000000
+Timestep 199 time 198.000000 delta 1.000000
+Timestep 200 time 199.000000 delta 1.000000
+Number of blocks at level 0 at timestep 200 is 4
+Number of blocks at level 1 at timestep 200 is 28
+Number of blocks at level 2 at timestep 200 is 25
+Number of blocks at level 3 at timestep 200 is 40
+Number of blocks at level 4 at timestep 200 is 128
+Total number of blocks at timestep 200 is 225
+max sets on a rank 2, num sets over ranks 1 on 1 ranks
+comm partners x ave   3.75 min 2 max 6
+comm partners y ave   4.00 min 1 max 6
+comm partners z ave   3.00 min 1 max 4
+comm partners total ave  10.75 min 5 max 15
+comm partners unique ave   5.25 min 4 max 7
+
+
+ ================ Start report ===================
+
+          Mantevo miniAMR
+          version 1.7.0 (modified)
+
+Run on 8 ranks arranged in a 2 x 2 x 2 grid
+initial blocks per rank 1 x 1 x 1
+block size 8 x 8 x 8
+Initial ranks arranged by RCB across machine
+
+change_dir 0 group_blocks 0 limit_move 0
+Maximum number of blocks per rank is 9000
+Number of levels of refinement is 4
+Blocks can change by 4 levels per refinement step
+
+Blocks will be refined by 1 objects
+
+Object 0 is the surface of a spheroid
+Object may leave mesh
+Center starting at -0.010000 -0.010000 -0.010000
+Center end at -0.010000 -0.010000 -0.010000
+Moving at 0.000000 0.000000 0.000000 per timestep
+   Rate relative to smallest cell size 0.000000 0.000000 0.000000
+Initial size 0.000000 0.000000 0.000000
+Final size 0.180000 0.180000 0.180000
+Size increasing 0.000900 0.000900 0.000900 per timestep
+   Rate relative to smallest cell size 0.460800 0.460800 0.460800
+
+
+Number of timesteps is 200
+Communicaion/computation stages per timestep is 20
+Communication will be performed with nonblocking sends
+Will perform checksums every 5 stages
+Will refine every 5 timesteps
+Load balance by RCB (Recursive Coordinate Bisection)
+Load balance when inbalanced by 0%
+Will not plot results
+Calculate on 40 variables with 7 point stencil
+Communicate 2 variables at a time
+Error tolorance for variable sums is 10^(-8)
+
+Total time for test: ave, std, min, max (sec): 15.520786 0.000000 15.520785 15.520786
+
+
+Number of malloc calls: ave, std, min, max (sec): 39969080.000000 0.000000 39969080.000000 39969080.000000
+
+Amount malloced: ave, std, min, max: 3290488476.000000 0.000000 3290488476.000000 3290488476.000000
+
+Malloc calls in init: ave, std, min, max (sec): 39969080.000000 0.000000 39969080.000000 39969080.000000
+
+Amount malloced in init: ave, std, min, max: 3290488476.000000 0.000000 3290488476.000000 3290488476.000000
+
+Malloc calls in timestepping: ave, std, min, max (sec): 0.000000 0.000000 0.000000 0.000000
+
+Amount malloced in timestepping: ave, std, min, max: 0.000000 0.000000 0.000000 0.000000
+
+Main (parse, allocate) Time: ave, stddev, min, max (sec): 3.993120 0.020781 3.963675 4.020432
+
+Initailize Time: ave, stddev, min, max (sec): 0.041947 0.020780 0.014632 0.071394
+
+---------------------------------------------
+          Computational Performance
+---------------------------------------------
+
+     Time: ave, stddev, min, max (sec): 3.344802 0.080140 3.236816 3.433693
+
+     total GFLOPS:             16.449790
+     Average GFLOPS per rank:  2.056224
+
+     Total floating point ops: 59078656000.000000
+
+        Adds:                  50638848000.000000
+        Muls:                  0.000000
+        Divides:               8439808000.000000
+
+     Sum of min/max compute times per ts: 3.169937 3.757162
+
+---------------------------------------------
+           Interblock communication
+---------------------------------------------
+
+     Time: ave, stddev, min, max (sec): 8.377916 0.116070 8.207159 8.558801
+
+
+Total communication:
+
+                              average    stddev  minimum  maximum
+     Total                  : 8.363606 0.116181 8.192456 8.544710
+     Post IRecv             : 0.118499 0.026471 0.083911 0.154321
+     Pack faces             : 1.252237 0.233748 1.017840 1.600864
+     Send messages          : 0.598671 0.087138 0.476780 0.726146
+     Exchange same level    : 1.371648 0.197269 1.150311 1.820893
+     Exchange diff level    : 0.568562 0.147993 0.302945 0.857718
+     Apply BC               : 0.670706 0.129755 0.389991 0.837021
+     Wait time              : 2.848357 0.293635 2.322015 3.282274
+     Unpack faces           : 0.551385 0.094724 0.425839 0.708046
+
+     Comm partners total ave: 8.841463 1.684914 6.536585 11.292683
+     Comm partners total min: 3.000000 0.000000 3.000000 3.000000
+     Comm partners total max: 12.750000 1.984313 10.000000 16.000000
+     Comm partners uniq ave : 4.457317 0.795375 2.926829 5.463415
+     Comm partners uniq min : 2.875000 0.330719 2.000000 3.000000
+     Comm partners uniq max : 5.750000 0.968246 4.000000 7.000000
+     Messages received      : 703500.000000 134728.430556 514000.000000 896000.000000
+     Bytes received         : 1600000000.000000 197549081.050761 1391104000.000000 1901056000.000000
+     Faces received         : 2270500.000000 440884.055053 1604000.000000 2920000.000000
+     Messages sent          : 703500.000000 134728.430556 514000.000000 896000.000000
+     Bytes sent             : 1600000000.000000 197549081.050761 1391104000.000000 1901056000.000000
+     Faces sent             : 2270500.000000 440884.055053 1604000.000000 2920000.000000
+     Faces exchanged same   : 2357500.000000 396691.000654 1876000.000000 3092000.000000
+     Faces exchanged diff   : 1282000.000000 263028.515564 764000.000000 1688000.000000
+     Faces with BC applied  : 1106250.000000 209385.857927 618000.000000 1338000.000000
+
+X direction communication statistics:
+
+                              average    stddev  minimum  maximum
+     Total                  : 2.825626 0.303833 2.313120 3.226198
+     Post IRecv             : 0.036826 0.008551 0.026147 0.049794
+     Pack faces             : 0.369843 0.092124 0.239062 0.510169
+     Send messages          : 0.179631 0.051058 0.122547 0.270550
+     Exchange same level    : 0.573891 0.094817 0.458629 0.787490
+     Exchange diff level    : 0.221654 0.157313 0.043038 0.503879
+     Apply BC               : 0.242378 0.120436 0.001395 0.377401
+     Wait time              : 0.918058 0.205664 0.635180 1.294295
+     Unpack faces           : 0.146369 0.039846 0.097379 0.212353
+
+     Comm partners average  : 3.042683 0.779034 2.121951 4.268293
+     Comm partners minimum  : 1.000000 0.000000 1.000000 1.000000
+     Comm partners maximum  : 4.625000 0.992157 3.000000 6.000000
+     Messages received      : 242000.000000 62777.384463 170000.000000 344000.000000
+     Bytes received         : 437376000.000000 109590053.855266 261632000.000000 598528000.000000
+     Faces received         : 658500.000000 204572.114424 456000.000000 1004000.000000
+     Messages sent          : 242000.000000 62777.384463 170000.000000 344000.000000
+     Bytes sent             : 437376000.000000 109590053.855266 261632000.000000 598528000.000000
+     Faces sent             : 658500.000000 204572.114424 456000.000000 1004000.000000
+     Faces exchanged same   : 878000.000000 154298.412176 716000.000000 1184000.000000
+     Faces exchanged diff   : 433500.000000 328389.631383 64000.000000 1120000.000000
+     Faces with BC applied  : 368750.000000 181171.017274 8000.000000 576000.000000
+
+Y direction communication statistics:
+
+                              average    stddev  minimum  maximum
+     Total                  : 3.019615 0.141251 2.807950 3.228312
+     Post IRecv             : 0.041922 0.017348 0.022767 0.070623
+     Pack faces             : 0.467870 0.104631 0.326467 0.625219
+     Send messages          : 0.200635 0.036158 0.142970 0.254331
+     Exchange same level    : 0.485881 0.102387 0.286345 0.633608
+     Exchange diff level    : 0.199513 0.154664 0.017509 0.431436
+     Apply BC               : 0.249616 0.170292 0.001443 0.483965
+     Wait time              : 1.077052 0.147000 0.797812 1.281687
+     Unpack faces           : 0.171858 0.043615 0.113775 0.243339
+
+     Comm partners average  : 3.018293 0.953308 1.951220 4.682927
+     Comm partners minimum  : 1.000000 0.000000 1.000000 1.000000
+     Comm partners maximum  : 5.000000 0.866025 3.000000 6.000000
+     Messages received      : 239500.000000 76411.713762 154000.000000 372000.000000
+     Bytes received         : 555264000.000000 126185929.104635 312832000.000000 743424000.000000
+     Faces received         : 778500.000000 212176.223927 508000.000000 1118000.000000
+     Messages sent          : 239500.000000 76411.713762 154000.000000 372000.000000
+     Bytes sent             : 555264000.000000 126185929.104635 312832000.000000 743424000.000000
+     Faces sent             : 778500.000000 212176.223927 508000.000000 1118000.000000
+     Faces exchanged same   : 764500.000000 192649.292758 412000.000000 1064000.000000
+     Faces exchanged diff   : 427000.000000 345385.292101 24000.000000 996000.000000
+     Faces with BC applied  : 368750.000000 250563.240520 8000.000000 732000.000000
+
+Z direction communication statistics:
+
+                              average    stddev  minimum  maximum
+     Total                  : 2.518366 0.331312 2.091830 2.990023
+     Post IRecv             : 0.039751 0.010552 0.027939 0.055630
+     Pack faces             : 0.414524 0.058861 0.330897 0.513906
+     Send messages          : 0.218406 0.039637 0.165656 0.293918
+     Exchange same level    : 0.311876 0.053585 0.232908 0.399795
+     Exchange diff level    : 0.147395 0.115238 0.007207 0.340301
+     Apply BC               : 0.178712 0.124696 0.001709 0.337040
+     Wait time              : 0.853247 0.319544 0.436117 1.373029
+     Unpack faces           : 0.233158 0.031705 0.187675 0.289581
+
+     Comm partners average  : 2.780488 0.799036 1.853659 4.146341
+     Comm partners minimum  : 1.000000 0.000000 1.000000 1.000000
+     Comm partners maximum  : 4.375000 0.856957 3.000000 6.000000
+     Messages received      : 222000.000000 63835.726674 150000.000000 332000.000000
+     Bytes received         : 607360000.000000 73544103.992094 479744000.000000 696832000.000000
+     Faces received         : 833500.000000 166369.318085 604000.000000 1084000.000000
+     Messages sent          : 222000.000000 63835.726674 150000.000000 332000.000000
+     Bytes sent             : 607360000.000000 73544103.992094 479744000.000000 696832000.000000
+     Faces sent             : 833500.000000 166369.318085 604000.000000 1084000.000000
+     Faces exchanged same   : 715000.000000 149956.660406 484000.000000 900000.000000
+     Faces exchanged diff   : 421500.000000 344743.020234 0.000000 928000.000000
+     Faces with BC applied  : 368750.000000 256957.073263 8000.000000 726000.000000
+
+     Sum of min/max communicate times per ts: 7.901569 8.690933
+
+     Sum of min/max calc and comm times per ts: 11.497665 11.982283
+
+---------------------------------------------
+             Gridsum performance
+---------------------------------------------
+
+     Time: ave, stddev, min, max (sec): 0.997625 0.070264 0.880655 1.080207
+
+        red : ave, stddev, min, max (sec): 0.571659 0.069439 0.457608 0.655378
+
+        calc: ave, stddev, min, max (sec): 0.414867 0.010818 0.398328 0.428180
+
+     total number:             32000
+     number per timestep:      40
+
+     Sum of min/max gridsum times per ts: 0.739344 1.221852
+
+---------------------------------------------
+               Mesh Refinement
+---------------------------------------------
+
+     Time: ave, stddev, min, max (sec): 2.794198 0.000552 2.793061 2.795071
+
+     Number of refinement steps: 41
+
+     Number of load balance steps: 7
+
+     Number of redistributing steps: 0
+
+     Total blocks           : 412100
+     Blocks/timestep ave, min, max : 103.025000 8 225
+     Max blocks on a processor at any time: 44
+     total blocks split     : 35.000000
+     total blocks reformed  : 4.000000
+
+     total blocks moved     : 247.000000
+     total moved load bal   : 233.000000
+     total moved redistribut: 0.000000
+     total moved coasening  : 14.000000
+
+     parents ave, min, max  : 3.875000 0 7
+     max dots ave, min, max : 32.875000 28 41
+     ave dots used          : 21.821429
+
+     number of times more sets of blocks than ranks: 33
+     total sets of blocks over num of ranks: 33
+     max number of sets of blocks on a rank: 2
+
+                              average    stddev  minimum  maximum
+     Per processor:
+     total blocks split     : 4.375000 1.996090 0.000000 7.000000
+     total blocks reformed  : 0.500000 0.707107 0.000000 2.000000
+     Total blocks moved     : 30.875000 11.117975 18.000000 58.000000
+     Blocks moved load bal  : 29.125000 7.523920 18.000000 46.000000
+     Blocks moved redistribu: 0.000000 0.000000 0.000000 0.000000
+     Blocks moved coarsening: 1.750000 3.929058 0.000000 12.000000
+     Time:
+        initial refine      : 1.329046 0.000002 1.329045 1.329050
+
+        compare objects     : 0.000118 0.000030 0.000079 0.000159
+        mark refine/coarsen : 0.020596 0.000652 0.018982 0.021225
+        communicate block 1 : 0.003942 0.000714 0.003321 0.005717
+        split blocks        : 0.031963 0.000109 0.031785 0.032185
+        communicate block 2 : 0.002755 0.000050 0.002677 0.002816
+        sync time           : 0.338961 0.882511 0.004524 2.673866
+        time for groups     : 2.335518 0.882611 0.000349 2.669125
+        misc time           : 2.336320 0.882511 0.001417 2.669914
+        total coarsen blocks: 0.006286 0.000491 0.005635 0.007216
+           coarsen blocks   : 0.002611 0.000463 0.002091 0.003668
+           pack blocks      : 0.000106 0.000246 0.000000 0.000751
+           move blocks      : 0.000731 0.000949 0.000000 0.002340
+           unpack blocks    : 0.000269 0.000404 0.000000 0.001160
+        total redistribute  : 0.001036 0.000012 0.001021 0.001055
+           choose blocks    : 0.000000 0.000000 0.000000 0.000000
+           pack blocks      : 0.000000 0.000000 0.000000 0.000000
+           move blocks      : 0.000000 0.000000 0.000000 0.000000
+           unpack blocks    : 0.000000 0.000000 0.000000 0.000000
+        total load balance  : 0.052104 0.000013 0.052076 0.052124
+           sort             : 0.005136 0.000014 0.005100 0.005144
+           move dots back   : 0.000105 0.000013 0.000083 0.000122
+           move blocks total: 0.046859 0.000011 0.046840 0.046881
+              pack blocks   : 0.001866 0.000804 0.000255 0.003215
+              move blocks   : 0.023648 0.007426 0.011876 0.034672
+              unpack blocks : 0.005209 0.005121 0.001447 0.016604
+              misc          : 0.016136 0.007106 0.004577 0.027252
+
+     Sum of min/max refinement times per ts: 1.463269 1.466333
+
+---------------------------------------------
+                   Plot
+---------------------------------------------
+
+     Time: ave, stddev, min, max (sec): 0.000008 0.000002 0.000005 0.000013
+
+     Number of plot steps: 0
+
+ ================== End report ===================
+Summary: ranks 8 ts 200 time 15.520786 calc 3.344802 comm 8.377916 red 0.997625 refine 2.794198 blocks/ts 103.025000 max_blocks 44
+DEBUG: caught signal to interrupt (Child exited).
+Cleaning up
+ Closed perf event handles
+DEBUG: caught signal to interrupt (Child exited).
+Cleaning up
+ Closed perf event handles
+DEBUG: caught signal to interrupt (Child exited).
+Cleaning up
+DEBUG: caught signal to interrupt (Child exited).
+Cleaning up
+DEBUG: caught signal to interrupt (Child exited).
+Cleaning up
+DEBUG: caught signal to interrupt (Child exited).
+Cleaning up
+DEBUG: caught signal to interrupt (Child exited).
+Cleaning up
+ Closed perf event handles
+ Closed perf event handles
+ Closed perf event handles
+ Closed perf event handles
+ Closed perf event handles
+ Zeroed uncore PMU registers
+ Zeroed uncore PMU registers
+ Zeroed uncore PMU registers
+ Zeroed uncore PMU registers
+ Zeroed uncore PMU registers
+ Zeroed uncore PMU registers
+ Zeroed uncore PMU registers
+DEBUG: caught signal to interrupt (Child exited).
+Cleaning up
+ Closed perf event handles
+ Zeroed uncore PMU registers
+	Command being timed: "mpirun -vh -np 8 /usr/sbin/pcm 0.1 -csv=./output/0/vh_mini_VH_0.csv -- ./VH/miniAMR/ref/miniAMR.x --num_refine 4 --max_blocks 9000 --init_x 1 --init_y 1 --init_z 1 --npx 2 --npy 2 --npz 2 --nx 8 --ny 8 --nz 8 --num_objects 1 --object 2 0 -0.01 -0.01 -0.01 0.0 0.0 0.0 0.0 0.0 0.0 0.0009 0.0009 0.0009 --num_tsteps 200 --comm_vars 2"
+	User time (seconds): 2.23
+	System time (seconds): 2.54
+	Percent of CPU this job got: 10%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:44.46
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 141552
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 3
+	Minor (reclaiming a frame) page faults: 5765
+	Voluntary context switches: 53668
+	Involuntary context switches: 3245
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 2656
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+----------------------- Start VH miniAMR 2024-03-21_19-29-07 -----------------------
+
+ Intel(r) Performance Counter Monitor (2022-11-24 10:18:12 +0100 ID=1b16bb4e)
+
+
+
+PCM Info: setrlimit for file limit  Intel(r) Performance Counter Monitor 1000000(2022-11-24 10:18:12 +0100 ID=1b16bb4e) failed with error 
+
+
+Operation not permitted
+PCM Info: setrlimit for file limit 1000000
+=====  Processor information  =====
+ failed with error 
+Operation not permitted Intel(r) Performance Counter Monitor 
+
+(2022-11-24 10:18:12 +0100 ID=1b16bb4e)
+ Intel(r) Performance Counter Monitor 
+
+ Intel(r) Performance Counter Monitor (2022-11-24 10:18:12 +0100 ID=1b16bb4e)
+
+
+=====  Processor information  =====
+(2022-11-24 10:18:12 +0100 ID=1b16bb4e) Intel(r) Performance Counter Monitor 
+ Intel(r) Performance Counter Monitor 
+
+(2022-11-24 10:18:12 +0100 ID=1b16bb4e)
+(2022-11-24 10:18:12 +0100 ID=1b16bb4e)
+
+
+
+
+
+PCM Info: setrlimit for file limit 
+
+1000000PCM Info: setrlimit for file limit 
+PCM Info: setrlimit for file limit  failed with error 10000001000000PCM Info: setrlimit for file limit Operation not permitted failed with error  failed with error 1000000PCM Info: setrlimit for file limit 
+Linux arch_perfmon flag  :  failed with error Operation not permittedOperation not permitted1000000Operation not permitted
+yes
+
+ failed with error 
+
+=====  Processor information  =====
+Hybrid processor         : Operation not permittedno
+
+
+=====  Processor information  =====
+
+=====  Processor information  =====
+IBRS and IBPB supported  : 
+=====  Processor information  =====
+yes
+STIBP supported          : yes
+=====  Processor information  =====
+
+Spec arch caps supported : yes
+Max CPUID level          : 22
+CPU model number         : 85
+Linux arch_perfmon flag  : yes
+
+Hybrid processor         : noLinux arch_perfmon flag  : 
+yesLinux arch_perfmon flag  : IBRS and IBPB supported  : 
+Linux arch_perfmon flag  : yesyes Intel(r) Performance Counter Monitor Hybrid processor         : yesLinux arch_perfmon flag  : 
+
+no(2022-11-24 10:18:12 +0100 ID=1b16bb4e)
+yesHybrid processor         : STIBP supported          : 
+
+Hybrid processor         : 
+noyesIBRS and IBPB supported  : 
+noHybrid processor         : 
+
+yes
+
+noIBRS and IBPB supported  : Spec arch caps supported : 
+IBRS and IBPB supported  : 
+yesyesSTIBP supported          : yesIBRS and IBPB supported  : 
+PCM Info: setrlimit for file limit 
+yes
+yesSTIBP supported          : 1000000Max CPUID level          : 
+STIBP supported          : 
+yes failed with error 22Spec arch caps supported : yesSTIBP supported          : 
+Operation not permitted
+yes
+yesSpec arch caps supported : 
+CPU model number         : 
+Spec arch caps supported : 
+yes85Max CPUID level          : yesSpec arch caps supported : 
+
+22
+yesMax CPUID level          : 
+=====  Processor information  =====
+
+Max CPUID level          : 
+22CPU model number         : 22Max CPUID level          : 
+85
+22CPU model number         : 
+CPU model number         : 
+8585CPU model number         : 
+
+85
+Linux arch_perfmon flag  : yes
+Hybrid processor         : no
+IBRS and IBPB supported  : yes
+STIBP supported          : yes
+Spec arch caps supported : yes
+Max CPUID level          : 22
+CPU model number         : 85
+Number of physical cores: 16
+Number of logical cores: 16
+Number of online logical cores: 16
+Threads (logical cores) per physical core: 1
+Num sockets: 2
+Physical cores per socket: 8
+Last level cache slices per socket: 0
+Core PMU (perfmon) version: 4
+Number of core PMU generic (programmable) counters: 8
+Width of generic (programmable) counters: 48 bits
+Number of core PMU fixed counters: 3
+Width of fixed counters: 48 bits
+Nominal core frequency: 2100000000 Hz
+IBRS enabled in the kernel   : no
+STIBP enabled in the kernel  : no
+The processor is not susceptible to Rogue Data Cache Load: no
+The processor supports enhanced IBRS                     : no
+
+=====  Processor topology  =====
+OS_Processor    Thread_Id       Core_Id         Tile_Id         Package_Id      Core_Type   Native_CPU_Model
+0               0               0               0               0               invalid         -1              
+1               0               1               1               0               invalid         -1              
+2               0               2               2               0               invalid         -1              
+3               0               3               3               0               invalid         -1              
+4               0               4               4               0               invalid         -1              
+5               0               5               5               0               invalid         -1              
+6               0               6               6               0               invalid         -1              
+7               0               7               7               0               invalidNumber of physical cores: Number of physical cores: 16
+Number of physical cores: 16
+Number of physical cores: Number of physical cores:          -1              
+8               0               0               8               1               invalid         -1              
+9               0               1               Number of logical cores: 9               16161               
+Number of logical cores: 
+invalid16Number of online logical cores: 1616Number of logical cores:  
+16
+
+16 Number of logical cores: 
+Number of online logical cores: Number of logical cores: 
+ 16Threads (logical cores) per physical core: 1616Number of online logical cores:  
+1
+
+16 Number of online logical cores: 
+Threads (logical cores) per physical core: Number of online logical cores: 
+ 16Num sockets: 116Threads (logical cores) per physical core:  
+2
+
+1 Threads (logical cores) per physical core: 
+Num sockets: Threads (logical cores) per physical core: 
+ 1Physical cores per socket: 21Num sockets: -1              
+8
+
+2
+Num sockets: 
+Physical cores per socket: Num sockets: 
+10              2Last level cache slices per socket: 82Physical cores per socket: 0               
+0
+
+82               Physical cores per socket: 
+Last level cache slices per socket: Physical cores per socket: 
+10              8Core PMU (perfmon) version: 08Last level cache slices per socket: 1               
+4
+
+0invalidLast level cache slices per socket: 
+Core PMU (perfmon) version: Last level cache slices per socket: 
+ 0Number of core PMU generic (programmable) counters: 40Core PMU (perfmon) version:  
+8
+
+4 Core PMU (perfmon) version: 
+Number of core PMU generic (programmable) counters: Core PMU (perfmon) version: 
+ 4Width of generic (programmable) counters: 84Number of core PMU generic (programmable) counters:  
+48
+
+8 Number of core PMU generic (programmable) counters:  bits
+Width of generic (programmable) counters: Number of core PMU generic (programmable) counters: 
+ 8Number of core PMU fixed counters: 488
+Width of generic (programmable) counters: Width of generic (programmable) counters: 48 48 bits
+
+  bits
+Number of core PMU fixed counters: Width of generic (programmable) counters: -1              Number of core PMU fixed counters: 348
+3
+ bits
+11              
+Width of fixed counters: Number of core PMU fixed counters: 0               Width of fixed counters: 4833               48 bits
+
+11               bits
+Nominal core frequency: Width of fixed counters: 1               Nominal core frequency: 210000000048invalid2100000000 Hz
+ bits
+  Hz
+IBRS enabled in the kernel   : Nominal core frequency:  IBRS enabled in the kernel   : no2100000000 no
+ Hz
+ 
+STIBP enabled in the kernel  : IBRS enabled in the kernel   :  STIBP enabled in the kernel  : nono no
+
+ 
+The processor is not susceptible to Rogue Data Cache Load: STIBP enabled in the kernel  :  The processor is not susceptible to Rogue Data Cache Load: nono no
+
+-1              
+The processor supports enhanced IBRS                     : The processor is not susceptible to Rogue Data Cache Load: 
+The processor supports enhanced IBRS                     : nono12              no
+
+0               
+
+=====  Processor topology  =====
+
+=====  Processor topology  =====
+The processor supports enhanced IBRS                     : 4               OS_Processor    Thread_Id       Core_Id         Tile_Id         Package_Id      Core_Type   Native_CPU_Model
+OS_Processor    Thread_Id       Core_Id         Tile_Id         Package_Id      Core_Type   Native_CPU_Model
+no12              0               0               
+1               0               0               
+=====  Processor topology  =====
+invalid0               0               OS_Processor    Thread_Id       Core_Id         Tile_Id         Package_Id      Core_Type   Native_CPU_Model
+ 0               0               0                0               0               0                invalidinvalid0                  0                  0                  invalid         3
+ bits
+Width of fixed counters: Number of core PMU fixed counters:  48      Linux arch_perfmon flag  : -1               -1              yes
+3 
+ 
+1                bits
+
+ 13               Hybrid processor         : 0               Width of fixed counters: Nominal core frequency:  0                no1               482100000000 5               -1              
+1                bits
+ Hz
+-1              13              
+IBRS and IBPB supported  : 0               Nominal core frequency: IBRS enabled in the kernel   : 
+1               1               yesinvalid2100000000noinvalid1               0               
+  Hz
+
+ 0               1               STIBP supported          :  IBRS enabled in the kernel   : STIBP enabled in the kernel  :  1               1               yes nono 1               0               
+ 
+
+ 0               invalidSpec arch caps supported :  STIBP enabled in the kernel  : The processor is not susceptible to Rogue Data Cache Load:  invalid  yes nono    
+ 
+
+   Max CPUID level          :  The processor is not susceptible to Rogue Data Cache Load: The processor supports enhanced IBRS                     :      22 nono    
+CPU model number         : -1              85
+
+
+2               
+The processor supports enhanced IBRS                     : 0               -1              no
+=====  Processor topology  =====
+-1              2               
+ 
+
+OS_Processor    Thread_Id       Core_Id         Tile_Id         Package_Id      Core_Type   Native_CPU_Model
+Number of physical cores: 2               2                14              
+=====  Processor topology  =====
+0               0               0               160                0               OS_Processor    Thread_Id       Core_Id         Tile_Id         Package_Id      Core_Type   Native_CPU_Model
+0               invalid
+2                6               0               0                Number of logical cores: 2               -1              14              0               0                160               
+1               2               0               invalid 
+invalidinvalid0               0                 Number of online logical cores:   2               0                 16  2               invalid  
+  0                  Threads (logical cores) per physical core:   invalid   1      
+     -1              Num sockets:      
+2     3               
+    -1              0               Physical cores per socket: -1              -1                
+3               8
+
+  3               1               
+3               15               -1              0               0               Last level cache slices per socket: 0               3               0               3               7                0               15              
+-1              invalidinvalid1               
+01               
+1                 invalid3               0               Core PMU (perfmon) version:  1                 0               1               4 0                 3               1               
+ invalid  3               0               Number of core PMU generic (programmable) counters:     0               invalid8    invalid 
+      Width of generic (programmable) counters:       48       bits
+-1               -1                 Number of core PMU fixed counters: 
+ 
+-1                34                4               
+  
+0                0               =====  Placement on packages  =====
+  Width of fixed counters: 4               -1              4               Package Id.    Core Id.     Processors
+  484               
+4               0               -1               bits
+0               2               0               0-1              
+Nominal core frequency: invalid0               Number of physical cores: invalid16 ,
+ 
+1Number of logical cores: 2                4               2100000000,160                 0               2 Hz
+
+2                 4               ,IBRS enabled in the kernel   : Number of online logical cores: 2                 4               3no160                 0               ,
+
+invalid  invalid4STIBP enabled in the kernel  : Threads (logical cores) per physical core:     ,no1 -1                5
+
+ 
+  ,The processor is not susceptible to Rogue Data Cache Load: Num sockets:  5                 6no2 0                -1              ,
+
+ 5                
+7The processor supports enhanced IBRS                     : Physical cores per socket:  5                
+5               no8 0                1              0               
+
+ invalid 05               
+=====  Processor topology  =====
+Last level cache slices per socket: -1               -1              ,5               OS_Processor    Thread_Id       Core_Id         Tile_Id         Package_Id      Core_Type   Native_CPU_Model
+0               0               0               0               0               invalid         -1              
+1               0               1               1               0               invalid         -1              
+2               0               2               2               0               invalid         -1              
+3               0               3               3               0               invalid         -1              
+4               0               4               4               0               invalid       2               2               00               
+
+invalidCore PMU (perfmon) version:   3               
+4 1 0               5               0               
+  ,3               0               Number of core PMU generic (programmable) counters:  invalid 23               5               8   ,0               5               
+   3invalid0               Width of generic (programmable) counters:    , invalid48   4   bits
+-1                ,  Number of core PMU fixed counters: 
+ -1              5  36                
+,  
+0                3               6  Width of fixed counters: 6                0               ,  486               -1              3               7   bits
+0               
+3               
+  Nominal core frequency: invalid6               0               
+=====  Core/Tile sharing  =====
+-1               2100000000 0               invalidLevel      Processors
+Core       
+-1               Hz
+ 6                (4               
+IBRS enabled in the kernel   :  6                00               6               0               6                  -1               
+0                5                invalid0                 5                 5               -1               0               
+ invalid7                 0                 7                 7                 0                 invalid-1                
+  7                 0                 7               -1               7               
+ 0               6                invalid0                 6                 6               -1               0               
+ invalid8                 0                 0                 8                 1                 invalid-1                
+  8                 0                 0               -1               8               
+ 1                7                invalid) 0                  4                7               (4                 -1              7               10                 
+0               )invalid  9               invalid(   0                2  1               -1               )  9               
+ (  1                4               3  invalid 0               ) -1               no6               
+STIBP enabled in the kernel  : no0               
+invalidThe processor is not susceptible to Rogue Data Cache Load:  no 
+ The processor supports enhanced IBRS                     :  no 
+ 
+=====  Processor topology  =====
+ OS_Processor    Thread_Id       Core_Id         Tile_Id         Package_Id      Core_Type   Native_CPU_Model
+ 0                0               -1              0               
+0               0               7               invalid0                7                7                0                invalid          -1               
+  1                0               -1              1               
+1               8               0               0               invalid0                8                1                invalid            -1               
+ 2                0               -1              2               
+2               9               0               0               invalid1                9                1                invalid            -1               
+ 3                0               -1              3               
+3               10              0               0               invalid2                10               1                invalid     4                (4                 0               4 
+ invalid )-1                9               ( 
+-1               0               5 8               
+ 1               ) 0                5               9               ( 0                0               1               6 8                5               5               0               invalid         -1              
+6               0               6               6               0               invalid         -1              
+7               0               7               7               0               invalid         -1              
+8               0               0               8               1               invalid         -1              
+9               0               1               9               1               invalid         -1              
+10              0               2               10              1               invalid         -1              
+11              0               3               11              1               invalid         -1              
+12              0               4               12              1               invalid         -1              
+13              0               5               13              1               invalid         -1              
+14              0               6               14              1               invalid         -1              
+15              0               7               15              1               invalid         -1              
+ =====  Placement on packages  =====
+Package Id.    Core Id.     Processors
+  0              )   0( 1                 , 7 invalid-1              -1              1)   
+
+,(  -1               10              24               8 
+ 0               ,0               )-1              5                2               34               (
+0                10              ,4               911              5                1               40               )0               5                invalid,invalid(3               0                 5 1011              invalid  , )1                -1               6 (invalid 
+ , 11   9               7 )   0               
+ invalid   (   12   1                9               1              -1              0 1               
+,  invalid 11              1)    0               ,(-1                 3               213
+ -1               11              ,)5                
+ 1               3(0                -1              6               invalid,145                
+0                4)5                12              6                    ,  (5 0                invalid 15,0                 6                 )64               -1               0                -1              
+Tile / L2$ ,12              
+ invalid 
+(71                10                10              0
+invalid-1              0                 0               )
+=====  Core/Tile sharing  =====
+ 
+2                 2               (Level      Processors
+Core        12              10                10              1( 0               1                 1               )0 4               invalid  invalid() 12                -1               2( 1                 
+ )1 invalid  6                ()   -1              0                3(    
+  6               7                 6               0               )-1               20               7               -1              (
+  )invalid7               
+411                ( 0               13              )0                 3 invalid0               (3                -1              )  5               511               
+(  13              )1                11              4  1               (invalid 0               )  invalid6 -1              3               (   ) 
+11              5   ( 13              1               )   7 0               invalid(-1                ) 5                6
+  ( 13               )7               -1               8 1                (0               
+ ) invalid 77               8                (   )7               0                9-1                (0               0               -1              )
+  8invalid8               
+(12                ) 1               14              100                 (9 ) invalid( 0                10) 6                )( 14              4                ( 11 -1              1                12              11 ) 
+invalid ) ( 12               1                ( 12-1              0                 12-1              )
+invalid4                 )
+(8                12                (14              130                1                -1              130               )0                invalid 
+)6               (8                  9               (14              141                  0               141               )invalid    1               )invalid(   -1              9               ( 15     
+1               15 )   -1              15              invalid) 
+    
+0                
+Tile / L2$   
+  -1               Package thermal spec power:  
+ 7               0  9               -1              15              13               Watt; 0               (-1               0               
+1               Package minimum power: 5               0
+ 1               15              invalid    013              )13               9               0                 Watt; 1               (0                1               7                  Package maximum power: invalid15                invalid15               0 )13                1               -1               Watt;
+ (1                 invalid  
+ 2invalid-1                 =====  Placement on packages  =====
+ ) 
+   Package Id.    Core Id.     Processors
+ ( 10                0               3 0                  0 ) 2                -1              , ( 10               
+1 4 1                =====  Placement on packages  =====
+,-1              
+) invalid-1              Package Id.    Core Id.     Processors
+0              214              (  
+0,30               ,45, 6                )510              -1              ,14               
+(,0               
+11                662               14              ,invalid ),10              0               Can't open MCFG table. Check permission of 2  (71               6               /sys/firmware/acpi/tables/MCFG,  7
+invalid14              
+3  )1               1               Can't open MCFG table. Check permission of ,  (0 invalid/sys/firmware/acpi/tables/MCFG14 -1              8,  
+, 
+)1  Can't open MCFG table. Check permission of 5 11              (,  /pcm/sys/firmware/acpi/tables/MCFG, 0               92  
+6 3               ),  Can't open MCFG table. Check permission of ,-1              11              (3  /pcm/sys/firmware/acpi/tables/MCFG17
+1               10,  
+
+invalid15              )4-1                1              -1              0 
+ ,0               15               (1,7               
+0                WARNING: enumeration of devices in UncorePMUDiscovery failed
+11,515              11              7                )2,1               0               15               (,6invalid3               1                123, 11              invalid ),7  1                 (4
+ invalid -1              13,
+=====  Core/Tile sharing  =====
+   
+)5Level      Processors
+Core          12              (,(   0               1460   4               ),)   12              (7(-1                1               15
+1
+  invalid)
+=====  Core/Tile sharing  =====
+)=====  Placement on packages  =====
+ -1               
+Level      Processors
+Core       (Package Id.    Core Id.     Processors
+ 
+ 
+(02))0              ((-1              01=====  Placement on packages  =====
+3
+ ,Package thermal spec power: )0INFO: Linux perf interface to program uncore PMUs is Package Id.    Core Id.     Processors
+)12               1( Watt; present
+0              (0                ,2Package minimum power: INFO: using Linux perf interface to program uncore PMUs because env variable PCM_USE_UNCORE_PERF=1
+044                2)0INFO: Secure Boot detected. Using Linux perf for uncore PMU programming.
+,)12               ,( Watt; 1(1                33Package maximum power: ,5invalid  ,)02) -1              4( Watt;
+,(  
+,436  13              5),)  0               ,(4( 5               65,7-1              13              ,)5)
+1               7(,(13              invalid
+6680                1              )(7,)(7)8
+5               )( 1              13              (09 01               9,) ,invalid)1( 1 (,10 , 102) 2 ),( , (311 3 11,)-1              ,
+  )4(
+4  (,1214              ,-1              125)Can't open MCFG table. Check permission of 0               5
+),(/sys/firmware/acpi/tables/MCFG6               ,14              (613
+14              60               13,)Can't open MCFG table. Check permission of 1               ,6               )7(/sys/firmware/acpi/tables/MCFG1invalid714              (
+14
+ 
+1               14
+=====  Core/Tile sharing  =====
+)(Can't open MCFG table. Check permission of 15/pcm/sys/firmware/acpi/tables/MCFG )
+
+=====  Core/Tile sharing  =====
+ 
+Tile / L2$ invalidCan't open MCFG table. Check permission of Level      Processors
+Core       ) ( /pcm/sys/firmware/acpi/tables/MCFG1Level      Processors
+Core       (( 0 
+Socket (015 )  00)) (  : )(
+Tile / L2$ WARNING: enumeration of devices in UncorePMUDiscovery failed
+ 1  2(1( )  memory controllers detected with total number of 1)0-1              (-1              6)()
+2
+ channels. (2(15              )15              22)10               (0                )()7               37               15              UPI(3(15              )1                ports detected.3)21               (invalid    )()invalid4    2   M2M (mesh to memory) blocks detected. (-1              044(
+ Home Agents detected.  )))3=====  Placement on packages  =====
+INFO: Linux perf interface to program uncore PMUs is 2  ((()Package Id.    Core Id.     Processors
+present
+ M3UPI blocks detected.
+  555(0              INFO: using Linux perf interface to program uncore PMUs because env variable PCM_USE_UNCORE_PERF=1
+  )))40INFO: Secure Boot detected. Using Linux perf for uncore PMU programming.
+ (((), 666(1-1              )))5,
+((()2=====  Placement on packages  =====
+777(,Package Id.    Core Id.     Processors
+)))630              (((),0888(4,)))7,1((()5,999(,2)))(810)6)(,,((937(1110),
+10))(41              )((10,0(111211)5,)))(,1(((116,121312),2)))(7,(((12
+3131413)1              ,)))(04(((13,,141514)15)))(,,(
+(142615
+15),,))(Package thermal spec power: 37
+Tile / L2$ 
+Tile / L2$ 150,
+(() Watt; 4
+=====  Core/Tile sharing  =====
+Level      Processors
+Core       (0)(1)(20))0((
+)3Package minimum power: 1,
+()0)51Package thermal spec power: ( Watt; (,)04Package maximum power: 26( Watt; )0),2Package minimum power: ( Watt;
+(7)053
+( Watt; )(6)(7))
+=====  Core/Tile sharing  =====
+3Package maximum power: ((Level      Processors
+Core       )084(( Watt;
+))04(())95(())15(())106(())26(())117(())3(7)8()(
+)
+12(Socket 4(Socket )081)Can't open MCFG table. Check permission of 9Can't open MCFG table. Check permission of (: ): (5/sys/firmware/acpi/tables/MCFG)/sys/firmware/acpi/tables/MCFG132(2)
+(
+) memory controllers detected with total number of 9 memory controllers detected with total number of (Can't open MCFG table. Check permission of 10Can't open MCFG table. Check permission of (6)66/sys/firmware/acpi/tables/MCFG1)/sys/firmware/acpi/tables/MCFG114 channels. ( channels. )
+(
+)2102(Can't open MCFG table. Check permission of 11Can't open MCFG table. Check permission of ( ) 7/pcm/sys/firmware/acpi/tables/MCFG)/pcm/sys/firmware/acpi/tables/MCFG15UPI(UPI)
+(
+) ports detected.11 ports detected.(Can't open MCFG table. Check permission of 12Can't open MCFG table. Check permission of 
+Tile / L2$  ) 8/pcm/sys/firmware/acpi/tables/MCFG1)/pcm/sys/firmware/acpi/tables/MCFG1(2(2)
+(
+0 M2M (mesh to memory) blocks detected. 12 M2M (mesh to memory) blocks detected. (13)(01 Home Agents detected. ))20((9 M3UPI blocks detected.
+ Home Agents detected. 13)2)WARNING: enumeration of devices in UncorePMUDiscovery failed
+2)()( M3UPI blocks detected.
+(14(1014)3))()((15(1115)4))
+)(
+
+(12
+5)Package thermal spec power: )Package thermal spec power: (0(013 Watt; 6 Watt; )Package minimum power: )WARNING: enumeration of devices in UncorePMUDiscovery failed
+Package minimum power: (0(014 Watt; 7 Watt; )Package maximum power: )Package maximum power: (0(015 Watt;
+8 Watt;
+))
+Tile / L2$ ((90))((101))((211
+))(
+(312INFO: Linux perf interface to program uncore PMUs is )Can't open MCFG table. Check permission of )present
+(/sys/firmware/acpi/tables/MCFG(INFO: using Linux perf interface to program uncore PMUs because env variable PCM_USE_UNCORE_PERF=1
+4
+13INFO: Secure Boot detected. Using Linux perf for uncore PMU programming.
+)Can't open MCFG table. Check permission of )Can't open MCFG table. Check permission of (/sys/firmware/acpi/tables/MCFG1(/sys/firmware/acpi/tables/MCFGINFO: Linux perf interface to program uncore PMUs is 5present
+
+INFO: using Linux perf interface to program uncore PMUs because env variable PCM_USE_UNCORE_PERF=1
+14
+)Can't open MCFG table. Check permission of INFO: Secure Boot detected. Using Linux perf for uncore PMU programming.
+)Can't open MCFG table. Check permission of (/pcm/sys/firmware/acpi/tables/MCFG(/sys/firmware/acpi/tables/MCFG16
+15
+)Can't open MCFG table. Check permission of )Can't open MCFG table. Check permission of (/pcm/sys/firmware/acpi/tables/MCFG1
+/pcm/sys/firmware/acpi/tables/MCFG7
+
+
+)Package thermal spec power: Can't open MCFG table. Check permission of (0/pcm/sys/firmware/acpi/tables/MCFG18 Watt; WARNING: enumeration of devices in UncorePMUDiscovery failed
+
+)Package minimum power: (09 Watt; )Package maximum power: (010 Watt;
+)(11)(12WARNING: enumeration of devices in UncorePMUDiscovery failed
+)(13)(14)(15)
+
+Package thermal spec power: 0 Watt; Package minimum power: 0 Watt; Package maximum power: 0 Watt;
+
+
+Can't open MCFG table. Check permission of /sys/firmware/acpi/tables/MCFG
+Can't open MCFG table. Check permission of /sys/firmware/acpi/tables/MCFG1
+Can't open MCFG table. Check permission of /pcm/sys/firmware/acpi/tables/MCFG
+Can't open MCFG table. Check permission of Can't open MCFG table. Check permission of /sys/firmware/acpi/tables/MCFG/pcm/sys/firmware/acpi/tables/MCFG1
+
+Can't open MCFG table. Check permission of /sys/firmware/acpi/tables/MCFG1
+Can't open MCFG table. Check permission of /pcm/sys/firmware/acpi/tables/MCFG
+Can't open MCFG table. Check permission of /pcm/sys/firmware/acpi/tables/MCFG1
+WARNING: enumeration of devices in UncorePMUDiscovery failed
+WARNING: enumeration of devices in UncorePMUDiscovery failed
+INFO: Linux perf interface to program uncore PMUs is present
+INFO: using Linux perf interface to program uncore PMUs because env variable PCM_USE_UNCORE_PERF=1
+INFO: Secure Boot detected. Using Linux perf for uncore PMU programming.
+INFO: Linux perf interface to program uncore PMUs is present
+INFO: using Linux perf interface to program uncore PMUs because env variable PCM_USE_UNCORE_PERF=1
+INFO: Secure Boot detected. Using Linux perf for uncore PMU programming.
+INFO: Linux perf interface to program uncore PMUs is present
+INFO: Linux perf interface to program uncore PMUs is INFO: using Linux perf interface to program uncore PMUs because env variable PCM_USE_UNCORE_PERF=1
+present
+INFO: Secure Boot detected. Using Linux perf for uncore PMU programming.
+INFO: using Linux perf interface to program uncore PMUs because env variable PCM_USE_UNCORE_PERF=1
+INFO: Secure Boot detected. Using Linux perf for uncore PMU programming.
+Socket 1: 2 memory controllers detected with total number of 6 channels. 2 UPI ports detected. 2 M2M (mesh to memory) blocks detected. 0 Home Agents detected. 2 M3UPI blocks detected.
+Socket 0: 2 memory controllers detected with total number of 6 channels. 2 UPI ports detected. 2 M2M (mesh to memory) blocks detected. 0 Home Agents detected. 2 M3UPI blocks detected.
+Socket 0: 2 memory controllers detected with total number of 6 channels. 2 UPI ports detected. 2 M2M (mesh to memory) blocks detected. 0 Home Agents detected. 2 M3UPI blocks detected.
+Socket 0: 2 memory controllers detected with total number of 6 channels. 2 UPI ports detected. 2 M2M (mesh to memory) blocks detected. 0 Home Agents detected. 2 M3UPI blocks detected.
+Socket 0: 2 memory controllers detected with total number of 6 channels. 2 UPI ports detected. 2 M2M (mesh to memory) blocks detected. 0 Home Agents detected. 2 M3UPI blocks detected.
+Socket 0: 2 memory controllers detected with total number of 6 channels. 2 UPI ports detected. 2 M2M (mesh to memory) blocks detected. 0 Home Agents detected. 2 M3UPI blocks detected.
+Socket 0: 2 memory controllers detected with total number of 6 channels. 2 UPI ports detected. 2 M2M (mesh to memory) blocks detected. 0 Home Agents detected. 2 M3UPI blocks detected.
+Socket 1: 2 memory controllers detected with total number of 6 channels. 2 UPI ports detected. 2 M2M (mesh to memory) blocks detected. 0 Home Agents detected. 2 M3UPI blocks detected.
+Socket 1: 2 memory controllers detected with total number of 6 channels. 2 UPI ports detected. 2 M2M (mesh to memory) blocks detected. 0 Home Agents detected. 2 M3UPI blocks detected.
+Socket 1: 2 memory controllers detected with total number of 6 channels. 2 UPI ports detected. 2 M2M (mesh to memory) blocks detected. 0 Home Agents detected. 2 M3UPI blocks detected.
+Socket 1Socket : 2Socket 1 memory controllers detected with total number of 1: 6: 2 channels. 2 memory controllers detected with total number of 2 memory controllers detected with total number of 6 6 channels. UPI channels. 2 ports detected.2   UPI2UPI ports detected. M2M (mesh to memory) blocks detected.  ports detected. 0 2 Home Agents detected. 2 M2M (mesh to memory) blocks detected. 2 M2M (mesh to memory) blocks detected. 0 M3UPI blocks detected.
+0 Home Agents detected.  Home Agents detected. 22 M3UPI blocks detected.
+ M3UPI blocks detected.
+INFO: using Linux resctrl driver for RDT metrics (L3OCC, LMB, RMB) because environment variable PCM_USE_RESCTRL=1
+ERROR: /sys/fs/resctrl is not mounted
+ERROR: RDT metrics (L3OCC,LMB,RMB) will not be available
+Mount it to make it work: mount -t resctrl resctrl /sys/fs/resctrl
+
+ Closed perf event handles
+Trying to use Linux perf events...
+INFO: using Linux resctrl driver for RDT metrics (L3OCC, LMB, RMB) because environment variable PCM_USE_RESCTRL=1
+ERROR: /sys/fs/resctrl is not mounted
+ERROR: RDT metrics (L3OCC,LMB,RMB) will not be available
+Mount it to make it work: mount -t resctrl resctrl /sys/fs/resctrl
+INFO: using Linux resctrl driver for RDT metrics (L3OCC, LMB, RMB) because environment variable PCM_USE_RESCTRL=1
+ERROR: /sys/fs/resctrl is not mounted
+ERROR: RDT metrics (L3OCC,LMB,RMB) will not be available
+Mount it to make it work: mount -t resctrl resctrl /sys/fs/resctrl
+Successfully programmed on-core PMU using Linux perf
+
+
+INFO: using Linux resctrl driver for RDT metrics (L3OCC, LMB, RMB) because environment variable PCM_USE_RESCTRL=1
+ERROR: /sys/fs/resctrl is not mounted
+ERROR: RDT metrics (L3OCC,LMB,RMB) will not be available
+Mount it to make it work: mount -t resctrl resctrl /sys/fs/resctrl
+INFO: using Linux resctrl driver for RDT metrics (L3OCC, LMB, RMB) because environment variable PCM_USE_RESCTRL=1
+ERROR: /sys/fs/resctrl is not mounted
+ERROR: RDT metrics (L3OCC,LMB,RMB) will not be available
+Mount it to make it work: mount -t resctrl resctrl /sys/fs/resctrl
+ Closed perf event handles
+Trying to use Linux perf events...
+ Closed perf event handles
+Trying to use Linux perf events...
+
+ Closed perf event handles
+Trying to use Linux perf events...
+INFO: using Linux resctrl driver for RDT metrics (L3OCC, LMB, RMB) because environment variable PCM_USE_RESCTRL=1
+INFO: using Linux resctrl driver for RDT metrics (L3OCC, LMB, RMB) because environment variable PCM_USE_RESCTRL=1
+ERROR: /sys/fs/resctrl is not mounted
+ERROR: RDT metrics (L3OCC,LMB,RMB) will not be available
+Mount it to make it work: mount -t resctrl resctrl /sys/fs/resctrl
+ERROR: /sys/fs/resctrl is not mounted
+ERROR: RDT metrics (L3OCC,LMB,RMB) will not be available
+Mount it to make it work: mount -t resctrl resctrl /sys/fs/resctrl
+
+INFO: using Linux resctrl driver for RDT metrics (L3OCC, LMB, RMB) because environment variable PCM_USE_RESCTRL=1
+Successfully programmed on-core PMU using Linux perf
+ERROR: /sys/fs/resctrl is not mounted
+Successfully programmed on-core PMU using Linux perf
+ERROR: RDT metrics (L3OCC,LMB,RMB) will not be available
+Mount it to make it work: mount -t resctrl resctrl /sys/fs/resctrl
+Successfully programmed on-core PMU using Linux perf
+ Closed perf event handles
+Trying to use Linux perf events...
+Successfully programmed on-core PMU using Linux perf
+
+ Closed perf event handles
+Trying to use Linux perf events...
+
+
+ Closed perf event handles
+Trying to use Linux perf events...
+ Closed perf event handles
+Trying to use Linux perf events...
+Successfully programmed on-core PMU using Linux perf
+Successfully programmed on-core PMU using Linux perf
+Successfully programmed on-core PMU using Linux perf
+Socket 0
+Max UPI link 0 speed: 2.2 GBytes/second (1.0 GT/second)
+Max UPI link 1 speed: 2.2 GBytes/second (1.0 GT/second)
+Socket 1
+Max UPI link 0 speed: 2.5 GBytes/second (1.1 GT/second)
+Max UPI link 1 speed: 2.5 GBytes/second (1.1 GT/second)
+
+Detected Intel(R) Xeon(R) Silver 4208 CPU @ 2.10GHz "Intel(r) microarchitecture codename Cascade Lake-SP" stepping 7
+
+Executing "./VH/miniAMR/ref/miniAMR.x" command:
+Socket 0
+Max UPI link 0 speed: 2.7 GBytes/second (1.2 GT/second)
+Max UPI link 1 speed: 2.7 GBytes/second (1.2 GT/second)
+Socket 1
+Max UPI link 0 speed: 2.9 GBytes/second (1.3 GT/second)
+Max UPI link 1 speed: 2.9 GBytes/second (1.3 GT/second)
+
+Detected Intel(R) Xeon(R) Silver 4208 CPU @ 2.10GHz "Intel(r) microarchitecture codename Cascade Lake-SP" stepping 7
+
+Executing "./VH/miniAMR/ref/miniAMR.x" command:
+Socket 0
+Max UPI link 0 speed: 2.4 GBytes/second (1.1 GT/second)
+Max UPI link 1 speed: 2.4 GBytes/second (1.1 GT/second)
+Socket 1
+Max UPI link 0 speed: 2.7 GBytes/second (1.2 GT/second)
+Max UPI link 1 speed: 2.7 GBytes/second (1.2 GT/second)
+
+Detected Intel(R) Xeon(R) Silver 4208 CPU @ 2.10GHz "Intel(r) microarchitecture codename Cascade Lake-SP" stepping 7
+
+Executing "./VH/miniAMR/ref/miniAMR.x" command:
+Socket 0
+Max UPI link 0 speed: 2.7 GBytes/second (1.2 GT/second)
+Max UPI link 1 speed: 2.7 GBytes/second (1.2 GT/second)
+Socket 1
+Max UPI link 0 speed: 2.4 GBytes/second (1.1 GT/second)
+Max UPI link 1 speed: 2.4 GBytes/second (1.1 GT/second)
+
+Detected Intel(R) Xeon(R) Silver 4208 CPU @ 2.10GHz "Intel(r) microarchitecture codename Cascade Lake-SP" stepping 7
+Socket 0
+Max UPI link 0 speed: 3.1 GBytes/second (1.4 GT/second)
+Max UPI link 1 speed: 3.1 GBytes/second (1.4 GT/second)
+Socket 1
+Max UPI
+Executing "./VH/miniAMR/ref/miniAMR.x" command:
+ link 0 speed: 2.7 GBytes/second (1.2 GT/second)
+Max UPI link 1 speed: 2.7 GBytes/second (1.2 GT/second)
+
+Detected Intel(R) Xeon(R) Silver 4208 CPU @ 2.10GHz "Intel(r) microarchitecture codename Cascade Lake-SP" stepping 7
+
+Executing "./VH/miniAMR/ref/miniAMR.x" command:
+Socket 0
+Max UPI link 0 speed: 2.6 GBytes/second (1.2 GT/second)
+Max UPI link 1 speed: 2.6 GBytes/second (1.2 GT/second)
+Socket 1
+Max UPI link 0 speed: 3.0 GBytes/second (1.3 GT/second)
+Max UPI link 1 speed: 3.0 GBytes/second (1.3 GT/second)
+
+Detected Intel(R) Xeon(R) Silver 4208 CPU @ 2.10GHz "Intel(r) microarchitecture codename Cascade Lake-SP" stepping 7
+
+Executing "./VH/miniAMR/ref/miniAMR.x" command:
+Socket 0
+Max UPI link 0 speed: 2.5 GBytes/second (1.1 GT/second)
+Max UPI link 1 speed: 2.5 GBytes/second (1.1 GT/second)
+Socket 1
+Max UPI link 0 speed: 2.8 GBytes/second (1.2 GT/second)
+Max UPI link 1 speed: 2.8 GBytes/second (1.2 GT/second)
+
+Detected Intel(R) Xeon(R) Silver 4208 CPU @ 2.10GHz "Intel(r) microarchitecture codename Cascade Lake-SP" stepping 7
+
+Executing "./VH/miniAMR/ref/miniAMR.x" command:
+Socket 0
+Max UPI link 0 speed: 2.5 GBytes/second (1.1 GT/second)
+Max UPI link 1 speed: 2.5 GBytes/second (1.1 GT/second)
+Socket 1
+Max UPI link 0 speed: 2.9 GBytes/second (1.3 GT/second)
+Max UPI link 1 speed: 2.9 GBytes/second (1.3 GT/second)
+
+Detected Intel(R) Xeon(R) Silver 4208 CPU @ 2.10GHz "Intel(r) microarchitecture codename Cascade Lake-SP" stepping 7
+
+Executing "./VH/miniAMR/ref/miniAMR.x" command:
+Number of blocks at level 0 at timestep 0 is 8
+Number of blocks at level 1 at timestep 0 is 0
+Number of blocks at level 2 at timestep 0 is 0
+Number of blocks at level 3 at timestep 0 is 0
+Number of blocks at level 4 at timestep 0 is 0
+Total number of blocks at timestep 0 is 8
+comm partners x ave   1.00 min 1 max 1
+comm partners y ave   1.00 min 1 max 1
+comm partners z ave   1.00 min 1 max 1
+comm partners total ave   3.00 min 3 max 3
+comm partners unique ave   3.00 min 3 max 3
+
+Timestep 1 time 0.000000 delta 1.000000
+Timestep 2 time 1.000000 delta 1.000000
+Timestep 3 time 2.000000 delta 1.000000
+Timestep 4 time 3.000000 delta 1.000000
+Timestep 5 time 4.000000 delta 1.000000
+Number of blocks at level 0 at timestep 5 is 8
+Number of blocks at level 1 at timestep 5 is 0
+Number of blocks at level 2 at timestep 5 is 0
+Number of blocks at level 3 at timestep 5 is 0
+Number of blocks at level 4 at timestep 5 is 0
+Total number of blocks at timestep 5 is 8
+comm partners x ave   1.00 min 1 max 1
+comm partners y ave   1.00 min 1 max 1
+comm partners z ave   1.00 min 1 max 1
+comm partners total ave   3.00 min 3 max 3
+comm partners unique ave   3.00 min 3 max 3
+
+Timestep 6 time 5.000000 delta 1.000000
+Timestep 7 time 6.000000 delta 1.000000
+Timestep 8 time 7.000000 delta 1.000000
+Timestep 9 time 8.000000 delta 1.000000
+Timestep 10 time 9.000000 delta 1.000000
+Number of blocks at level 0 at timestep 10 is 8
+Number of blocks at level 1 at timestep 10 is 0
+Number of blocks at level 2 at timestep 10 is 0
+Number of blocks at level 3 at timestep 10 is 0
+Number of blocks at level 4 at timestep 10 is 0
+Total number of blocks at timestep 10 is 8
+comm partners x ave   1.00 min 1 max 1
+comm partners y ave   1.00 min 1 max 1
+comm partners z ave   1.00 min 1 max 1
+comm partners total ave   3.00 min 3 max 3
+comm partners unique ave   3.00 min 3 max 3
+
+Timestep 11 time 10.000000 delta 1.000000
+Timestep 12 time 11.000000 delta 1.000000
+Timestep 13 time 12.000000 delta 1.000000
+Timestep 14 time 13.000000 delta 1.000000
+Timestep 15 time 14.000000 delta 1.000000
+Number of blocks at level 0 at timestep 15 is 8
+Number of blocks at level 1 at timestep 15 is 0
+Number of blocks at level 2 at timestep 15 is 0
+Number of blocks at level 3 at timestep 15 is 0
+Number of blocks at level 4 at timestep 15 is 0
+Total number of blocks at timestep 15 is 8
+comm partners x ave   1.00 min 1 max 1
+comm partners y ave   1.00 min 1 max 1
+comm partners z ave   1.00 min 1 max 1
+comm partners total ave   3.00 min 3 max 3
+comm partners unique ave   3.00 min 3 max 3
+
+Timestep 16 time 15.000000 delta 1.000000
+Timestep 17 time 16.000000 delta 1.000000
+Timestep 18 time 17.000000 delta 1.000000
+Timestep 19 time 18.000000 delta 1.000000
+Timestep 20 time 19.000000 delta 1.000000
+Number of blocks at level 0 at timestep 20 is 7
+Number of blocks at level 1 at timestep 20 is 7
+Number of blocks at level 2 at timestep 20 is 7
+Number of blocks at level 3 at timestep 20 is 7
+Number of blocks at level 4 at timestep 20 is 8
+Total number of blocks at timestep 20 is 36
+before ave 4 min 1 max 29
+after ave 4 min 4 max 5
+max sets on a rank 2, num sets over ranks 1 on 1 ranks
+comm partners x ave   2.50 min 1 max 5
+comm partners y ave   2.50 min 1 max 5
+comm partners z ave   2.50 min 1 max 4
+comm partners total ave   7.50 min 6 max 9
+comm partners unique ave   4.25 min 2 max 6
+
+Timestep 21 time 20.000000 delta 1.000000
+Timestep 22 time 21.000000 delta 1.000000
+Timestep 23 time 22.000000 delta 1.000000
+Timestep 24 time 23.000000 delta 1.000000
+Timestep 25 time 24.000000 delta 1.000000
+Number of blocks at level 0 at timestep 25 is 7
+Number of blocks at level 1 at timestep 25 is 7
+Number of blocks at level 2 at timestep 25 is 7
+Number of blocks at level 3 at timestep 25 is 7
+Number of blocks at level 4 at timestep 25 is 8
+Total number of blocks at timestep 25 is 36
+max sets on a rank 2, num sets over ranks 1 on 1 ranks
+comm partners x ave   2.50 min 1 max 5
+comm partners y ave   2.50 min 1 max 5
+comm partners z ave   2.50 min 1 max 4
+comm partners total ave   7.50 min 6 max 9
+comm partners unique ave   4.25 min 2 max 6
+
+Timestep 26 time 25.000000 delta 1.000000
+Timestep 27 time 26.000000 delta 1.000000
+Timestep 28 time 27.000000 delta 1.000000
+Timestep 29 time 28.000000 delta 1.000000
+Timestep 30 time 29.000000 delta 1.000000
+Number of blocks at level 0 at timestep 30 is 7
+Number of blocks at level 1 at timestep 30 is 7
+Number of blocks at level 2 at timestep 30 is 7
+Number of blocks at level 3 at timestep 30 is 7
+Number of blocks at level 4 at timestep 30 is 8
+Total number of blocks at timestep 30 is 36
+max sets on a rank 2, num sets over ranks 1 on 1 ranks
+comm partners x ave   2.50 min 1 max 5
+comm partners y ave   2.50 min 1 max 5
+comm partners z ave   2.50 min 1 max 4
+comm partners total ave   7.50 min 6 max 9
+comm partners unique ave   4.25 min 2 max 6
+
+Timestep 31 time 30.000000 delta 1.000000
+Timestep 32 time 31.000000 delta 1.000000
+Timestep 33 time 32.000000 delta 1.000000
+Timestep 34 time 33.000000 delta 1.000000
+Timestep 35 time 34.000000 delta 1.000000
+Number of blocks at level 0 at timestep 35 is 7
+Number of blocks at level 1 at timestep 35 is 7
+Number of blocks at level 2 at timestep 35 is 7
+Number of blocks at level 3 at timestep 35 is 7
+Number of blocks at level 4 at timestep 35 is 8
+Total number of blocks at timestep 35 is 36
+max sets on a rank 2, num sets over ranks 1 on 1 ranks
+comm partners x ave   2.50 min 1 max 5
+comm partners y ave   2.50 min 1 max 5
+comm partners z ave   2.50 min 1 max 4
+comm partners total ave   7.50 min 6 max 9
+comm partners unique ave   4.25 min 2 max 6
+
+Timestep 36 time 35.000000 delta 1.000000
+Timestep 37 time 36.000000 delta 1.000000
+Timestep 38 time 37.000000 delta 1.000000
+Timestep 39 time 38.000000 delta 1.000000
+Timestep 40 time 39.000000 delta 1.000000
+Number of blocks at level 0 at timestep 40 is 7
+Number of blocks at level 1 at timestep 40 is 7
+Number of blocks at level 2 at timestep 40 is 7
+Number of blocks at level 3 at timestep 40 is 7
+Number of blocks at level 4 at timestep 40 is 8
+Total number of blocks at timestep 40 is 36
+max sets on a rank 2, num sets over ranks 1 on 1 ranks
+comm partners x ave   2.50 min 1 max 5
+comm partners y ave   2.50 min 1 max 5
+comm partners z ave   2.50 min 1 max 4
+comm partners total ave   7.50 min 6 max 9
+comm partners unique ave   4.25 min 2 max 6
+
+Timestep 41 time 40.000000 delta 1.000000
+Timestep 42 time 41.000000 delta 1.000000
+Timestep 43 time 42.000000 delta 1.000000
+Timestep 44 time 43.000000 delta 1.000000
+Timestep 45 time 44.000000 delta 1.000000
+Number of blocks at level 0 at timestep 45 is 7
+Number of blocks at level 1 at timestep 45 is 7
+Number of blocks at level 2 at timestep 45 is 7
+Number of blocks at level 3 at timestep 45 is 7
+Number of blocks at level 4 at timestep 45 is 8
+Total number of blocks at timestep 45 is 36
+max sets on a rank 2, num sets over ranks 1 on 1 ranks
+comm partners x ave   2.50 min 1 max 5
+comm partners y ave   2.50 min 1 max 5
+comm partners z ave   2.50 min 1 max 4
+comm partners total ave   7.50 min 6 max 9
+comm partners unique ave   4.25 min 2 max 6
+
+Timestep 46 time 45.000000 delta 1.000000
+Timestep 47 time 46.000000 delta 1.000000
+Timestep 48 time 47.000000 delta 1.000000
+Timestep 49 time 48.000000 delta 1.000000
+Timestep 50 time 49.000000 delta 1.000000
+Number of blocks at level 0 at timestep 50 is 7
+Number of blocks at level 1 at timestep 50 is 7
+Number of blocks at level 2 at timestep 50 is 7
+Number of blocks at level 3 at timestep 50 is 7
+Number of blocks at level 4 at timestep 50 is 8
+Total number of blocks at timestep 50 is 36
+max sets on a rank 2, num sets over ranks 1 on 1 ranks
+comm partners x ave   2.50 min 1 max 5
+comm partners y ave   2.50 min 1 max 5
+comm partners z ave   2.50 min 1 max 4
+comm partners total ave   7.50 min 6 max 9
+comm partners unique ave   4.25 min 2 max 6
+
+Timestep 51 time 50.000000 delta 1.000000
+Timestep 52 time 51.000000 delta 1.000000
+Timestep 53 time 52.000000 delta 1.000000
+Timestep 54 time 53.000000 delta 1.000000
+Timestep 55 time 54.000000 delta 1.000000
+Number of blocks at level 0 at timestep 55 is 7
+Number of blocks at level 1 at timestep 55 is 7
+Number of blocks at level 2 at timestep 55 is 7
+Number of blocks at level 3 at timestep 55 is 7
+Number of blocks at level 4 at timestep 55 is 8
+Total number of blocks at timestep 55 is 36
+max sets on a rank 2, num sets over ranks 1 on 1 ranks
+comm partners x ave   2.50 min 1 max 5
+comm partners y ave   2.50 min 1 max 5
+comm partners z ave   2.50 min 1 max 4
+comm partners total ave   7.50 min 6 max 9
+comm partners unique ave   4.25 min 2 max 6
+
+Timestep 56 time 55.000000 delta 1.000000
+Timestep 57 time 56.000000 delta 1.000000
+Timestep 58 time 57.000000 delta 1.000000
+Timestep 59 time 58.000000 delta 1.000000
+Timestep 60 time 59.000000 delta 1.000000
+Number of blocks at level 0 at timestep 60 is 7
+Number of blocks at level 1 at timestep 60 is 7
+Number of blocks at level 2 at timestep 60 is 7
+Number of blocks at level 3 at timestep 60 is 7
+Number of blocks at level 4 at timestep 60 is 8
+Total number of blocks at timestep 60 is 36
+max sets on a rank 2, num sets over ranks 1 on 1 ranks
+comm partners x ave   2.50 min 1 max 5
+comm partners y ave   2.50 min 1 max 5
+comm partners z ave   2.50 min 1 max 4
+comm partners total ave   7.50 min 6 max 9
+comm partners unique ave   4.25 min 2 max 6
+
+Timestep 61 time 60.000000 delta 1.000000
+Timestep 62 time 61.000000 delta 1.000000
+Timestep 63 time 62.000000 delta 1.000000
+Timestep 64 time 63.000000 delta 1.000000
+Timestep 65 time 64.000000 delta 1.000000
+Number of blocks at level 0 at timestep 65 is 7
+Number of blocks at level 1 at timestep 65 is 7
+Number of blocks at level 2 at timestep 65 is 7
+Number of blocks at level 3 at timestep 65 is 7
+Number of blocks at level 4 at timestep 65 is 8
+Total number of blocks at timestep 65 is 36
+max sets on a rank 2, num sets over ranks 1 on 1 ranks
+comm partners x ave   2.50 min 1 max 5
+comm partners y ave   2.50 min 1 max 5
+comm partners z ave   2.50 min 1 max 4
+comm partners total ave   7.50 min 6 max 9
+comm partners unique ave   4.25 min 2 max 6
+
+Timestep 66 time 65.000000 delta 1.000000
+Timestep 67 time 66.000000 delta 1.000000
+Timestep 68 time 67.000000 delta 1.000000
+Timestep 69 time 68.000000 delta 1.000000
+Timestep 70 time 69.000000 delta 1.000000
+Number of blocks at level 0 at timestep 70 is 7
+Number of blocks at level 1 at timestep 70 is 7
+Number of blocks at level 2 at timestep 70 is 7
+Number of blocks at level 3 at timestep 70 is 7
+Number of blocks at level 4 at timestep 70 is 8
+Total number of blocks at timestep 70 is 36
+max sets on a rank 2, num sets over ranks 1 on 1 ranks
+comm partners x ave   2.50 min 1 max 5
+comm partners y ave   2.50 min 1 max 5
+comm partners z ave   2.50 min 1 max 4
+comm partners total ave   7.50 min 6 max 9
+comm partners unique ave   4.25 min 2 max 6
+
+Timestep 71 time 70.000000 delta 1.000000
+Timestep 72 time 71.000000 delta 1.000000
+Timestep 73 time 72.000000 delta 1.000000
+Timestep 74 time 73.000000 delta 1.000000
+Timestep 75 time 74.000000 delta 1.000000
+Number of blocks at level 0 at timestep 75 is 7
+Number of blocks at level 1 at timestep 75 is 7
+Number of blocks at level 2 at timestep 75 is 7
+Number of blocks at level 3 at timestep 75 is 7
+Number of blocks at level 4 at timestep 75 is 8
+Total number of blocks at timestep 75 is 36
+max sets on a rank 2, num sets over ranks 1 on 1 ranks
+comm partners x ave   2.50 min 1 max 5
+comm partners y ave   2.50 min 1 max 5
+comm partners z ave   2.50 min 1 max 4
+comm partners total ave   7.50 min 6 max 9
+comm partners unique ave   4.25 min 2 max 6
+
+Timestep 76 time 75.000000 delta 1.000000
+Timestep 77 time 76.000000 delta 1.000000
+Timestep 78 time 77.000000 delta 1.000000
+Timestep 79 time 78.000000 delta 1.000000
+Timestep 80 time 79.000000 delta 1.000000
+Number of blocks at level 0 at timestep 80 is 7
+Number of blocks at level 1 at timestep 80 is 7
+Number of blocks at level 2 at timestep 80 is 7
+Number of blocks at level 3 at timestep 80 is 7
+Number of blocks at level 4 at timestep 80 is 8
+Total number of blocks at timestep 80 is 36
+max sets on a rank 2, num sets over ranks 1 on 1 ranks
+comm partners x ave   2.50 min 1 max 5
+comm partners y ave   2.50 min 1 max 5
+comm partners z ave   2.50 min 1 max 4
+comm partners total ave   7.50 min 6 max 9
+comm partners unique ave   4.25 min 2 max 6
+
+Timestep 81 time 80.000000 delta 1.000000
+Timestep 82 time 81.000000 delta 1.000000
+Timestep 83 time 82.000000 delta 1.000000
+Timestep 84 time 83.000000 delta 1.000000
+Timestep 85 time 84.000000 delta 1.000000
+Number of blocks at level 0 at timestep 85 is 4
+Number of blocks at level 1 at timestep 85 is 28
+Number of blocks at level 2 at timestep 85 is 28
+Number of blocks at level 3 at timestep 85 is 28
+Number of blocks at level 4 at timestep 85 is 32
+Total number of blocks at timestep 85 is 120
+before ave 15 min 4 max 25
+after ave 15 min 15 max 15
+max sets on a rank 2, num sets over ranks 1 on 1 ranks
+comm partners x ave   3.50 min 1 max 6
+comm partners y ave   2.75 min 1 max 5
+comm partners z ave   3.25 min 1 max 5
+comm partners total ave   9.50 min 5 max 14
+comm partners unique ave   4.50 min 3 max 6
+
+Timestep 86 time 85.000000 delta 1.000000
+Timestep 87 time 86.000000 delta 1.000000
+Timestep 88 time 87.000000 delta 1.000000
+Timestep 89 time 88.000000 delta 1.000000
+Timestep 90 time 89.000000 delta 1.000000
+Number of blocks at level 0 at timestep 90 is 4
+Number of blocks at level 1 at timestep 90 is 28
+Number of blocks at level 2 at timestep 90 is 28
+Number of blocks at level 3 at timestep 90 is 28
+Number of blocks at level 4 at timestep 90 is 32
+Total number of blocks at timestep 90 is 120
+max sets on a rank 2, num sets over ranks 1 on 1 ranks
+comm partners x ave   3.50 min 1 max 6
+comm partners y ave   2.75 min 1 max 5
+comm partners z ave   3.25 min 1 max 5
+comm partners total ave   9.50 min 5 max 14
+comm partners unique ave   4.50 min 3 max 6
+
+Timestep 91 time 90.000000 delta 1.000000
+Timestep 92 time 91.000000 delta 1.000000
+Timestep 93 time 92.000000 delta 1.000000
+Timestep 94 time 93.000000 delta 1.000000
+Timestep 95 time 94.000000 delta 1.000000
+Number of blocks at level 0 at timestep 95 is 4
+Number of blocks at level 1 at timestep 95 is 28
+Number of blocks at level 2 at timestep 95 is 28
+Number of blocks at level 3 at timestep 95 is 28
+Number of blocks at level 4 at timestep 95 is 32
+Total number of blocks at timestep 95 is 120
+max sets on a rank 2, num sets over ranks 1 on 1 ranks
+comm partners x ave   3.50 min 1 max 6
+comm partners y ave   2.75 min 1 max 5
+comm partners z ave   3.25 min 1 max 5
+comm partners total ave   9.50 min 5 max 14
+comm partners unique ave   4.50 min 3 max 6
+
+Timestep 96 time 95.000000 delta 1.000000
+Timestep 97 time 96.000000 delta 1.000000
+Timestep 98 time 97.000000 delta 1.000000
+Timestep 99 time 98.000000 delta 1.000000
+Timestep 100 time 99.000000 delta 1.000000
+Number of blocks at level 0 at timestep 100 is 4
+Number of blocks at level 1 at timestep 100 is 28
+Number of blocks at level 2 at timestep 100 is 28
+Number of blocks at level 3 at timestep 100 is 28
+Number of blocks at level 4 at timestep 100 is 32
+Total number of blocks at timestep 100 is 120
+max sets on a rank 2, num sets over ranks 1 on 1 ranks
+comm partners x ave   3.50 min 1 max 6
+comm partners y ave   2.75 min 1 max 5
+comm partners z ave   3.25 min 1 max 5
+comm partners total ave   9.50 min 5 max 14
+comm partners unique ave   4.50 min 3 max 6
+
+Timestep 101 time 100.000000 delta 1.000000
+Timestep 102 time 101.000000 delta 1.000000
+Timestep 103 time 102.000000 delta 1.000000
+Timestep 104 time 103.000000 delta 1.000000
+Timestep 105 time 104.000000 delta 1.000000
+Number of blocks at level 0 at timestep 105 is 4
+Number of blocks at level 1 at timestep 105 is 28
+Number of blocks at level 2 at timestep 105 is 28
+Number of blocks at level 3 at timestep 105 is 28
+Number of blocks at level 4 at timestep 105 is 32
+Total number of blocks at timestep 105 is 120
+max sets on a rank 2, num sets over ranks 1 on 1 ranks
+comm partners x ave   3.50 min 1 max 6
+comm partners y ave   2.75 min 1 max 5
+comm partners z ave   3.25 min 1 max 5
+comm partners total ave   9.50 min 5 max 14
+comm partners unique ave   4.50 min 3 max 6
+
+Timestep 106 time 105.000000 delta 1.000000
+Timestep 107 time 106.000000 delta 1.000000
+Timestep 108 time 107.000000 delta 1.000000
+Timestep 109 time 108.000000 delta 1.000000
+Timestep 110 time 109.000000 delta 1.000000
+Number of blocks at level 0 at timestep 110 is 4
+Number of blocks at level 1 at timestep 110 is 28
+Number of blocks at level 2 at timestep 110 is 28
+Number of blocks at level 3 at timestep 110 is 28
+Number of blocks at level 4 at timestep 110 is 32
+Total number of blocks at timestep 110 is 120
+max sets on a rank 2, num sets over ranks 1 on 1 ranks
+comm partners x ave   3.50 min 1 max 6
+comm partners y ave   2.75 min 1 max 5
+comm partners z ave   3.25 min 1 max 5
+comm partners total ave   9.50 min 5 max 14
+comm partners unique ave   4.50 min 3 max 6
+
+Timestep 111 time 110.000000 delta 1.000000
+Timestep 112 time 111.000000 delta 1.000000
+Timestep 113 time 112.000000 delta 1.000000
+Timestep 114 time 113.000000 delta 1.000000
+Timestep 115 time 114.000000 delta 1.000000
+Number of blocks at level 0 at timestep 115 is 4
+Number of blocks at level 1 at timestep 115 is 28
+Number of blocks at level 2 at timestep 115 is 28
+Number of blocks at level 3 at timestep 115 is 25
+Number of blocks at level 4 at timestep 115 is 56
+Total number of blocks at timestep 115 is 141
+before ave 17 min 15 max 22
+after ave 17 min 17 max 18
+max sets on a rank 2, num sets over ranks 1 on 1 ranks
+comm partners x ave   3.75 min 2 max 5
+comm partners y ave   4.00 min 2 max 6
+comm partners z ave   3.25 min 2 max 5
+comm partners total ave  11.00 min 7 max 16
+comm partners unique ave   4.75 min 3 max 6
+
+Timestep 116 time 115.000000 delta 1.000000
+Timestep 117 time 116.000000 delta 1.000000
+Timestep 118 time 117.000000 delta 1.000000
+Timestep 119 time 118.000000 delta 1.000000
+Timestep 120 time 119.000000 delta 1.000000
+Number of blocks at level 0 at timestep 120 is 4
+Number of blocks at level 1 at timestep 120 is 28
+Number of blocks at level 2 at timestep 120 is 28
+Number of blocks at level 3 at timestep 120 is 25
+Number of blocks at level 4 at timestep 120 is 56
+Total number of blocks at timestep 120 is 141
+max sets on a rank 2, num sets over ranks 1 on 1 ranks
+comm partners x ave   3.75 min 2 max 5
+comm partners y ave   4.00 min 2 max 6
+comm partners z ave   3.25 min 2 max 5
+comm partners total ave  11.00 min 7 max 16
+comm partners unique ave   4.75 min 3 max 6
+
+Timestep 121 time 120.000000 delta 1.000000
+Timestep 122 time 121.000000 delta 1.000000
+Timestep 123 time 122.000000 delta 1.000000
+Timestep 124 time 123.000000 delta 1.000000
+Timestep 125 time 124.000000 delta 1.000000
+Number of blocks at level 0 at timestep 125 is 4
+Number of blocks at level 1 at timestep 125 is 28
+Number of blocks at level 2 at timestep 125 is 28
+Number of blocks at level 3 at timestep 125 is 25
+Number of blocks at level 4 at timestep 125 is 56
+Total number of blocks at timestep 125 is 141
+max sets on a rank 2, num sets over ranks 1 on 1 ranks
+comm partners x ave   3.75 min 2 max 5
+comm partners y ave   4.00 min 2 max 6
+comm partners z ave   3.25 min 2 max 5
+comm partners total ave  11.00 min 7 max 16
+comm partners unique ave   4.75 min 3 max 6
+
+Timestep 126 time 125.000000 delta 1.000000
+Timestep 127 time 126.000000 delta 1.000000
+Timestep 128 time 127.000000 delta 1.000000
+Timestep 129 time 128.000000 delta 1.000000
+Timestep 130 time 129.000000 delta 1.000000
+Number of blocks at level 0 at timestep 130 is 4
+Number of blocks at level 1 at timestep 130 is 28
+Number of blocks at level 2 at timestep 130 is 28
+Number of blocks at level 3 at timestep 130 is 25
+Number of blocks at level 4 at timestep 130 is 56
+Total number of blocks at timestep 130 is 141
+max sets on a rank 2, num sets over ranks 1 on 1 ranks
+comm partners x ave   3.75 min 2 max 5
+comm partners y ave   4.00 min 2 max 6
+comm partners z ave   3.25 min 2 max 5
+comm partners total ave  11.00 min 7 max 16
+comm partners unique ave   4.75 min 3 max 6
+
+Timestep 131 time 130.000000 delta 1.000000
+Timestep 132 time 131.000000 delta 1.000000
+Timestep 133 time 132.000000 delta 1.000000
+Timestep 134 time 133.000000 delta 1.000000
+Timestep 135 time 134.000000 delta 1.000000
+Number of blocks at level 0 at timestep 135 is 4
+Number of blocks at level 1 at timestep 135 is 28
+Number of blocks at level 2 at timestep 135 is 28
+Number of blocks at level 3 at timestep 135 is 25
+Number of blocks at level 4 at timestep 135 is 56
+Total number of blocks at timestep 135 is 141
+max sets on a rank 2, num sets over ranks 1 on 1 ranks
+comm partners x ave   3.75 min 2 max 5
+comm partners y ave   4.00 min 2 max 6
+comm partners z ave   3.25 min 2 max 5
+comm partners total ave  11.00 min 7 max 16
+comm partners unique ave   4.75 min 3 max 6
+
+Timestep 136 time 135.000000 delta 1.000000
+Timestep 137 time 136.000000 delta 1.000000
+Timestep 138 time 137.000000 delta 1.000000
+Timestep 139 time 138.000000 delta 1.000000
+Timestep 140 time 139.000000 delta 1.000000
+Number of blocks at level 0 at timestep 140 is 4
+Number of blocks at level 1 at timestep 140 is 28
+Number of blocks at level 2 at timestep 140 is 28
+Number of blocks at level 3 at timestep 140 is 25
+Number of blocks at level 4 at timestep 140 is 56
+Total number of blocks at timestep 140 is 141
+before ave 17 min 11 max 24
+after ave 17 min 17 max 18
+max sets on a rank 2, num sets over ranks 1 on 1 ranks
+comm partners x ave   3.75 min 2 max 5
+comm partners y ave   4.50 min 3 max 6
+comm partners z ave   3.25 min 2 max 5
+comm partners total ave  11.50 min 9 max 15
+comm partners unique ave   5.00 min 3 max 7
+
+Timestep 141 time 140.000000 delta 1.000000
+Timestep 142 time 141.000000 delta 1.000000
+Timestep 143 time 142.000000 delta 1.000000
+Timestep 144 time 143.000000 delta 1.000000
+Timestep 145 time 144.000000 delta 1.000000
+Number of blocks at level 0 at timestep 145 is 4
+Number of blocks at level 1 at timestep 145 is 28
+Number of blocks at level 2 at timestep 145 is 28
+Number of blocks at level 3 at timestep 145 is 25
+Number of blocks at level 4 at timestep 145 is 56
+Total number of blocks at timestep 145 is 141
+max sets on a rank 2, num sets over ranks 1 on 1 ranks
+comm partners x ave   3.75 min 2 max 5
+comm partners y ave   4.50 min 3 max 6
+comm partners z ave   3.25 min 2 max 5
+comm partners total ave  11.50 min 9 max 15
+comm partners unique ave   5.00 min 3 max 7
+
+Timestep 146 time 145.000000 delta 1.000000
+Timestep 147 time 146.000000 delta 1.000000
+Timestep 148 time 147.000000 delta 1.000000
+Timestep 149 time 148.000000 delta 1.000000
+Timestep 150 time 149.000000 delta 1.000000
+Number of blocks at level 0 at timestep 150 is 4
+Number of blocks at level 1 at timestep 150 is 28
+Number of blocks at level 2 at timestep 150 is 28
+Number of blocks at level 3 at timestep 150 is 25
+Number of blocks at level 4 at timestep 150 is 56
+Total number of blocks at timestep 150 is 141
+max sets on a rank 2, num sets over ranks 1 on 1 ranks
+comm partners x ave   3.75 min 2 max 5
+comm partners y ave   4.50 min 3 max 6
+comm partners z ave   3.25 min 2 max 5
+comm partners total ave  11.50 min 9 max 15
+comm partners unique ave   5.00 min 3 max 7
+
+Timestep 151 time 150.000000 delta 1.000000
+Timestep 152 time 151.000000 delta 1.000000
+Timestep 153 time 152.000000 delta 1.000000
+Timestep 154 time 153.000000 delta 1.000000
+Timestep 155 time 154.000000 delta 1.000000
+Number of blocks at level 0 at timestep 155 is 4
+Number of blocks at level 1 at timestep 155 is 28
+Number of blocks at level 2 at timestep 155 is 28
+Number of blocks at level 3 at timestep 155 is 22
+Number of blocks at level 4 at timestep 155 is 80
+Total number of blocks at timestep 155 is 162
+before ave 20 min 17 max 25
+after ave 20 min 20 max 21
+comm partners x ave   3.50 min 2 max 6
+comm partners y ave   3.50 min 1 max 5
+comm partners z ave   3.50 min 1 max 6
+comm partners total ave  10.50 min 7 max 16
+comm partners unique ave   4.75 min 4 max 6
+
+Timestep 156 time 155.000000 delta 1.000000
+Timestep 157 time 156.000000 delta 1.000000
+Timestep 158 time 157.000000 delta 1.000000
+Timestep 159 time 158.000000 delta 1.000000
+Timestep 160 time 159.000000 delta 1.000000
+Number of blocks at level 0 at timestep 160 is 4
+Number of blocks at level 1 at timestep 160 is 28
+Number of blocks at level 2 at timestep 160 is 28
+Number of blocks at level 3 at timestep 160 is 22
+Number of blocks at level 4 at timestep 160 is 80
+Total number of blocks at timestep 160 is 162
+comm partners x ave   3.50 min 2 max 6
+comm partners y ave   3.50 min 1 max 5
+comm partners z ave   3.50 min 1 max 6
+comm partners total ave  10.50 min 7 max 16
+comm partners unique ave   4.75 min 4 max 6
+
+Timestep 161 time 160.000000 delta 1.000000
+Timestep 162 time 161.000000 delta 1.000000
+Timestep 163 time 162.000000 delta 1.000000
+Timestep 164 time 163.000000 delta 1.000000
+Timestep 165 time 164.000000 delta 1.000000
+Number of blocks at level 0 at timestep 165 is 4
+Number of blocks at level 1 at timestep 165 is 28
+Number of blocks at level 2 at timestep 165 is 28
+Number of blocks at level 3 at timestep 165 is 22
+Number of blocks at level 4 at timestep 165 is 80
+Total number of blocks at timestep 165 is 162
+comm partners x ave   3.50 min 2 max 6
+comm partners y ave   3.50 min 1 max 5
+comm partners z ave   3.50 min 1 max 6
+comm partners total ave  10.50 min 7 max 16
+comm partners unique ave   4.75 min 4 max 6
+
+Timestep 166 time 165.000000 delta 1.000000
+Timestep 167 time 166.000000 delta 1.000000
+Timestep 168 time 167.000000 delta 1.000000
+Timestep 169 time 168.000000 delta 1.000000
+Timestep 170 time 169.000000 delta 1.000000
+Number of blocks at level 0 at timestep 170 is 4
+Number of blocks at level 1 at timestep 170 is 28
+Number of blocks at level 2 at timestep 170 is 28
+Number of blocks at level 3 at timestep 170 is 22
+Number of blocks at level 4 at timestep 170 is 80
+Total number of blocks at timestep 170 is 162
+comm partners x ave   3.50 min 2 max 6
+comm partners y ave   3.50 min 1 max 5
+comm partners z ave   3.50 min 1 max 6
+comm partners total ave  10.50 min 7 max 16
+comm partners unique ave   4.75 min 4 max 6
+
+Timestep 171 time 170.000000 delta 1.000000
+Timestep 172 time 171.000000 delta 1.000000
+Timestep 173 time 172.000000 delta 1.000000
+Timestep 174 time 173.000000 delta 1.000000
+Timestep 175 time 174.000000 delta 1.000000
+Number of blocks at level 0 at timestep 175 is 4
+Number of blocks at level 1 at timestep 175 is 28
+Number of blocks at level 2 at timestep 175 is 25
+Number of blocks at level 3 at timestep 175 is 40
+Number of blocks at level 4 at timestep 175 is 128
+Total number of blocks at timestep 175 is 225
+before ave 28 min 20 max 41
+after ave 28 min 28 max 29
+max sets on a rank 2, num sets over ranks 1 on 1 ranks
+comm partners x ave   4.00 min 3 max 6
+comm partners y ave   3.75 min 2 max 6
+comm partners z ave   3.00 min 1 max 5
+comm partners total ave  10.75 min 7 max 15
+comm partners unique ave   5.00 min 4 max 6
+
+Timestep 176 time 175.000000 delta 1.000000
+Timestep 177 time 176.000000 delta 1.000000
+Timestep 178 time 177.000000 delta 1.000000
+Timestep 179 time 178.000000 delta 1.000000
+Timestep 180 time 179.000000 delta 1.000000
+Number of blocks at level 0 at timestep 180 is 4
+Number of blocks at level 1 at timestep 180 is 28
+Number of blocks at level 2 at timestep 180 is 25
+Number of blocks at level 3 at timestep 180 is 40
+Number of blocks at level 4 at timestep 180 is 128
+Total number of blocks at timestep 180 is 225
+max sets on a rank 2, num sets over ranks 1 on 1 ranks
+comm partners x ave   4.00 min 3 max 6
+comm partners y ave   3.75 min 2 max 6
+comm partners z ave   3.00 min 1 max 5
+comm partners total ave  10.75 min 7 max 15
+comm partners unique ave   5.00 min 4 max 6
+
+Timestep 181 time 180.000000 delta 1.000000
+Timestep 182 time 181.000000 delta 1.000000
+Timestep 183 time 182.000000 delta 1.000000
+Timestep 184 time 183.000000 delta 1.000000
+Timestep 185 time 184.000000 delta 1.000000
+Number of blocks at level 0 at timestep 185 is 4
+Number of blocks at level 1 at timestep 185 is 28
+Number of blocks at level 2 at timestep 185 is 25
+Number of blocks at level 3 at timestep 185 is 40
+Number of blocks at level 4 at timestep 185 is 128
+Total number of blocks at timestep 185 is 225
+max sets on a rank 2, num sets over ranks 1 on 1 ranks
+comm partners x ave   4.00 min 3 max 6
+comm partners y ave   3.75 min 2 max 6
+comm partners z ave   3.00 min 1 max 5
+comm partners total ave  10.75 min 7 max 15
+comm partners unique ave   5.00 min 4 max 6
+
+Timestep 186 time 185.000000 delta 1.000000
+Timestep 187 time 186.000000 delta 1.000000
+Timestep 188 time 187.000000 delta 1.000000
+Timestep 189 time 188.000000 delta 1.000000
+Timestep 190 time 189.000000 delta 1.000000
+Number of blocks at level 0 at timestep 190 is 4
+Number of blocks at level 1 at timestep 190 is 28
+Number of blocks at level 2 at timestep 190 is 25
+Number of blocks at level 3 at timestep 190 is 40
+Number of blocks at level 4 at timestep 190 is 128
+Total number of blocks at timestep 190 is 225
+before ave 28 min 12 max 36
+after ave 28 min 28 max 29
+max sets on a rank 2, num sets over ranks 1 on 1 ranks
+comm partners x ave   3.75 min 2 max 6
+comm partners y ave   4.00 min 1 max 6
+comm partners z ave   3.00 min 1 max 4
+comm partners total ave  10.75 min 5 max 15
+comm partners unique ave   5.25 min 4 max 7
+
+Timestep 191 time 190.000000 delta 1.000000
+Timestep 192 time 191.000000 delta 1.000000
+Timestep 193 time 192.000000 delta 1.000000
+Timestep 194 time 193.000000 delta 1.000000
+Timestep 195 time 194.000000 delta 1.000000
+Number of blocks at level 0 at timestep 195 is 4
+Number of blocks at level 1 at timestep 195 is 28
+Number of blocks at level 2 at timestep 195 is 25
+Number of blocks at level 3 at timestep 195 is 40
+Number of blocks at level 4 at timestep 195 is 128
+Total number of blocks at timestep 195 is 225
+max sets on a rank 2, num sets over ranks 1 on 1 ranks
+comm partners x ave   3.75 min 2 max 6
+comm partners y ave   4.00 min 1 max 6
+comm partners z ave   3.00 min 1 max 4
+comm partners total ave  10.75 min 5 max 15
+comm partners unique ave   5.25 min 4 max 7
+
+Timestep 196 time 195.000000 delta 1.000000
+Timestep 197 time 196.000000 delta 1.000000
+Timestep 198 time 197.000000 delta 1.000000
+Timestep 199 time 198.000000 delta 1.000000
+Timestep 200 time 199.000000 delta 1.000000
+Number of blocks at level 0 at timestep 200 is 4
+Number of blocks at level 1 at timestep 200 is 28
+Number of blocks at level 2 at timestep 200 is 25
+Number of blocks at level 3 at timestep 200 is 40
+Number of blocks at level 4 at timestep 200 is 128
+Total number of blocks at timestep 200 is 225
+max sets on a rank 2, num sets over ranks 1 on 1 ranks
+comm partners x ave   3.75 min 2 max 6
+comm partners y ave   4.00 min 1 max 6
+comm partners z ave   3.00 min 1 max 4
+comm partners total ave  10.75 min 5 max 15
+comm partners unique ave   5.25 min 4 max 7
+
+
+ ================ Start report ===================
+
+          Mantevo miniAMR
+          version 1.7.0 (modified)
+
+Run on 8 ranks arranged in a 2 x 2 x 2 grid
+initial blocks per rank 1 x 1 x 1
+block size 8 x 8 x 8
+Initial ranks arranged by RCB across machine
+
+change_dir 0 group_blocks 0 limit_move 0
+Maximum number of blocks per rank is 9000
+Number of levels of refinement is 4
+Blocks can change by 4 levels per refinement step
+
+Blocks will be refined by 1 objects
+
+Object 0 is the surface of a spheroid
+Object may leave mesh
+Center starting at -0.010000 -0.010000 -0.010000
+Center end at -0.010000 -0.010000 -0.010000
+Moving at 0.000000 0.000000 0.000000 per timestep
+   Rate relative to smallest cell size 0.000000 0.000000 0.000000
+Initial size 0.000000 0.000000 0.000000
+Final size 0.180000 0.180000 0.180000
+Size increasing 0.000900 0.000900 0.000900 per timestep
+   Rate relative to smallest cell size 0.460800 0.460800 0.460800
+
+
+Number of timesteps is 200
+Communicaion/computation stages per timestep is 20
+Communication will be performed with nonblocking sends
+Will perform checksums every 5 stages
+Will refine every 5 timesteps
+Load balance by RCB (Recursive Coordinate Bisection)
+Load balance when inbalanced by 0%
+Will not plot results
+Calculate on 40 variables with 7 point stencil
+Communicate 2 variables at a time
+Error tolorance for variable sums is 10^(-8)
+
+Total time for test: ave, std, min, max (sec): 12.426012 0.000000 12.426011 12.426012
+
+
+Number of malloc calls: ave, std, min, max (sec): 39969080.000000 0.000000 39969080.000000 39969080.000000
+
+Amount malloced: ave, std, min, max: 3290488476.000000 0.000000 3290488476.000000 3290488476.000000
+
+Malloc calls in init: ave, std, min, max (sec): 39969080.000000 0.000000 39969080.000000 39969080.000000
+
+Amount malloced in init: ave, std, min, max: 3290488476.000000 0.000000 3290488476.000000 3290488476.000000
+
+Malloc calls in timestepping: ave, std, min, max (sec): 0.000000 0.000000 0.000000 0.000000
+
+Amount malloced in timestepping: ave, std, min, max: 0.000000 0.000000 0.000000 0.000000
+
+Main (parse, allocate) Time: ave, stddev, min, max (sec): 3.960900 0.032820 3.899637 4.004759
+
+Initailize Time: ave, stddev, min, max (sec): 0.045226 0.032820 0.001369 0.106492
+
+---------------------------------------------
+          Computational Performance
+---------------------------------------------
+
+     Time: ave, stddev, min, max (sec): 3.312852 0.086267 3.177944 3.471691
+
+     total GFLOPS:             16.608435
+     Average GFLOPS per rank:  2.076054
+
+     Total floating point ops: 59078656000.000000
+
+        Adds:                  50638848000.000000
+        Muls:                  0.000000
+        Divides:               8439808000.000000
+
+     Sum of min/max compute times per ts: 3.130030 3.812746
+
+---------------------------------------------
+           Interblock communication
+---------------------------------------------
+
+     Time: ave, stddev, min, max (sec): 8.008173 0.125766 7.783574 8.145765
+
+
+Total communication:
+
+                              average    stddev  minimum  maximum
+     Total                  : 7.994311 0.125683 7.769800 8.131689
+     Post IRecv             : 0.116092 0.026842 0.080590 0.159623
+     Pack faces             : 1.225093 0.197267 0.969755 1.595428
+     Send messages          : 0.609360 0.098890 0.479656 0.773185
+     Exchange same level    : 1.375982 0.231981 0.982626 1.791125
+     Exchange diff level    : 0.566370 0.136223 0.311226 0.813698
+     Apply BC               : 0.669893 0.145084 0.395988 0.864601
+     Wait time              : 2.516408 0.213775 2.075817 2.793312
+     Unpack faces           : 0.535238 0.080011 0.414737 0.658206
+
+     Comm partners total ave: 8.841463 1.684914 6.536585 11.292683
+     Comm partners total min: 3.000000 0.000000 3.000000 3.000000
+     Comm partners total max: 12.750000 1.984313 10.000000 16.000000
+     Comm partners uniq ave : 4.457317 0.795375 2.926829 5.463415
+     Comm partners uniq min : 2.875000 0.330719 2.000000 3.000000
+     Comm partners uniq max : 5.750000 0.968246 4.000000 7.000000
+     Messages received      : 703500.000000 134728.430556 514000.000000 896000.000000
+     Bytes received         : 1600000000.000000 197549081.050761 1391104000.000000 1901056000.000000
+     Faces received         : 2270500.000000 440884.055053 1604000.000000 2920000.000000
+     Messages sent          : 703500.000000 134728.430556 514000.000000 896000.000000
+     Bytes sent             : 1600000000.000000 197549081.050761 1391104000.000000 1901056000.000000
+     Faces sent             : 2270500.000000 440884.055053 1604000.000000 2920000.000000
+     Faces exchanged same   : 2357500.000000 396691.000654 1876000.000000 3092000.000000
+     Faces exchanged diff   : 1282000.000000 263028.515564 764000.000000 1688000.000000
+     Faces with BC applied  : 1106250.000000 209385.857927 618000.000000 1338000.000000
+
+X direction communication statistics:
+
+                              average    stddev  minimum  maximum
+     Total                  : 2.665234 0.248217 2.325375 2.978666
+     Post IRecv             : 0.036124 0.008485 0.025645 0.048977
+     Pack faces             : 0.357644 0.071969 0.247452 0.470311
+     Send messages          : 0.170627 0.049660 0.116118 0.247208
+     Exchange same level    : 0.574989 0.114957 0.441978 0.776197
+     Exchange diff level    : 0.210959 0.138553 0.045392 0.463036
+     Apply BC               : 0.247204 0.129952 0.001833 0.384087
+     Wait time              : 0.782924 0.223076 0.493668 1.062665
+     Unpack faces           : 0.147524 0.035153 0.102130 0.186509
+
+     Comm partners average  : 3.042683 0.779034 2.121951 4.268293
+     Comm partners minimum  : 1.000000 0.000000 1.000000 1.000000
+     Comm partners maximum  : 4.625000 0.992157 3.000000 6.000000
+     Messages received      : 242000.000000 62777.384463 170000.000000 344000.000000
+     Bytes received         : 437376000.000000 109590053.855266 261632000.000000 598528000.000000
+     Faces received         : 658500.000000 204572.114424 456000.000000 1004000.000000
+     Messages sent          : 242000.000000 62777.384463 170000.000000 344000.000000
+     Bytes sent             : 437376000.000000 109590053.855266 261632000.000000 598528000.000000
+     Faces sent             : 658500.000000 204572.114424 456000.000000 1004000.000000
+     Faces exchanged same   : 878000.000000 154298.412176 716000.000000 1184000.000000
+     Faces exchanged diff   : 433500.000000 328389.631383 64000.000000 1120000.000000
+     Faces with BC applied  : 368750.000000 181171.017274 8000.000000 576000.000000
+
+Y direction communication statistics:
+
+                              average    stddev  minimum  maximum
+     Total                  : 2.960205 0.118494 2.776125 3.108887
+     Post IRecv             : 0.043101 0.018380 0.025184 0.069687
+     Pack faces             : 0.461027 0.098252 0.321343 0.625320
+     Send messages          : 0.222879 0.035631 0.181571 0.290241
+     Exchange same level    : 0.488619 0.107658 0.250307 0.630885
+     Exchange diff level    : 0.199854 0.150885 0.019636 0.437687
+     Apply BC               : 0.245248 0.173317 0.001411 0.533247
+     Wait time              : 1.016040 0.074768 0.873191 1.120024
+     Unpack faces           : 0.160412 0.032628 0.112317 0.206155
+
+     Comm partners average  : 3.018293 0.953308 1.951220 4.682927
+     Comm partners minimum  : 1.000000 0.000000 1.000000 1.000000
+     Comm partners maximum  : 5.000000 0.866025 3.000000 6.000000
+     Messages received      : 239500.000000 76411.713762 154000.000000 372000.000000
+     Bytes received         : 555264000.000000 126185929.104635 312832000.000000 743424000.000000
+     Faces received         : 778500.000000 212176.223927 508000.000000 1118000.000000
+     Messages sent          : 239500.000000 76411.713762 154000.000000 372000.000000
+     Bytes sent             : 555264000.000000 126185929.104635 312832000.000000 743424000.000000
+     Faces sent             : 778500.000000 212176.223927 508000.000000 1118000.000000
+     Faces exchanged same   : 764500.000000 192649.292758 412000.000000 1064000.000000
+     Faces exchanged diff   : 427000.000000 345385.292101 24000.000000 996000.000000
+     Faces with BC applied  : 368750.000000 250563.240520 8000.000000 732000.000000
+
+Z direction communication statistics:
+
+                              average    stddev  minimum  maximum
+     Total                  : 2.368872 0.276060 2.007560 2.834315
+     Post IRecv             : 0.036866 0.011458 0.024445 0.053890
+     Pack faces             : 0.406421 0.051748 0.336328 0.499797
+     Send messages          : 0.215853 0.035410 0.170638 0.281857
+     Exchange same level    : 0.312374 0.058971 0.234722 0.411341
+     Exchange diff level    : 0.155557 0.129210 0.007230 0.392719
+     Apply BC               : 0.177441 0.123379 0.001604 0.332142
+     Wait time              : 0.717444 0.222030 0.419750 1.090727
+     Unpack faces           : 0.227302 0.031580 0.182899 0.278765
+
+     Comm partners average  : 2.780488 0.799036 1.853659 4.146341
+     Comm partners minimum  : 1.000000 0.000000 1.000000 1.000000
+     Comm partners maximum  : 4.375000 0.856957 3.000000 6.000000
+     Messages received      : 222000.000000 63835.726674 150000.000000 332000.000000
+     Bytes received         : 607360000.000000 73544103.992094 479744000.000000 696832000.000000
+     Faces received         : 833500.000000 166369.318085 604000.000000 1084000.000000
+     Messages sent          : 222000.000000 63835.726674 150000.000000 332000.000000
+     Bytes sent             : 607360000.000000 73544103.992094 479744000.000000 696832000.000000
+     Faces sent             : 833500.000000 166369.318085 604000.000000 1084000.000000
+     Faces exchanged same   : 715000.000000 149956.660406 484000.000000 900000.000000
+     Faces exchanged diff   : 421500.000000 344743.020234 0.000000 928000.000000
+     Faces with BC applied  : 368750.000000 256957.073263 8000.000000 726000.000000
+
+     Sum of min/max communicate times per ts: 7.461381 8.317509
+
+     Sum of min/max calc and comm times per ts: 11.113769 11.616713
+
+---------------------------------------------
+             Gridsum performance
+---------------------------------------------
+
+     Time: ave, stddev, min, max (sec): 0.964110 0.058744 0.853746 1.035861
+
+        red : ave, stddev, min, max (sec): 0.543814 0.056749 0.431612 0.613141
+
+        calc: ave, stddev, min, max (sec): 0.409350 0.010431 0.393062 0.431054
+
+     total number:             32000
+     number per timestep:      40
+
+     Sum of min/max gridsum times per ts: 0.680441 1.159317
+
+---------------------------------------------
+               Mesh Refinement
+---------------------------------------------
+
+     Time: ave, stddev, min, max (sec): 0.134616 0.000256 0.134205 0.135121
+
+     Number of refinement steps: 41
+
+     Number of load balance steps: 7
+
+     Number of redistributing steps: 0
+
+     Total blocks           : 412100
+     Blocks/timestep ave, min, max : 103.025000 8 225
+     Max blocks on a processor at any time: 44
+     total blocks split     : 35.000000
+     total blocks reformed  : 4.000000
+
+     total blocks moved     : 247.000000
+     total moved load bal   : 233.000000
+     total moved redistribut: 0.000000
+     total moved coasening  : 14.000000
+
+     parents ave, min, max  : 3.875000 0 7
+     max dots ave, min, max : 32.875000 28 41
+     ave dots used          : 21.821429
+
+     number of times more sets of blocks than ranks: 33
+     total sets of blocks over num of ranks: 33
+     max number of sets of blocks on a rank: 2
+
+                              average    stddev  minimum  maximum
+     Per processor:
+     total blocks split     : 4.375000 1.996090 0.000000 7.000000
+     total blocks reformed  : 0.500000 0.707107 0.000000 2.000000
+     Total blocks moved     : 30.875000 11.117975 18.000000 58.000000
+     Blocks moved load bal  : 29.125000 7.523920 18.000000 46.000000
+     Blocks moved redistribu: 0.000000 0.000000 0.000000 0.000000
+     Blocks moved coarsening: 1.750000 3.929058 0.000000 12.000000
+     Time:
+        initial refine      : 0.000240 0.000002 0.000239 0.000246
+
+        compare objects     : 0.000118 0.000027 0.000078 0.000154
+        mark refine/coarsen : 0.017281 0.000143 0.017082 0.017493
+        communicate block 1 : 0.014364 0.006623 0.002838 0.018434
+        split blocks        : 0.055369 0.000156 0.055112 0.055573
+        communicate block 2 : 0.002820 0.000027 0.002768 0.002853
+        sync time           : 0.006980 0.006744 0.002573 0.018926
+        time for groups     : 0.000508 0.000080 0.000297 0.000545
+        misc time           : 0.001265 0.000070 0.001168 0.001341
+        total coarsen blocks: 0.006762 0.000521 0.006275 0.007586
+           coarsen blocks   : 0.002157 0.000520 0.001673 0.002975
+           pack blocks      : 0.000081 0.000181 0.000000 0.000554
+           move blocks      : 0.000976 0.001364 0.000000 0.003319
+           unpack blocks    : 0.000490 0.000734 0.000000 0.002093
+        total redistribute  : 0.001069 0.000008 0.001059 0.001081
+           choose blocks    : 0.000000 0.000000 0.000000 0.000000
+           pack blocks      : 0.000000 0.000000 0.000000 0.000000
+           move blocks      : 0.000000 0.000000 0.000000 0.000000
+           unpack blocks    : 0.000000 0.000000 0.000000 0.000000
+        total load balance  : 0.028475 0.000058 0.028408 0.028554
+           sort             : 0.002323 0.000014 0.002285 0.002332
+           move dots back   : 0.000080 0.000008 0.000067 0.000094
+           move blocks total: 0.026070 0.000054 0.026016 0.026151
+              pack blocks   : 0.001505 0.000561 0.000236 0.002205
+              move blocks   : 0.013134 0.002830 0.008635 0.016448
+              unpack blocks : 0.002327 0.001196 0.001142 0.004058
+              misc          : 0.009104 0.003145 0.003896 0.014817
+
+     Sum of min/max refinement times per ts: 0.133520 0.135101
+
+---------------------------------------------
+                   Plot
+---------------------------------------------
+
+     Time: ave, stddev, min, max (sec): 0.000008 0.000002 0.000005 0.000010
+
+     Number of plot steps: 0
+
+ ================== End report ===================
+Summary: ranks 8 ts 200 time 12.426012 calc 3.312852 comm 8.008173 red 0.964110 refine 0.134616 blocks/ts 103.025000 max_blocks 44
+DEBUG: caught signal to interrupt (Child exited).
+Cleaning up
+ Closed perf event handles
+DEBUG: caught signal to interrupt (Child exited).
+Cleaning up
+ Closed perf event handles
+DEBUG: caught signal to interrupt (Child exited).
+Cleaning up
+ Closed perf event handles
+DEBUG: caught signal to interrupt (Child exited).
+Cleaning up
+ Closed perf event handles
+ Zeroed uncore PMU registers
+ Zeroed uncore PMU registers
+ Zeroed uncore PMU registers
+ Zeroed uncore PMU registers
+DEBUG: caught signal to interrupt (Child exited).
+Cleaning up
+ Closed perf event handles
+DEBUG: caught signal to interrupt (Child exited).
+Cleaning up
+ Closed perf event handles
+DEBUG: caught signal to interrupt (Child exited).
+Cleaning up
+ Closed perf event handles
+DEBUG: caught signal to interrupt (Child exited).
+Cleaning up
+ Closed perf event handles
+ Zeroed uncore PMU registers
+ Zeroed uncore PMU registers
+ Zeroed uncore PMU registers
+ Zeroed uncore PMU registers
+	Command being timed: "mpirun -vh -np 8 /usr/sbin/pcm 0.1 -csv=./output/0/vh_mini_0_0.csv -- ./VH/miniAMR/ref/miniAMR.x --num_refine 4 --max_blocks 9000 --init_x 1 --init_y 1 --init_z 1 --npx 2 --npy 2 --npz 2 --nx 8 --ny 8 --nz 8 --num_objects 1 --object 2 0 -0.01 -0.01 -0.01 0.0 0.0 0.0 0.0 0.0 0.0 0.0009 0.0009 0.0009 --num_tsteps 200 --comm_vars 2"
+	User time (seconds): 2.15
+	System time (seconds): 2.55
+	Percent of CPU this job got: 17%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:26.76
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 141576
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 3
+	Minor (reclaiming a frame) page faults: 6285
+	Voluntary context switches: 44689
+	Involuntary context switches: 2696
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 17232
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

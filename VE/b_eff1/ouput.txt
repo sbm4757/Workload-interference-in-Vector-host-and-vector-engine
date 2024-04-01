@@ -1,0 +1,100 @@
+mpincc -o b_eff b_eff.c -DMEMORY_PER_PROCESSOR=1024
+ncc -o b_eff b_eff.c -Kfast -DMEMORY_PER_PROCESSOR=1024
+/usr/bin/time -v strace -c mpirun -n 16 ./b_eff result_3.2_t3e_size
+/usr/bin/time -v strace -c ./b_eff
+ncc -o b_eff b_eff.c -I/opt/nec/ve/mpi/3.5.0/include -DMEMORY_PER_PROCESSOR=1024
+
+
+b_eff =   8095.783 MB/s = 505.986 *  16 PEs with 256 MB/PE on Linux muffin 4.18.0-477.15.1.el8_8.x86_64 #1 SMP Wed Jun 28 15:04:18 UTC 2023 x86_64
+% time     seconds  usecs/call     calls    errors syscall
+------ ----------- ----------- --------- --------- ------------------
+ 99.99  551.257905    20416959        27         4 wait4
+  0.00    0.009309         489        19           clone
+  0.00    0.008779           6      1441       228 openat
+  0.00    0.008204           5      1377        19 read
+  0.00    0.004356           3      1309           close
+  0.00    0.001593          15       102        13 futex
+  0.00    0.001420           2       488        74 stat
+  0.00    0.001356          29        46           poll
+  0.00    0.001148          31        36           pipe
+  0.00    0.000740           3       232           getdents64
+  0.00    0.000624           1       374           fstat
+  0.00    0.000621           7        81           munmap
+  0.00    0.000588           2       201           mmap
+  0.00    0.000533           2       183           mprotect
+  0.00    0.000328           1       171           lseek
+  0.00    0.000287          14        20           rmdir
+  0.00    0.000225           2        85           write
+  0.00    0.000190           1       126        12 ioctl
+  0.00    0.000183           9        19           chdir
+  0.00    0.000150          18         8         3 mkdir
+  0.00    0.000141           1       120           fcntl
+  0.00    0.000131           7        17         9 newfstatat
+  0.00    0.000121           6        20           faccessat
+  0.00    0.000062           1        40           brk
+  0.00    0.000061          12         5         1 unlink
+  0.00    0.000050          16         3           statfs
+  0.00    0.000049           1        45           rt_sigaction
+  0.00    0.000048           8         6           socket
+  0.00    0.000038           3        10           readlinkat
+  0.00    0.000025           1        25           getuid
+  0.00    0.000024          24         1           mknod
+  0.00    0.000019           1        18           epoll_ctl
+  0.00    0.000016           1        12           geteuid
+  0.00    0.000015           1        11           uname
+  0.00    0.000013           2         5         4 access
+  0.00    0.000011           1         9           getegid
+  0.00    0.000010           1        10           getpid
+  0.00    0.000010           5         2           bind
+  0.00    0.000010           1         7           getcwd
+  0.00    0.000009           4         2           shutdown
+  0.00    0.000007           0         8           rt_sigreturn
+  0.00    0.000007           7         1           shmdt
+  0.00    0.000007           1         7           getgid
+  0.00    0.000007           3         2           pipe2
+  0.00    0.000006           3         2           listen
+  0.00    0.000005           2         2         2 lstat
+  0.00    0.000005           5         1           shmget
+  0.00    0.000005           2         2           getsockname
+  0.00    0.000005           2         2           setsockopt
+  0.00    0.000004           4         1           shmat
+  0.00    0.000004           2         2           eventfd2
+  0.00    0.000004           4         1           epoll_create1
+  0.00    0.000003           1         2           shmctl
+  0.00    0.000003           1         2         1 arch_prctl
+  0.00    0.000003           1         3           sched_getaffinity
+  0.00    0.000002           1         2           rt_sigprocmask
+  0.00    0.000002           2         1           getpgrp
+  0.00    0.000000           0         2         2 connect
+  0.00    0.000000           0         1           execve
+  0.00    0.000000           0         1           ftruncate
+  0.00    0.000000           0        17           sched_setaffinity
+  0.00    0.000000           0         1           set_tid_address
+  0.00    0.000000           0         1           set_robust_list
+  0.00    0.000000           0         1           prlimit64
+  0.00    0.000000           0         1           getrandom
+------ ----------- ----------- --------- --------- ------------------
+100.00  551.299481       81324      6779       372 total
+	Command being timed: "strace -c mpirun -n 16 ./b_eff"
+	User time (seconds): 585.99
+	System time (seconds): 551.37
+	Percent of CPU this job got: 1493%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:16.16
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 187088
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 36097
+	Minor (reclaiming a frame) page faults: 350835
+	Voluntary context switches: 74592
+	Involuntary context switches: 52999
+	Swaps: 0
+	File system inputs: 456
+	File system outputs: 18312
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

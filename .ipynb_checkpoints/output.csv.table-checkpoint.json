@@ -1,0 +1,4603 @@
+{
+  "columns": [
+    {
+      "minWidth": 40,
+      "download": false,
+      "formatter": "rowSelection",
+      "titleFormatter": "rowSelection",
+      "resizable": true,
+      "headerSort": false,
+      "width": 53
+    },
+    {
+      "field": "System_Date",
+      "title": "System_Date",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 144
+    },
+    {
+      "field": "System.1_Time",
+      "title": "System.1_Time",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 155
+    },
+    {
+      "field": "System.2_EXEC",
+      "title": "System.2_EXEC",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 161
+    },
+    {
+      "field": "System.3_IPC",
+      "title": "System.3_IPC",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 148
+    },
+    {
+      "field": "System.4_FREQ",
+      "title": "System.4_FREQ",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 162
+    },
+    {
+      "field": "System.5_AFREQ",
+      "title": "System.5_AFREQ",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 170
+    },
+    {
+      "field": "System.6_L3MISS",
+      "title": "System.6_L3MISS",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 175
+    },
+    {
+      "field": "System.7_L2MISS",
+      "title": "System.7_L2MISS",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 172
+    },
+    {
+      "field": "System.8_L3HIT",
+      "title": "System.8_L3HIT",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 164
+    },
+    {
+      "field": "System.9_L2HIT",
+      "title": "System.9_L2HIT",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 164
+    },
+    {
+      "field": "System.10_L3MPI",
+      "title": "System.10_L3MPI",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 172
+    },
+    {
+      "field": "System.11_L2MPI",
+      "title": "System.11_L2MPI",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 170
+    },
+    {
+      "field": "System.12_READ",
+      "title": "System.12_READ",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 168
+    },
+    {
+      "field": "System.13_WRITE",
+      "title": "System.13_WRITE",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 174
+    },
+    {
+      "field": "System.14_LOCAL",
+      "title": "System.14_LOCAL",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 177
+    },
+    {
+      "field": "System.15_PMM_RD",
+      "title": "System.15_PMM_RD",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 192
+    },
+    {
+      "field": "System.16_PMM_WR",
+      "title": "System.16_PMM_WR",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 194
+    },
+    {
+      "field": "System.17_INST",
+      "title": "System.17_INST",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 160
+    },
+    {
+      "field": "System.18_ACYC",
+      "title": "System.18_ACYC",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 169
+    },
+    {
+      "field": "System.19_TIME(ticks)",
+      "title": "System.19_TIME(ticks)",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 204
+    },
+    {
+      "field": "System.20_PhysIPC",
+      "title": "System.20_PhysIPC",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 187
+    },
+    {
+      "field": "System.21_PhysIPC%",
+      "title": "System.21_PhysIPC%",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 198
+    },
+    {
+      "field": "System.22_INSTnom",
+      "title": "System.22_INSTnom",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 192
+    },
+    {
+      "field": "System.23_INSTnom%",
+      "title": "System.23_INSTnom%",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 205
+    },
+    {
+      "field": "System.24_TotalUPIin",
+      "title": "System.24_TotalUPIin",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 199
+    },
+    {
+      "field": "System.25_UPItoMC",
+      "title": "System.25_UPItoMC",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 191
+    },
+    {
+      "field": "System.26_TotalUPIout",
+      "title": "System.26_TotalUPIout",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 208
+    },
+    {
+      "field": "System Core C-States_C0res%",
+      "title": "System Core C-States_C0res%",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 260
+    },
+    {
+      "field": "System Core C-States.1_C1res%",
+      "title": "System Core C-States.1_C1res%",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 268
+    },
+    {
+      "field": "System Core C-States.2_C6res%",
+      "title": "System Core C-States.2_C6res%",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 272
+    },
+    {
+      "field": "System Pack C-States_C0res%",
+      "title": "System Pack C-States_C0res%",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 260
+    },
+    {
+      "field": "System Pack C-States.1_C2res%",
+      "title": "System Pack C-States.1_C2res%",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 270
+    },
+    {
+      "field": "System Pack C-States.2_C6res%",
+      "title": "System Pack C-States.2_C6res%",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 273
+    },
+    {
+      "field": "System Pack C-States.3_Proc Energy (Joules)",
+      "title": "System Pack C-States.3_Proc Energy (Joules)",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 356
+    },
+    {
+      "field": "System Pack C-States.4_DRAM Energy (Joules)",
+      "title": "System Pack C-States.4_DRAM Energy (Joules)",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 367
+    },
+    {
+      "field": "System Pack C-States.5_LLCRDMISSLAT (ns)",
+      "title": "System Pack C-States.5_LLCRDMISSLAT (ns)",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 353
+    },
+    {
+      "field": "System Pack C-States.6_UncFREQ (Ghz)",
+      "title": "System Pack C-States.6_UncFREQ (Ghz)",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 322
+    },
+    {
+      "field": "Socket 0_EXEC",
+      "title": "Socket 0_EXEC",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 158
+    },
+    {
+      "field": "Socket 0.1_IPC",
+      "title": "Socket 0.1_IPC",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 154
+    },
+    {
+      "field": "Socket 0.2_FREQ",
+      "title": "Socket 0.2_FREQ",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 170
+    },
+    {
+      "field": "Socket 0.3_AFREQ",
+      "title": "Socket 0.3_AFREQ",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 179
+    },
+    {
+      "field": "Socket 0.4_L3MISS",
+      "title": "Socket 0.4_L3MISS",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 184
+    },
+    {
+      "field": "Socket 0.5_L2MISS",
+      "title": "Socket 0.5_L2MISS",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 183
+    },
+    {
+      "field": "Socket 0.6_L3HIT",
+      "title": "Socket 0.6_L3HIT",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 173
+    },
+    {
+      "field": "Socket 0.7_L2HIT",
+      "title": "Socket 0.7_L2HIT",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 170
+    },
+    {
+      "field": "Socket 0.8_L3MPI",
+      "title": "Socket 0.8_L3MPI",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 175
+    },
+    {
+      "field": "Socket 0.9_L2MPI",
+      "title": "Socket 0.9_L2MPI",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 174
+    },
+    {
+      "field": "Socket 0.10_L3OCC",
+      "title": "Socket 0.10_L3OCC",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 187
+    },
+    {
+      "field": "Socket 0.11_LMB",
+      "title": "Socket 0.11_LMB",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 167
+    },
+    {
+      "field": "Socket 0.12_RMB",
+      "title": "Socket 0.12_RMB",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 171
+    },
+    {
+      "field": "Socket 0.13_READ",
+      "title": "Socket 0.13_READ",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 177
+    },
+    {
+      "field": "Socket 0.14_WRITE",
+      "title": "Socket 0.14_WRITE",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 183
+    },
+    {
+      "field": "Socket 0.15_LOCAL",
+      "title": "Socket 0.15_LOCAL",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 185
+    },
+    {
+      "field": "Socket 0.16_PMM_RD",
+      "title": "Socket 0.16_PMM_RD",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 200
+    },
+    {
+      "field": "Socket 0.17_PMM_WR",
+      "title": "Socket 0.17_PMM_WR",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 200
+    },
+    {
+      "field": "Socket 0.18_TEMP",
+      "title": "Socket 0.18_TEMP",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 177
+    },
+    {
+      "field": "Socket 0.19_INST",
+      "title": "Socket 0.19_INST",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 172
+    },
+    {
+      "field": "Socket 0.20_ACYC",
+      "title": "Socket 0.20_ACYC",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 179
+    },
+    {
+      "field": "Socket 0.21_TIME(ticks)",
+      "title": "Socket 0.21_TIME(ticks)",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 213
+    },
+    {
+      "field": "Socket 0.22_PhysIPC",
+      "title": "Socket 0.22_PhysIPC",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 196
+    },
+    {
+      "field": "Socket 0.23_PhysIPC%",
+      "title": "Socket 0.23_PhysIPC%",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 209
+    },
+    {
+      "field": "Socket 0.24_INSTnom",
+      "title": "Socket 0.24_INSTnom",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 201
+    },
+    {
+      "field": "Socket 0.25_INSTnom%",
+      "title": "Socket 0.25_INSTnom%",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 214
+    },
+    {
+      "field": "Socket 1_EXEC",
+      "title": "Socket 1_EXEC",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 156
+    },
+    {
+      "field": "Socket 1.1_IPC",
+      "title": "Socket 1.1_IPC",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 152
+    },
+    {
+      "field": "Socket 1.2_FREQ",
+      "title": "Socket 1.2_FREQ",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 168
+    },
+    {
+      "field": "Socket 1.3_AFREQ",
+      "title": "Socket 1.3_AFREQ",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 177
+    },
+    {
+      "field": "Socket 1.4_L3MISS",
+      "title": "Socket 1.4_L3MISS",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 182
+    },
+    {
+      "field": "Socket 1.5_L2MISS",
+      "title": "Socket 1.5_L2MISS",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 181
+    },
+    {
+      "field": "Socket 1.6_L3HIT",
+      "title": "Socket 1.6_L3HIT",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 171
+    },
+    {
+      "field": "Socket 1.7_L2HIT",
+      "title": "Socket 1.7_L2HIT",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 168
+    },
+    {
+      "field": "Socket 1.8_L3MPI",
+      "title": "Socket 1.8_L3MPI",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 173
+    },
+    {
+      "field": "Socket 1.9_L2MPI",
+      "title": "Socket 1.9_L2MPI",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 172
+    },
+    {
+      "field": "Socket 1.10_L3OCC",
+      "title": "Socket 1.10_L3OCC",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 185
+    },
+    {
+      "field": "Socket 1.11_LMB",
+      "title": "Socket 1.11_LMB",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 165
+    },
+    {
+      "field": "Socket 1.12_RMB",
+      "title": "Socket 1.12_RMB",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 168
+    },
+    {
+      "field": "Socket 1.13_READ",
+      "title": "Socket 1.13_READ",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 175
+    },
+    {
+      "field": "Socket 1.14_WRITE",
+      "title": "Socket 1.14_WRITE",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 181
+    },
+    {
+      "field": "Socket 1.15_LOCAL",
+      "title": "Socket 1.15_LOCAL",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 183
+    },
+    {
+      "field": "Socket 1.16_PMM_RD",
+      "title": "Socket 1.16_PMM_RD",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 198
+    },
+    {
+      "field": "Socket 1.17_PMM_WR",
+      "title": "Socket 1.17_PMM_WR",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 198
+    },
+    {
+      "field": "Socket 1.18_TEMP",
+      "title": "Socket 1.18_TEMP",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 175
+    },
+    {
+      "field": "Socket 1.19_INST",
+      "title": "Socket 1.19_INST",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 169
+    },
+    {
+      "field": "Socket 1.20_ACYC",
+      "title": "Socket 1.20_ACYC",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 177
+    },
+    {
+      "field": "Socket 1.21_TIME(ticks)",
+      "title": "Socket 1.21_TIME(ticks)",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 211
+    },
+    {
+      "field": "Socket 1.22_PhysIPC",
+      "title": "Socket 1.22_PhysIPC",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 194
+    },
+    {
+      "field": "Socket 1.23_PhysIPC%",
+      "title": "Socket 1.23_PhysIPC%",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 206
+    },
+    {
+      "field": "Socket 1.24_INSTnom",
+      "title": "Socket 1.24_INSTnom",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 199
+    },
+    {
+      "field": "Socket 1.25_INSTnom%",
+      "title": "Socket 1.25_INSTnom%",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 212
+    },
+    {
+      "field": "SKT0dataIn_UPI0",
+      "title": "SKT0dataIn_UPI0",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 171
+    },
+    {
+      "field": "SKT0dataIn.1_UPI1",
+      "title": "SKT0dataIn.1_UPI1",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 179
+    },
+    {
+      "field": "SKT0dataIn (percent)_UPI0",
+      "title": "SKT0dataIn (percent)_UPI0",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 235
+    },
+    {
+      "field": "SKT0dataIn (percent).1_UPI1",
+      "title": "SKT0dataIn (percent).1_UPI1",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 243
+    },
+    {
+      "field": "SKT1dataIn_UPI0",
+      "title": "SKT1dataIn_UPI0",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 169
+    },
+    {
+      "field": "SKT1dataIn.1_UPI1",
+      "title": "SKT1dataIn.1_UPI1",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 177
+    },
+    {
+      "field": "SKT1dataIn (percent)_UPI0",
+      "title": "SKT1dataIn (percent)_UPI0",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 233
+    },
+    {
+      "field": "SKT1dataIn (percent).1_UPI1",
+      "title": "SKT1dataIn (percent).1_UPI1",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 241
+    },
+    {
+      "field": "SKT0trafficOut_UPI0",
+      "title": "SKT0trafficOut_UPI0",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 193
+    },
+    {
+      "field": "SKT0trafficOut.1_UPI1",
+      "title": "SKT0trafficOut.1_UPI1",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 201
+    },
+    {
+      "field": "SKT0trafficOut (percent)_UPI0",
+      "title": "SKT0trafficOut (percent)_UPI0",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 257
+    },
+    {
+      "field": "SKT0trafficOut (percent).1_UPI1",
+      "title": "SKT0trafficOut (percent).1_UPI1",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 265
+    },
+    {
+      "field": "SKT1trafficOut_UPI0",
+      "title": "SKT1trafficOut_UPI0",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 191
+    },
+    {
+      "field": "SKT1trafficOut.1_UPI1",
+      "title": "SKT1trafficOut.1_UPI1",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 199
+    },
+    {
+      "field": "SKT1trafficOut (percent)_UPI0",
+      "title": "SKT1trafficOut (percent)_UPI0",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 255
+    },
+    {
+      "field": "SKT1trafficOut (percent).1_UPI1",
+      "title": "SKT1trafficOut (percent).1_UPI1",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 263
+    },
+    {
+      "field": "SKT0 Core C-State_C0res%",
+      "title": "SKT0 Core C-State_C0res%",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 240
+    },
+    {
+      "field": "SKT0 Core C-State.1_C1res%",
+      "title": "SKT0 Core C-State.1_C1res%",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 248
+    },
+    {
+      "field": "SKT0 Core C-State.2_C6res%",
+      "title": "SKT0 Core C-State.2_C6res%",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 252
+    },
+    {
+      "field": "SKT0 Package C-State_C0res%",
+      "title": "SKT0 Package C-State_C0res%",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 264
+    },
+    {
+      "field": "SKT0 Package C-State.1_C2res%",
+      "title": "SKT0 Package C-State.1_C2res%",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 274
+    },
+    {
+      "field": "SKT0 Package C-State.2_C6res%",
+      "title": "SKT0 Package C-State.2_C6res%",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 276
+    },
+    {
+      "field": "SKT1 Core C-State_C0res%",
+      "title": "SKT1 Core C-State_C0res%",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 238
+    },
+    {
+      "field": "SKT1 Core C-State.1_C1res%",
+      "title": "SKT1 Core C-State.1_C1res%",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 246
+    },
+    {
+      "field": "SKT1 Core C-State.2_C6res%",
+      "title": "SKT1 Core C-State.2_C6res%",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 250
+    },
+    {
+      "field": "SKT1 Package C-State_C0res%",
+      "title": "SKT1 Package C-State_C0res%",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 262
+    },
+    {
+      "field": "SKT1 Package C-State.1_C2res%",
+      "title": "SKT1 Package C-State.1_C2res%",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 272
+    },
+    {
+      "field": "SKT1 Package C-State.2_C6res%",
+      "title": "SKT1 Package C-State.2_C6res%",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 274
+    },
+    {
+      "field": "Proc Energy (Joules)_SKT0",
+      "title": "Proc Energy (Joules)_SKT0",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 235
+    },
+    {
+      "field": "Proc Energy (Joules).1_SKT1",
+      "title": "Proc Energy (Joules).1_SKT1",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 243
+    },
+    {
+      "field": "DRAM Energy (Joules)_SKT0",
+      "title": "DRAM Energy (Joules)_SKT0",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 246
+    },
+    {
+      "field": "DRAM Energy (Joules).1_SKT1",
+      "title": "DRAM Energy (Joules).1_SKT1",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 254
+    },
+    {
+      "field": "LLCRDMISSLAT (ns)_SKT0",
+      "title": "LLCRDMISSLAT (ns)_SKT0",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 232
+    },
+    {
+      "field": "LLCRDMISSLAT (ns).1_SKT1",
+      "title": "LLCRDMISSLAT (ns).1_SKT1",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 240
+    },
+    {
+      "field": "UncFREQ (Ghz)_SKT0",
+      "title": "UncFREQ (Ghz)_SKT0",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 202
+    },
+    {
+      "field": "UncFREQ (Ghz).1_SKT1",
+      "title": "UncFREQ (Ghz).1_SKT1",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 210
+    },
+    {
+      "field": "Core0 (Socket 0)_EXEC",
+      "title": "Core0 (Socket 0)_EXEC",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 212
+    },
+    {
+      "field": "Core0 (Socket 0).1_IPC",
+      "title": "Core0 (Socket 0).1_IPC",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 209
+    },
+    {
+      "field": "Core0 (Socket 0).2_FREQ",
+      "title": "Core0 (Socket 0).2_FREQ",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 224
+    },
+    {
+      "field": "Core0 (Socket 0).3_AFREQ",
+      "title": "Core0 (Socket 0).3_AFREQ",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 233
+    },
+    {
+      "field": "Core0 (Socket 0).4_L3MISS",
+      "title": "Core0 (Socket 0).4_L3MISS",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 238
+    },
+    {
+      "field": "Core0 (Socket 0).5_L2MISS",
+      "title": "Core0 (Socket 0).5_L2MISS",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 237
+    },
+    {
+      "field": "Core0 (Socket 0).6_L3HIT",
+      "title": "Core0 (Socket 0).6_L3HIT",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 227
+    },
+    {
+      "field": "Core0 (Socket 0).7_L2HIT",
+      "title": "Core0 (Socket 0).7_L2HIT",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 224
+    },
+    {
+      "field": "Core0 (Socket 0).8_L3MPI",
+      "title": "Core0 (Socket 0).8_L3MPI",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 229
+    },
+    {
+      "field": "Core0 (Socket 0).9_L2MPI",
+      "title": "Core0 (Socket 0).9_L2MPI",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 228
+    },
+    {
+      "field": "Core0 (Socket 0).10_L3OCC",
+      "title": "Core0 (Socket 0).10_L3OCC",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 241
+    },
+    {
+      "field": "Core0 (Socket 0).11_LMB",
+      "title": "Core0 (Socket 0).11_LMB",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 222
+    },
+    {
+      "field": "Core0 (Socket 0).12_RMB",
+      "title": "Core0 (Socket 0).12_RMB",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 225
+    },
+    {
+      "field": "Core0 (Socket 0).13_C0res%",
+      "title": "Core0 (Socket 0).13_C0res%",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 245
+    },
+    {
+      "field": "Core0 (Socket 0).14_C1res%",
+      "title": "Core0 (Socket 0).14_C1res%",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 244
+    },
+    {
+      "field": "Core0 (Socket 0).15_C6res%",
+      "title": "Core0 (Socket 0).15_C6res%",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 245
+    },
+    {
+      "field": "Core0 (Socket 0).16_TEMP",
+      "title": "Core0 (Socket 0).16_TEMP",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 231
+    },
+    {
+      "field": "Core0 (Socket 0).17_INST",
+      "title": "Core0 (Socket 0).17_INST",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 223
+    },
+    {
+      "field": "Core0 (Socket 0).18_ACYC",
+      "title": "Core0 (Socket 0).18_ACYC",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 231
+    },
+    {
+      "field": "Core0 (Socket 0).19_TIME(ticks)",
+      "title": "Core0 (Socket 0).19_TIME(ticks)",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 267
+    },
+    {
+      "field": "Core0 (Socket 0).20_PhysIPC",
+      "title": "Core0 (Socket 0).20_PhysIPC",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 250
+    },
+    {
+      "field": "Core0 (Socket 0).21_PhysIPC%",
+      "title": "Core0 (Socket 0).21_PhysIPC%",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 261
+    },
+    {
+      "field": "Core0 (Socket 0).22_INSTnom",
+      "title": "Core0 (Socket 0).22_INSTnom",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 255
+    },
+    {
+      "field": "Core0 (Socket 0).23_INSTnom%",
+      "title": "Core0 (Socket 0).23_INSTnom%",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 268
+    },
+    {
+      "field": "Core1 (Socket 0)_EXEC",
+      "title": "Core1 (Socket 0)_EXEC",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 210
+    },
+    {
+      "field": "Core1 (Socket 0).1_IPC",
+      "title": "Core1 (Socket 0).1_IPC",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 206
+    },
+    {
+      "field": "Core1 (Socket 0).2_FREQ",
+      "title": "Core1 (Socket 0).2_FREQ",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 222
+    },
+    {
+      "field": "Core1 (Socket 0).3_AFREQ",
+      "title": "Core1 (Socket 0).3_AFREQ",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 231
+    },
+    {
+      "field": "Core1 (Socket 0).4_L3MISS",
+      "title": "Core1 (Socket 0).4_L3MISS",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 236
+    },
+    {
+      "field": "Core1 (Socket 0).5_L2MISS",
+      "title": "Core1 (Socket 0).5_L2MISS",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 235
+    },
+    {
+      "field": "Core1 (Socket 0).6_L3HIT",
+      "title": "Core1 (Socket 0).6_L3HIT",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 225
+    },
+    {
+      "field": "Core1 (Socket 0).7_L2HIT",
+      "title": "Core1 (Socket 0).7_L2HIT",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 222
+    },
+    {
+      "field": "Core1 (Socket 0).8_L3MPI",
+      "title": "Core1 (Socket 0).8_L3MPI",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 227
+    },
+    {
+      "field": "Core1 (Socket 0).9_L2MPI",
+      "title": "Core1 (Socket 0).9_L2MPI",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 226
+    },
+    {
+      "field": "Core1 (Socket 0).10_L3OCC",
+      "title": "Core1 (Socket 0).10_L3OCC",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 239
+    },
+    {
+      "field": "Core1 (Socket 0).11_LMB",
+      "title": "Core1 (Socket 0).11_LMB",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 219
+    },
+    {
+      "field": "Core1 (Socket 0).12_RMB",
+      "title": "Core1 (Socket 0).12_RMB",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 222
+    },
+    {
+      "field": "Core1 (Socket 0).13_C0res%",
+      "title": "Core1 (Socket 0).13_C0res%",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 243
+    },
+    {
+      "field": "Core1 (Socket 0).14_C1res%",
+      "title": "Core1 (Socket 0).14_C1res%",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 241
+    },
+    {
+      "field": "Core1 (Socket 0).15_C6res%",
+      "title": "Core1 (Socket 0).15_C6res%",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 243
+    },
+    {
+      "field": "Core1 (Socket 0).16_TEMP",
+      "title": "Core1 (Socket 0).16_TEMP",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 229
+    },
+    {
+      "field": "Core1 (Socket 0).17_INST",
+      "title": "Core1 (Socket 0).17_INST",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 221
+    },
+    {
+      "field": "Core1 (Socket 0).18_ACYC",
+      "title": "Core1 (Socket 0).18_ACYC",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 229
+    },
+    {
+      "field": "Core1 (Socket 0).19_TIME(ticks)",
+      "title": "Core1 (Socket 0).19_TIME(ticks)",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 265
+    },
+    {
+      "field": "Core1 (Socket 0).20_PhysIPC",
+      "title": "Core1 (Socket 0).20_PhysIPC",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 247
+    },
+    {
+      "field": "Core1 (Socket 0).21_PhysIPC%",
+      "title": "Core1 (Socket 0).21_PhysIPC%",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 258
+    },
+    {
+      "field": "Core1 (Socket 0).22_INSTnom",
+      "title": "Core1 (Socket 0).22_INSTnom",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 253
+    },
+    {
+      "field": "Core1 (Socket 0).23_INSTnom%",
+      "title": "Core1 (Socket 0).23_INSTnom%",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 266
+    },
+    {
+      "field": "Core2 (Socket 0)_EXEC",
+      "title": "Core2 (Socket 0)_EXEC",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 212
+    },
+    {
+      "field": "Core2 (Socket 0).1_IPC",
+      "title": "Core2 (Socket 0).1_IPC",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 208
+    },
+    {
+      "field": "Core2 (Socket 0).2_FREQ",
+      "title": "Core2 (Socket 0).2_FREQ",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 224
+    },
+    {
+      "field": "Core2 (Socket 0).3_AFREQ",
+      "title": "Core2 (Socket 0).3_AFREQ",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 233
+    },
+    {
+      "field": "Core2 (Socket 0).4_L3MISS",
+      "title": "Core2 (Socket 0).4_L3MISS",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 238
+    },
+    {
+      "field": "Core2 (Socket 0).5_L2MISS",
+      "title": "Core2 (Socket 0).5_L2MISS",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 237
+    },
+    {
+      "field": "Core2 (Socket 0).6_L3HIT",
+      "title": "Core2 (Socket 0).6_L3HIT",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 227
+    },
+    {
+      "field": "Core2 (Socket 0).7_L2HIT",
+      "title": "Core2 (Socket 0).7_L2HIT",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 224
+    },
+    {
+      "field": "Core2 (Socket 0).8_L3MPI",
+      "title": "Core2 (Socket 0).8_L3MPI",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 228
+    },
+    {
+      "field": "Core2 (Socket 0).9_L2MPI",
+      "title": "Core2 (Socket 0).9_L2MPI",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 228
+    },
+    {
+      "field": "Core2 (Socket 0).10_L3OCC",
+      "title": "Core2 (Socket 0).10_L3OCC",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 241
+    },
+    {
+      "field": "Core2 (Socket 0).11_LMB",
+      "title": "Core2 (Socket 0).11_LMB",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 221
+    },
+    {
+      "field": "Core2 (Socket 0).12_RMB",
+      "title": "Core2 (Socket 0).12_RMB",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 224
+    },
+    {
+      "field": "Core2 (Socket 0).13_C0res%",
+      "title": "Core2 (Socket 0).13_C0res%",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 245
+    },
+    {
+      "field": "Core2 (Socket 0).14_C1res%",
+      "title": "Core2 (Socket 0).14_C1res%",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 243
+    },
+    {
+      "field": "Core2 (Socket 0).15_C6res%",
+      "title": "Core2 (Socket 0).15_C6res%",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 245
+    },
+    {
+      "field": "Core2 (Socket 0).16_TEMP",
+      "title": "Core2 (Socket 0).16_TEMP",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 231
+    },
+    {
+      "field": "Core2 (Socket 0).17_INST",
+      "title": "Core2 (Socket 0).17_INST",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 223
+    },
+    {
+      "field": "Core2 (Socket 0).18_ACYC",
+      "title": "Core2 (Socket 0).18_ACYC",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 231
+    },
+    {
+      "field": "Core2 (Socket 0).19_TIME(ticks)",
+      "title": "Core2 (Socket 0).19_TIME(ticks)",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 266
+    },
+    {
+      "field": "Core2 (Socket 0).20_PhysIPC",
+      "title": "Core2 (Socket 0).20_PhysIPC",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 249
+    },
+    {
+      "field": "Core2 (Socket 0).21_PhysIPC%",
+      "title": "Core2 (Socket 0).21_PhysIPC%",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 260
+    },
+    {
+      "field": "Core2 (Socket 0).22_INSTnom",
+      "title": "Core2 (Socket 0).22_INSTnom",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 255
+    },
+    {
+      "field": "Core2 (Socket 0).23_INSTnom%",
+      "title": "Core2 (Socket 0).23_INSTnom%",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 268
+    },
+    {
+      "field": "Core3 (Socket 0)_EXEC",
+      "title": "Core3 (Socket 0)_EXEC",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 212
+    },
+    {
+      "field": "Core3 (Socket 0).1_IPC",
+      "title": "Core3 (Socket 0).1_IPC",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 208
+    },
+    {
+      "field": "Core3 (Socket 0).2_FREQ",
+      "title": "Core3 (Socket 0).2_FREQ",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 224
+    },
+    {
+      "field": "Core3 (Socket 0).3_AFREQ",
+      "title": "Core3 (Socket 0).3_AFREQ",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 233
+    },
+    {
+      "field": "Core3 (Socket 0).4_L3MISS",
+      "title": "Core3 (Socket 0).4_L3MISS",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 238
+    },
+    {
+      "field": "Core3 (Socket 0).5_L2MISS",
+      "title": "Core3 (Socket 0).5_L2MISS",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 237
+    },
+    {
+      "field": "Core3 (Socket 0).6_L3HIT",
+      "title": "Core3 (Socket 0).6_L3HIT",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 227
+    },
+    {
+      "field": "Core3 (Socket 0).7_L2HIT",
+      "title": "Core3 (Socket 0).7_L2HIT",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 224
+    },
+    {
+      "field": "Core3 (Socket 0).8_L3MPI",
+      "title": "Core3 (Socket 0).8_L3MPI",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 229
+    },
+    {
+      "field": "Core3 (Socket 0).9_L2MPI",
+      "title": "Core3 (Socket 0).9_L2MPI",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 228
+    },
+    {
+      "field": "Core3 (Socket 0).10_L3OCC",
+      "title": "Core3 (Socket 0).10_L3OCC",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 241
+    },
+    {
+      "field": "Core3 (Socket 0).11_LMB",
+      "title": "Core3 (Socket 0).11_LMB",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 222
+    },
+    {
+      "field": "Core3 (Socket 0).12_RMB",
+      "title": "Core3 (Socket 0).12_RMB",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 225
+    },
+    {
+      "field": "Core3 (Socket 0).13_C0res%",
+      "title": "Core3 (Socket 0).13_C0res%",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 245
+    },
+    {
+      "field": "Core3 (Socket 0).14_C1res%",
+      "title": "Core3 (Socket 0).14_C1res%",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 244
+    },
+    {
+      "field": "Core3 (Socket 0).15_C6res%",
+      "title": "Core3 (Socket 0).15_C6res%",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 245
+    },
+    {
+      "field": "Core3 (Socket 0).16_TEMP",
+      "title": "Core3 (Socket 0).16_TEMP",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 231
+    },
+    {
+      "field": "Core3 (Socket 0).17_INST",
+      "title": "Core3 (Socket 0).17_INST",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 223
+    },
+    {
+      "field": "Core3 (Socket 0).18_ACYC",
+      "title": "Core3 (Socket 0).18_ACYC",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 231
+    },
+    {
+      "field": "Core3 (Socket 0).19_TIME(ticks)",
+      "title": "Core3 (Socket 0).19_TIME(ticks)",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 267
+    },
+    {
+      "field": "Core3 (Socket 0).20_PhysIPC",
+      "title": "Core3 (Socket 0).20_PhysIPC",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 250
+    },
+    {
+      "field": "Core3 (Socket 0).21_PhysIPC%",
+      "title": "Core3 (Socket 0).21_PhysIPC%",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 261
+    },
+    {
+      "field": "Core3 (Socket 0).22_INSTnom",
+      "title": "Core3 (Socket 0).22_INSTnom",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 255
+    },
+    {
+      "field": "Core3 (Socket 0).23_INSTnom%",
+      "title": "Core3 (Socket 0).23_INSTnom%",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 268
+    },
+    {
+      "field": "Core4 (Socket 0)_EXEC",
+      "title": "Core4 (Socket 0)_EXEC",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 212
+    },
+    {
+      "field": "Core4 (Socket 0).1_IPC",
+      "title": "Core4 (Socket 0).1_IPC",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 209
+    },
+    {
+      "field": "Core4 (Socket 0).2_FREQ",
+      "title": "Core4 (Socket 0).2_FREQ",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 224
+    },
+    {
+      "field": "Core4 (Socket 0).3_AFREQ",
+      "title": "Core4 (Socket 0).3_AFREQ",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 233
+    },
+    {
+      "field": "Core4 (Socket 0).4_L3MISS",
+      "title": "Core4 (Socket 0).4_L3MISS",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 239
+    },
+    {
+      "field": "Core4 (Socket 0).5_L2MISS",
+      "title": "Core4 (Socket 0).5_L2MISS",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 238
+    },
+    {
+      "field": "Core4 (Socket 0).6_L3HIT",
+      "title": "Core4 (Socket 0).6_L3HIT",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 227
+    },
+    {
+      "field": "Core4 (Socket 0).7_L2HIT",
+      "title": "Core4 (Socket 0).7_L2HIT",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 224
+    },
+    {
+      "field": "Core4 (Socket 0).8_L3MPI",
+      "title": "Core4 (Socket 0).8_L3MPI",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 229
+    },
+    {
+      "field": "Core4 (Socket 0).9_L2MPI",
+      "title": "Core4 (Socket 0).9_L2MPI",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 229
+    },
+    {
+      "field": "Core4 (Socket 0).10_L3OCC",
+      "title": "Core4 (Socket 0).10_L3OCC",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 241
+    },
+    {
+      "field": "Core4 (Socket 0).11_LMB",
+      "title": "Core4 (Socket 0).11_LMB",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 222
+    },
+    {
+      "field": "Core4 (Socket 0).12_RMB",
+      "title": "Core4 (Socket 0).12_RMB",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 225
+    },
+    {
+      "field": "Core4 (Socket 0).13_C0res%",
+      "title": "Core4 (Socket 0).13_C0res%",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 246
+    },
+    {
+      "field": "Core4 (Socket 0).14_C1res%",
+      "title": "Core4 (Socket 0).14_C1res%",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 244
+    },
+    {
+      "field": "Core4 (Socket 0).15_C6res%",
+      "title": "Core4 (Socket 0).15_C6res%",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 246
+    },
+    {
+      "field": "Core4 (Socket 0).16_TEMP",
+      "title": "Core4 (Socket 0).16_TEMP",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 231
+    },
+    {
+      "field": "Core4 (Socket 0).17_INST",
+      "title": "Core4 (Socket 0).17_INST",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 223
+    },
+    {
+      "field": "Core4 (Socket 0).18_ACYC",
+      "title": "Core4 (Socket 0).18_ACYC",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 231
+    },
+    {
+      "field": "Core4 (Socket 0).19_TIME(ticks)",
+      "title": "Core4 (Socket 0).19_TIME(ticks)",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 267
+    },
+    {
+      "field": "Core4 (Socket 0).20_PhysIPC",
+      "title": "Core4 (Socket 0).20_PhysIPC",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 250
+    },
+    {
+      "field": "Core4 (Socket 0).21_PhysIPC%",
+      "title": "Core4 (Socket 0).21_PhysIPC%",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 261
+    },
+    {
+      "field": "Core4 (Socket 0).22_INSTnom",
+      "title": "Core4 (Socket 0).22_INSTnom",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 255
+    },
+    {
+      "field": "Core4 (Socket 0).23_INSTnom%",
+      "title": "Core4 (Socket 0).23_INSTnom%",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 268
+    },
+    {
+      "field": "Core5 (Socket 0)_EXEC",
+      "title": "Core5 (Socket 0)_EXEC",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 212
+    },
+    {
+      "field": "Core5 (Socket 0).1_IPC",
+      "title": "Core5 (Socket 0).1_IPC",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 208
+    },
+    {
+      "field": "Core5 (Socket 0).2_FREQ",
+      "title": "Core5 (Socket 0).2_FREQ",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 224
+    },
+    {
+      "field": "Core5 (Socket 0).3_AFREQ",
+      "title": "Core5 (Socket 0).3_AFREQ",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 233
+    },
+    {
+      "field": "Core5 (Socket 0).4_L3MISS",
+      "title": "Core5 (Socket 0).4_L3MISS",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 238
+    },
+    {
+      "field": "Core5 (Socket 0).5_L2MISS",
+      "title": "Core5 (Socket 0).5_L2MISS",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 237
+    },
+    {
+      "field": "Core5 (Socket 0).6_L3HIT",
+      "title": "Core5 (Socket 0).6_L3HIT",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 227
+    },
+    {
+      "field": "Core5 (Socket 0).7_L2HIT",
+      "title": "Core5 (Socket 0).7_L2HIT",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 224
+    },
+    {
+      "field": "Core5 (Socket 0).8_L3MPI",
+      "title": "Core5 (Socket 0).8_L3MPI",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 229
+    },
+    {
+      "field": "Core5 (Socket 0).9_L2MPI",
+      "title": "Core5 (Socket 0).9_L2MPI",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 228
+    },
+    {
+      "field": "Core5 (Socket 0).10_L3OCC",
+      "title": "Core5 (Socket 0).10_L3OCC",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 241
+    },
+    {
+      "field": "Core5 (Socket 0).11_LMB",
+      "title": "Core5 (Socket 0).11_LMB",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 221
+    },
+    {
+      "field": "Core5 (Socket 0).12_RMB",
+      "title": "Core5 (Socket 0).12_RMB",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 225
+    },
+    {
+      "field": "Core5 (Socket 0).13_C0res%",
+      "title": "Core5 (Socket 0).13_C0res%",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 245
+    },
+    {
+      "field": "Core5 (Socket 0).14_C1res%",
+      "title": "Core5 (Socket 0).14_C1res%",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 243
+    },
+    {
+      "field": "Core5 (Socket 0).15_C6res%",
+      "title": "Core5 (Socket 0).15_C6res%",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 245
+    },
+    {
+      "field": "Core5 (Socket 0).16_TEMP",
+      "title": "Core5 (Socket 0).16_TEMP",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 231
+    },
+    {
+      "field": "Core5 (Socket 0).17_INST",
+      "title": "Core5 (Socket 0).17_INST",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 223
+    },
+    {
+      "field": "Core5 (Socket 0).18_ACYC",
+      "title": "Core5 (Socket 0).18_ACYC",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 231
+    },
+    {
+      "field": "Core5 (Socket 0).19_TIME(ticks)",
+      "title": "Core5 (Socket 0).19_TIME(ticks)",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 267
+    },
+    {
+      "field": "Core5 (Socket 0).20_PhysIPC",
+      "title": "Core5 (Socket 0).20_PhysIPC",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 249
+    },
+    {
+      "field": "Core5 (Socket 0).21_PhysIPC%",
+      "title": "Core5 (Socket 0).21_PhysIPC%",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 261
+    },
+    {
+      "field": "Core5 (Socket 0).22_INSTnom",
+      "title": "Core5 (Socket 0).22_INSTnom",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 255
+    },
+    {
+      "field": "Core5 (Socket 0).23_INSTnom%",
+      "title": "Core5 (Socket 0).23_INSTnom%",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 268
+    },
+    {
+      "field": "Core6 (Socket 0)_EXEC",
+      "title": "Core6 (Socket 0)_EXEC",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 212
+    },
+    {
+      "field": "Core6 (Socket 0).1_IPC",
+      "title": "Core6 (Socket 0).1_IPC",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 209
+    },
+    {
+      "field": "Core6 (Socket 0).2_FREQ",
+      "title": "Core6 (Socket 0).2_FREQ",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 224
+    },
+    {
+      "field": "Core6 (Socket 0).3_AFREQ",
+      "title": "Core6 (Socket 0).3_AFREQ",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 233
+    },
+    {
+      "field": "Core6 (Socket 0).4_L3MISS",
+      "title": "Core6 (Socket 0).4_L3MISS",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 239
+    },
+    {
+      "field": "Core6 (Socket 0).5_L2MISS",
+      "title": "Core6 (Socket 0).5_L2MISS",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 238
+    },
+    {
+      "field": "Core6 (Socket 0).6_L3HIT",
+      "title": "Core6 (Socket 0).6_L3HIT",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 227
+    },
+    {
+      "field": "Core6 (Socket 0).7_L2HIT",
+      "title": "Core6 (Socket 0).7_L2HIT",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 224
+    },
+    {
+      "field": "Core6 (Socket 0).8_L3MPI",
+      "title": "Core6 (Socket 0).8_L3MPI",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 229
+    },
+    {
+      "field": "Core6 (Socket 0).9_L2MPI",
+      "title": "Core6 (Socket 0).9_L2MPI",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 229
+    },
+    {
+      "field": "Core6 (Socket 0).10_L3OCC",
+      "title": "Core6 (Socket 0).10_L3OCC",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 241
+    },
+    {
+      "field": "Core6 (Socket 0).11_LMB",
+      "title": "Core6 (Socket 0).11_LMB",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 222
+    },
+    {
+      "field": "Core6 (Socket 0).12_RMB",
+      "title": "Core6 (Socket 0).12_RMB",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 225
+    },
+    {
+      "field": "Core6 (Socket 0).13_C0res%",
+      "title": "Core6 (Socket 0).13_C0res%",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 245
+    },
+    {
+      "field": "Core6 (Socket 0).14_C1res%",
+      "title": "Core6 (Socket 0).14_C1res%",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 244
+    },
+    {
+      "field": "Core6 (Socket 0).15_C6res%",
+      "title": "Core6 (Socket 0).15_C6res%",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 245
+    },
+    {
+      "field": "Core6 (Socket 0).16_TEMP",
+      "title": "Core6 (Socket 0).16_TEMP",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 231
+    },
+    {
+      "field": "Core6 (Socket 0).17_INST",
+      "title": "Core6 (Socket 0).17_INST",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 223
+    },
+    {
+      "field": "Core6 (Socket 0).18_ACYC",
+      "title": "Core6 (Socket 0).18_ACYC",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 231
+    },
+    {
+      "field": "Core6 (Socket 0).19_TIME(ticks)",
+      "title": "Core6 (Socket 0).19_TIME(ticks)",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 267
+    },
+    {
+      "field": "Core6 (Socket 0).20_PhysIPC",
+      "title": "Core6 (Socket 0).20_PhysIPC",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 250
+    },
+    {
+      "field": "Core6 (Socket 0).21_PhysIPC%",
+      "title": "Core6 (Socket 0).21_PhysIPC%",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 261
+    },
+    {
+      "field": "Core6 (Socket 0).22_INSTnom",
+      "title": "Core6 (Socket 0).22_INSTnom",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 255
+    },
+    {
+      "field": "Core6 (Socket 0).23_INSTnom%",
+      "title": "Core6 (Socket 0).23_INSTnom%",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 268
+    },
+    {
+      "field": "Core7 (Socket 0)_EXEC",
+      "title": "Core7 (Socket 0)_EXEC",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 211
+    },
+    {
+      "field": "Core7 (Socket 0).1_IPC",
+      "title": "Core7 (Socket 0).1_IPC",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 207
+    },
+    {
+      "field": "Core7 (Socket 0).2_FREQ",
+      "title": "Core7 (Socket 0).2_FREQ",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 223
+    },
+    {
+      "field": "Core7 (Socket 0).3_AFREQ",
+      "title": "Core7 (Socket 0).3_AFREQ",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 232
+    },
+    {
+      "field": "Core7 (Socket 0).4_L3MISS",
+      "title": "Core7 (Socket 0).4_L3MISS",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 237
+    },
+    {
+      "field": "Core7 (Socket 0).5_L2MISS",
+      "title": "Core7 (Socket 0).5_L2MISS",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 236
+    },
+    {
+      "field": "Core7 (Socket 0).6_L3HIT",
+      "title": "Core7 (Socket 0).6_L3HIT",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 226
+    },
+    {
+      "field": "Core7 (Socket 0).7_L2HIT",
+      "title": "Core7 (Socket 0).7_L2HIT",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 223
+    },
+    {
+      "field": "Core7 (Socket 0).8_L3MPI",
+      "title": "Core7 (Socket 0).8_L3MPI",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 228
+    },
+    {
+      "field": "Core7 (Socket 0).9_L2MPI",
+      "title": "Core7 (Socket 0).9_L2MPI",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 227
+    },
+    {
+      "field": "Core7 (Socket 0).10_L3OCC",
+      "title": "Core7 (Socket 0).10_L3OCC",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 240
+    },
+    {
+      "field": "Core7 (Socket 0).11_LMB",
+      "title": "Core7 (Socket 0).11_LMB",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 220
+    },
+    {
+      "field": "Core7 (Socket 0).12_RMB",
+      "title": "Core7 (Socket 0).12_RMB",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 224
+    },
+    {
+      "field": "Core7 (Socket 0).13_C0res%",
+      "title": "Core7 (Socket 0).13_C0res%",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 244
+    },
+    {
+      "field": "Core7 (Socket 0).14_C1res%",
+      "title": "Core7 (Socket 0).14_C1res%",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 242
+    },
+    {
+      "field": "Core7 (Socket 0).15_C6res%",
+      "title": "Core7 (Socket 0).15_C6res%",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 244
+    },
+    {
+      "field": "Core7 (Socket 0).16_TEMP",
+      "title": "Core7 (Socket 0).16_TEMP",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 230
+    },
+    {
+      "field": "Core7 (Socket 0).17_INST",
+      "title": "Core7 (Socket 0).17_INST",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 222
+    },
+    {
+      "field": "Core7 (Socket 0).18_ACYC",
+      "title": "Core7 (Socket 0).18_ACYC",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 230
+    },
+    {
+      "field": "Core7 (Socket 0).19_TIME(ticks)",
+      "title": "Core7 (Socket 0).19_TIME(ticks)",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 266
+    },
+    {
+      "field": "Core7 (Socket 0).20_PhysIPC",
+      "title": "Core7 (Socket 0).20_PhysIPC",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 248
+    },
+    {
+      "field": "Core7 (Socket 0).21_PhysIPC%",
+      "title": "Core7 (Socket 0).21_PhysIPC%",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 260
+    },
+    {
+      "field": "Core7 (Socket 0).22_INSTnom",
+      "title": "Core7 (Socket 0).22_INSTnom",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 254
+    },
+    {
+      "field": "Core7 (Socket 0).23_INSTnom%",
+      "title": "Core7 (Socket 0).23_INSTnom%",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 267
+    },
+    {
+      "field": "Core8 (Socket 1)_EXEC",
+      "title": "Core8 (Socket 1)_EXEC",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 210
+    },
+    {
+      "field": "Core8 (Socket 1).1_IPC",
+      "title": "Core8 (Socket 1).1_IPC",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 206
+    },
+    {
+      "field": "Core8 (Socket 1).2_FREQ",
+      "title": "Core8 (Socket 1).2_FREQ",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 222
+    },
+    {
+      "field": "Core8 (Socket 1).3_AFREQ",
+      "title": "Core8 (Socket 1).3_AFREQ",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 231
+    },
+    {
+      "field": "Core8 (Socket 1).4_L3MISS",
+      "title": "Core8 (Socket 1).4_L3MISS",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 236
+    },
+    {
+      "field": "Core8 (Socket 1).5_L2MISS",
+      "title": "Core8 (Socket 1).5_L2MISS",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 235
+    },
+    {
+      "field": "Core8 (Socket 1).6_L3HIT",
+      "title": "Core8 (Socket 1).6_L3HIT",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 225
+    },
+    {
+      "field": "Core8 (Socket 1).7_L2HIT",
+      "title": "Core8 (Socket 1).7_L2HIT",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 222
+    },
+    {
+      "field": "Core8 (Socket 1).8_L3MPI",
+      "title": "Core8 (Socket 1).8_L3MPI",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 227
+    },
+    {
+      "field": "Core8 (Socket 1).9_L2MPI",
+      "title": "Core8 (Socket 1).9_L2MPI",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 226
+    },
+    {
+      "field": "Core8 (Socket 1).10_L3OCC",
+      "title": "Core8 (Socket 1).10_L3OCC",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 239
+    },
+    {
+      "field": "Core8 (Socket 1).11_LMB",
+      "title": "Core8 (Socket 1).11_LMB",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 219
+    },
+    {
+      "field": "Core8 (Socket 1).12_RMB",
+      "title": "Core8 (Socket 1).12_RMB",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 223
+    },
+    {
+      "field": "Core8 (Socket 1).13_C0res%",
+      "title": "Core8 (Socket 1).13_C0res%",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 243
+    },
+    {
+      "field": "Core8 (Socket 1).14_C1res%",
+      "title": "Core8 (Socket 1).14_C1res%",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 241
+    },
+    {
+      "field": "Core8 (Socket 1).15_C6res%",
+      "title": "Core8 (Socket 1).15_C6res%",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 243
+    },
+    {
+      "field": "Core8 (Socket 1).16_TEMP",
+      "title": "Core8 (Socket 1).16_TEMP",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 229
+    },
+    {
+      "field": "Core8 (Socket 1).17_INST",
+      "title": "Core8 (Socket 1).17_INST",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 221
+    },
+    {
+      "field": "Core8 (Socket 1).18_ACYC",
+      "title": "Core8 (Socket 1).18_ACYC",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 229
+    },
+    {
+      "field": "Core8 (Socket 1).19_TIME(ticks)",
+      "title": "Core8 (Socket 1).19_TIME(ticks)",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 265
+    },
+    {
+      "field": "Core8 (Socket 1).20_PhysIPC",
+      "title": "Core8 (Socket 1).20_PhysIPC",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 247
+    },
+    {
+      "field": "Core8 (Socket 1).21_PhysIPC%",
+      "title": "Core8 (Socket 1).21_PhysIPC%",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 259
+    },
+    {
+      "field": "Core8 (Socket 1).22_INSTnom",
+      "title": "Core8 (Socket 1).22_INSTnom",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 253
+    },
+    {
+      "field": "Core8 (Socket 1).23_INSTnom%",
+      "title": "Core8 (Socket 1).23_INSTnom%",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 266
+    },
+    {
+      "field": "Core9 (Socket 1)_EXEC",
+      "title": "Core9 (Socket 1)_EXEC",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 210
+    },
+    {
+      "field": "Core9 (Socket 1).1_IPC",
+      "title": "Core9 (Socket 1).1_IPC",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 206
+    },
+    {
+      "field": "Core9 (Socket 1).2_FREQ",
+      "title": "Core9 (Socket 1).2_FREQ",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 222
+    },
+    {
+      "field": "Core9 (Socket 1).3_AFREQ",
+      "title": "Core9 (Socket 1).3_AFREQ",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 231
+    },
+    {
+      "field": "Core9 (Socket 1).4_L3MISS",
+      "title": "Core9 (Socket 1).4_L3MISS",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 236
+    },
+    {
+      "field": "Core9 (Socket 1).5_L2MISS",
+      "title": "Core9 (Socket 1).5_L2MISS",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 235
+    },
+    {
+      "field": "Core9 (Socket 1).6_L3HIT",
+      "title": "Core9 (Socket 1).6_L3HIT",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 225
+    },
+    {
+      "field": "Core9 (Socket 1).7_L2HIT",
+      "title": "Core9 (Socket 1).7_L2HIT",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 222
+    },
+    {
+      "field": "Core9 (Socket 1).8_L3MPI",
+      "title": "Core9 (Socket 1).8_L3MPI",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 227
+    },
+    {
+      "field": "Core9 (Socket 1).9_L2MPI",
+      "title": "Core9 (Socket 1).9_L2MPI",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 226
+    },
+    {
+      "field": "Core9 (Socket 1).10_L3OCC",
+      "title": "Core9 (Socket 1).10_L3OCC",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 239
+    },
+    {
+      "field": "Core9 (Socket 1).11_LMB",
+      "title": "Core9 (Socket 1).11_LMB",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 219
+    },
+    {
+      "field": "Core9 (Socket 1).12_RMB",
+      "title": "Core9 (Socket 1).12_RMB",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 223
+    },
+    {
+      "field": "Core9 (Socket 1).13_C0res%",
+      "title": "Core9 (Socket 1).13_C0res%",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 243
+    },
+    {
+      "field": "Core9 (Socket 1).14_C1res%",
+      "title": "Core9 (Socket 1).14_C1res%",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 241
+    },
+    {
+      "field": "Core9 (Socket 1).15_C6res%",
+      "title": "Core9 (Socket 1).15_C6res%",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 243
+    },
+    {
+      "field": "Core9 (Socket 1).16_TEMP",
+      "title": "Core9 (Socket 1).16_TEMP",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 229
+    },
+    {
+      "field": "Core9 (Socket 1).17_INST",
+      "title": "Core9 (Socket 1).17_INST",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 221
+    },
+    {
+      "field": "Core9 (Socket 1).18_ACYC",
+      "title": "Core9 (Socket 1).18_ACYC",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 229
+    },
+    {
+      "field": "Core9 (Socket 1).19_TIME(ticks)",
+      "title": "Core9 (Socket 1).19_TIME(ticks)",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 265
+    },
+    {
+      "field": "Core9 (Socket 1).20_PhysIPC",
+      "title": "Core9 (Socket 1).20_PhysIPC",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 247
+    },
+    {
+      "field": "Core9 (Socket 1).21_PhysIPC%",
+      "title": "Core9 (Socket 1).21_PhysIPC%",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 259
+    },
+    {
+      "field": "Core9 (Socket 1).22_INSTnom",
+      "title": "Core9 (Socket 1).22_INSTnom",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 253
+    },
+    {
+      "field": "Core9 (Socket 1).23_INSTnom%",
+      "title": "Core9 (Socket 1).23_INSTnom%",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 266
+    },
+    {
+      "field": "Core10 (Socket 1)_EXEC",
+      "title": "Core10 (Socket 1)_EXEC",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 216
+    },
+    {
+      "field": "Core10 (Socket 1).1_IPC",
+      "title": "Core10 (Socket 1).1_IPC",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 213
+    },
+    {
+      "field": "Core10 (Socket 1).2_FREQ",
+      "title": "Core10 (Socket 1).2_FREQ",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 228
+    },
+    {
+      "field": "Core10 (Socket 1).3_AFREQ",
+      "title": "Core10 (Socket 1).3_AFREQ",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 237
+    },
+    {
+      "field": "Core10 (Socket 1).4_L3MISS",
+      "title": "Core10 (Socket 1).4_L3MISS",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 242
+    },
+    {
+      "field": "Core10 (Socket 1).5_L2MISS",
+      "title": "Core10 (Socket 1).5_L2MISS",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 241
+    },
+    {
+      "field": "Core10 (Socket 1).6_L3HIT",
+      "title": "Core10 (Socket 1).6_L3HIT",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 231
+    },
+    {
+      "field": "Core10 (Socket 1).7_L2HIT",
+      "title": "Core10 (Socket 1).7_L2HIT",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 228
+    },
+    {
+      "field": "Core10 (Socket 1).8_L3MPI",
+      "title": "Core10 (Socket 1).8_L3MPI",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 233
+    },
+    {
+      "field": "Core10 (Socket 1).9_L2MPI",
+      "title": "Core10 (Socket 1).9_L2MPI",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 232
+    },
+    {
+      "field": "Core10 (Socket 1).10_L3OCC",
+      "title": "Core10 (Socket 1).10_L3OCC",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 245
+    },
+    {
+      "field": "Core10 (Socket 1).11_LMB",
+      "title": "Core10 (Socket 1).11_LMB",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 226
+    },
+    {
+      "field": "Core10 (Socket 1).12_RMB",
+      "title": "Core10 (Socket 1).12_RMB",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 229
+    },
+    {
+      "field": "Core10 (Socket 1).13_C0res%",
+      "title": "Core10 (Socket 1).13_C0res%",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 249
+    },
+    {
+      "field": "Core10 (Socket 1).14_C1res%",
+      "title": "Core10 (Socket 1).14_C1res%",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 248
+    },
+    {
+      "field": "Core10 (Socket 1).15_C6res%",
+      "title": "Core10 (Socket 1).15_C6res%",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 249
+    },
+    {
+      "field": "Core10 (Socket 1).16_TEMP",
+      "title": "Core10 (Socket 1).16_TEMP",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 235
+    },
+    {
+      "field": "Core10 (Socket 1).17_INST",
+      "title": "Core10 (Socket 1).17_INST",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 227
+    },
+    {
+      "field": "Core10 (Socket 1).18_ACYC",
+      "title": "Core10 (Socket 1).18_ACYC",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 235
+    },
+    {
+      "field": "Core10 (Socket 1).19_TIME(ticks)",
+      "title": "Core10 (Socket 1).19_TIME(ticks)",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 271
+    },
+    {
+      "field": "Core10 (Socket 1).20_PhysIPC",
+      "title": "Core10 (Socket 1).20_PhysIPC",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 254
+    },
+    {
+      "field": "Core10 (Socket 1).21_PhysIPC%",
+      "title": "Core10 (Socket 1).21_PhysIPC%",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 265
+    },
+    {
+      "field": "Core10 (Socket 1).22_INSTnom",
+      "title": "Core10 (Socket 1).22_INSTnom",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 259
+    },
+    {
+      "field": "Core10 (Socket 1).23_INSTnom%",
+      "title": "Core10 (Socket 1).23_INSTnom%",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 272
+    },
+    {
+      "field": "Core11 (Socket 1)_EXEC",
+      "title": "Core11 (Socket 1)_EXEC",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 214
+    },
+    {
+      "field": "Core11 (Socket 1).1_IPC",
+      "title": "Core11 (Socket 1).1_IPC",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 210
+    },
+    {
+      "field": "Core11 (Socket 1).2_FREQ",
+      "title": "Core11 (Socket 1).2_FREQ",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 226
+    },
+    {
+      "field": "Core11 (Socket 1).3_AFREQ",
+      "title": "Core11 (Socket 1).3_AFREQ",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 235
+    },
+    {
+      "field": "Core11 (Socket 1).4_L3MISS",
+      "title": "Core11 (Socket 1).4_L3MISS",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 240
+    },
+    {
+      "field": "Core11 (Socket 1).5_L2MISS",
+      "title": "Core11 (Socket 1).5_L2MISS",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 239
+    },
+    {
+      "field": "Core11 (Socket 1).6_L3HIT",
+      "title": "Core11 (Socket 1).6_L3HIT",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 229
+    },
+    {
+      "field": "Core11 (Socket 1).7_L2HIT",
+      "title": "Core11 (Socket 1).7_L2HIT",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 226
+    },
+    {
+      "field": "Core11 (Socket 1).8_L3MPI",
+      "title": "Core11 (Socket 1).8_L3MPI",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 231
+    },
+    {
+      "field": "Core11 (Socket 1).9_L2MPI",
+      "title": "Core11 (Socket 1).9_L2MPI",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 230
+    },
+    {
+      "field": "Core11 (Socket 1).10_L3OCC",
+      "title": "Core11 (Socket 1).10_L3OCC",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 243
+    },
+    {
+      "field": "Core11 (Socket 1).11_LMB",
+      "title": "Core11 (Socket 1).11_LMB",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 223
+    },
+    {
+      "field": "Core11 (Socket 1).12_RMB",
+      "title": "Core11 (Socket 1).12_RMB",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 226
+    },
+    {
+      "field": "Core11 (Socket 1).13_C0res%",
+      "title": "Core11 (Socket 1).13_C0res%",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 247
+    },
+    {
+      "field": "Core11 (Socket 1).14_C1res%",
+      "title": "Core11 (Socket 1).14_C1res%",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 245
+    },
+    {
+      "field": "Core11 (Socket 1).15_C6res%",
+      "title": "Core11 (Socket 1).15_C6res%",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 247
+    },
+    {
+      "field": "Core11 (Socket 1).16_TEMP",
+      "title": "Core11 (Socket 1).16_TEMP",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 233
+    },
+    {
+      "field": "Core11 (Socket 1).17_INST",
+      "title": "Core11 (Socket 1).17_INST",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 225
+    },
+    {
+      "field": "Core11 (Socket 1).18_ACYC",
+      "title": "Core11 (Socket 1).18_ACYC",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 233
+    },
+    {
+      "field": "Core11 (Socket 1).19_TIME(ticks)",
+      "title": "Core11 (Socket 1).19_TIME(ticks)",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 269
+    },
+    {
+      "field": "Core11 (Socket 1).20_PhysIPC",
+      "title": "Core11 (Socket 1).20_PhysIPC",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 251
+    },
+    {
+      "field": "Core11 (Socket 1).21_PhysIPC%",
+      "title": "Core11 (Socket 1).21_PhysIPC%",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 262
+    },
+    {
+      "field": "Core11 (Socket 1).22_INSTnom",
+      "title": "Core11 (Socket 1).22_INSTnom",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 257
+    },
+    {
+      "field": "Core11 (Socket 1).23_INSTnom%",
+      "title": "Core11 (Socket 1).23_INSTnom%",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 270
+    },
+    {
+      "field": "Core12 (Socket 1)_EXEC",
+      "title": "Core12 (Socket 1)_EXEC",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 216
+    },
+    {
+      "field": "Core12 (Socket 1).1_IPC",
+      "title": "Core12 (Socket 1).1_IPC",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 212
+    },
+    {
+      "field": "Core12 (Socket 1).2_FREQ",
+      "title": "Core12 (Socket 1).2_FREQ",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 228
+    },
+    {
+      "field": "Core12 (Socket 1).3_AFREQ",
+      "title": "Core12 (Socket 1).3_AFREQ",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 237
+    },
+    {
+      "field": "Core12 (Socket 1).4_L3MISS",
+      "title": "Core12 (Socket 1).4_L3MISS",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 242
+    },
+    {
+      "field": "Core12 (Socket 1).5_L2MISS",
+      "title": "Core12 (Socket 1).5_L2MISS",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 241
+    },
+    {
+      "field": "Core12 (Socket 1).6_L3HIT",
+      "title": "Core12 (Socket 1).6_L3HIT",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 231
+    },
+    {
+      "field": "Core12 (Socket 1).7_L2HIT",
+      "title": "Core12 (Socket 1).7_L2HIT",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 228
+    },
+    {
+      "field": "Core12 (Socket 1).8_L3MPI",
+      "title": "Core12 (Socket 1).8_L3MPI",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 232
+    },
+    {
+      "field": "Core12 (Socket 1).9_L2MPI",
+      "title": "Core12 (Socket 1).9_L2MPI",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 232
+    },
+    {
+      "field": "Core12 (Socket 1).10_L3OCC",
+      "title": "Core12 (Socket 1).10_L3OCC",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 245
+    },
+    {
+      "field": "Core12 (Socket 1).11_LMB",
+      "title": "Core12 (Socket 1).11_LMB",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 225
+    },
+    {
+      "field": "Core12 (Socket 1).12_RMB",
+      "title": "Core12 (Socket 1).12_RMB",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 228
+    },
+    {
+      "field": "Core12 (Socket 1).13_C0res%",
+      "title": "Core12 (Socket 1).13_C0res%",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 249
+    },
+    {
+      "field": "Core12 (Socket 1).14_C1res%",
+      "title": "Core12 (Socket 1).14_C1res%",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 247
+    },
+    {
+      "field": "Core12 (Socket 1).15_C6res%",
+      "title": "Core12 (Socket 1).15_C6res%",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 249
+    },
+    {
+      "field": "Core12 (Socket 1).16_TEMP",
+      "title": "Core12 (Socket 1).16_TEMP",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 235
+    },
+    {
+      "field": "Core12 (Socket 1).17_INST",
+      "title": "Core12 (Socket 1).17_INST",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 227
+    },
+    {
+      "field": "Core12 (Socket 1).18_ACYC",
+      "title": "Core12 (Socket 1).18_ACYC",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 235
+    },
+    {
+      "field": "Core12 (Socket 1).19_TIME(ticks)",
+      "title": "Core12 (Socket 1).19_TIME(ticks)",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 270
+    },
+    {
+      "field": "Core12 (Socket 1).20_PhysIPC",
+      "title": "Core12 (Socket 1).20_PhysIPC",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 253
+    },
+    {
+      "field": "Core12 (Socket 1).21_PhysIPC%",
+      "title": "Core12 (Socket 1).21_PhysIPC%",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 264
+    },
+    {
+      "field": "Core12 (Socket 1).22_INSTnom",
+      "title": "Core12 (Socket 1).22_INSTnom",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 259
+    },
+    {
+      "field": "Core12 (Socket 1).23_INSTnom%",
+      "title": "Core12 (Socket 1).23_INSTnom%",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 272
+    },
+    {
+      "field": "Core13 (Socket 1)_EXEC",
+      "title": "Core13 (Socket 1)_EXEC",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 216
+    },
+    {
+      "field": "Core13 (Socket 1).1_IPC",
+      "title": "Core13 (Socket 1).1_IPC",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 212
+    },
+    {
+      "field": "Core13 (Socket 1).2_FREQ",
+      "title": "Core13 (Socket 1).2_FREQ",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 228
+    },
+    {
+      "field": "Core13 (Socket 1).3_AFREQ",
+      "title": "Core13 (Socket 1).3_AFREQ",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 237
+    },
+    {
+      "field": "Core13 (Socket 1).4_L3MISS",
+      "title": "Core13 (Socket 1).4_L3MISS",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 242
+    },
+    {
+      "field": "Core13 (Socket 1).5_L2MISS",
+      "title": "Core13 (Socket 1).5_L2MISS",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 241
+    },
+    {
+      "field": "Core13 (Socket 1).6_L3HIT",
+      "title": "Core13 (Socket 1).6_L3HIT",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 231
+    },
+    {
+      "field": "Core13 (Socket 1).7_L2HIT",
+      "title": "Core13 (Socket 1).7_L2HIT",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 228
+    },
+    {
+      "field": "Core13 (Socket 1).8_L3MPI",
+      "title": "Core13 (Socket 1).8_L3MPI",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 233
+    },
+    {
+      "field": "Core13 (Socket 1).9_L2MPI",
+      "title": "Core13 (Socket 1).9_L2MPI",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 232
+    },
+    {
+      "field": "Core13 (Socket 1).10_L3OCC",
+      "title": "Core13 (Socket 1).10_L3OCC",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 245
+    },
+    {
+      "field": "Core13 (Socket 1).11_LMB",
+      "title": "Core13 (Socket 1).11_LMB",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 226
+    },
+    {
+      "field": "Core13 (Socket 1).12_RMB",
+      "title": "Core13 (Socket 1).12_RMB",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 229
+    },
+    {
+      "field": "Core13 (Socket 1).13_C0res%",
+      "title": "Core13 (Socket 1).13_C0res%",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 249
+    },
+    {
+      "field": "Core13 (Socket 1).14_C1res%",
+      "title": "Core13 (Socket 1).14_C1res%",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 248
+    },
+    {
+      "field": "Core13 (Socket 1).15_C6res%",
+      "title": "Core13 (Socket 1).15_C6res%",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 249
+    },
+    {
+      "field": "Core13 (Socket 1).16_TEMP",
+      "title": "Core13 (Socket 1).16_TEMP",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 235
+    },
+    {
+      "field": "Core13 (Socket 1).17_INST",
+      "title": "Core13 (Socket 1).17_INST",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 227
+    },
+    {
+      "field": "Core13 (Socket 1).18_ACYC",
+      "title": "Core13 (Socket 1).18_ACYC",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 235
+    },
+    {
+      "field": "Core13 (Socket 1).19_TIME(ticks)",
+      "title": "Core13 (Socket 1).19_TIME(ticks)",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 271
+    },
+    {
+      "field": "Core13 (Socket 1).20_PhysIPC",
+      "title": "Core13 (Socket 1).20_PhysIPC",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 254
+    },
+    {
+      "field": "Core13 (Socket 1).21_PhysIPC%",
+      "title": "Core13 (Socket 1).21_PhysIPC%",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 265
+    },
+    {
+      "field": "Core13 (Socket 1).22_INSTnom",
+      "title": "Core13 (Socket 1).22_INSTnom",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 259
+    },
+    {
+      "field": "Core13 (Socket 1).23_INSTnom%",
+      "title": "Core13 (Socket 1).23_INSTnom%",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 272
+    },
+    {
+      "field": "Core14 (Socket 1)_EXEC",
+      "title": "Core14 (Socket 1)_EXEC",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 216
+    },
+    {
+      "field": "Core14 (Socket 1).1_IPC",
+      "title": "Core14 (Socket 1).1_IPC",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 213
+    },
+    {
+      "field": "Core14 (Socket 1).2_FREQ",
+      "title": "Core14 (Socket 1).2_FREQ",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 228
+    },
+    {
+      "field": "Core14 (Socket 1).3_AFREQ",
+      "title": "Core14 (Socket 1).3_AFREQ",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 238
+    },
+    {
+      "field": "Core14 (Socket 1).4_L3MISS",
+      "title": "Core14 (Socket 1).4_L3MISS",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 243
+    },
+    {
+      "field": "Core14 (Socket 1).5_L2MISS",
+      "title": "Core14 (Socket 1).5_L2MISS",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 242
+    },
+    {
+      "field": "Core14 (Socket 1).6_L3HIT",
+      "title": "Core14 (Socket 1).6_L3HIT",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 231
+    },
+    {
+      "field": "Core14 (Socket 1).7_L2HIT",
+      "title": "Core14 (Socket 1).7_L2HIT",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 228
+    },
+    {
+      "field": "Core14 (Socket 1).8_L3MPI",
+      "title": "Core14 (Socket 1).8_L3MPI",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 233
+    },
+    {
+      "field": "Core14 (Socket 1).9_L2MPI",
+      "title": "Core14 (Socket 1).9_L2MPI",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 233
+    },
+    {
+      "field": "Core14 (Socket 1).10_L3OCC",
+      "title": "Core14 (Socket 1).10_L3OCC",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 245
+    },
+    {
+      "field": "Core14 (Socket 1).11_LMB",
+      "title": "Core14 (Socket 1).11_LMB",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 226
+    },
+    {
+      "field": "Core14 (Socket 1).12_RMB",
+      "title": "Core14 (Socket 1).12_RMB",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 229
+    },
+    {
+      "field": "Core14 (Socket 1).13_C0res%",
+      "title": "Core14 (Socket 1).13_C0res%",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 250
+    },
+    {
+      "field": "Core14 (Socket 1).14_C1res%",
+      "title": "Core14 (Socket 1).14_C1res%",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 248
+    },
+    {
+      "field": "Core14 (Socket 1).15_C6res%",
+      "title": "Core14 (Socket 1).15_C6res%",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 250
+    },
+    {
+      "field": "Core14 (Socket 1).16_TEMP",
+      "title": "Core14 (Socket 1).16_TEMP",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 236
+    },
+    {
+      "field": "Core14 (Socket 1).17_INST",
+      "title": "Core14 (Socket 1).17_INST",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 227
+    },
+    {
+      "field": "Core14 (Socket 1).18_ACYC",
+      "title": "Core14 (Socket 1).18_ACYC",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 236
+    },
+    {
+      "field": "Core14 (Socket 1).19_TIME(ticks)",
+      "title": "Core14 (Socket 1).19_TIME(ticks)",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 271
+    },
+    {
+      "field": "Core14 (Socket 1).20_PhysIPC",
+      "title": "Core14 (Socket 1).20_PhysIPC",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 254
+    },
+    {
+      "field": "Core14 (Socket 1).21_PhysIPC%",
+      "title": "Core14 (Socket 1).21_PhysIPC%",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 265
+    },
+    {
+      "field": "Core14 (Socket 1).22_INSTnom",
+      "title": "Core14 (Socket 1).22_INSTnom",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 259
+    },
+    {
+      "field": "Core14 (Socket 1).23_INSTnom%",
+      "title": "Core14 (Socket 1).23_INSTnom%",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 272
+    },
+    {
+      "field": "Core15 (Socket 1)_EXEC",
+      "title": "Core15 (Socket 1)_EXEC",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 216
+    },
+    {
+      "field": "Core15 (Socket 1).1_IPC",
+      "title": "Core15 (Socket 1).1_IPC",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 212
+    },
+    {
+      "field": "Core15 (Socket 1).2_FREQ",
+      "title": "Core15 (Socket 1).2_FREQ",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 228
+    },
+    {
+      "field": "Core15 (Socket 1).3_AFREQ",
+      "title": "Core15 (Socket 1).3_AFREQ",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 237
+    },
+    {
+      "field": "Core15 (Socket 1).4_L3MISS",
+      "title": "Core15 (Socket 1).4_L3MISS",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 242
+    },
+    {
+      "field": "Core15 (Socket 1).5_L2MISS",
+      "title": "Core15 (Socket 1).5_L2MISS",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 241
+    },
+    {
+      "field": "Core15 (Socket 1).6_L3HIT",
+      "title": "Core15 (Socket 1).6_L3HIT",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 231
+    },
+    {
+      "field": "Core15 (Socket 1).7_L2HIT",
+      "title": "Core15 (Socket 1).7_L2HIT",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 228
+    },
+    {
+      "field": "Core15 (Socket 1).8_L3MPI",
+      "title": "Core15 (Socket 1).8_L3MPI",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 233
+    },
+    {
+      "field": "Core15 (Socket 1).9_L2MPI",
+      "title": "Core15 (Socket 1).9_L2MPI",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 232
+    },
+    {
+      "field": "Core15 (Socket 1).10_L3OCC",
+      "title": "Core15 (Socket 1).10_L3OCC",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 245
+    },
+    {
+      "field": "Core15 (Socket 1).11_LMB",
+      "title": "Core15 (Socket 1).11_LMB",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 225
+    },
+    {
+      "field": "Core15 (Socket 1).12_RMB",
+      "title": "Core15 (Socket 1).12_RMB",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 229
+    },
+    {
+      "field": "Core15 (Socket 1).13_C0res%",
+      "title": "Core15 (Socket 1).13_C0res%",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 249
+    },
+    {
+      "field": "Core15 (Socket 1).14_C1res%",
+      "title": "Core15 (Socket 1).14_C1res%",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 247
+    },
+    {
+      "field": "Core15 (Socket 1).15_C6res%",
+      "title": "Core15 (Socket 1).15_C6res%",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 249
+    },
+    {
+      "field": "Core15 (Socket 1).16_TEMP",
+      "title": "Core15 (Socket 1).16_TEMP",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 235
+    },
+    {
+      "field": "Core15 (Socket 1).17_INST",
+      "title": "Core15 (Socket 1).17_INST",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 227
+    },
+    {
+      "field": "Core15 (Socket 1).18_ACYC",
+      "title": "Core15 (Socket 1).18_ACYC",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 235
+    },
+    {
+      "field": "Core15 (Socket 1).19_TIME(ticks)",
+      "title": "Core15 (Socket 1).19_TIME(ticks)",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 271
+    },
+    {
+      "field": "Core15 (Socket 1).20_PhysIPC",
+      "title": "Core15 (Socket 1).20_PhysIPC",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 253
+    },
+    {
+      "field": "Core15 (Socket 1).21_PhysIPC%",
+      "title": "Core15 (Socket 1).21_PhysIPC%",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 265
+    },
+    {
+      "field": "Core15 (Socket 1).22_INSTnom",
+      "title": "Core15 (Socket 1).22_INSTnom",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 259
+    },
+    {
+      "field": "Core15 (Socket 1).23_INSTnom%",
+      "title": "Core15 (Socket 1).23_INSTnom%",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 272
+    },
+    {
+      "field": "Unnamed: 509_nan",
+      "title": "Unnamed: 509_nan",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 185
+    }
+  ]
+}

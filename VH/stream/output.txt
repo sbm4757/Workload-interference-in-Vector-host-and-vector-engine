@@ -1,0 +1,153 @@
+/usr/bin/time -v strace -c mpirun -n 2 ./stream_ve
+-------------------------------------------------------------
+-------------------------------------------------------------
+STREAM version $Revision: 5.10 $
+STREAM version $Revision: 5.10 $
+-------------------------------------------------------------
+-------------------------------------------------------------
+This system uses 8 bytes per array element.
+This system uses 8 bytes per array element.
+-------------------------------------------------------------
+-------------------------------------------------------------
+Array size = 10000000 (elements), Offset = 0 (elements)
+Array size = 10000000 (elements), Offset = 0 (elements)
+Memory per array = 76.3 MiB (= 0.1 GiB).
+Memory per array = 76.3 MiB (= 0.1 GiB).
+Total memory required = 228.9 MiB (= 0.2 GiB).
+Total memory required = 228.9 MiB (= 0.2 GiB).
+Each kernel will be executed 10 times.
+Each kernel will be executed 10 times.
+ The *best* time for each kernel (excluding the first iteration)
+ The *best* time for each kernel (excluding the first iteration)
+ will be used to compute the reported bandwidth.
+ will be used to compute the reported bandwidth.
+-------------------------------------------------------------
+-------------------------------------------------------------
+Your clock granularity/precision appears to be 1 microseconds.
+Your clock granularity/precision appears to be 1 microseconds.
+Each test below will take on the order of 598 microseconds.
+Each test below will take on the order of 598 microseconds.
+   (= 598 clock ticks)
+   (= 598 clock ticks)
+Increase the size of the arrays if this shows that
+Increase the size of the arrays if this shows that
+you are not getting at least 20 clock ticks per test.
+you are not getting at least 20 clock ticks per test.
+-------------------------------------------------------------
+-------------------------------------------------------------
+WARNING -- The above is only a rough guideline.
+WARNING -- The above is only a rough guideline.
+For best results, please be sure you know the
+For best results, please be sure you know the
+precision of your system timer.
+precision of your system timer.
+-------------------------------------------------------------
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:          267153.1     0.000600     0.000599     0.000600
+Copy:          267153.1     0.000599     0.000599     0.000600
+Scale:         267153.1     0.000600     0.000599     0.000600
+Scale:         267153.1     0.000599     0.000599     0.000600
+Add:           267295.0     0.000899     0.000898     0.000900
+Add:           267295.0     0.000899     0.000898     0.000900
+Triad:         267295.0     0.000899     0.000898     0.000899
+Triad:         267295.0     0.000899     0.000898     0.000899
+-------------------------------------------------------------
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-13 on all three arrays
+Solution Validates: avg error less than 1.000000e-13 on all three arrays
+-------------------------------------------------------------
+-------------------------------------------------------------
+% time     seconds  usecs/call     calls    errors syscall
+------ ----------- ----------- --------- --------- ------------------
+ 64.52    0.050652       12663         4         1 wait4
+ 10.38    0.008146           6      1266       175 openat
+  6.81    0.005348           3      1366         4 read
+  6.44    0.005056          37       136           poll
+  3.47    0.002727           2      1117           close
+  1.32    0.001039         207         5           clone
+  0.92    0.000720           8        81           munmap
+  0.88    0.000687           2       311        47 stat
+  0.70    0.000552           3       183           mprotect
+  0.67    0.000523           2       201           mmap
+  0.58    0.000457           5        77           write
+  0.43    0.000337           4        74           getdents64
+  0.37    0.000290           1       182           fstat
+  0.34    0.000269          15        17           sched_setaffinity
+  0.33    0.000263           1       171           lseek
+  0.22    0.000170           8        20           faccessat
+  0.17    0.000137           8        17         9 newfstatat
+  0.16    0.000128          16         8         3 mkdir
+  0.15    0.000121           2        56        12 ioctl
+  0.15    0.000117           1        64           fcntl
+  0.11    0.000088           2        32           brk
+  0.09    0.000068           2        27         1 futex
+  0.09    0.000067          13         5         1 unlink
+  0.08    0.000066          11         6           socket
+  0.08    0.000066          22         3           rmdir
+  0.05    0.000042           0        45           rt_sigaction
+  0.05    0.000041           4        10           readlinkat
+  0.05    0.000040           5         8           pipe
+  0.03    0.000027           5         5           chdir
+  0.03    0.000022           2        11           uname
+  0.02    0.000019           1        11           getuid
+  0.02    0.000017           3         5         4 access
+  0.02    0.000017           1        10           getpid
+  0.02    0.000015           1        12           geteuid
+  0.02    0.000014           2         7           getgid
+  0.02    0.000013           6         2         2 connect
+  0.02    0.000013           1         9           getegid
+  0.01    0.000011           5         2           bind
+  0.01    0.000011          11         1           shmdt
+  0.01    0.000011           1         7           getcwd
+  0.01    0.000011           5         2           pipe2
+  0.01    0.000009           3         3           statfs
+  0.01    0.000008           4         2           epoll_ctl
+  0.01    0.000007           3         2         2 lstat
+  0.01    0.000007           7         1           shmget
+  0.01    0.000007           3         2           listen
+  0.01    0.000006           6         1           shmat
+  0.01    0.000006           3         2           eventfd2
+  0.01    0.000005           2         2           shmctl
+  0.01    0.000005           2         2           shutdown
+  0.01    0.000005           2         2           setsockopt
+  0.01    0.000004           2         2           getsockname
+  0.01    0.000004           1         3           sched_getaffinity
+  0.00    0.000003           3         1           epoll_create1
+  0.00    0.000003           3         1           getrandom
+  0.00    0.000002           1         2           rt_sigprocmask
+  0.00    0.000002           2         1           rt_sigreturn
+  0.00    0.000002           2         1           getpgrp
+  0.00    0.000002           2         1           set_tid_address
+  0.00    0.000002           2         1           set_robust_list
+  0.00    0.000002           2         1           prlimit64
+  0.00    0.000000           0         1           execve
+  0.00    0.000000           0         1           ftruncate
+  0.00    0.000000           0         1           mknod
+  0.00    0.000000           0         2         1 arch_prctl
+------ ----------- ----------- --------- --------- ------------------
+100.00    0.078509          13      5614       262 total
+	Command being timed: "strace -c mpirun -n 2 ./stream_ve"
+	User time (seconds): 0.05
+	System time (seconds): 0.13
+	Percent of CPU this job got: 0%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 5:40.46
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 20704
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 23
+	Minor (reclaiming a frame) page faults: 11806
+	Voluntary context switches: 25375
+	Involuntary context switches: 19
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 208
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

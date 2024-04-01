@@ -1,0 +1,1632 @@
+
+ Intel(r) Performance Counter Monitor (2022-11-24 10:18:12 +0100 ID=1b16bb4e)
+
+
+PCM Info: setrlimit for file limit 1000000 failed with error Operation not permitted
+
+=====  Processor information  =====
+
+
+ Intel(r) Performance Counter Monitor  Intel(r) Performance Counter Monitor (2022-11-24 10:18:12 +0100 ID=1b16bb4e)
+(2022-11-24 10:18:12 +0100 ID=1b16bb4e)
+
+
+ Intel(r) Performance Counter Monitor 
+
+
+ Intel(r) Performance Counter Monitor 
+(2022-11-24 10:18:12 +0100 ID=1b16bb4e) Intel(r) Performance Counter Monitor 
+
+ Intel(r) Performance Counter Monitor 
+(2022-11-24 10:18:12 +0100 ID=1b16bb4e)
+ Intel(r) Performance Counter Monitor (2022-11-24 10:18:12 +0100 ID=1b16bb4e)(2022-11-24 10:18:12 +0100 ID=1b16bb4e)
+
+(2022-11-24 10:18:12 +0100 ID=1b16bb4e)
+PCM Info: setrlimit for file limit 
+
+PCM Info: setrlimit for file limit 
+
+
+1000000
+
+1000000
+
+ failed with error 
+ failed with error 
+Operation not permittedPCM Info: setrlimit for file limit Operation not permittedPCM Info: setrlimit for file limit 
+PCM Info: setrlimit for file limit 1000000
+PCM Info: setrlimit for file limit 1000000PCM Info: setrlimit for file limit 1000000 failed with error  failed with error 1000000
+=====  Processor information  =====
+1000000 failed with error Operation not permitted
+
+=====  Processor information  =====
+Operation not permitted failed with error  failed with error Operation not permitted
+Operation not permittedOperation not permitted
+
+
+
+=====  Processor information  =====
+
+=====  Processor information  =====
+
+=====  Processor information  =====
+
+=====  Processor information  =====
+
+=====  Processor information  =====
+Linux arch_perfmon flag  : yes
+Hybrid processor         : no
+IBRS and IBPB supported  : yes
+STIBP supported          : yes
+Spec arch caps supported : yes
+Max CPUID level          : 22
+Linux arch_perfmon flag  : CPU model number         : yes85
+
+Linux arch_perfmon flag  : Hybrid processor         : yesno
+
+Hybrid processor         : IBRS and IBPB supported  : noyes
+
+IBRS and IBPB supported  : STIBP supported          : yesyes
+
+STIBP supported          : Spec arch caps supported : yesyes
+
+Spec arch caps supported : Max CPUID level          : yes22
+
+Max CPUID level          : CPU model number         : 2285
+
+CPU model number         : 85
+Number of physical cores: Number of physical cores: 16
+16Number of logical cores: 
+16Number of logical cores: 
+16Number of online logical cores: 
+16Number of online logical cores: 
+16Threads (logical cores) per physical core: 
+1Threads (logical cores) per physical core: 
+1Num sockets: 
+2Num sockets: 
+2Physical cores per socket: 
+8Physical cores per socket: 
+8Last level cache slices per socket: 
+0Last level cache slices per socket: 
+0Core PMU (perfmon) version: 
+4Core PMU (perfmon) version: 
+4Number of core PMU generic (programmable) counters: 
+8Number of core PMU generic (programmable) counters: 
+8Width of generic (programmable) counters: 
+48Width of generic (programmable) counters:  bits
+48Number of core PMU fixed counters:  bits
+3Number of core PMU fixed counters: 
+3Width of fixed counters: 
+48Width of fixed counters:  bits
+48Nominal core frequency:  bits
+2100000000Nominal core frequency:  Hz
+2100000000IBRS enabled in the kernel   :  Hz
+noIBRS enabled in the kernel   : 
+noSTIBP enabled in the kernel  : 
+noSTIBP enabled in the kernel  : 
+noThe processor is not susceptible to Rogue Data Cache Load: 
+noThe processor is not susceptible to Rogue Data Cache Load: 
+noThe processor supports enhanced IBRS                     : 
+noThe processor supports enhanced IBRS                     : 
+no
+
+=====  Processor topology  =====
+OS_Processor    Thread_Id       Core_Id         Tile_Id         Package_Id      Core_Type   Native_CPU_Model
+
+=====  Processor topology  =====
+0               OS_Processor    Thread_Id       Core_Id         Tile_Id         Package_Id      Core_Type   Native_CPU_Model
+0               0               0               0               0               0               0               0               invalid0                invalid                -1               
+-1              
+1               0               1               1               0               1               1               0               1               invalid0                invalid                -1               
+-1              2               
+0               2               2               0               2               2               0               2               invalid0                invalid                -1               
+-1              3               
+0               3               3               0               3               3               0               3               invalid0                invalid                -1               
+-1              4               
+0               4               4               0               4               4               0               4               invalid0                invalid                -1               
+-1              5               
+0               5               5               0               5               5               0               5               invalid0                invalid                -1               
+-1              6               
+0               6               6               0               6               6               0               6               invalid0                invalid                -1               
+-1              7               
+0               7               7               0               7               7               0               7               invalid0                invalid                -1               
+-1              8               
+0               8               0               0               8               0               1               8               invalid1                invalid                -1               
+-1              9               
+0               9               1               0               9               1               1               9               invalid1                invalid                -1               
+-1              10              
+0               10              2               0               10              2               1               10              invalid1                invalid                -1               
+-1              11              
+0               11              3               0               11              3               1               11              invalid1                invalid                -1               
+-1              12              
+0               12              4               0               12              4               1               12              invalid1                invalid                -1               
+-1              13              
+0               13              5               0               13              5               1               13              invalid1                invalid                -1               
+-1              14              
+0               14              6               0               14              6               1               14              invalid1                invalid                -1               
+-1              15              
+0               15              7               0               15              7               1               15              invalid1                invalid                -1               
+-1              =====  Placement on packages  =====
+
+Package Id.    Core Id.     Processors
+=====  Placement on packages  =====
+0              Package Id.    Core Id.     Processors
+00              ,01,,12,,23,,34,,45,,56,,67,
+71              
+01              ,01,,12,,23,,34,,45,,56,,67,
+7
+=====  Core/Tile sharing  =====
+
+Level      Processors
+Core       
+=====  Core/Tile sharing  =====
+(Level      Processors
+Core       0()0()1()1()2()2()3()3()4()4()5()5()6()6()7()7()8()8()9()9()10()10()11()11()12()12()13()13()14()14()15()15
+Tile / L2$ )(
+Tile / L2$ 0()0()1()1()2()2()3()3()4()4()5()5()6()6()7()7()8()8()9()9()10()10()11()11()12()12()13()13()14()14()15()15
+)
+
+
+Package thermal spec power: 0Package thermal spec power:  Watt; 0Package minimum power:  Watt; 0Package minimum power:  Watt; 0Package maximum power:  Watt; 0Package maximum power:  Watt;
+0 Watt;
+
+
+Can't open MCFG table. Check permission of /sys/firmware/acpi/tables/MCFG
+Can't open MCFG table. Check permission of /sys/firmware/acpi/tables/MCFG1
+Can't open MCFG table. Check permission of /pcm/sys/firmware/acpi/tables/MCFGCan't open MCFG table. Check permission of 
+/sys/firmware/acpi/tables/MCFGCan't open MCFG table. Check permission of 
+/pcm/sys/firmware/acpi/tables/MCFG1Can't open MCFG table. Check permission of 
+/sys/firmware/acpi/tables/MCFG1
+Can't open MCFG table. Check permission of /pcm/sys/firmware/acpi/tables/MCFG
+Can't open MCFG table. Check permission of /pcm/sys/firmware/acpi/tables/MCFG1
+WARNING: enumeration of devices in UncorePMUDiscovery failed
+WARNING: enumeration of devices in UncorePMUDiscovery failed
+INFO: Linux perf interface to program uncore PMUs is INFO: Linux perf interface to program uncore PMUs is present
+present
+Linux arch_perfmon flag  : INFO: using Linux perf interface to program uncore PMUs because env variable PCM_USE_UNCORE_PERF=1
+INFO: using Linux perf interface to program uncore PMUs because env variable PCM_USE_UNCORE_PERF=1
+Linux arch_perfmon flag  : yesINFO: Secure Boot detected. Using Linux perf for uncore PMU programming.
+Linux arch_perfmon flag  : INFO: Secure Boot detected. Using Linux perf for uncore PMU programming.
+yes
+Linux arch_perfmon flag  : yes
+Hybrid processor         : 
+Hybrid processor         : noyesHybrid processor         : no
+
+no
+IBRS and IBPB supported  : Hybrid processor         : 
+IBRS and IBPB supported  : yesnoIBRS and IBPB supported  : yes
+
+yes
+STIBP supported          : IBRS and IBPB supported  : 
+STIBP supported          : yesyesSTIBP supported          : yes
+
+yes
+Spec arch caps supported : STIBP supported          : 
+Spec arch caps supported : yesyesSpec arch caps supported : yes
+
+yes
+Max CPUID level          : Spec arch caps supported : 
+Max CPUID level          : 22yesMax CPUID level          : 22
+
+22
+CPU model number         : Max CPUID level          : 
+CPU model number         : 8522CPU model number         : 85
+
+85
+CPU model number         : 
+85
+Linux arch_perfmon flag  : yes
+Hybrid processor         : no
+IBRS and IBPB supported  : yes
+STIBP supported          : yes
+Spec arch caps supported : yes
+Max CPUID level          : 22
+CPU model number         : 85
+Number of physical cores: 16
+Number of logical cores: 16
+Number of online logical cores: 16
+Threads (logical cores) per physical core: 1
+Num sockets: 2
+Physical cores per socket: 8
+Last level cache slices per socket: 0
+Core PMU (perfmon) version: 4
+Number of core PMU generic (programmable) counters: 8
+Width of generic (programmable) counters: 48 bits
+Number of core PMU fixed counters: 3
+Width of fixed counters: 48 bits
+Nominal core frequency: 2100000000 Hz
+IBRS enabled in the kernel   : no
+STIBP enabled in the kernel  : no
+Socket The processor is not susceptible to Rogue Data Cache Load: Socket no0
+: 0The processor supports enhanced IBRS                     : 2: no memory controllers detected with total number of 2
+6 memory controllers detected with total number of  channels. 
+=====  Processor topology  =====
+62OS_Processor    Thread_Id       Core_Id         Tile_Id         Package_Id      Core_Type   Native_CPU_Model
+ channels.  0               2UPI0                 ports detected.0               UPI 0                ports detected.20                 M2M (mesh to memory) blocks detected. invalid20  M2M (mesh to memory) blocks detected.  Home Agents detected.  02  Home Agents detected.  M3UPI blocks detected.
+ 2  M3UPI blocks detected.
+    -1              
+1               0               1               1               0               invalid         -1              
+2               0               2               2               0               invalid         -1              
+3               0               3               3               0               invalid         -1              
+4               0               4               4               0               invalid         -1              
+5               0               5               5               0               invalid         -1              
+6               0               6               6               0               invalid         -1              
+7               0               7               7               0               invalid         -1              
+8               0               0               8               1               invalid         -1              
+9               0               1               9               1               invalid         -1              
+10              0               2               10              1               invalid         -1              
+11              0               3               11              1               invalid         -1              
+12              0               4               12              1               invalid         -1              
+13              0               5               13              1               invalid         -1              
+14              0               6               14              1               invalid         -1              
+15              0               7               15              1               invalid         -1              
+=====  Placement on packages  =====
+Package Id.    Core Id.     Processors
+0              0,1,2,3,4,5,6,7
+1              0,1,2,3,4,5,6,7
+
+=====  Core/Tile sharing  =====
+Level      Processors
+Core       (0)(1)(2)(3)(4)(5)(6)(7)(8)(9)(10)(11)(12)(13)(14)(15)
+Tile / L2$ (0)(1)(2)(3)(4)(5)(6)(7)(8)(9)(10)(11)(12)(13)(14)(15)
+
+Package thermal spec power: 0 Watt; Package minimum power: 0 Watt; Package maximum power: 0 Watt;
+
+Can't open MCFG table. Check permission of /sys/firmware/acpi/tables/MCFG
+Can't open MCFG table. Check permission of /sys/firmware/acpi/tables/MCFG1
+Can't open MCFG table. Check permission of /pcm/sys/firmware/acpi/tables/MCFG
+Can't open MCFG table. Check permission of /pcm/sys/firmware/acpi/tables/MCFG1
+WARNING: enumeration of devices in UncorePMUDiscovery failed
+INFO: Linux perf interface to program uncore PMUs is present
+INFO: using Linux perf interface to program uncore PMUs because env variable PCM_USE_UNCORE_PERF=1
+INFO: Secure Boot detected. Using Linux perf for uncore PMU programming.
+Socket Socket 11Socket : : 202 memory controllers detected with total number of :  memory controllers detected with total number of 626 channels.  memory controllers detected with total number of  channels. 262  channels.  UPI2UPI ports detected.  ports detected. UPI 2 ports detected.2 M2M (mesh to memory) blocks detected.   M2M (mesh to memory) blocks detected. 020 Home Agents detected.  M2M (mesh to memory) blocks detected.  Home Agents detected. 202 M3UPI blocks detected.
+ Home Agents detected.  M3UPI blocks detected.
+2 M3UPI blocks detected.
+Number of physical cores: 16
+Number of logical cores: 16
+Number of online logical cores: 16
+Threads (logical cores) per physical core: 1
+Num sockets: 2
+Physical cores per socket: 8
+Last level cache slices per socket: 0
+Core PMU (perfmon) version: 4
+Number of core PMU generic (programmable) counters: 8
+Width of generic (programmable) counters: 48 bits
+Number of core PMU fixed counters: 3
+Width of fixed counters: 48 bits
+Nominal core frequency: 2100000000 Hz
+IBRS enabled in the kernel   : no
+STIBP enabled in the kernel  : no
+The processor is not susceptible to Rogue Data Cache Load: no
+The processor supports enhanced IBRS                     : no
+
+=====  Processor topology  =====
+OS_Processor    Thread_Id       Core_Id         Tile_Id         Package_Id      Core_Type   Native_CPU_Model
+0               0               0               0               0               invalid         -1              
+1               0               1               1               0               invalid         -1              
+2               0               2               2               0               invalid         -1              
+3               0               3               3               0               invalid         -1              
+4               0               4               4               0               invalid         -1              
+5               0               5               5               0               invalid         -1              
+6               0               6               6               0               invalid         -1              
+7               0               7               7               0               invalid         -1              
+8               0               0               8               1               invalid         -1              
+9               0               1               9               1               invalid         -1              
+10              0               2               10              1               invalid         -1              
+11              0               3               11              1               invalid         -1              
+12              0               4               12              1               invalid         -1              
+13              0               5               13              1               invalid         -1              
+14              0               6               14              1               invalid         -1              
+15              0               7               15              1               invalid         -1              
+=====  Placement on packages  =====
+Package Id.    Core Id.     Processors
+0              0,1,2,3,4,5,6,7
+1              0,1,2,3,4,5,6,7
+
+=====  Core/Tile sharing  =====
+Level      Processors
+Core       (0)(1)(2)(3)(4)(5)(6)(7)(8)(9)(10)(11)(12)(13)(14)(15)
+Tile / L2$ (0)(1)(2)(3)(4)(5)(6)(7)(8)(9)(10)(11)(12)(13)(14)(15)
+
+Package thermal spec power: 0 Watt; Package minimum power: 0 Watt; Package maximum power: 0 Watt;
+
+Can't open MCFG table. Check permission of /sys/firmware/acpi/tables/MCFG
+Can't open MCFG table. Check permission of /sys/firmware/acpi/tables/MCFG1
+Can't open MCFG table. Check permission of /pcm/sys/firmware/acpi/tables/MCFG
+Can't open MCFG table. Check permission of /pcm/sys/firmware/acpi/tables/MCFG1
+WARNING: enumeration of devices in UncorePMUDiscovery failed
+INFO: Linux perf interface to program uncore PMUs is Number of physical cores: present
+Number of physical cores: INFO: using Linux perf interface to program uncore PMUs because env variable PCM_USE_UNCORE_PERF=1
+16INFO: Secure Boot detected. Using Linux perf for uncore PMU programming.
+Number of physical cores: 
+16Number of logical cores: 
+16Number of logical cores: 
+1616Number of online logical cores: 
+
+16Number of logical cores: Number of online logical cores: 
+1616Threads (logical cores) per physical core: 
+
+1Number of online logical cores: Threads (logical cores) per physical core: 
+161Num sockets: 
+
+2Threads (logical cores) per physical core: Num sockets: 
+12Physical cores per socket: 
+
+8Num sockets: Physical cores per socket: 
+28Last level cache slices per socket: 
+
+0Physical cores per socket: Last level cache slices per socket: 
+08Core PMU (perfmon) version: 
+Number of physical cores: 
+4Core PMU (perfmon) version: Last level cache slices per socket: 
+40Number of core PMU generic (programmable) counters: 
+16
+8Number of core PMU generic (programmable) counters: 
+Core PMU (perfmon) version: 
+8Number of logical cores: 4Width of generic (programmable) counters: 
+16
+48Width of generic (programmable) counters: 
+Number of core PMU generic (programmable) counters:  bits
+48Number of online logical cores: 8Number of core PMU fixed counters:  bits
+16
+3Number of core PMU fixed counters: 
+Width of generic (programmable) counters: 
+3Threads (logical cores) per physical core: 48Width of fixed counters: 
+1 bits
+48Width of fixed counters: 
+Number of core PMU fixed counters:  bits
+48Num sockets: 3Nominal core frequency:  bits
+2
+2100000000Nominal core frequency: 
+Width of fixed counters:  Hz
+2100000000Physical cores per socket: 48IBRS enabled in the kernel   :  Hz
+8 bits
+noIBRS enabled in the kernel   : 
+Nominal core frequency: 
+noLast level cache slices per socket: 2100000000STIBP enabled in the kernel  : 
+0 Hz
+noSTIBP enabled in the kernel  : 
+IBRS enabled in the kernel   : 
+noCore PMU (perfmon) version: noThe processor is not susceptible to Rogue Data Cache Load: 
+4
+noThe processor is not susceptible to Rogue Data Cache Load: 
+STIBP enabled in the kernel  : 
+noNumber of core PMU generic (programmable) counters: noThe processor supports enhanced IBRS                     : 
+8
+noThe processor supports enhanced IBRS                     : 
+The processor is not susceptible to Rogue Data Cache Load: 
+noWidth of generic (programmable) counters: no
+=====  Processor topology  =====
+
+48
+OS_Processor    Thread_Id       Core_Id         Tile_Id         Package_Id      Core_Type   Native_CPU_Model
+
+=====  Processor topology  =====
+ bits
+The processor supports enhanced IBRS                     : 0               OS_Processor    Thread_Id       Core_Id         Tile_Id         Package_Id      Core_Type   Native_CPU_Model
+Number of core PMU fixed counters: 0               no0               30               
+0               
+0               
+=====  Processor topology  =====
+0               Width of fixed counters: 0               OS_Processor    Thread_Id       Core_Id         Tile_Id         Package_Id      Core_Type   Native_CPU_Model
+0               480               0               invalid bits
+invalid0                Nominal core frequency:  0                2100000000 0                 Hz
+ 0                IBRS enabled in the kernel   :  invalid no   
+   STIBP enabled in the kernel  :    no   
+  -1              The processor is not susceptible to Rogue Data Cache Load: -1               
+no
+ 
+1                1               The processor supports enhanced IBRS                     : 0                0               no1               -1              1               
+1               
+1               0               0               1               invalid
+=====  Processor topology  =====
+invalid0                OS_Processor    Thread_Id       Core_Id         Tile_Id         Package_Id      Core_Type   Native_CPU_Model
+ 1                0                1                0                0                0                invalid 0                  0                  invalid          -1               -1               
+ 
+ 2                2                0                0                2                2               -1              2                2               
+0                0               2               invalid-1              invalid0                
+ 2               1                 2               0                 0               1                 invalid1                  0                  invalid            -1              -1                
+
+  3               3                 0               0                 3               3               -1               3               3               
+ 0               0               3               -1              invalidinvalid0               
+  3               2                 3               0                 0               2                 invalid2                  0                  invalid            -1              -1                
+
+  4               4                 0               0                 4               4               -1               4               4               
+ 0               0               4               -1              invalidinvalid0               
+  4               3                 4               0                 0               3                 invalid3                  0                  invalid            -1              -1                
+
+  5               5                 0               0                 5               5               -1              
+ 5               5               5                0               0               0               -1              invalidinvalid5               
+  5               4                 0               0                 invalid4                  4                  0                  invalid            -1              -1                
+
+  6               6                 0               0               -1               6               6               
+ 6               6               6                0               0               0               -1              invalidinvalid6               
+  6               5                 0               0                 invalid5                  5                  0                  invalid            -1              -1                
+
+  7               7                 0               0               -1               7               7               
+ 7               7               7                0               0               0               -1              invalidinvalid7               
+  7               6                 0               0                 invalid6                  6                  0                  invalid            -1              -1                
+
+  8               8                 0               0               -1               0               0               
+ 8               8               8                1               1               0               -1              invalidinvalid0               
+  8               7                 1               0                 invalid7                  7                  0                  invalid            -1              -1                
+
+  9               9                 0               0               -1               1               1               
+ 9               9               9                1               1               0               -1              invalidinvalid1               
+  9               8                 1               0                 invalid0                  8                  1                  invalid            -1              -1                
+
+  10              10                0               0               -1               2               2               
+ 10              10              10               1               1               0               -1              invalidinvalid2               
+  10              9                 1               0                 invalid1                  9                  1                  invalid            -1              -1                
+
+  11              11                0               0               -1               3               3               
+ 11              11              11               1               1               0               -1              invalidinvalid3               
+  11              10                1               0                 invalid2                  10                 1                  invalid            -1              -1                
+
+  12              12                0               0               -1               4               4               
+ 12              12              12               1               1               0               -1              invalidinvalid4               
+  12              11                1               0                 invalid3                  11                 1                  invalid            -1              -1                
+
+  13              13                0               0               -1               5               5               
+ 13              13              13               1               1               0               -1              invalidinvalid5               
+  13              12                1               0                 invalid4                  12                 1                  invalid            -1              -1                  
+
+-1               14              14              
+ 0               0               14               6               6               0                14              Socket 1               14              1invalid:  1               2 invalid memory controllers detected with total number of   6   channels.   2     UPI   ports detected.   -1               2
+  M2M (mesh to memory) blocks detected. 15              -1              00               
+ Home Agents detected. 7               15              215              0                M3UPI blocks detected.
+1               7               invalid15               1                invalid              -1               
+ =====  Placement on packages  =====
+-1              Package Id.    Core Id.     Processors
+
+0              =====  Placement on packages  =====
+0Package Id.    Core Id.     Processors
+,0              10,,21,,32,,43,,54,,65,,76
+,1              70
+,1              10,,21,,32,,43,,54,,65,,76
+,
+=====  Core/Tile sharing  =====
+7Level      Processors
+Core       
+(
+=====  Core/Tile sharing  =====
+0Level      Processors
+Core       )((01))((12))((23))((34))((45))((56))((67))((78))((89))((910))((1011))((1112))((1213))((1314))((1415))(
+Tile / L2$ 15()0
+Tile / L2$ )((01))((12))((23))((34))((45))((56))((67))((78))((89))((910))((1011))((1112))((1213))((1314))((1415))(
+15
+)
+Package thermal spec power: 
+0 Watt; Package thermal spec power: Package minimum power: 00 Watt;  Watt; Package minimum power: Package maximum power: 00 Watt;  Watt;
+Package maximum power: 0 Watt;
+INFO: using Linux resctrl driver for RDT metrics (L3OCC, LMB, RMB) because environment variable PCM_USE_RESCTRL=1
+ERROR: /sys/fs/resctrl is not mounted
+ERROR: RDT metrics (L3OCC,LMB,RMB) will not be available
+Mount it to make it work: mount -t resctrl resctrl /sys/fs/resctrl
+6               
+ INFO: using Linux resctrl driver for RDT metrics (L3OCC, LMB, RMB) because environment variable PCM_USE_RESCTRL=1
+Socket 14              Can't open MCFG table. Check permission of -1              ERROR: /sys/fs/resctrl is not mounted
+0
+1               /sys/firmware/acpi/tables/MCFG
+ERROR: RDT metrics (L3OCC,LMB,RMB) will not be available
+: invalid
+Mount it to make it work: mount -t resctrl resctrl /sys/fs/resctrl
+13              2Can't open MCFG table. Check permission of  Can't open MCFG table. Check permission of 0                memory controllers detected with total number of /sys/firmware/acpi/tables/MCFG /sys/firmware/acpi/tables/MCFG15               6
+Can't open MCFG table. Check permission of  
+13               channels. /sys/firmware/acpi/tables/MCFG1 Can't open MCFG table. Check permission of 1               2
+ /pcm/sys/firmware/acpi/tables/MCFGinvalid Can't open MCFG table. Check permission of  
+ UPI/pcm/sys/firmware/acpi/tables/MCFG Can't open MCFG table. Check permission of   ports detected.
+ /pcm/sys/firmware/acpi/tables/MCFG1  Can't open MCFG table. Check permission of  
+ 2 M2M (mesh to memory) blocks detected. /pcm/sys/firmware/acpi/tables/MCFG1-1               0
+
+  Home Agents detected.  15              2 0               WARNING: enumeration of devices in UncorePMUDiscovery failed
+ M3UPI blocks detected.
+ 7               WARNING: enumeration of devices in UncorePMUDiscovery failed
+-1              15              
+1               14              invalid0                6                14               1                invalid          -1               
+ =====  Placement on packages  =====
+ Package Id.    Core Id.     Processors
+ 0              -1              0
+,15              10               ,7               215              ,1               3invalid, 4 , 5 , 6 , 7 
+ 1              -1              0
+,=====  Placement on packages  =====
+1Package Id.    Core Id.     Processors
+,0              20,,31,,42,,53,,64,,75
+,
+=====  Core/Tile sharing  =====
+6Level      Processors
+Core       ,(70
+)1              (01,)1(,22),(33,)4(,45),(65,)7(
+6
+=====  Core/Tile sharing  =====
+)Level      Processors
+Core       ((70))((8)1()9()2()10()3()11()4()12()5()13()6()14()7()15()8
+Tile / L2$ )((09))((110))((211))((312))((413))((514))((615))(7
+Tile / L2$ )((08))((19))((210))((311))((412))((513))INFO: Linux perf interface to program uncore PMUs is INFO: Linux perf interface to program uncore PMUs is ((present
+present
+614INFO: using Linux perf interface to program uncore PMUs because env variable PCM_USE_UNCORE_PERF=1
+INFO: using Linux perf interface to program uncore PMUs because env variable PCM_USE_UNCORE_PERF=1
+))INFO: Secure Boot detected. Using Linux perf for uncore PMU programming.
+INFO: Secure Boot detected. Using Linux perf for uncore PMU programming.
+((715))(
+8
+)(Package thermal spec power: 90) Watt; (Package minimum power: 100) Watt; (Package maximum power: 110) Watt;
+(12)(13)(14)(15)
+
+Package thermal spec power: 0 Watt; Package minimum power: 0 Watt; Package maximum power: 0 Watt;
+
+
+
+
+Socket Can't open MCFG table. Check permission of /sys/firmware/acpi/tables/MCFGSocket 1
+Socket Can't open MCFG table. Check permission of : 0Can't open MCFG table. Check permission of 0/sys/firmware/acpi/tables/MCFG2: /sys/firmware/acpi/tables/MCFG1: 
+ memory controllers detected with total number of 2
+2Can't open MCFG table. Check permission of 6 memory controllers detected with total number of Can't open MCFG table. Check permission of  memory controllers detected with total number of /sys/firmware/acpi/tables/MCFG1 channels. 6/pcm/sys/firmware/acpi/tables/MCFG6
+2 channels. 
+ channels. Can't open MCFG table. Check permission of  2Can't open MCFG table. Check permission of 2/pcm/sys/firmware/acpi/tables/MCFGUPI /pcm/sys/firmware/acpi/tables/MCFG1 
+ ports detected.UPI
+UPICan't open MCFG table. Check permission of   ports detected. ports detected./pcm/sys/firmware/acpi/tables/MCFG12  
+ M2M (mesh to memory) blocks detected. 22WARNING: enumeration of devices in UncorePMUDiscovery failed
+0 M2M (mesh to memory) blocks detected.  M2M (mesh to memory) blocks detected.  Home Agents detected. 002 Home Agents detected.  Home Agents detected.  M3UPI blocks detected.
+22 M3UPI blocks detected.
+ M3UPI blocks detected.
+WARNING: enumeration of devices in UncorePMUDiscovery failed
+INFO: Linux perf interface to program uncore PMUs is present
+INFO: using Linux perf interface to program uncore PMUs because env variable PCM_USE_UNCORE_PERF=1
+INFO: Secure Boot detected. Using Linux perf for uncore PMU programming.
+INFO: Linux perf interface to program uncore PMUs is present
+INFO: using Linux perf interface to program uncore PMUs because env variable PCM_USE_UNCORE_PERF=1
+INFO: Secure Boot detected. Using Linux perf for uncore PMU programming.
+ Closed perf event handles
+Trying to use Linux perf events...
+ Closed perf event handles
+Trying to use Linux perf events...
+Socket 1Socket : 2 memory controllers detected with total number of Socket 16Socket : 0Successfully programmed on-core PMU using Linux perf
+ channels. 02: 2:  memory controllers detected with total number of 2 26 memory controllers detected with total number of UPI memory controllers detected with total number of  channels. 6 ports detected.62 channels.   channels.  222UPI  M2M (mesh to memory) blocks detected.   ports detected.UPI0UPI  ports detected. Home Agents detected.  ports detected.2 2  M2M (mesh to memory) blocks detected. 2 M3UPI blocks detected.
+20 M2M (mesh to memory) blocks detected.  M2M (mesh to memory) blocks detected.  Home Agents detected. 00 Home Agents detected. 2 Home Agents detected. 2 M3UPI blocks detected.
+2 M3UPI blocks detected.
+ M3UPI blocks detected.
+INFO: using Linux resctrl driver for RDT metrics (L3OCC, LMB, RMB) because environment variable PCM_USE_RESCTRL=1
+ERROR: /sys/fs/resctrl is not mounted
+ERROR: RDT metrics (L3OCC,LMB,RMB) will not be available
+Mount it to make it work: mount -t resctrl resctrl /sys/fs/resctrl
+
+Successfully programmed on-core PMU using Linux perf
+ Closed perf event handles
+Trying to use Linux perf events...
+Socket 1: 2 memory controllers detected with total number of 6 channels. 2 UPI ports detected. 2 M2M (mesh to memory) blocks detected. 0 Home Agents detected. 2 M3UPI blocks detected.
+Socket 1: 2 memory controllers detected with total number of 6 channels. 2 UPI ports detected. 2 M2M (mesh to memory) blocks detected. 0 Home Agents detected. 2 M3UPI blocks detected.
+INFO: using Linux resctrl driver for RDT metrics (L3OCC, LMB, RMB) because environment variable PCM_USE_RESCTRL=1
+ERROR: /sys/fs/resctrl is not mounted
+ERROR: RDT metrics (L3OCC,LMB,RMB) will not be available
+Mount it to make it work: mount -t resctrl resctrl /sys/fs/resctrl
+
+Successfully programmed on-core PMU using Linux perf
+ Closed perf event handles
+Trying to use Linux perf events...
+INFO: using Linux resctrl driver for RDT metrics (L3OCC, LMB, RMB) because environment variable PCM_USE_RESCTRL=1
+ERROR: /sys/fs/resctrl is not mounted
+ERROR: RDT metrics (L3OCC,LMB,RMB) will not be available
+Mount it to make it work: mount -t resctrl resctrl /sys/fs/resctrl
+INFO: using Linux resctrl driver for RDT metrics (L3OCC, LMB, RMB) because environment variable PCM_USE_RESCTRL=1
+ERROR: /sys/fs/resctrl is not mounted
+ERROR: RDT metrics (L3OCC,LMB,RMB) will not be available
+Mount it to make it work: mount -t resctrl resctrl /sys/fs/resctrl
+Successfully programmed on-core PMU using Linux perf
+INFO: using Linux resctrl driver for RDT metrics (L3OCC, LMB, RMB) because environment variable PCM_USE_RESCTRL=1
+ERROR: /sys/fs/resctrl is not mounted
+ERROR: RDT metrics (L3OCC,LMB,RMB) will not be available
+Mount it to make it work: mount -t resctrl resctrl /sys/fs/resctrl
+INFO: using Linux resctrl driver for RDT metrics (L3OCC, LMB, RMB) because environment variable PCM_USE_RESCTRL=1
+ERROR: /sys/fs/resctrl is not mounted
+ERROR: RDT metrics (L3OCC,LMB,RMB) will not be available
+Mount it to make it work: mount -t resctrl resctrl /sys/fs/resctrl
+
+
+ Closed perf event handles
+Trying to use Linux perf events...
+ Closed perf event handles
+Trying to use Linux perf events...
+
+Successfully programmed on-core PMU using Linux perf
+Successfully programmed on-core PMU using Linux perf
+
+ Closed perf event handles
+Trying to use Linux perf events...
+ Closed perf event handles
+Trying to use Linux perf events...
+Successfully programmed on-core PMU using Linux perf
+Successfully programmed on-core PMU using Linux perf
+Socket 0
+Max UPI link 0 speed: 2.5 GBytes/second (1.1 GT/second)
+Max UPI link 1 speed: 2.5 GBytes/second (1.1 GT/second)
+Socket 1
+Max UPI link 0 speed: 2.3 GBytes/second (1.0 GT/second)
+Max UPI link 1 speed: 2.3 GBytes/second (1.0 GT/second)
+
+Detected Intel(R) Xeon(R) Silver 4208 CPU @ 2.10GHz "Intel(r) microarchitecture codename Cascade Lake-SP" stepping 7
+
+Executing "./VE/ior-main/src/ior" command:
+Socket 0
+Max UPI link 0 speed: 2.1 GBytes/second (0.9 GT/second)
+Max UPI link 1 speed: 2.1 GBytes/second (0.9 GT/second)
+Socket 1
+Max UPI link 0 speed: 2.3 GBytes/second (1.0 GT/second)
+Max UPI link 1 speed: 2.3 GBytes/second (1.0 GT/second)
+
+Detected Intel(R) Xeon(R) Silver 4208 CPU @ 2.10GHz "Intel(r) microarchitecture codename Cascade Lake-SP" stepping 7
+
+Executing "./VE/ior-main/src/ior" command:
+Socket 0
+Max UPI link 0 speed: 2.6 GBytes/second (1.1 GT/second)
+Max UPI link 1 speed: 2.6 GBytes/second (1.1 GT/second)
+Socket 1
+Max UPI link 0 speed: 2.1 GBytes/second (0.9 GT/second)
+Max UPI link 1 speed: 2.1 GBytes/second (0.9 GT/second)
+
+Detected Intel(R) Xeon(R) Silver 4208 CPU @ 2.10GHz "Intel(r) microarchitecture codename Cascade Lake-SP" stepping 7
+
+Executing "./VE/ior-main/src/ior" command:
+Socket 0
+Max UPI link 0 speed: 2.5 GBytes/second (1.1 GT/second)
+Max UPI link 1 speed: 2.5 GBytes/second (1.1 GT/second)
+Socket 1
+Max UPI link 0 speed: 2.4 GBytes/second (1.1 GT/second)
+Max UPI link 1 speed: 2.4 GBytes/second (1.1 GT/second)
+
+Detected Intel(R) Xeon(R) Silver 4208 CPU @ 2.10GHz "Intel(r) microarchitecture codename Cascade Lake-SP" stepping 7
+Socket 0
+Max UPI link 0 speed: 2.5 GBytes/second (1.1 GT/second)
+Max UPI link 1 speed: 2.5 GBytes/second (1.1 GT/second)
+Socket 1Socket 
+
+Executing "Max ./VE/ior-main/src/iorUPI0" command:
+ link 
+0Max  speed: UPI link 0 speed: 2.3 GBytes/second (1.0 GT/second)
+Max 2.4UPI GBytes/second ( link 1.11 GT/second)
+ speed: Max 2.3UPI GBytes/second ( link 1.01 GT/second)
+ speed: 2.4 GBytes/second (1.1 GT/second)
+
+Detected Socket 1
+Intel(R) Xeon(R) Silver 4208 CPU @ 2.10GHzMax  "Intel(r) microarchitecture codename UPICascade Lake-SP link " stepping 07 speed: 
+2.5 GBytes/second (1.1 GT/second)
+Max UPI link 1 speed: 2.5 GBytes/second (1.1 GT/second)
+
+Detected Intel(R) Xeon(R) Silver 4208 CPU @ 2.10GHz "Intel(r) microarchitecture codename Cascade Lake-SP" stepping 7
+
+Executing "./VE/ior-main/src/ior
+Executing "" command:
+./VE/ior-main/src/ior" command:
+Socket 0
+Max UPI link 0 speed: 2.4 GBytes/second (1.1 GT/second)
+Max UPI link 1 speed: 2.4 GBytes/second (1.1 GT/second)
+Socket 1
+Max UPI link 0 speed: 2.4 GBytes/second (1.1 GT/second)
+Max UPI link 1 speed: 2.4 GBytes/second (1.1 GT/second)
+
+Detected Intel(R) Xeon(R) Silver 4208 CPU @ 2.10GHz "Intel(r) microarchitecture codename Socket Cascade Lake-SP" stepping 70
+
+Max UPI link 0 speed: 2.5 GBytes/second (1.1 GT/second)
+Max UPI link 1 speed: 2.5 GBytes/second (1.1 GT/second)
+Socket 
+Executing "1
+Max ./VE/ior-main/src/iorUPI" command:
+ link 0 speed: 2.4 GBytes/second (1.1 GT/second)
+Max UPI link 1 speed: 2.4 GBytes/second (1.1 GT/second)
+
+Detected Intel(R) Xeon(R) Silver 4208 CPU @ 2.10GHz "Intel(r) microarchitecture codename Cascade Lake-SP" stepping 7
+
+Executing "./VE/ior-main/src/ior" command:
+IOR-4.1.0+dev: MPI Coordinated Test of Parallel I/O
+Began               : Thu Mar 21 18:42:44 2024
+Command line        : ./VE/ior-main/src/ior -t 1m -b 8m -s 8 -o hpl_test -F
+Machine             : Linux muffin
+TestID              : 0
+StartTime           : Thu Mar 21 18:42:44 2024
+Path                : hpl_test.00000000
+FS                  : 79.0 TiB   Used FS: 12.7%   Inodes: 16179.2 Mi   Used Inodes: 0.2%
+
+Options: 
+api                 : POSIX
+apiVersion          : 
+test filename       : hpl_test
+access              : file-per-process
+type                : independent
+segments            : 8
+ordering in a file  : sequential
+ordering inter file : no tasks offsets
+nodes               : 1
+tasks               : 8
+clients per node    : 8
+memoryBuffer        : CPU
+dataAccess          : CPU
+GPUDirect           : 0
+repetitions         : 1
+xfersize            : 1 MiB
+blocksize           : 8 MiB
+aggregate filesize  : 512 MiB
+
+Results: 
+
+access    bw(MiB/s)  IOPS       Latency(s)  block(KiB) xfer(KiB)  open(s)    wr/rd(s)   close(s)   total(s)   iter
+------    ---------  ----       ----------  ---------- ---------  --------   --------   --------   --------   ----
+write     8.44       81.57      0.005697    8192       1024.00    6.23       6.28       60.65      60.70      0   
+read      24.93      24.94      0.006143    8192       1024.00    0.005684   20.53      20.50      20.53      0   
+
+Summary of all tests:
+Operation   Max(MiB)   Min(MiB)  Mean(MiB)     StdDev   Max(OPs)   Min(OPs)  Mean(OPs)     StdDev    Mean(s) Stonewall(s) Stonewall(MiB) Test# #Tasks tPN reps fPP reord reordoff reordrand seed segcnt   blksiz    xsize aggs(MiB)   API RefNum
+write           8.44       8.44       8.44       0.00       8.44       8.44       8.44       0.00   60.69916         NA            NA     0      8   8    1   1     0        1         0    0      8  8388608  1048576     512.0 POSIX      0
+read           24.93      24.93      24.93       0.00      24.93      24.93      24.93       0.00   20.53479         NA            NA     0      8   8    1   1     0        1         0    0      8  8388608  1048576     512.0 POSIX      0
+Finished            : Thu Mar 21 18:44:06 2024
+DEBUG: caught signal to interrupt (Child exited).
+Cleaning up
+ Closed perf event handles
+DEBUG: caught signal to interrupt (Child exited).
+Cleaning up
+ Closed perf event handles
+DEBUG: caught signal to interrupt (Child exited).
+Cleaning up
+ Closed perf event handles
+DEBUG: caught signal to interrupt (Child exited).
+Cleaning up
+DEBUG: caught signal to interrupt (Child exited).
+Cleaning up
+ Closed perf event handles
+DEBUG: caught signal to interrupt (Child exited).
+Cleaning up
+ Closed perf event handles
+ Closed perf event handles
+DEBUG: caught signal to interrupt (Child exited).
+Cleaning up
+ Closed perf event handles
+ Zeroed uncore PMU registers
+ Zeroed uncore PMU registers
+ Zeroed uncore PMU registers
+ Zeroed uncore PMU registers
+ Zeroed uncore PMU registers
+ Zeroed uncore PMU registers
+ Zeroed uncore PMU registers
+DEBUG: caught signal to interrupt (Child exited).
+Cleaning up
+ Closed perf event handles
+ Zeroed uncore PMU registers
+	Command being timed: "/opt/nec/ve/bin/mpirun -n 8 /usr/sbin/pcm 0.1 -csv=./output/2/ve_IOR_VE_2.csv -- ./VE/ior-main/src/ior -t 1m -b 8m -s 8 -o hpl_test -F"
+	User time (seconds): 3.94
+	System time (seconds): 2.32
+	Percent of CPU this job got: 7%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:23.12
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 143496
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 2
+	Minor (reclaiming a frame) page faults: 5340
+	Voluntary context switches: 106060
+	Involuntary context switches: 7313
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 5288
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+
+ Intel(r) Performance Counter Monitor (2022-11-24 10:18:12 +0100 ID=1b16bb4e)
+
+
+PCM Info: setrlimit for file limit 1000000 failed with error Operation not permitted
+
+ Intel(r) Performance Counter Monitor (2022-11-24 10:18:12 +0100 ID=1b16bb4e)
+
+
+
+=====  Processor information  =====
+PCM Info: setrlimit for file limit 1000000 failed with error 
+Operation not permitted Intel(r) Performance Counter Monitor 
+
+(2022-11-24 10:18:12 +0100 ID=1b16bb4e)
+ Intel(r) Performance Counter Monitor 
+ Intel(r) Performance Counter Monitor (2022-11-24 10:18:12 +0100 ID=1b16bb4e)
+(2022-11-24 10:18:12 +0100 ID=1b16bb4e)
+
+=====  Processor information  =====
+
+
+
+
+
+
+PCM Info: setrlimit for file limit 1000000 failed with error PCM Info: setrlimit for file limit PCM Info: setrlimit for file limit Operation not permitted10000001000000
+ failed with error  failed with error Operation not permitted
+Operation not permitted
+
+ Intel(r) Performance Counter Monitor (2022-11-24 10:18:12 +0100 ID=1b16bb4e)
+
+
+
+=====  Processor information  =====
+
+=====  Processor information  =====
+
+=====  Processor information  =====
+PCM Info: setrlimit for file limit 1000000 failed with error Operation not permitted
+
+=====  Processor information  =====
+Linux arch_perfmon flag  : yesLinux arch_perfmon flag  : 
+yesLinux arch_perfmon flag  : Hybrid processor         : Linux arch_perfmon flag  : 
+
+yesnoyes
+Hybrid processor         : 
+ Intel(r) Performance Counter Monitor 
+
+ Intel(r) Performance Counter Monitor noHybrid processor         : (2022-11-24 10:18:12 +0100 ID=1b16bb4e)IBRS and IBPB supported  : Hybrid processor         : (2022-11-24 10:18:12 +0100 ID=1b16bb4e)
+no
+yesno
+IBRS and IBPB supported  : 
+
+
+
+
+yesIBRS and IBPB supported  : 
+STIBP supported          : IBRS and IBPB supported  : 
+
+yesyesyesPCM Info: setrlimit for file limit STIBP supported          : 
+
+
+1000000yesSTIBP supported          : Spec arch caps supported : STIBP supported          :  failed with error PCM Info: setrlimit for file limit 
+yesyesyes
+Operation not permittedSpec arch caps supported : 
+yes
+Max CPUID level          : 100000022
+ failed with error Spec arch caps supported : CPU model number         : 
+=====  Processor information  =====
+
+yes85
+Operation not permittedSpec arch caps supported : 
+
+Max CPUID level          : 
+yesMax CPUID level          : 22
+22
+Max CPUID level          : 
+CPU model number         : 22CPU model number         : 85
+CPU model number         : 85
+=====  Processor information  =====
+
+85
+
+Linux arch_perfmon flag  : yes
+Hybrid processor         : no
+IBRS and IBPB supported  : yes
+STIBP supported          : yes
+Spec arch caps supported : yes
+Max CPUID level          : 22
+CPU model number         : 85
+Linux arch_perfmon flag  : yes
+Hybrid processor         : no
+IBRS and IBPB supported  : yes
+STIBP supported          : yes
+Spec arch caps supported : yes
+Max CPUID level          : 22
+CPU model number         : 85
+Linux arch_perfmon flag  : Linux arch_perfmon flag  : yesyes
+
+Hybrid processor         : Hybrid processor         : nono
+
+IBRS and IBPB supported  : IBRS and IBPB supported  : yesyes
+
+STIBP supported          : STIBP supported          : yesyes
+
+Spec arch caps supported : Spec arch caps supported : yesyes
+
+Max CPUID level          : Max CPUID level          : 2222
+
+CPU model number         : CPU model number         : 8585
+
+Number of physical cores: Number of physical cores: 16Number of physical cores: 
+16Number of physical cores: Number of logical cores: 16
+Number of physical cores: 16
+Number of physical cores: 16Number of logical cores: 
+16Number of logical cores: 
+1616Number of online logical cores: 
+16Number of logical cores: 
+
+16Number of logical cores: 
+16Number of logical cores: Number of online logical cores: 
+16Number of online logical cores: 
+1616Threads (logical cores) per physical core: 
+16Number of online logical cores: 
+
+1Number of online logical cores: 
+16Number of online logical cores: Threads (logical cores) per physical core: 
+16Threads (logical cores) per physical core: 
+161Num sockets: 
+1Threads (logical cores) per physical core: 
+
+2Threads (logical cores) per physical core: 
+1Threads (logical cores) per physical core: Num sockets: 
+1Num sockets: 
+12Physical cores per socket: 
+2Num sockets: 
+
+8Num sockets: 
+2Num sockets: Physical cores per socket: 
+2Physical cores per socket: 
+28Last level cache slices per socket: 
+8Physical cores per socket: 
+
+0Physical cores per socket: 
+8Physical cores per socket: Last level cache slices per socket: 
+8Last level cache slices per socket: 
+80Core PMU (perfmon) version: 
+0Last level cache slices per socket: 
+
+4Last level cache slices per socket: 
+0Last level cache slices per socket: Core PMU (perfmon) version: 
+0Core PMU (perfmon) version: 
+04Number of core PMU generic (programmable) counters: 
+4Core PMU (perfmon) version: 
+
+8Core PMU (perfmon) version: 
+4Core PMU (perfmon) version: Number of core PMU generic (programmable) counters: 
+4Number of core PMU generic (programmable) counters: 
+48Width of generic (programmable) counters: 
+8Number of core PMU generic (programmable) counters: 
+
+48Number of core PMU generic (programmable) counters: 
+8Number of core PMU generic (programmable) counters: Width of generic (programmable) counters:  bits
+8Width of generic (programmable) counters: 
+848Number of core PMU fixed counters: 
+Width of generic (programmable) counters: 4848 bits
+Width of generic (programmable) counters:  bits
+48
+Number of core PMU fixed counters: Number of core PMU fixed counters:  bits
+ bits
+Width of generic (programmable) counters: 333Number of core PMU fixed counters: Number of core PMU fixed counters: 48
+
+
+33 bits
+Width of fixed counters: Width of fixed counters: Width of fixed counters: 
+
+Number of core PMU fixed counters: 484848Width of fixed counters: Width of fixed counters: 3 bits
+ bits
+ bits
+4848
+Nominal core frequency: Nominal core frequency: Nominal core frequency:  bits
+ bits
+Width of fixed counters: 210000000021000000002100000000Nominal core frequency: Nominal core frequency: 48 Hz
+ Hz
+ Hz
+21000000002100000000 bits
+IBRS enabled in the kernel   : IBRS enabled in the kernel   : IBRS enabled in the kernel   :  Hz
+ Hz
+Nominal core frequency: nononoIBRS enabled in the kernel   : IBRS enabled in the kernel   : 2100000000
+
+
+nono Hz
+STIBP enabled in the kernel  : STIBP enabled in the kernel  : STIBP enabled in the kernel  : 
+
+STIBP enabled in the kernel  : IBRS enabled in the kernel   : nono
+no
+The processor is not susceptible to Rogue Data Cache Load: no
+STIBP enabled in the kernel  : nono
+STIBP enabled in the kernel  : The processor is not susceptible to Rogue Data Cache Load: no
+
+The processor is not susceptible to Rogue Data Cache Load: nono
+The processor is not susceptible to Rogue Data Cache Load: The processor supports enhanced IBRS                     : no
+
+The processor is not susceptible to Rogue Data Cache Load: nono
+The processor is not susceptible to Rogue Data Cache Load: The processor supports enhanced IBRS                     : no
+
+The processor supports enhanced IBRS                     : nono
+The processor supports enhanced IBRS                     : 
+=====  Processor topology  =====
+no
+
+The processor supports enhanced IBRS                     : noOS_Processor    Thread_Id       Core_Id         Tile_Id         Package_Id      Core_Type   Native_CPU_Model
+
+The processor supports enhanced IBRS                     : 
+=====  Processor topology  =====
+no
+0               
+=====  Processor topology  =====
+noOS_Processor    Thread_Id       Core_Id         Tile_Id         Package_Id      Core_Type   Native_CPU_Model
+
+
+=====  Processor topology  =====
+0               OS_Processor    Thread_Id       Core_Id         Tile_Id         Package_Id      Core_Type   Native_CPU_Model
+
+0               
+=====  Processor topology  =====
+OS_Processor    Thread_Id       Core_Id         Tile_Id         Package_Id      Core_Type   Native_CPU_Model
+0               0               
+=====  Processor topology  =====
+0               OS_Processor    Thread_Id       Core_Id         Tile_Id         Package_Id      Core_Type   Native_CPU_Model
+0               0               0               OS_Processor    Thread_Id       Core_Id         Tile_Id         Package_Id      Core_Type   Native_CPU_Model
+0               0               0               0               0               0               0               0               0               invalid0               0               0               0               0                 0                 0               invalid invalid0                0                 0               0                0               Number of physical cores:   invalidNumber of physical cores: invalid 16invalid  16   
+   
+   Number of logical cores:  -1               Number of logical cores:    16 
+ 16   
+  1               
+   Number of online logical cores:   0               Number of online logical cores:    16  1               16  -1              
+ -1              1               
+  
+Threads (logical cores) per physical core:  
+0               Threads (logical cores) per physical core:   11                invalid1               1-1              -1              
+0               -1               0               
+
+
+Num sockets: 1               
+ 1               Num sockets: 1               1               21                1               1               20               0               
+0                0               0               
+1               1               Physical cores per socket: invalid 1               1               invalid0                Physical cores per socket: invalid 1               8 1                0               8
+
+  0                 invalidLast level cache slices per socket: Last level cache slices per socket:   invalid   00      
+
+      Core PMU (perfmon) version: Core PMU (perfmon) version:    -1                44   
+  
+
+   2               -1               Number of core PMU generic (programmable) counters: Number of core PMU generic (programmable) counters:    0               
+ 88 -1               2               2                
+
+-1              
+ 2               0                Width of generic (programmable) counters: Width of generic (programmable) counters: 
+2                0               2               -1              48482               0               0               2               2               -1              2               2               invalid
+0               2               0                
+2               invalid bits
+0               invalid bits
+ 2               0                Number of core PMU fixed counters: invalid Number of core PMU fixed counters:  0               2                3  3 2               2                
+  
+ 2               0                Width of fixed counters:   Width of fixed counters:  0               invalid 48  48 invalid   bits
+   bits
+    Nominal core frequency:   Nominal core frequency:     2100000000  2100000000-1                  Hz
+   Hz
+
+  -1              IBRS enabled in the kernel   :  -1              IBRS enabled in the kernel   : 3                 
+no-1              
+no0                 3               
+
+3               
+3                 0               STIBP enabled in the kernel  : 3               0               STIBP enabled in the kernel  : 3                 3               no0               3               no0               invalid  -1              -1               
+3                
+
+3               0               3                3               3               The processor is not susceptible to Rogue Data Cache Load: 0               
+invalid3                0               0               no3               The processor is not susceptible to Rogue Data Cache Load:  0                3               invalid
+3               no invalid 3                The processor supports enhanced IBRS                     : 0               
+   0                noinvalidThe processor supports enhanced IBRS                     :    invalid 
+ no     -1               
+    4                
+=====  Processor topology  =====
+ OS_Processor    Thread_Id       Core_Id         Tile_Id         Package_Id      Core_Type   Native_CPU_Model
+ -1               
+0                 0                
+ 4               
+=====  Processor topology  =====
+  0                4                4               OS_Processor    Thread_Id       Core_Id         Tile_Id         Package_Id      Core_Type   Native_CPU_Model
+  0                0                0               0                -1              0                4                invalid0                
+0                4               -1               0                4               invalid 0               
+ 0                0                 invalid4                0               -1              4                -1               0                invalid
+4                
+ 4                 4               0                4                4                 0               invalid 0                0                 4                 4                invalid  4                 4                   0                 0                  -1               
+  5               invalid   0                   invalid 5                 -1                  5                 
+-1                 0               -1               
+-1                1               invalid
+ 
+1                 0                5                5               0                -1              1                0                0               1               1                0                
+invalid 1               5                  0               5               0                  -1              5               invalid5               5                  
+5                0               5                -1               5               0                invalid0                
+ 0               invalid  invalid 5                5                    0                5                    5               -1              0                    5               
+invalid    -1              0               6                    
+invalid0                    2                6                 -1                0                6                  
+-1              
+ 2               6                -1              0               2               0                 
+2               0               2               6                -1               6               2               invalid0               6                
+ 0               0                invalid0                6                6               invalid  invalid 0                6                    6                0                   -1              
+6               6               0                0               invalidinvalid-1              6                   
+6                     6               0                     0               invalid      6                      6                     -1              0                     
+7               invalid0                 7                -1               7               -1               
+  0                
+  3                 invalid-1              3                 0               -1                
+0                -1              3               
+  7               3                
+3               7               -1               0               3                7               0               0               
+ 7               0                0               invalid7               7                7               invalid-1              7                7               0                0                
+7                0               7                invalid 7               0                invalid7                  0               invalid  0                  7                  invalid-1                7                   
+  0                   8                 invalid    0                      0                   -1                8                -1                
+  1                
+   4               -1              0                
+4                -1              8               invalid4                -1              
+0               4                0                 
+8               0               0                invalid -1              8               0               8               4                  
+0               0               1               4                  8               0               8               invalid0                  0               8               1                invalid  -1              0               1               invalidinvalid              
+  8                    8                1                   -1              0                invalid    
+0                     9               8                  -1                0               1                  
+-1              
+-1              9               
+1               0               9               invalid9               1               -1              1                 0               9                
+invalid5                 1               1               -1              9                0                 9               invalid
+0                5                 1                5               1                5                 invalid 0               9                0                   5               1                invalid -1                5               invalid   
+  0                   9                 invalid   -1              0                     
+1                   -1               9               9                   
+ 0               1                 -1              -1              
+ 
+10                10              10              0                  0               1               0               2               invalid   2               9               2               10                  10              1               10              1                -1              -1               1               invalid1               invalid 
+
+-1              invalid invalid  10              6               
+        0                 0               2                6                6                10                0                 6                1                 6               -1               0                invalid  6               
+ 10              invalid  -1               0                0                  
+ 11              invalid 2                   0                 10              1                invalid          3               -1              11                -1                 
+1                 
+ 10                11              invalid  -1              0                 0                  
+2               -1               3                  11              10              
+-1              11                 0               1               7               
+1                  3               invalid 0                7               11               7               invalid0                 0                 3                -1               invalid11               -1              11               
+  1                
+1                11                invalid 7               invalid 0                   0                 3               -1                 7                -1              11              
+   7                
+1               12                 0                11              invalid0                  invalid 0                4                 -1                3                12                
+  11               1               -1               12                1                invalid
+ 0                   -1              invalid 
+    12               8                 -1               0               4                0                -1              
+ 4               12               0                
+12               12              1                8                8               0                1               invalid-1              1                0               4                invalid 
+invalid 0               12                 12                8               1                  0                 1               invalid   4                -1              invalid -1                12               
+  
+  1                12                13                invalid 0                 0                   4                 5                    12              -1              1                
+invalid  9               13                  0               -1              1                  -1               1               invalid
+   
+ 9                 13               -1              13              -1              1                 0                
+0               
+invalid  5                13              5               9                  13               0               13              0                  1                5               1               1                  invalid-1              13              invalid9               1                invalid    -1                  
+
+  1                invalid  13              13              -1                   0               0               
+    -1              5               5               14                  
+13              13              0                   10              1               1               6                   0               invalidinvalid14                  2                 1               -1                 10                invalid
+-1                1                  10              
+ -1              invalid   0               14              -1              
+    2               0               
+14                     10                6               1               -1              14               14              0               invalid
+ 0                 1               6                14               6                 invalid14               0                14              -1                1                6                1               
+-1               invalid 14               invalid15              
+   1                 0               14                 invalid  7               0                   -1               15              6                   
+ 1               14                  11               invalid1                 -1               0                 invalid  
+ 3               11               1                 invalid    -1              -1                  11              
+
+     0               15              15                -1                3               0               0                 
+  11              7               7                 15                1               15              15              -1               0                 invalid1               1               
+ 7               -1                invalidinvalid15               15              
+    0               -1              1               =====  Placement on packages  =====
+-1                 7               
+invalidPackage Id.    Core Id.     Processors
+
+   15              15               0              12                 1               0                00                  invalid7                ,4                   15               112                  1                ,1                   invalid  2 ,invalid 3-1               -1               ,
+  -1               
+-1               412               
+ =====  Placement on packages  =====
+
+ ,0                =====  Placement on packages  =====
+ Package Id.    Core Id.     Processors
+=====  Placement on packages  =====
+ 54                Package Id.    Core Id.     Processors
+ 0              Package Id.    Core Id.     Processors
+ ,12               0               00               61                0 ,0 ,invalid ,-1              1, 7  1
+,1 
+ -1              ,=====  Placement on packages  =====
+2, 1               
+2Package Id.    Core Id.     Processors
+,2-1              0 13              ,0              3,
+, 0               30,3=====  Placement on packages  =====
+1 5               ,,4,Package Id.    Core Id.     Processors
+, 13              41,40              2 1               ,,5,0, invalid52,5,3-1               ,,6,1,
+ 63,,476,
+,,541              213              7, ,0,,0               
+6 5,735               1              , ,1
+,13              07 6,1              41               ,
+ ,20,invalid11               7,,5, 6 ,, 027  -1              
+,
+=====  Core/Tile sharing  =====
+3,
+1 
+1Level      Processors
+Core       ,31              , 14              ,(4,02 0               20,4,, 6               ,)5,13 14              3(,5,,-1              1               ,16,24,,
+35invalid14              ,,4 0               )46 ,,6               6,(, 5714              ,527 ,
+1               7,)
+ 6
+=====  Core/Tile sharing  =====
+invalid
+6(
+=====  Core/Tile sharing  =====
+ ,Level      Processors
+Core        
+=====  Core/Tile sharing  =====
+,3Level      Processors
+Core        7( Level      Processors
+Core       7)( 
+0 (
+(0 
+=====  Core/Tile sharing  =====
+) 0
+=====  Core/Tile sharing  =====
+4)-1              Level      Processors
+Core       ( )Level      Processors
+Core       )(
+(1 (((115              0) 105)0               )( )))(7               (2 (((215              1)-1              216)1               )(
+))()2(()7invalid3(() 3)315              2(( )()0               )83 (4(7               ()) 4)415              3(( )()1               )94 (5(invalid()) 5)5 4(( )() )(105)5)( )((11-1              6(6(6) 
+)6)6)( =====  Placement on packages  =====
+()()(12 Package Id.    Core Id.     Processors
+7(7(7) 0              )7)7)( 0()()(13 ,8(8(8) 1)8)8)(-1              ,()()(14
+29(9(9)=====  Placement on packages  =====
+,)9)(910)))((((Package Id.    Core Id.     Processors
+101531011(0              ))),))100((
+Tile / L2$ 4((),1110(,1112(1))05))11,((),(()21211(61213(,))1,))123(()7((),1312(
+1314(134),)(5)(142,(1              14)))6)130)(((,(),(15143715(115)))
+)14,)
+Tile / L2$ ((1              
+Tile / L2$ )2
+Tile / L2$ (1540((,(0)),01530)
+Tile / L2$ (1)),)((5,(
+Tile / L2$ 4(10)21(,1))(,)05)((63(),(21),2(62))(4)1,)((7,()7(32)53(
+3))(,)(24)
+=====  Core/Tile sharing  =====
+)()Level      Processors
+Core       ((3(((584)6430)))(,)))(((47(((695)
+541)))(
+=====  Core/Tile sharing  =====
+)))(((5Level      Processors
+Core       (((7106)(65)2())6()())3((8(0())116)7)7(())()()47((9(1())127)8)8(())()()58((10(2())138)9)9)((10(6))9))(()((11)(14(711)9)(10))()(10()((12(15)(8123)10)(11)))()
+11)(((13(
+)(9134)11(Package thermal spec power: 12)))()120)(((14() Watt; (10145)12(Package minimum power: 13)))()130 Watt; )Package maximum power: ((014(11 Watt;
+()1515)6(()))()1315
+(
+12())
+14
+Package thermal spec power: )7(
+)0Package thermal spec power: ()14
+( Watt; 013()15Package thermal spec power: Package minimum power:  Watt; )8()00Package minimum power: ()15
+ Watt;  Watt; 014()
+Package minimum power: Package maximum power:  Watt; )9
+0Package thermal spec power: 0Package maximum power: ()
+ Watt; 0 Watt;
+015()10Package maximum power: 
+Tile / L2$ Package thermal spec power: )0 Watt; (( Watt;
+0 Watt;
+
+Package minimum power: 0
+11 Watt; 0))Package minimum power:  Watt; ((Can't open MCFG table. Check permission of 0Package maximum power: 112/sys/firmware/acpi/tables/MCFGCan't open MCFG table. Check permission of  Watt; 0))
+/sys/firmware/acpi/tables/MCFGPackage maximum power:  Watt;
+((Can't open MCFG table. Check permission of 
+0213/sys/firmware/acpi/tables/MCFG1Can't open MCFG table. Check permission of  Watt;
+))
+/sys/firmware/acpi/tables/MCFG1((Can't open MCFG table. Check permission of 
+Can't open MCFG table. Check permission of 3/pcm/sys/firmware/acpi/tables/MCFG14)
+/pcm/sys/firmware/acpi/tables/MCFG)(
+Can't open MCFG table. Check permission of 
+
+(4
+/pcm/sys/firmware/acpi/tables/MCFG1Can't open MCFG table. Check permission of 
+15)Can't open MCFG table. Check permission of 
+/pcm/sys/firmware/acpi/tables/MCFG1)(Can't open MCFG table. Check permission of /sys/firmware/acpi/tables/MCFG
+
+Tile / L2$ Can't open MCFG table. Check permission of 5/sys/firmware/acpi/tables/MCFG
+Can't open MCFG table. Check permission of (/sys/firmware/acpi/tables/MCFG)
+Can't open MCFG table. Check permission of WARNING: enumeration of devices in UncorePMUDiscovery failed
+/sys/firmware/acpi/tables/MCFG0
+(Can't open MCFG table. Check permission of WARNING: enumeration of devices in UncorePMUDiscovery failed
+/sys/firmware/acpi/tables/MCFG1
+)Can't open MCFG table. Check permission of 6/sys/firmware/acpi/tables/MCFG1
+Can't open MCFG table. Check permission of (/sys/firmware/acpi/tables/MCFG1
+)Can't open MCFG table. Check permission of /pcm/sys/firmware/acpi/tables/MCFG
+
+(Can't open MCFG table. Check permission of Can't open MCFG table. Check permission of Can't open MCFG table. Check permission of 7/sys/firmware/acpi/tables/MCFG1/pcm/sys/firmware/acpi/tables/MCFG1/pcm/sys/firmware/acpi/tables/MCFG/pcm/sys/firmware/acpi/tables/MCFG1)
+INFO: Linux perf interface to program uncore PMUs is 
+
+INFO: Linux perf interface to program uncore PMUs is 
+present
+)(Can't open MCFG table. Check permission of present
+Can't open MCFG table. Check permission of Can't open MCFG table. Check permission of INFO: using Linux perf interface to program uncore PMUs because env variable PCM_USE_UNCORE_PERF=1
+(8/pcm/sys/firmware/acpi/tables/MCFGWARNING: enumeration of devices in UncorePMUDiscovery failed
+INFO: using Linux perf interface to program uncore PMUs because env variable PCM_USE_UNCORE_PERF=1
+/pcm/sys/firmware/acpi/tables/MCFG1/pcm/sys/firmware/acpi/tables/MCFG1INFO: Secure Boot detected. Using Linux perf for uncore PMU programming.
+2)
+INFO: Secure Boot detected. Using Linux perf for uncore PMU programming.
+
+
+)(Can't open MCFG table. Check permission of (9/pcm/sys/firmware/acpi/tables/MCFG13)
+)WARNING: enumeration of devices in UncorePMUDiscovery failed
+(10WARNING: enumeration of devices in UncorePMUDiscovery failed
+()4()WARNING: enumeration of devices in UncorePMUDiscovery failed
+11()5()12()6()13()7()14()8()15()9
+)
+(10Package thermal spec power: )0( Watt; 11Package minimum power: 0) Watt; (INFO: Linux perf interface to program uncore PMUs is Package maximum power: INFO: Linux perf interface to program uncore PMUs is 12present
+INFO: Linux perf interface to program uncore PMUs is 0present
+INFO: Linux perf interface to program uncore PMUs is )INFO: using Linux perf interface to program uncore PMUs because env variable PCM_USE_UNCORE_PERF=1
+present
+ Watt;
+INFO: using Linux perf interface to program uncore PMUs because env variable PCM_USE_UNCORE_PERF=1
+present
+(INFO: Secure Boot detected. Using Linux perf for uncore PMU programming.
+INFO: using Linux perf interface to program uncore PMUs because env variable PCM_USE_UNCORE_PERF=1
+INFO: Secure Boot detected. Using Linux perf for uncore PMU programming.
+INFO: using Linux perf interface to program uncore PMUs because env variable PCM_USE_UNCORE_PERF=1
+13INFO: Secure Boot detected. Using Linux perf for uncore PMU programming.
+INFO: Secure Boot detected. Using Linux perf for uncore PMU programming.
+)(14)(15)
+
+Package thermal spec power: 0 Watt; Package minimum power: 0 Watt; Package maximum power: 0 Watt;
+
+Can't open MCFG table. Check permission of /sys/firmware/acpi/tables/MCFG
+Can't open MCFG table. Check permission of /sys/firmware/acpi/tables/MCFG1
+
+Can't open MCFG table. Check permission of /pcm/sys/firmware/acpi/tables/MCFG
+Can't open MCFG table. Check permission of /pcm/sys/firmware/acpi/tables/MCFG1
+WARNING: enumeration of devices in UncorePMUDiscovery failed
+Can't open MCFG table. Check permission of /sys/firmware/acpi/tables/MCFG
+Can't open MCFG table. Check permission of /sys/firmware/acpi/tables/MCFG1
+Can't open MCFG table. Check permission of /pcm/sys/firmware/acpi/tables/MCFG
+Can't open MCFG table. Check permission of /pcm/sys/firmware/acpi/tables/MCFG1
+WARNING: enumeration of devices in UncorePMUDiscovery failed
+INFO: Linux perf interface to program uncore PMUs is present
+INFO: using Linux perf interface to program uncore PMUs because env variable PCM_USE_UNCORE_PERF=1
+INFO: Secure Boot detected. Using Linux perf for uncore PMU programming.
+INFO: Linux perf interface to program uncore PMUs is present
+INFO: using Linux perf interface to program uncore PMUs because env variable PCM_USE_UNCORE_PERF=1
+INFO: Secure Boot detected. Using Linux perf for uncore PMU programming.
+Socket 0: 2 memory controllers detected with total number of 6 channels. 2 UPI ports detected. Socket 20 M2M (mesh to memory) blocks detected. : 02 Home Agents detected.  memory controllers detected with total number of 26 M3UPI blocks detected.
+ channels. 2 UPI ports detected. 2 M2M (mesh to memory) blocks detected. 0 Home Agents detected. 2 M3UPI blocks detected.
+Socket 0: 2 memory controllers detected with total number of 6 channels. 2 UPI ports detected. 2 M2M (mesh to memory) blocks detected. 0 Home Agents detected. 2 M3UPI blocks detected.
+Socket 0: 2 memory controllers detected with total number of 6 channels. 2 UPI ports detected. 2 M2M (mesh to memory) blocks detected. 0 Home Agents detected. 2 M3UPI blocks detected.
+Socket 0: 2 memory controllers detected with total number of 6Socket  channels. 2 UPI0 ports detected.:  22 memory controllers detected with total number of  M2M (mesh to memory) blocks detected. 60 channels.  Home Agents detected. 22  M3UPI blocks detected.
+UPI ports detected. 2 M2M (mesh to memory) blocks detected. 0 Home Agents detected. 2 M3UPI blocks detected.
+Socket 0: 2 memory controllers detected with total number of 6 channels. 2 UPI ports detected. 2 M2M (mesh to memory) blocks detected. 0 Home Agents detected. 2 M3UPI blocks detected.
+Socket 0: 2 memory controllers detected with total number of 6 channels. 2 UPI ports detected. 2 M2M (mesh to memory) blocks detected. 0 Home Agents detected. 2 M3UPI blocks detected.
+Socket 1: 2 memory controllers detected with total number of 6 channels. 2 UPI ports detected. 2 M2M (mesh to memory) blocks detected. 0 Home Agents detected. 2 M3UPI blocks detected.
+Socket 1: 2 memory controllers detected with total number of 6 channels. 2 UPI ports detected. 2 M2M (mesh to memory) blocks detected. 0 Home Agents detected. 2 M3UPI blocks detected.
+Socket 1: 2 memory controllers detected with total number of 6 channels. 2 UPI ports detected. 2 M2M (mesh to memory) blocks detected. 0 Home Agents detected. 2 M3UPI blocks detected.
+Socket 1: 2 memory controllers detected with total number of 6 channels. 2 UPI ports detected. 2 M2M (mesh to memory) blocks detected. 0 Home Agents detected. 2 M3UPI blocks detected.
+Socket 1: 2 memory controllers detected with total number of 6 channels. 2 UPI ports detected. 2 M2M (mesh to memory) blocks detected. 0 Home Agents detected. 2 M3UPI blocks detected.
+Socket 1: 2 memory controllers detected with total number of 6 channels. 2 UPI ports detected. 2 M2M (mesh to memory) blocks detected. 0 Home Agents detected. 2 M3UPI blocks detected.
+Socket 1: 2 memory controllers detected with total number of 6 channels. 2 UPI ports detected. 2 M2M (mesh to memory) blocks detected. 0 Home Agents detected. 2 M3UPI blocks detected.
+Socket 1: 2 memory controllers detected with total number of 6 channels. 2 UPI ports detected. 2 M2M (mesh to memory) blocks detected. 0 Home Agents detected. 2 M3UPI blocks detected.
+INFO: using Linux resctrl driver for RDT metrics (L3OCC, LMB, RMB) because environment variable PCM_USE_RESCTRL=1
+ERROR: /sys/fs/resctrl is not mounted
+ERROR: RDT metrics (L3OCC,LMB,RMB) will not be available
+Mount it to make it work: mount -t resctrl resctrl /sys/fs/resctrl
+INFO: using Linux resctrl driver for RDT metrics (L3OCC, LMB, RMB) because environment variable PCM_USE_RESCTRL=1
+ERROR: /sys/fs/resctrl is not mounted
+ERROR: RDT metrics (L3OCC,LMB,RMB) will not be available
+Mount it to make it work: mount -t resctrl resctrl /sys/fs/resctrl
+
+
+ Closed perf event handles
+Trying to use Linux perf events...
+ Closed perf event handles
+Trying to use Linux perf events...
+INFO: using Linux resctrl driver for RDT metrics (L3OCC, LMB, RMB) because environment variable PCM_USE_RESCTRL=1
+INFO: using Linux resctrl driver for RDT metrics (L3OCC, LMB, RMB) because environment variable PCM_USE_RESCTRL=1
+ERROR: /sys/fs/resctrl is not mounted
+ERROR: RDT metrics (L3OCC,LMB,RMB) will not be available
+ERROR: /sys/fs/resctrl is not mounted
+Mount it to make it work: mount -t resctrl resctrl /sys/fs/resctrl
+ERROR: RDT metrics (L3OCC,LMB,RMB) will not be available
+Mount it to make it work: mount -t resctrl resctrl /sys/fs/resctrl
+INFO: using Linux resctrl driver for RDT metrics (L3OCC, LMB, RMB) because environment variable PCM_USE_RESCTRL=1
+ERROR: /sys/fs/resctrl is not mounted
+ERROR: RDT metrics (L3OCC,LMB,RMB) will not be available
+Mount it to make it work: mount -t resctrl resctrl /sys/fs/resctrl
+INFO: using Linux resctrl driver for RDT metrics (L3OCC, LMB, RMB) because environment variable PCM_USE_RESCTRL=1
+INFO: using Linux resctrl driver for RDT metrics (L3OCC, LMB, RMB) because environment variable PCM_USE_RESCTRL=1
+ERROR: /sys/fs/resctrl is not mounted
+ERROR: RDT metrics (L3OCC,LMB,RMB) will not be available
+Mount it to make it work: mount -t resctrl resctrl /sys/fs/resctrl
+ERROR: /sys/fs/resctrl is not mounted
+ERROR: RDT metrics (L3OCC,LMB,RMB) will not be available
+Mount it to make it work: mount -t resctrl resctrl /sys/fs/resctrl
+
+
+INFO: using Linux resctrl driver for RDT metrics (L3OCC, LMB, RMB) because environment variable PCM_USE_RESCTRL=1
+
+ Closed perf event handles
+Trying to use Linux perf events...
+ERROR: /sys/fs/resctrl is not mounted
+ERROR: RDT metrics (L3OCC,LMB,RMB) will not be available
+Mount it to make it work: mount -t resctrl resctrl /sys/fs/resctrl
+ Closed perf event handles
+Trying to use Linux perf events...
+ Closed perf event handles
+
+Trying to use Linux perf events...
+
+
+ Closed perf event handles
+Trying to use Linux perf events...
+ Closed perf event handles
+Successfully programmed on-core PMU using Linux perf
+ Closed perf event handles
+Trying to use Linux perf events...
+Trying to use Linux perf events...
+Successfully programmed on-core PMU using Linux perf
+Successfully programmed on-core PMU using Linux perf
+Successfully programmed on-core PMU using Linux perf
+Successfully programmed on-core PMU using Linux perf
+Successfully programmed on-core PMU using Linux perf
+Successfully programmed on-core PMU using Linux perf
+Successfully programmed on-core PMU using Linux perf
+Socket 0
+Max UPI link 0 speed: 2.1 GBytes/second (0.9 GT/second)
+Max UPI link 1 speed: 2.1 GBytes/second (0.9 GT/second)
+Socket 1
+Max UPI link 0 speed: 3.9 GBytes/second (1.7 GT/second)
+Max UPI link 1 speed: 3.9 GBytes/second (1.7 GT/second)
+
+Detected Intel(R) Xeon(R) Silver 4208 CPU @ 2.10GHz "Intel(r) microarchitecture codename Cascade Lake-SP" stepping 7
+
+Executing "./VE/ior-main/src/ior" command:
+Socket 0
+Max UPI link 0 speed: 2.3 GBytes/second (1.0 GT/second)
+Max UPI link 1 speed: 2.3 GBytes/second (1.0 GT/second)
+Socket 1
+Max UPI link 0 speed: 2.3 GBytes/second (1.0 GT/second)
+Max UPI link 1 speed: 2.3 GBytes/second (1.0 GT/second)
+
+Detected Intel(R) Xeon(R) Silver 4208 CPU @ 2.10GHz "Intel(r) microarchitecture codename Cascade Lake-SP" stepping 7
+
+Executing "./VE/ior-main/src/ior" command:
+Socket 0
+Max UPI link 0 speed: 2.5 GBytes/second (1.1 GT/second)
+Max UPI link 1 speed: 2.5 GBytes/second (1.1 GT/second)
+Socket 1
+Max UPI link 0 speed: 2.4 GBytes/second (1.1 GT/second)
+Max UPI link 1 speed: 2.4 GBytes/second (1.1 GT/second)
+
+Detected Socket Intel(R) Xeon(R) Silver 4208 CPU @ 2.10GHz "Intel(r) microarchitecture codename Cascade Lake-SP" stepping 07
+
+Max UPI link 0 speed: 2.3 GBytes/second (1.0 GT/second)
+Max UPI link 1 speed: 2.3 GBytes/second (1.0 GT/second)
+Socket 1
+Max UPI link 0 speed: 2.5 GBytes/second (1.1 GT/second)
+Max UPI link 1 speed: 2.5 GBytes/second (1.1 GT/second)
+
+Detected Intel(R) Xeon(R) Silver 4208 CPU @ 2.10GHz "Intel(r) microarchitecture codename Cascade Lake-SP" stepping 7
+
+Executing "./VE/ior-main/src/ior" command:
+
+Executing "./VE/ior-main/src/ior" command:
+Socket 0
+Max UPI link 0 speed: 2.5 GBytes/second (1.1 GT/second)
+Max UPI link 1 speed: 2.5 GBytes/second (Socket 1.1 GT/second)
+Socket 10
+
+Max Max UPIUPI link  link 00 speed:  speed: 2.1 GBytes/second (0.9 GT/second)
+Max 2.5UPI GBytes/second ( link 1.11 GT/second)
+ speed: Max 2.1UPI GBytes/second ( link 0.91 GT/second)
+ speed: 2.5 GBytes/second (
+Detected 1.1 GT/second)
+Socket Intel(R) Xeon(R) Silver 4208 CPU @ 2.10GHz1 "Intel(r) microarchitecture codename 
+Cascade Lake-SPMax " stepping UPI7 link 
+0 speed: 2.6 GBytes/second (1.1 GT/second)
+Max UPI link 1 speed: 2.6 GBytes/second (1.1 GT/second)
+
+Detected Intel(R) Xeon(R) Silver 4208 CPU @ 2.10GHz "Intel(r) microarchitecture codename Cascade Lake-SP" stepping 7
+Socket Socket 0
+Max 0UPI
+ link Max 0UPI speed:  link 0 speed: 2.32.3 GBytes/second ( GBytes/second (1.01.0 GT/second)
+ GT/second)
+Max Max UPIUPI link  link 11 speed:  speed: 2.32.3 GBytes/second ( GBytes/second (1.01.0 GT/second)
+ GT/second)
+Socket Socket 11
+
+Max Max UPIUPI link  link 00 speed:  speed: 2.42.4 GBytes/second ( GBytes/second (1.11.1 GT/second)
+ GT/second)
+Max Max UPIUPI link  link 11 speed:  speed: 2.42.4 GBytes/second ( GBytes/second (1.11.1 GT/second)
+ GT/second)
+
+Detected 
+Detected Intel(R) Xeon(R) Silver 4208 CPU @ 2.10GHzIntel(R) Xeon(R) Silver 4208 CPU @ 2.10GHz "Intel(r) microarchitecture codename  "Intel(r) microarchitecture codename Cascade Lake-SPCascade Lake-SP" stepping " stepping 77
+
+
+Executing "./VE/ior-main/src/ior
+Executing "" command:
+./VE/ior-main/src/ior
+Executing "" command:
+./VE/ior-main/src/ior
+Executing "" command:
+./VE/ior-main/src/ior" command:
+IOR-4.1.0+dev: MPI Coordinated Test of Parallel I/O
+Began               : Thu Mar 21 18:44:07 2024
+Command line        : ./VE/ior-main/src/ior -t 1m -b 8m -s 8 -o hpl_test -F
+Machine             : Linux muffin
+TestID              : 0
+StartTime           : Thu Mar 21 18:44:07 2024
+Path                : hpl_test.00000000
+FS                  : 79.0 TiB   Used FS: 12.7%   Inodes: 16179.2 Mi   Used Inodes: 0.2%
+
+Options: 
+api                 : POSIX
+apiVersion          : 
+test filename       : hpl_test
+access              : file-per-process
+type                : independent
+segments            : 8
+ordering in a file  : sequential
+ordering inter file : no tasks offsets
+nodes               : 1
+tasks               : 8
+clients per node    : 8
+memoryBuffer        : CPU
+dataAccess          : CPU
+GPUDirect           : 0
+repetitions         : 1
+xfersize            : 1 MiB
+blocksize           : 8 MiB
+aggregate filesize  : 512 MiB
+
+Results: 
+
+access    bw(MiB/s)  IOPS       Latency(s)  block(KiB) xfer(KiB)  open(s)    wr/rd(s)   close(s)   total(s)   iter
+------    ---------  ----       ----------  ---------- ---------  --------   --------   --------   --------   ----
+write     10.21      159.46     0.006573    8192       1024.00    3.16       3.21       50.07      50.13      0   
+read      29.89      29.89      2.14        8192       1024.00    0.001515   17.13      17.10      17.13      0   
+
+Summary of all tests:
+Operation   Max(MiB)   Min(MiB)  Mean(MiB)     StdDev   Max(OPs)   Min(OPs)  Mean(OPs)     StdDev    Mean(s) Stonewall(s) Stonewall(MiB) Test# #Tasks tPN reps fPP reord reordoff reordrand seed segcnt   blksiz    xsize aggs(MiB)   API RefNum
+write          10.21      10.21      10.21       0.00      10.21      10.21      10.21       0.00   50.12580         NA            NA     0      8   8    1   1     0        1         0    0      8  8388608  1048576     512.0 POSIX      0
+read           29.89      29.89      29.89       0.00      29.89      29.89      29.89       0.00   17.13140         NA            NA     0      8   8    1   1     0        1         0    0      8  8388608  1048576     512.0 POSIX      0
+Finished            : Thu Mar 21 18:45:15 2024
+DEBUG: caught signal to interrupt (Child exited).
+Cleaning up
+ Closed perf event handles
+DEBUG: caught signal to interrupt (Child exited).
+Cleaning up
+ Closed perf event handles
+DEBUG: caught signal to interrupt (Child exited).
+Cleaning up
+ Closed perf event handles
+DEBUG: caught signal to interrupt (DEBUG: caught signal to interrupt (Child exited).
+Child exited).
+Cleaning up
+Cleaning up
+DEBUG: caught signal to interrupt (Child exited).
+Cleaning up
+ Closed perf event handles
+ Closed perf event handles
+ Closed perf event handles
+DEBUG: caught signal to interrupt (Child exited).
+Cleaning up
+ Closed perf event handles
+ Zeroed uncore PMU registers
+ Zeroed uncore PMU registers
+ Zeroed uncore PMU registers
+ Zeroed uncore PMU registers
+ Zeroed uncore PMU registers
+ Zeroed uncore PMU registers
+ Zeroed uncore PMU registers
+DEBUG: caught signal to interrupt (Child exited).
+Cleaning up
+ Closed perf event handles
+ Zeroed uncore PMU registers
+	Command being timed: "/opt/nec/ve/bin/mpirun -n 8 /usr/sbin/pcm 0.1 -csv=./output/2/ve_IOR_0_2.csv -- ./VE/ior-main/src/ior -t 1m -b 8m -s 8 -o hpl_test -F"
+	User time (seconds): 3.53
+	System time (seconds): 2.10
+	Percent of CPU this job got: 8%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:09.09
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 143500
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 2
+	Minor (reclaiming a frame) page faults: 6833
+	Voluntary context switches: 86042
+	Involuntary context switches: 6783
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 4872
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

@@ -1,0 +1,688 @@
+----------------------- Start VH HPL 2024-02-29_21-05-25 -----------------------
+----------------------- Start VH HPL 2024-02-29_21-05-25 -----------------------
+
+ Intel(r) Performance Counter Monitor (2022-11-24 10:18:12 +0100 ID=1b16bb4e)
+
+
+PCM Info: setrlimit for file limit 1000000 failed with error Operation not permitted
+
+=====  Processor information  =====
+
+ Intel(r) Performance Counter Monitor (2022-11-24 10:18:12 +0100 ID=1b16bb4e)
+
+
+PCM Info: setrlimit for file limit 1000000 failed with error Operation not permitted
+
+=====  Processor information  =====
+Linux arch_perfmon flag  : yes
+Hybrid processor         : no
+IBRS and IBPB supported  : yes
+STIBP supported          : yes
+Spec arch caps supported : yes
+Max CPUID level          : 22
+CPU model number         : 85
+Linux arch_perfmon flag  : yes
+Hybrid processor         : no
+IBRS and IBPB supported  : yes
+STIBP supported          : yes
+Spec arch caps supported : yes
+Max CPUID level          : 22
+CPU model number         : 85
+Number of physical cores: 16
+Number of logical cores: 16
+Number of online logical cores: 16
+Threads (logical cores) per physical core: 1
+Num sockets: 2
+Physical cores per socket: 8
+Last level cache slices per socket: 0
+Core PMU (perfmon) version: 4
+Number of core PMU generic (programmable) counters: 8
+Width of generic (programmable) counters: 48 bits
+Number of core PMU fixed counters: 3
+Width of fixed counters: 48 bits
+Nominal core frequency: 2100000000 Hz
+IBRS enabled in the kernel   : no
+STIBP enabled in the kernel  : no
+The processor is not susceptible to Rogue Data Cache Load: no
+The processor supports enhanced IBRS                     : no
+
+=====  Processor topology  =====
+OS_Processor    Thread_Id       Core_Id         Tile_Id         Package_Id      Core_Type   Native_CPU_Model
+0               0               0               0               0               invalid         -1              
+1               0               1               1               0               invalid         -1              
+2               0               2               2               0               invalid         -1              
+3               0               3               3               0               invalid         -1              
+4               0               4               4               0               invalid         -1              
+5               0               5               5               0               invalid         -1              
+6               0               6               6               0               invalid         -1              
+7               0               7               7               0               invalid         -1              
+8               0               0               8               1               invalid         -1              
+9               0               1               9               1               invalid         -1              
+10              0               2               10              1               invalid         -1              
+11              0               3               11              1               invalid         -1              
+12              0               4               12              1               invalid         -1              
+13              0               5               13              1               invalid         -1              
+14              0               6               14              1               invalid         -1              
+15              0               7               15              1               invalid         -1              
+=====  Placement on packages  =====
+Package Id.    Core Id.     Processors
+0              0,1,2,3,4,5,6,7
+1              0,1,2,3,4,5,6,7
+
+=====  Core/Tile sharing  =====
+Level      Processors
+Core       (0)(1)(2)(3)(4)(5)(6)(7)(8)(9)(10)(11)(12)(13)(14)(15)
+Tile / L2$ (0)(1)(2)(3)(4)(5)(6)(7)(8)(9)(10)(11)(12)(13)(14)(15)
+
+Package thermal spec power: 0 Watt; Package minimum power: 0 Watt; Package maximum power: 0 Watt;
+
+Can't open MCFG table. Check permission of /sys/firmware/acpi/tables/MCFG
+Can't open MCFG table. Check permission of /sys/firmware/acpi/tables/MCFG1
+Can't open MCFG table. Check permission of /pcm/sys/firmware/acpi/tables/MCFG
+Can't open MCFG table. Check permission of /pcm/sys/firmware/acpi/tables/MCFG1
+WARNING: enumeration of devices in UncorePMUDiscovery failed
+INFO: Linux perf interface to program uncore PMUs is present
+INFO: using Linux perf interface to program uncore PMUs because env variable PCM_USE_UNCORE_PERF=1
+INFO: Secure Boot detected. Using Linux perf for uncore PMU programming.
+Socket 0: 2 memory controllers detected with total number of 6 channels. 2 UPI ports detected. 2 M2M (mesh to memory) blocks detected. 0 Home Agents detected. 2 M3UPI blocks detected.
+Socket 1: 2 memory controllers detected with total number of 6 channels. 2 UPI ports detected. 2 M2M (mesh to memory) blocks detected. 0 Home Agents detected. 2 M3UPI blocks detected.
+INFO: using Linux resctrl driver for RDT metrics (L3OCC, LMB, RMB) because environment variable PCM_USE_RESCTRL=1
+ERROR: /sys/fs/resctrl is not mounted
+ERROR: RDT metrics (L3OCC,LMB,RMB) will not be available
+Mount it to make it work: mount -t resctrl resctrl /sys/fs/resctrl
+Number of physical cores: 16
+Number of logical cores: 16
+Number of online logical cores: 16
+Threads (logical cores) per physical core: 1
+Num sockets: 2
+Physical cores per socket: 8
+Last level cache slices per socket: 0
+Core PMU (perfmon) version: 4
+Number of core PMU generic (programmable) counters: 8
+Width of generic (programmable) counters: 48 bits
+Number of core PMU fixed counters: 3
+Width of fixed counters: 48 bits
+Nominal core frequency: 2100000000 Hz
+IBRS enabled in the kernel   : no
+STIBP enabled in the kernel  : no
+The processor is not susceptible to Rogue Data Cache Load: no
+The processor supports enhanced IBRS                     : no
+
+=====  Processor topology  =====
+OS_Processor    Thread_Id       Core_Id         Tile_Id         Package_Id      Core_Type   Native_CPU_Model
+0               0               0               0               0               invalid         -1              
+1               0               1               1               0               invalid         -1              
+2               0               2               2               0               invalid         -1              
+3               0               3               3               0               invalid         -1              
+4               0               4               4               0               invalid         -1              
+5               0               5               5               0               invalid         -1              
+6               0               6               6               0               invalid         -1              
+
+7               0               7               7               0               invalid         -1              
+8               0               0               8               1               invalid         -1              
+9               0               1               9               1               invalid         -1              
+10              0               2               10              1               invalid         -1              
+11              0               3               11              1               invalid         -1              
+12              0               4               12              1               invalid         -1              
+13              0               5               13              1               invalid      Closed perf event handles
+  Trying to use Linux perf events...
+  -1              
+14              0               6               14              1               invalid         -1              
+15              0               7               15              1               invalid         -1              
+=====  Placement on packages  =====
+Package Id.    Core Id.     Processors
+0              0,1,2,3,4,5,6,7
+1              0,1,2,3,4,5,6,7
+
+=====  Core/Tile sharing  =====
+Level      Processors
+Core       (0)(1)(2)(3)(4)(5)(6)(7)(8)(9)(10)(11)(Successfully programmed on-core PMU using Linux perf
+12)(13)(14)(15)
+Tile / L2$ (0)(1)(2)(3)(4)(5)(6)(7)(8)(9)(10)(11)(12)(13)(14)(15)
+
+Package thermal spec power: 0 Watt; Package minimum power: 0 Watt; Package maximum power: 0 Watt;
+
+Can't open MCFG table. Check permission of /sys/firmware/acpi/tables/MCFG
+Can't open MCFG table. Check permission of /sys/firmware/acpi/tables/MCFG1
+Can't open MCFG table. Check permission of /pcm/sys/firmware/acpi/tables/MCFG
+Can't open MCFG table. Check permission of /pcm/sys/firmware/acpi/tables/MCFG1
+WARNING: enumeration of devices in UncorePMUDiscovery failed
+INFO: Linux perf interface to program uncore PMUs is present
+INFO: using Linux perf interface to program uncore PMUs because env variable PCM_USE_UNCORE_PERF=1
+INFO: Secure Boot detected. Using Linux perf for uncore PMU programming.
+Socket 0: 2 memory controllers detected with total number of 6 channels. 2 UPI ports detected. 2 M2M (mesh to memory) blocks detected. 0 Home Agents detected. 2 M3UPI blocks detected.
+Socket 1: 2 memory controllers detected with total number of 6 channels. 2 UPI ports detected. 2 M2M (mesh to memory) blocks detected. 0 Home Agents detected. 2 M3UPI blocks detected.
+INFO: using Linux resctrl driver for RDT metrics (L3OCC, LMB, RMB) because environment variable PCM_USE_RESCTRL=1
+ERROR: /sys/fs/resctrl is not mounted
+ERROR: RDT metrics (L3OCC,LMB,RMB) will not be available
+Mount it to make it work: mount -t resctrl resctrl /sys/fs/resctrl
+
+ Closed perf event handles
+Trying to use Linux perf events...
+Successfully programmed on-core PMU using Linux perf
+Socket 0
+Max UPI link 0 speed: 9.8 GBytes/second (4.4 GT/second)
+Max UPI link 1 speed: 9.8 GBytes/second (4.4 GT/second)
+Socket 1
+Max UPI link 0 speed: 8.3 GBytes/second (3.7 GT/second)
+Max UPI link 1 speed: 8.3 GBytes/second (3.7 GT/second)
+
+Detected Intel(R) Xeon(R) Silver 4208 CPU @ 2.10GHz "Intel(r) microarchitecture codename Cascade Lake-SP" stepping 7
+
+Executing "./VH/hpl/binary/runme_xeon64" command:
+This is a SAMPLE run script for running a shared-memory version of
+Intel(R) Distribution for LINPACK* Benchmark. Change it to reflect
+the correct number of CPUs/threads, problem input files, etc..
+*Other names and brands may be claimed as the property of others.
+Thu Feb 29 21:05:26 JST 2024
+Sample data file lininput_xeon64.
+
+Socket 0
+Max UPI link 0 speed: 6.7 GBytes/second (3.0 GT/second)
+Max UPI link 1 speed: 6.7 GBytes/second (3.0 GT/second)
+Socket 1
+Max UPI link 0 speed: 5.9 GBytes/second (2.6 GT/second)
+Max UPI link 1 speed: 5.9 GBytes/second (2.6 GT/second)
+
+Detected Intel(R) Xeon(R) Silver 4208 CPU @ 2.10GHz "Intel(r) microarchitecture codename Cascade Lake-SP" stepping 7
+
+Executing "./VH/hpl/binary/runme_xeon64" command:
+This is a SAMPLE run script for running a shared-memory version of
+Intel(R) Distribution for LINPACK* Benchmark. Change it to reflect
+Current date/time: Thu Feb 29 21:05:26 2024
+
+the correct number of CPUs/threads, problem input files, etc..
+*Other names and brands may be claimed as the property of others.
+Thu Feb 29 21:05:26 JST 2024
+Sample data file lininput_xeon64.
+
+Current date/time: Thu Feb 29 21:05:26 2024
+
+CPU frequency:    2.496 GHz
+Number of CPUs: 2
+Number of cores: 16
+Number of threads: 8
+
+Parameters are set to:
+
+Number of tests: 5
+Number of equations to solve (problem size) : 1000  2000  3000  4000  5000 
+Leading dimension of array                  : 1000  2008  3000  4008  5000 
+Number of trials to run                     : 4     4     2     1     1    
+Data alignment value (in Kbytes)            : 4     4     4     4     4    
+
+Maximum memory requested that can be used=200104096, at the size=5000
+
+=================== Timing linear equation system solver ===================
+
+Size   LDA    Align. Time(s)    GFlops   Residual     Residual(norm) Check
+CPU frequency:    1.161 GHz
+Number of CPUs: 2
+Number of cores: 16
+Number of threads: 8
+
+Parameters are set to:
+
+Number of tests: 5
+Number of equations to solve (problem size) : 1000  2000  3000  4000  5000 
+Leading dimension of array                  : 1000  2008  3000  4008  5000 
+Number of trials to run                     : 4     4     2     1     1    
+Data alignment value (in Kbytes)            : 4     4     4     4     4    
+
+Maximum memory requested that can be used=200104096, at the size=5000
+
+=================== Timing linear equation system solver ===================
+
+Size   LDA    Align. Time(s)    GFlops   Residual     Residual(norm) Check
+1000   1000   4      0.052      12.8853  1.120548e-12 3.372447e-02   pass
+1000   1000   4      0.068      9.7856   1.120548e-12 3.372447e-02   pass
+1000   1000   4      0.026      25.7903  1.120548e-12 3.372447e-02   pass
+1000   1000   4      0.081      8.2345   1.120548e-12 3.372447e-02   pass
+1000   1000   4      0.049      13.7067  1.120548e-12 3.372447e-02   pass
+1000   1000   4      0.023      29.0381  1.120548e-12 3.372447e-02   pass
+1000   1000   4      0.089      7.5027   1.120548e-12 3.372447e-02   pass
+1000   1000   4      0.165      4.0472   1.120548e-12 3.372447e-02   pass
+2000   2008   4      0.384      13.8964  4.320502e-12 3.428119e-02   pass
+2000   2008   4      0.282      18.9370  4.320502e-12 3.428119e-02   pass
+2000   2008   4      0.504      10.5983  4.320502e-12 3.428119e-02   pass
+2000   2008   4      0.517      10.3305  4.320502e-12 3.428119e-02   pass
+2000   2008   4      0.274      19.4774  4.320502e-12 3.428119e-02   pass
+2000   2008   4      0.319      16.7225  4.320502e-12 3.428119e-02   pass
+2000   2008   4      0.304      17.5741  4.320502e-12 3.428119e-02   pass
+2000   2008   4      0.365      14.6182  4.320502e-12 3.428119e-02   pass
+3000   3000   4      0.498      36.1844  1.236442e-11 4.490185e-02   pass
+3000   3000   4      0.705      25.5532  1.236442e-11 4.490185e-02   pass
+3000   3000   4      0.711      25.3408  1.236442e-11 4.490185e-02   pass
+3000   3000   4      0.612      29.4394  1.236442e-11 4.490185e-02   pass
+4000   4008   4      1.264      33.7822  1.454786e-11 2.974041e-02   pass
+4000   4008   4      0.996      42.8652  1.454786e-11 2.974041e-02   pass
+5000   5000   4      2.082      40.0500  3.137979e-11 4.081766e-02   pass
+
+Performance Summary (GFlops)
+
+Size   LDA    Align.  Average  Maximal
+1000   1000   4       19.5802  29.0381 
+2000   2008   4       15.3865  19.4774 
+3000   3000   4       30.7626  36.1844 
+4000   4008   4       33.7822  33.7822 
+5000   5000   4       40.0500  40.0500 
+
+Residual checks PASSED
+
+End of tests
+
+5000   5000   4      2.133      39.0855  3.137979e-11 4.081766e-02   pass
+
+Performance Summary (GFlops)
+
+Size   LDA    Align.  Average  Maximal
+1000   1000   4       8.1674   12.8853 
+2000   2008   4       15.1521  18.9370 
+3000   3000   4       27.4963  29.4394 
+4000   4008   4       42.8652  42.8652 
+5000   5000   4       39.0855  39.0855 
+
+Residual checks PASSED
+
+End of tests
+
+Done: Thu Feb 29 21:05:37 JST 2024
+Done: Thu Feb 29 21:05:38 JST 2024
+DEBUG: caught signal to interrupt (Child exited).
+Cleaning up
+ Closed perf event handles
+ Zeroed uncore PMU registers
+DEBUG: caught signal to interrupt (Child exited).
+Cleaning up
+ Closed perf event handles
+ Zeroed uncore PMU registers
+	Com	maCnodm mbaenidn gb etiimnegd :t "imed: "/usr/sbin/pcm 0.1 -csv=vh_HPL_0.csv/usr/sbin/pcm  --0.1 ./VH/hpl/binary/runme_xeon64 "-csv=vh_HPL_ior.csv
+ 	--U s./VH/hpl/binary/runme_xeon64e"r
+ t	iUmse e(rse ctoinmdes )(:s econds):0.26 
+	System 0.33ti
+me	 S(syesctoendms )t:i m0.12e
+ 	(Pseerccoenntd so)f :C PU0.10 
+t	hPise rjocbe ngto to:f  1%C
+P	UE ltahpissed  j(woabl lg oclto:c k)1% 
+t	imEel a(phs:emdm :(ssw aolrl  mc:lsos)c:k )0:29.77 
+t	iAmvee r(ahg:e msmh:asrse do rte xmt: sssi)z:e  0:29.77(
+k	byAtveesr)a:g e0 
+s	hAaverreagde  tuenxsth asriezde  d(aktbay tseisz)e:  (0k
+b	ytAevse)r:a g0e
+	 Auvnesrhaagree ds tdaactka  ssiizzee  ((kkbbyytteess))::  0
+0	
+A	vAevreargaeg et osttaalc ks isziez e( k(bkybtyetse)s:) :0 
+0	
+M	aAxviemruamg er etsoitdaeln ts iszeet  (skibzyet e(sk)b:y t0e
+s	)M:a x139496i
+m	uAmv erreasgied reensti dseentt  ssiezte  s(ikzbey t(eksb)y:t e139356s
+)	:A v0e
+r	aMgaej orre s(irdeeqnuti rsientg  sIi/zOe)  (pkabgye tfeasu)l:t s0:
+ 	1M
+a	jMoirn o(rr e(qrueicrliainmgi nIg/ Oa)  fpraagmee )f apualgtes :f a0u
+l	tMsi:n o483r
+ 	(Vroelculnatiamriyn gc oan tferxat msew)i tpcahgees :f a3341u
+l	tIsn:v o471l
+u	nVtoarlyu nctoanrtye xcto nstwietxcth essw:i t288c
+h	eSswa:p s2777:
+ 	0
+	IFnivloel usnytsatreym  cionnptuetxst:  s0w
+i	tFcihlees :sy s270t
+e	mS woauptsp:u t0s
+:	 F1112i
+	lSeo cskyest tmeems siangpeust ss:e n0t
+:	 F0i
+l	eS oscyksette mm eosustapguetss :r e920c
+ei	vSeodc:k e0t
+ 	mSeisgsnaagless  dseelnitv:e r0e
+d	:S o0c
+k	ePta gmee sssiazgee s( bryetceesi)v:e d4096:
+ 	0Ex
+i	tS isgtnaatluss :d e0l
+ivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+----------------------- Start VH HPL 2024-02-29_21-06-10 -----------------------
+
+ Intel(r) Performance Counter Monitor (2022-11-24 10:18:12 +0100 ID=1b16bb4e)
+
+
+PCM Info: setrlimit for file limit 1000000 failed with error Operation not permitted
+
+=====  Processor information  =====
+Linux arch_perfmon flag  : yes
+Hybrid processor         : no
+IBRS and IBPB supported  : yes
+STIBP supported          : yes
+Spec arch caps supported : yes
+Max CPUID level          : 22
+CPU model number         : 85
+Number of physical cores: 16
+Number of logical cores: 16
+Number of online logical cores: 16
+Threads (logical cores) per physical core: 1
+Num sockets: 2
+Physical cores per socket: 8
+Last level cache slices per socket: 0
+Core PMU (perfmon) version: 4
+Number of core PMU generic (programmable) counters: 8
+Width of generic (programmable) counters: 48 bits
+Number of core PMU fixed counters: 3
+Width of fixed counters: 48 bits
+Nominal core frequency: 2100000000 Hz
+IBRS enabled in the kernel   : no
+STIBP enabled in the kernel  : no
+The processor is not susceptible to Rogue Data Cache Load: no
+The processor supports enhanced IBRS                     : no
+
+=====  Processor topology  =====
+OS_Processor    Thread_Id       Core_Id         Tile_Id         Package_Id      Core_Type   Native_CPU_Model
+0               0               0               0               0               invalid         -1              
+1               0               1               1               0               invalid         -1              
+2               0               2               2               0               invalid         -1              
+3               0               3               3               0               invalid         -1              
+4               0               4               4               0               invalid         -1              
+5               0               5               5               0               invalid         -1              
+6               0               6               6               0               invalid         -1              
+7               0               7               7               0               invalid         -1              
+8               0               0               8               1               invalid         -1              
+9               0               1               9               1               invalid         -1              
+10              0               2               10              1               invalid         -1              
+11              0               3               11              1               invalid         -1              
+12              0               4               12              1               invalid         -1              
+13              0               5               13              1               invalid         -1              
+14              0               6               14              1               invalid         -1              
+15              0               7               15              1               invalid         -1              
+=====  Placement on packages  =====
+Package Id.    Core Id.     Processors
+0              0,1,2,3,4,5,6,7
+1              0,1,2,3,4,5,6,7
+
+=====  Core/Tile sharing  =====
+Level      Processors
+Core       (0)(1)(2)(3)(4)(5)(6)(7)(8)(9)(10)(11)(12)(13)(14)(15)
+Tile / L2$ (0)(1)(2)(3)(4)(5)(6)(7)(8)(9)(10)(11)(12)(13)(14)(15)
+
+Package thermal spec power: 0 Watt; Package minimum power: 0 Watt; Package maximum power: 0 Watt;
+
+Can't open MCFG table. Check permission of /sys/firmware/acpi/tables/MCFG
+Can't open MCFG table. Check permission of /sys/firmware/acpi/tables/MCFG1
+Can't open MCFG table. Check permission of /pcm/sys/firmware/acpi/tables/MCFG
+Can't open MCFG table. Check permission of /pcm/sys/firmware/acpi/tables/MCFG1
+WARNING: enumeration of devices in UncorePMUDiscovery failed
+INFO: Linux perf interface to program uncore PMUs is present
+INFO: using Linux perf interface to program uncore PMUs because env variable PCM_USE_UNCORE_PERF=1
+INFO: Secure Boot detected. Using Linux perf for uncore PMU programming.
+Socket 0: 2 memory controllers detected with total number of 6 channels. 2 UPI ports detected. 2 M2M (mesh to memory) blocks detected. 0 Home Agents detected. 2 M3UPI blocks detected.
+Socket 1: 2 memory controllers detected with total number of 6 channels. 2 UPI ports detected. 2 M2M (mesh to memory) blocks detected. 0 Home Agents detected. 2 M3UPI blocks detected.
+INFO: using Linux resctrl driver for RDT metrics (L3OCC, LMB, RMB) because environment variable PCM_USE_RESCTRL=1
+ERROR: /sys/fs/resctrl is not mounted
+ERROR: RDT metrics (L3OCC,LMB,RMB) will not be available
+Mount it to make it work: mount -t resctrl resctrl /sys/fs/resctrl
+
+ Closed perf event handles
+Trying to use Linux perf events...
+Successfully programmed on-core PMU using Linux perf
+Socket 0
+Max UPI link 0 speed: 2.5 GBytes/second (1.1 GT/second)
+Max UPI link 1 speed: 2.5 GBytes/second (1.1 GT/second)
+Socket 1
+Max UPI link 0 speed: 2.5 GBytes/second (1.1 GT/second)
+Max UPI link 1 speed: 2.5 GBytes/second (1.1 GT/second)
+
+Detected Intel(R) Xeon(R) Silver 4208 CPU @ 2.10GHz "Intel(r) microarchitecture codename Cascade Lake-SP" stepping 7
+
+Executing "./VH/hpl/binary/runme_xeon64" command:
+This is a SAMPLE run script for running a shared-memory version of
+Intel(R) Distribution for LINPACK* Benchmark. Change it to reflect
+the correct number of CPUs/threads, problem input files, etc..
+*Other names and brands may be claimed as the property of others.
+Thu Feb 29 21:06:14 JST 2024
+Sample data file lininput_xeon64.
+
+Current date/time: Thu Feb 29 21:06:14 2024
+
+CPU frequency:    2.465 GHz
+Number of CPUs: 2
+Number of cores: 16
+Number of threads: 8
+
+Parameters are set to:
+
+Number of tests: 5
+Number of equations to solve (problem size) : 1000  2000  3000  4000  5000 
+Leading dimension of array                  : 1000  2008  3000  4008  5000 
+Number of trials to run                     : 4     4     2     1     1    
+Data alignment value (in Kbytes)            : 4     4     4     4     4    
+
+Maximum memory requested that can be used=200104096, at the size=5000
+
+=================== Timing linear equation system solver ===================
+
+Size   LDA    Align. Time(s)    GFlops   Residual     Residual(norm) Check
+1000   1000   4      0.025      26.3649  1.120548e-12 3.372447e-02   pass
+1000   1000   4      0.022      30.1731  1.120548e-12 3.372447e-02   pass
+1000   1000   4      0.020      33.6419  1.120548e-12 3.372447e-02   pass
+1000   1000   4      0.020      33.4585  1.120548e-12 3.372447e-02   pass
+2000   2008   4      0.071      75.2545  4.320502e-12 3.428119e-02   pass
+2000   2008   4      0.060      88.9852  4.320502e-12 3.428119e-02   pass
+2000   2008   4      0.056      95.3197  4.320502e-12 3.428119e-02   pass
+2000   2008   4      0.061      87.6161  4.320502e-12 3.428119e-02   pass
+3000   3000   4      0.191      94.3894  1.236442e-11 4.490185e-02   pass
+3000   3000   4      0.165      109.0757 1.236442e-11 4.490185e-02   pass
+4000   4008   4      0.357      119.4679 1.454786e-11 2.974041e-02   pass
+5000   5000   4      0.875      95.2649  3.137979e-11 4.081766e-02   pass
+
+Performance Summary (GFlops)
+
+Size   LDA    Align.  Average  Maximal
+1000   1000   4       30.9096  33.6419 
+2000   2008   4       86.7939  95.3197 
+3000   3000   4       101.7325 109.0757
+4000   4008   4       119.4679 119.4679
+5000   5000   4       95.2649  95.2649 
+
+Residual checks PASSED
+
+End of tests
+
+Done: Thu Feb 29 21:06:17 JST 2024
+DEBUG: caught signal to interrupt (Child exited).
+Cleaning up
+ Closed perf event handles
+ Zeroed uncore PMU registers
+	Command being timed: "/usr/sbin/pcm 0.1 -csv=vh_HPL_1.csv -- ./VH/hpl/binary/runme_xeon64"
+	User time (seconds): 0.45
+	System time (seconds): 0.08
+	Percent of CPU this job got: 9%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:05.47
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 139452
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 472
+	Voluntary context switches: 944
+	Involuntary context switches: 141
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 480
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+----------------------- Start VH HPL 2024-02-29_21-06-19 -----------------------
+
+ Intel(r) Performance Counter Monitor (2022-11-24 10:18:12 +0100 ID=1b16bb4e)
+
+
+PCM Info: setrlimit for file limit 1000000 failed with error Operation not permitted
+
+=====  Processor information  =====
+Linux arch_perfmon flag  : yes
+Hybrid processor         : no
+IBRS and IBPB supported  : yes
+STIBP supported          : yes
+Spec arch caps supported : yes
+Max CPUID level          : 22
+CPU model number         : 85
+Number of physical cores: 16
+Number of logical cores: 16
+Number of online logical cores: 16
+Threads (logical cores) per physical core: 1
+Num sockets: 2
+Physical cores per socket: 8
+Last level cache slices per socket: 0
+Core PMU (perfmon) version: 4
+Number of core PMU generic (programmable) counters: 8
+Width of generic (programmable) counters: 48 bits
+Number of core PMU fixed counters: 3
+Width of fixed counters: 48 bits
+Nominal core frequency: 2100000000 Hz
+IBRS enabled in the kernel   : no
+STIBP enabled in the kernel  : no
+The processor is not susceptible to Rogue Data Cache Load: no
+The processor supports enhanced IBRS                     : no
+
+=====  Processor topology  =====
+OS_Processor    Thread_Id       Core_Id         Tile_Id         Package_Id      Core_Type   Native_CPU_Model
+0               0               0               0               0               invalid         -1              
+1               0               1               1               0               invalid         -1              
+2               0               2               2               0               invalid         -1              
+3               0               3               3               0               invalid         -1              
+4               0               4               4               0               invalid         -1              
+5               0               5               5               0               invalid         -1              
+6               0               6               6               0               invalid         -1              
+7               0               7               7               0               invalid         -1              
+8               0               0               8               1               invalid         -1              
+9               0               1               9               1               invalid         -1              
+10              0               2               10              1               invalid         -1              
+11              0               3               11              1               invalid         -1              
+12              0               4               12              1               invalid         -1              
+13              0               5               13              1               invalid         -1              
+14              0               6               14              1               invalid         -1              
+15              0               7               15              1               invalid         -1              
+=====  Placement on packages  =====
+Package Id.    Core Id.     Processors
+0              0,1,2,3,4,5,6,7
+1              0,1,2,3,4,5,6,7
+
+=====  Core/Tile sharing  =====
+Level      Processors
+Core       (0)(1)(2)(3)(4)(5)(6)(7)(8)(9)(10)(11)(12)(13)(14)(15)
+Tile / L2$ (0)(1)(2)(3)(4)(5)(6)(7)(8)(9)(10)(11)(12)(13)(14)(15)
+
+Package thermal spec power: 0 Watt; Package minimum power: 0 Watt; Package maximum power: 0 Watt;
+
+Can't open MCFG table. Check permission of /sys/firmware/acpi/tables/MCFG
+Can't open MCFG table. Check permission of /sys/firmware/acpi/tables/MCFG1
+Can't open MCFG table. Check permission of /pcm/sys/firmware/acpi/tables/MCFG
+Can't open MCFG table. Check permission of /pcm/sys/firmware/acpi/tables/MCFG1
+WARNING: enumeration of devices in UncorePMUDiscovery failed
+INFO: Linux perf interface to program uncore PMUs is present
+INFO: using Linux perf interface to program uncore PMUs because env variable PCM_USE_UNCORE_PERF=1
+INFO: Secure Boot detected. Using Linux perf for uncore PMU programming.
+Socket 0: 2 memory controllers detected with total number of 6 channels. 2 UPI ports detected. 2 M2M (mesh to memory) blocks detected. 0 Home Agents detected. 2 M3UPI blocks detected.
+Socket 1: 2 memory controllers detected with total number of 6 channels. 2 UPI ports detected. 2 M2M (mesh to memory) blocks detected. 0 Home Agents detected. 2 M3UPI blocks detected.
+INFO: using Linux resctrl driver for RDT metrics (L3OCC, LMB, RMB) because environment variable PCM_USE_RESCTRL=1
+ERROR: /sys/fs/resctrl is not mounted
+ERROR: RDT metrics (L3OCC,LMB,RMB) will not be available
+Mount it to make it work: mount -t resctrl resctrl /sys/fs/resctrl
+
+ Closed perf event handles
+Trying to use Linux perf events...
+Successfully programmed on-core PMU using Linux perf
+Socket 0
+Max UPI link 0 speed: 21.5 GBytes/second (9.6 GT/second)
+Max UPI link 1 speed: 21.5 GBytes/second (9.6 GT/second)
+Socket 1
+Max UPI link 0 speed: 21.5 GBytes/second (9.6 GT/second)
+Max UPI link 1 speed: 21.5 GBytes/second (9.6 GT/second)
+
+Detected Intel(R) Xeon(R) Silver 4208 CPU @ 2.10GHz "Intel(r) microarchitecture codename Cascade Lake-SP" stepping 7
+
+Executing "./VH/hpl/binary/runme_xeon64" command:
+This is a SAMPLE run script for running a shared-memory version of
+Intel(R) Distribution for LINPACK* Benchmark. Change it to reflect
+the correct number of CPUs/threads, problem input files, etc..
+*Other names and brands may be claimed as the property of others.
+Thu Feb 29 21:06:19 JST 2024
+Sample data file lininput_xeon64.
+
+Current date/time: Thu Feb 29 21:06:19 2024
+
+CPU frequency:    2.499 GHz
+Number of CPUs: 2
+Number of cores: 16
+Number of threads: 8
+
+Parameters are set to:
+
+Number of tests: 5
+Number of equations to solve (problem size) : 1000  2000  3000  4000  5000 
+Leading dimension of array                  : 1000  2008  3000  4008  5000 
+Number of trials to run                     : 4     4     2     1     1    
+Data alignment value (in Kbytes)            : 4     4     4     4     4    
+
+Maximum memory requested that can be used=200104096, at the size=5000
+
+=================== Timing linear equation system solver ===================
+
+Size   LDA    Align. Time(s)    GFlops   Residual     Residual(norm) Check
+1000   1000   4      0.012      53.8899  1.120548e-12 3.372447e-02   pass
+1000   1000   4      0.012      54.8264  1.120548e-12 3.372447e-02   pass
+1000   1000   4      0.012      54.2485  1.120548e-12 3.372447e-02   pass
+1000   1000   4      0.010      68.3080  1.120548e-12 3.372447e-02   pass
+2000   2008   4      0.044      120.9270 4.320502e-12 3.428119e-02   pass
+2000   2008   4      0.041      130.0325 4.320502e-12 3.428119e-02   pass
+2000   2008   4      0.043      125.6431 4.320502e-12 3.428119e-02   pass
+2000   2008   4      0.045      118.1814 4.320502e-12 3.428119e-02   pass
+3000   3000   4      0.128      140.6799 1.236442e-11 4.490185e-02   pass
+3000   3000   4      0.126      143.1520 1.236442e-11 4.490185e-02   pass
+4000   4008   4      0.292      146.3692 1.454786e-11 2.974041e-02   pass
+5000   5000   4      0.548      152.2753 3.137979e-11 4.081766e-02   pass
+
+Performance Summary (GFlops)
+
+Size   LDA    Align.  Average  Maximal
+1000   1000   4       57.8182  68.3080 
+2000   2008   4       123.6960 130.0325
+3000   3000   4       141.9160 143.1520
+4000   4008   4       146.3692 146.3692
+5000   5000   4       152.2753 152.2753
+
+Residual checks PASSED
+
+End of tests
+
+Done: Thu Feb 29 21:06:21 JST 2024
+DEBUG: caught signal to interrupt (Child exited).
+Cleaning up
+ Closed perf event handles
+ Zeroed uncore PMU registers
+	Command being timed: "/usr/sbin/pcm 0.1 -csv=vh_HPL_2.csv -- ./VH/hpl/binary/runme_xeon64"
+	User time (seconds): 0.43
+	System time (seconds): 0.07
+	Percent of CPU this job got: 20%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:02.53
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 141484
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 463
+	Voluntary context switches: 511
+	Involuntary context switches: 81
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 296
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

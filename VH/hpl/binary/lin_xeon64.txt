@@ -1,0 +1,50 @@
+Wed Nov 15 14:29:57 JST 2023
+Sample data file lininput_xeon64.
+
+Current date/time: Wed Nov 15 14:29:57 2023
+
+CPU frequency:    2.499 GHz
+Number of CPUs: 2
+Number of cores: 16
+Number of threads: 16
+
+Parameters are set to:
+
+Number of tests: 5
+Number of equations to solve (problem size) : 1000  2000  3000  4000  5000 
+Leading dimension of array                  : 1000  2008  3000  4008  5000 
+Number of trials to run                     : 4     4     2     1     1    
+Data alignment value (in Kbytes)            : 4     4     4     4     4    
+
+Maximum memory requested that can be used=200104096, at the size=5000
+
+=================== Timing linear equation system solver ===================
+
+Size   LDA    Align. Time(s)    GFlops   Residual     Residual(norm) Check
+1000   1000   4      4.431      0.1509   1.000311e-12 3.062117e-02   pass
+1000   1000   4      3.333      0.2006   1.000311e-12 3.062117e-02   pass
+1000   1000   4      4.651      0.1438   1.000311e-12 3.062117e-02   pass
+1000   1000   4      4.680      0.1429   1.000311e-12 3.062117e-02   pass
+2000   2008   4      5.246      1.0181   4.937106e-12 3.892788e-02   pass
+2000   2008   4      5.233      1.0207   4.937106e-12 3.892788e-02   pass
+2000   2008   4      5.546      0.9630   4.937106e-12 3.892788e-02   pass
+2000   2008   4      3.823      1.3972   4.937106e-12 3.892788e-02   pass
+3000   3000   4      2.802      6.4296   9.231060e-12 3.308536e-02   pass
+3000   3000   4      3.564      5.0560   9.231060e-12 3.308536e-02   pass
+4000   4008   4      4.982      8.5711   1.977002e-11 4.049423e-02   pass
+5000   5000   4      2.968      28.0983  2.170537e-11 2.879169e-02   pass
+
+Performance Summary (GFlops)
+
+Size   LDA    Align.  Average  Maximal
+1000   1000   4       0.1775   0.2138  
+2000   2008   4       1.0164   1.1024  
+3000   3000   4       5.6099   6.0690  
+4000   4008   4       8.5711   8.5711  
+5000   5000   4       28.0983  28.0983 
+
+Residual checks PASSED
+
+End of tests
+
+Done: Wed Nov 15 14:30:52 JST 2023

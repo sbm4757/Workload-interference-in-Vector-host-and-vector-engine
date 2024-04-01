@@ -1,0 +1,160 @@
+to run in vh
+export NMPI_CC_H=gcc
+HimenoMPi benchmark
+
+Command:
+    sh paramset.sh XL 4 4 1
+    mpincc –ftrace -O4 -mretain-none -fouterloop-unroll-max-times=8 -msched-interblock -report-all himenoBMTxps_mpi.c -o himenoBMT
+    mpincc -ftrace -O4 -mretain-none -fouterloop-unroll-max-times=8 -msched-interblock -report-all himenoBMTxps_mpi.c -o himeno
+    mpirun -n 16 ./himenoBMT
+    mpirun -n 16 ./himeno
+
+    vh : mpincc -vh himenoBMTxps_mpi.c -o himenoBMT
+    mpirun -vh -n 16 ./himenoBMT
+
+
+IOR
+Command:
+    Run `./bootstrap`
+   to generate the configure script.  Alternatively, download an
+   [official IOR release][] which includes the configure script.
+
+    1. Run `./configure`.  For a full list of configuration options, use
+   `./configure --help`.
+
+    2. Run `make`
+    3. ior in src soc
+       cd src than run mpirun
+       /usr/bin/time -v strace -c mpirun -n 16 ./ior -t 1m -b 16m -s 16 -o hpl_test
+
+       vh:
+       CFLAGS="-g -O2 -vh" CC="mpicc" ./configure
+       mpirun -vh -np 8 ./ior -t 1m -b 8m -s 8 -F
+CFLAGS="-g -O2 " CC="/usr/lib64/openmpi/bin/mpicc" ./configure  
+
+Stream
+command:
+    1. run make 
+    2. ./stream_c.exe
+
+
+b_eff
+Command:
+    1.mpincc -o b_eff b_eff.c -DMEMORY_PER_PROCESSOR=256
+    2.mpirun -np 8 ./b_eff
+
+    vh
+    1. /usr/lib64/openmpi/bin/mpicc -o b_eff b_eff.c -DMEMORY_PER_PROCESSOR=256
+    1.mpincc -vh -o b_eff b_eff.c -DMEMORY_PER_PROCESSOR=256
+    2.mpirun -vh -np 8 ./b_eff
+
+
+
+MiniAmr
+command:
+    two folder ref and openmp
+    1. make
+
+    2. mpirun -np 8 -N 7 miniAMR.x --num_refine 4 --max_blocks 9000 --npx 2 --npy 2 --npz 2 --nx 8 --ny 8 --nz 8 --num_objects 1 --object 2 0 -1.71 -1.71 -1.71 0.04 0.04 0.04 1.7 1.7 1.7 0.0 0.0 0.0 --num_tsteps 100 --checksum_freq 1
+
+    vh 
+     mpirun -vh -np 8 -N 7 miniAMR.x --num_refine 4 --max_blocks 9000 --npx 2 --npy 2 --npz 2 --nx 8 --ny 8 --nz 8 --num_objects 1 --object 2 0 -1.71 -1.71 -1.71 0.04 0.04 0.04 1.7 1.7 1.7 0.0 0.0 0.0 --num_tsteps 100 --checksum_freq 1
+
+
+
+Intel Benchmark
+command:
+    1. go to dir src_c
+    2.in make file change cc flag on your requirment in my case i need to run benchmark on NEC VE so i use mpicc from ve path
+    3.run make 
+    4. follow gibven link to run diffrent intel bench mark
+        https://www.intel.com/content/www/us/en/docs/mpi-library/user-guide-benchmarks/2021-2/command-line-control.html#GUID-8C79EABC-B987-4FD6-B32D-0D8B45DB0206
+
+        
+HPL benchmark:
+command:
+    create make.arch file 
+    1. make arch=Aurora_mpi
+    2.cd bin/<arch>
+    3.mpirun -np 4 xhpl
+
+
+
+
+Running programs on the Vector Host
+
+-vh executes the program on the VH. It needs to be compiled for the target architecture
+export NMPI_CC_H=gcc
+
+mpincc -vh
+mpirun -vh -np ./
+
+else use 
+mpicc path
+
+as cc= /usr/lib64/openmpi/bin/mpicc
+
+hpl in VH binary file
+
+
+/opt/intel/oneapi/mkl/latest/benchmarks/linpack/
+mpirunvh -np 2  IMB-MPI1 PingPong -off_cache -1
+
+
+
+Shared-memory version of Intel(R) Distribution for LINPACK* Benchmark. *Other names and brands may be claimed as the property of others.
+Sample data file lininput_xeon64.
+15                     # number of tests
+1000 2000 5000 10000 15000 18000 20000 22000 25000 26000 27000 30000 35000 40000 45000 # problem sizes
+1000 2000 5008 10000 15000 18008 20016 22008 25000 26000 27000 30000 35000 40000 45000 # leading dimensions
+8 6 4 4 3 3 3 3 3 3 2 1 1 1 1 # times to run a test
+4 4 4 4 4 4 4 4 4 4 4 1 1 1 1 # alignment values (in KBytes)
+
+
+
+pkill -u shubham
+perf record -e cycles,instructions,branches,branch-misses,cpu-cycles -a -g -- ./VE/stream/stream_c.exe
+perf script -i perf.data --header -F ip,sym,symoff,dso > perf_output1.csv
+/opt/nec/ve/bin/mpirun -np 16 /usr/bin/perf stat -o output.csv -x, -e $(grep -i -E 'instruction|cache' all_events.txt | awk '{print $1}' | tr '\n' ',') ./VE/himenoBM/himenoBMT
+/opt/nec/ve/bin/mpirun -np 16 /usr/sbin/pcm -csv=output.csv -i=5 -- ./VE/himenoBM/himenoBMT
+/opt/nec/ve/bin/mpirun -np 16 /usr/sbin/pcm 1 -i=10 -csv=output.csv -- ./VE/himenoBM/himenoBMT
+#*****VE****
+/opt/nec/ve/bin/mpirun -np 4 /usr/sbin/pcm 0.1 -csv=ve_hpl.csv -- ./VE/hpl-2.3/bin/Aurora_mpi/xhpl
+
+/usr/sbin/pcm 0.1 -csv=ve_stream.csv -- ./VE/stream/stream_c.exe
+#*****VE******
+
+#******VH*****
+/opt/nec/ve/bin/mpirun -vh -np 8 /usr/sbin/pcm 0.1 -csv=vh_mini.csv -- ./VH/miniAMR/ref/miniAMR.x --num_refine 4 --max_blocks 9000 --init_x 1 --init_y 1 --init_z 1 --npx 2 --npy 2 --npz 2 --nx 8 --ny 8 --nz 8 --num_objects 1 --object 2 0 -0.01 -0.01 -0.01 0.0 0.0 0.0 0.0 0.0 0.0 0.0009 0.0009 0.0009 --num_tsteps 200 --comm_vars 2
+/usr/lib64/openmpi/bin/mpirun -np 2 /usr/sbin/pcm 0.1 -csv=vh_intel.csv -- ./VH/mpi-benchmarks-master/src_c/IMB-IO P_Read_shared -npmin 7
+/usr/sbin/pcm 0.1 -csv=vh_hpl.csv -- ./VH/hpl/binary/runme_xeon64
+#******VH*****
+#*****
+/usr/bin/time -v /opt/nec/ve/bin/mpirun -np 8  ./VE/miniAMR/ref/miniAMR.x --num_refine 4 --max_blocks 9000 --init_x 1 --init_y 1 --init_z 1 --npx 2 --npy 2 --npz 2 --nx 8 --ny 8 --nz 8 --num_objects 1 --object 2 0 -0.01 -0.01 -0.01 0.0 0.0 0.0 0.0 0.0 0.0 0.0009 0.0009 0.0009 --num_tsteps 200 --comm_vars 2
+/usr/bin/time -v /opt/nec/ve/bin/mpirun -vh -np 8 ./VH/miniAMR/ref/miniAMR.x --num_refine 4 --max_blocks 9000 --init_x 1 --init_y 1 --init_z 1 --npx 2 --npy 2 --npz 2 --nx 8 --ny 8 --nz 8 --num_objects 1 --object 2 0 -0.01 -0.01 -0.01 0.0 0.0 0.0 0.0 0.0 0.0 0.0009 0.0009 0.0009 --num_tsteps 200 --comm_vars 2
+#******
+/usr/bin/time -v  /opt/nec/ve/bin/mpirun -np 4 /usr/sbin/pcm 0.1 -csv="hpl.csv" -- ./VE/hpl-2.3/bin/Aurora_mpi/xhpl >> "VE_HPL.log"
+
+-DSTREAM_ARRAY_SIZE=81474836  -DNTIMES=100
+#===================================
+Turn off Turbo Boost
+
+echo 1 | sudo tee /sys/devices/system/cpu/intel_pstate/no_turbo
+echo 0 | sudo tee /sys/devices/system/cpu/intel_pstate/no_turbo
+cat /sys/devices/system/cpu/cpu*/cpufreq/scaling_governor
+#======================================
+
+/usr/bin/time -v mpirun -vh -np 8 /usr/sbin/pcm 0.1 -csv="mini.csv" -- ./VH/miniAMR/ref/miniAMR.x --num_refine 4 --max_blocks 9000 --init_x 1 --init_y 1 --init_z 1 --npx 2 --npy 2 --npz 2 --nx 8 --ny 8 --nz 8 --num_objects 1 --object 2 0 -0.01 -0.01 -0.01 0.0 0.0 0.0 0.0 0.0 0.0 0.0009 0.0009 0.0009 --num_tsteps 200 --comm_vars 2 >> "VH_mini.log"
+
+/usr/bin/time -v /opt/nec/ve/bin/mpirun -np 8 /usr/sbin/pcm 0.1 -csv="intel.csv" -- ./VE/mpi-benchmarks-master/src_c/IMB-MPI1 -msglog 2:7 -include PingPongAnySource PingPingAnySource -exclude Alltoall Alltoallv >> "intel.log"
+
+/usr/bin/time -v /usr/lib64/openmpi/bin/mpirun -np 8 /usr/sbin/pcm 0.1 -csv="intel.csv" -- ./VH/mpi-benchmarks-master/src_c/IMB-MPI1 -npmin 8 alltoallv -iter 800000 -time 80000 -mem 8000 > "intel.log"
+
+
+
+
+/usr/bin/time -v /opt/nec/ve/bin/mpirun -np 2 /usr/sbin/pcm 0.1 -csv="intel.csv" -- ./VE/mpi-benchmarks-master/src_c/IMB-MPI1 -npmin 8 alltoallv -iter 800000 -time 80000 -mem 8000 > "intel.log"
+
+/usr/bin/time -v /usr/lib64/openmpi/bin/mpirun -np 8 /usr/sbin/pcm 0.1 -csv="$csv_filename" -- ./VH/hpl/bin/Intel64/xhpl >> "VH_HPL.log"
+
+ /usr/bin/time -v /opt/nec/ve/bin/mpirun -np 8 /usr/sbin/pcm 0.1 -csv="hpl.log" -- ./VE/hpl-2.3/bin/Aurora_mpi/xhpl >> "VE_HPL.log" 2>&1

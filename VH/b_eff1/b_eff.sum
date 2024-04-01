@@ -1,0 +1,57 @@
+
+SECTION-HEAD-BEGIN
+
+b_eff.c, Revision 3.6.0.1 from Feb 02, 2016
+
+MEMORY_PER_PROCESSOR = 256 MBytes  [1M = 1024*1024]
+2-dim-patterns: size = 4 * 2
+3-dim-patterns: size = 2 * 2 * 2
+Used message lengths:
+msglng= 1 2 4 8 16 32 64 128 256 512 1024 2048 4096 8933 19484 42495 92682 202141 440872 961548 2097152
+Used methods:  0=Sndrcv  1=Alltoal  2=non-blk
+Used patterns:  0=ring-4*2fix        1=ring-2*4fix        2=ring-1*8fix        3=ring-1*8fix      
+                4=ring-1*8fix        5=ring-1*8fix        6=random-cyc-1dim    7=random-cyc-1dim  
+                8=random-cyc-1dim    9=random-cyc-1dim   10=random-cyc-1dim   11=random-cyc-1dim  
+               12=random-cyc-1dim   13=random-cyc-1dim   14=random-cyc-1dim   15=random-cyc-1dim  
+               16=random-cyc-1dim   17=random-cyc-1dim   18=random-cyc-1dim   19=random-cyc-1dim  
+               20=random-cyc-1dim   21=random-cyc-1dim   22=random-cyc-1dim   23=random-cyc-1dim  
+               24=random-cyc-1dim   25=random-cyc-1dim   26=random-cyc-1dim   27=random-cyc-1dim  
+               28=random-cyc-1dim   29=random-cyc-1dim   30=random-cyc-1dim   31=random-cyc-1dim  
+               32=random-cyc-1dim   33=random-cyc-1dim   34=random-cyc-1dim   35=random-cyc-1dim  
+               36=worst-cyc-1dim    37=best  bi-section  38=worst bi-section  39=one PingPong Pair
+               40=acyclic-2dim-all  41=acyclic-3dim-all  42=cyclic-2dim-x     43=cyclic-2dim-y    
+               44=cyclic-2dim-all   45=cyclic-3dim-x     46=cyclic-3dim-y     47=cyclic-3dim-z    
+               48=cyclic-3dim-all  
+
+               0-5   used for ring pattern average of b_eff
+               6-35  used for random pattern average of b_eff
+               36-47 only reported, not used for b_eff average
+
+SECTION-HEAD-END
+
+system parameters  : 8 nodes, 256 MB/node
+       system name : Linux
+       hostname    : muffin
+       OS release  : 4.18.0-477.15.1.el8_8.x86_64
+       OS version  : #1 SMP Wed Jun 28 15:04:18 UTC 2023
+       machine     : x86_64
+
+Date of measurement: Thu Dec 21 15:36:51 2023
+
+Total execution wall clock time =    68 seconds
+
+            | number  |   b_eff   |  Lmax  |   b_eff   |   b_eff   | Latency | Latency | Latency | ping-pong  
+            | of pro  |           |        |  at Lmax  |  at Lmax  | rings & |  rings  |  ping-  | bandwith   
+            | cessors |           |        |  rings &  |   rings   | random  |  only   |  pong   |            
+            |         |           |        |  random   |   only    | micro-  | micro-  | micro-  |            
+            |         |  MByte/s  |        |  MByte/s  |  MByte/s  |  sec    |  sec    |  sec    |  MByte/s   
+--------------------------------------------------------------------------------------------------------------
+            |                                                                                                 
+accumulated |      8         5719     2 MB      12049        11973     0.821     0.806     0.358         5092                    
+            |                                                                                                 
+per process |                 715                1506         1497                                                      
+
+
+SECTION-BEFF-END
+
+b_eff =   5718.837 MB/s = 714.855 *   8 PEs with 256 MB/PE on Linux muffin 4.18.0-477.15.1.el8_8.x86_64 #1 SMP Wed Jun 28 15:04:18 UTC 2023 x86_64

@@ -1,0 +1,137 @@
+ior in src soc
+cd src than run mpirun
+
+/usr/bin/time -v strace -c mpirun -n 64 ./ior -t 1m -b 16m -s 16 -F
+IOR-4.1.0+dev: MPI Coordinated Test of Parallel I/O
+Began               : Wed Oct 25 22:08:26 2023
+Command line        : ./ior -t 1m -b 16m -s 16 -F
+Machine             : Linux muffin
+TestID              : 0
+StartTime           : Wed Oct 25 22:08:26 2023
+Path                : testFile.00000000
+FS                  : 21.8 TiB   Used FS: 85.6%   Inodes: 4457.5 Mi   Used Inodes: 0.8%
+
+Options: 
+api                 : POSIX
+apiVersion          : 
+test filename       : testFile
+access              : file-per-process
+type                : independent
+segments            : 16
+ordering in a file  : sequential
+ordering inter file : no tasks offsets
+nodes               : 1
+tasks               : 16
+clients per node    : 16
+memoryBuffer        : CPU
+dataAccess          : CPU
+GPUDirect           : 0
+repetitions         : 1
+xfersize            : 1 MiB
+blocksize           : 16 MiB
+aggregate filesize  : 4 GiB
+
+Results: 
+
+access    bw(MiB/s)  IOPS       Latency(s)  block(KiB) xfer(KiB)  open(s)    wr/rd(s)   close(s)   total(s)   iter
+------    ---------  ----       ----------  ---------- ---------  --------   --------   --------   --------   ----
+write     109.79     3162.71    0.010596    16384      1024.00    1.19       1.30       37.16      37.31      0   
+read      43953      47585      0.003830    16384      1024.00    0.012007   0.086078   0.033640   0.093190   0   
+
+Summary of all tests:
+Operation   Max(MiB)   Min(MiB)  Mean(MiB)     StdDev   Max(OPs)   Min(OPs)  Mean(OPs)     StdDev    Mean(s) Stonewall(s) Stonewall(MiB) Test# #Tasks tPN reps fPP reord reordoff reordrand seed segcnt   blksiz    xsize aggs(MiB)   API RefNum
+write         109.79     109.79     109.79       0.00     109.79     109.79     109.79       0.00   37.30810         NA            NA     0     16  16    1   1     0        1         0    0     16 16777216  1048576    4096.0 POSIX      0
+read        43953.24   43953.24   43953.24       0.00   43953.24   43953.24   43953.24       0.00    0.09319         NA            NA     0     16  16    1   1     0        1         0    0     16 16777216  1048576    4096.0 POSIX      0
+Finished            : Wed Oct 25 22:09:04 2023
+% time     seconds  usecs/call     calls    errors syscall
+------ ----------- ----------- --------- --------- ------------------
+ 99.83   26.039531      929983        28         6 wait4
+  0.03    0.009018           6      1393        22 read
+  0.03    0.008755           6      1438       233 openat
+  0.03    0.008623         453        19           clone
+  0.02    0.004471           3      1301           close
+  0.01    0.002935          42        69           poll
+  0.01    0.002514          23       107        12 futex
+  0.00    0.001176           3       388        77 stat
+  0.00    0.000773           3       221           getdents64
+  0.00    0.000705           8        81           munmap
+  0.00    0.000628           1       366           fstat
+  0.00    0.000547           2       201           mmap
+  0.00    0.000483           2       183           mprotect
+  0.00    0.000375          22        17           sched_setaffinity
+  0.00    0.000349          16        21           rmdir
+  0.00    0.000312           3        91           write
+  0.00    0.000235           1       171           lseek
+  0.00    0.000223         223         1           execve
+  0.00    0.000195           1       126        12 ioctl
+  0.00    0.000172           1       120           fcntl
+  0.00    0.000160           8        19           chdir
+  0.00    0.000155           4        36           pipe
+  0.00    0.000131           7        17         9 newfstatat
+  0.00    0.000086           1        45           rt_sigaction
+  0.00    0.000083          10         8         2 mkdir
+  0.00    0.000068           1        40           brk
+  0.00    0.000061          61         1           ftruncate
+  0.00    0.000056          11         5         1 unlink
+  0.00    0.000037           3        10           readlinkat
+  0.00    0.000036           1        20           faccessat
+  0.00    0.000032          32         1           mknod
+  0.00    0.000032           1        18           epoll_ctl
+  0.00    0.000031           5         6           socket
+  0.00    0.000022           0        25           getuid
+  0.00    0.000018           3         5         4 access
+  0.00    0.000018           1        11           uname
+  0.00    0.000014           2         7           getcwd
+  0.00    0.000014           4         3           statfs
+  0.00    0.000011           1         6           rt_sigreturn
+  0.00    0.000011           1        10           getpid
+  0.00    0.000010          10         1           shmdt
+  0.00    0.000009           0        12           geteuid
+  0.00    0.000008           4         2           shutdown
+  0.00    0.000007           7         1           shmget
+  0.00    0.000007           0         9           getegid
+  0.00    0.000007           3         2           pipe2
+  0.00    0.000006           3         2         2 lstat
+  0.00    0.000006           0         7           getgid
+  0.00    0.000006           2         3           sched_getaffinity
+  0.00    0.000005           5         1           shmat
+  0.00    0.000005           2         2           shmctl
+  0.00    0.000004           2         2           rt_sigprocmask
+  0.00    0.000004           2         2           bind
+  0.00    0.000004           2         2         1 arch_prctl
+  0.00    0.000004           2         2           eventfd2
+  0.00    0.000003           1         2           listen
+  0.00    0.000003           1         2           getsockname
+  0.00    0.000003           3         1           prlimit64
+  0.00    0.000003           3         1           getrandom
+  0.00    0.000002           1         2           setsockopt
+  0.00    0.000002           2         1           getpgrp
+  0.00    0.000002           2         1           set_tid_address
+  0.00    0.000002           2         1           set_robust_list
+  0.00    0.000000           0         2         2 connect
+  0.00    0.000000           0         1           epoll_create1
+------ ----------- ----------- --------- --------- ------------------
+100.00   26.083208        3893      6699       383 total
+	Command being timed: "strace -c mpirun -n 16 ./ior -t 1m -b 16m -s 16 -F"
+	User time (seconds): 12.53
+	System time (seconds): 26.15
+	Percent of CPU this job got: 96%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:39.96
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 187104
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 36065
+	Minor (reclaiming a frame) page faults: 141261
+	Voluntary context switches: 137893
+	Involuntary context switches: 1945
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8405168
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
